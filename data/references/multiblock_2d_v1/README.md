@@ -52,4 +52,4 @@ python scripts/data/download_2d_reference_sources.py --ids backstep4_grid backst
 
 这些是辅助分块终态参考，不含原始人工动作、人工耗时、可直接训练的专家轨迹或本项目 CFD 结果。
 TMR 来源按 [TMBWG 仓库 CC0 声明](https://github.com/TMBWG/turbmodels/blob/main/LICENSE)记录；CFL3D 案例按官方公开测试包及原归属记录，未确认各样例独立的统一数据许可。
-CFL3D 软件许可不自动用于所有样例网格；项目没有为第三方文件重新授权，详见 [THIRD_PARTY_DATA.md](../../../THIRD_PARTY_DATA.md)。
+CFL3D 软件许可不自动用于所有样例网格；项目没有为第三方文件重新授权，详见本补充集的 [PROVENANCE.md](PROVENANCE.md)。历史 [THIRD_PARTY_DATA.md](../../../THIRD_PARTY_DATA.md) 保持冻结原文。

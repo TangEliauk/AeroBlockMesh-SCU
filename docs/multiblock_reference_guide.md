@@ -65,4 +65,4 @@ python scripts/data/download_2d_reference_sources.py --ids backstep4_grid backst
 CFL3D Hump 与 TMR CFDVAL2004 的带腔 Hump 属于同一案例来源系列，不能换名重复计样；无腔 Hump 的单块版本也不能混作四块参考。
 最终三维机翼目标仍需三维几何、块面操作和对应验证，不能由二维薄层文件替代。
 
-来源与许可说明见 [THIRD_PARTY_DATA.md](../THIRD_PARTY_DATA.md)：TMR 仓库的 CC0 来源声明与 CFL3D 软件许可分别记录，不把软件许可自动套用到所有样例数据。
+新增数据的来源与许可说明见 [PROVENANCE.md](../data/references/multiblock_2d_v1/PROVENANCE.md)：TMR 仓库的 CC0 来源声明与 CFL3D 软件许可分别记录，不把软件许可自动套用到所有样例数据。历史 [THIRD_PARTY_DATA.md](../THIRD_PARTY_DATA.md) 保持冻结原文。

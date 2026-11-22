@@ -1,0 +1,7 @@
+# Preserve upstream whitespace; the root frozen attributes keep /data/** -text.
+backstep/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+ejector/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+hump/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+# Large coordinate originals are inspected through hashes and cleaned summaries.
+**/*.fmt -diff
+**/*.p3dfmt -diff
