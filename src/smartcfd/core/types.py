@@ -1,4 +1,11 @@
-"""统一几何、分块、网格和评估结果的数据结构与类型约定。
+"""Shared geometry case types."""
 
-当前仅预留模块位置，具体功能与接口尚待实现。
-"""
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True, slots=True)
+class Case:
+    name: str
+    m: float
+    p: float
+    t: float

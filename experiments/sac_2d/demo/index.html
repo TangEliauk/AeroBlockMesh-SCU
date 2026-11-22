@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="二维翼型四块结构化网格的 SAC 参数优化实验。查看留出翼型的网格、优化轨迹与对照结果。">
+  <title>翼型结构化网格实验</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="results-data.js"></script>
+  <script defer src="policy-weights.js"></script>
+  <script defer src="live-policy.js"></script>
+  <script defer src="evidence-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="frame header-inner">
+      <a class="brand" href="#top" aria-label="翼型结构化网格实验，返回顶部">
+        <span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        网格实验台
+      </a>
+      <nav aria-label="章节导航">
+        <a href="#experiment" aria-current="location">轨迹演示</a>
+        <a href="#benchmark">测试对比</a>
+        <a href="#training">训练记录</a>
+      </nav>
+      <span class="header-context">SAC · NACA 四位数翼型</span>
+    </div>
+  </header>
+  <main id="top" class="frame">
+    <section class="intro" aria-labelledby="main-title">
+      <div>
+        <p class="eyebrow"><span aria-hidden="true"></span>多块结构化网格 · 申报验证</p>
+        <h1 id="main-title">二维翼型网格自动优化</h1>
+        <p class="lead">在固定四块 O 型拓扑上，用 SAC 调整网格参数。回放两个留出翼型的优化轨迹，或输入一个 NACA 编号运行模型。</p>
+      </div>
+      <dl class="digest" aria-label="留出测试关键结果">
+        <div><dt>SAC 平均质量分</dt><dd id="hero-score">—</dd></div>
+        <div><dt>相对固定参数</dt><dd id="hero-delta">—</dd></div>
+        <div><dt>有效网格</dt><dd id="hero-valid">—</dd></div>
+      </dl>
+    </section>
+
+    <section id="experiment" class="section" aria-labelledby="experiment-title">
+      <div class="section-heading">
+        <div><h2 id="experiment-title">优化轨迹</h2><p>两侧以相同比例呈现，比较固定参数与当前步骤。</p></div>
+        <button type="button" id="export" class="button quiet" disabled>导出对比图</button>
+      </div>
+      <div class="workspace">
+        <div id="data-status" class="data-status" role="status">正在读取实验数据…</div>
+        <div class="toolbar">
+          <label class="case-control" for="case-select">展示翼型<select id="case-select" disabled><option>等待实验数据</option></select></label>
+          <div class="method-control"><span id="method-label">优化方法</span><div id="method-options" class="segmented" role="group" aria-labelledby="method-label"></div></div>
+          <div class="view-control"><span id="view-label">查看范围</span><div class="segmented" role="group" aria-labelledby="view-label"><button type="button" id="near" aria-pressed="true">翼型近场</button><button type="button" id="full" aria-pressed="false">完整网格</button></div></div>
+        </div>
+        <form id="live-form" class="live-form" novalidate hidden>
+          <label for="live-code">实时推理</label><div class="live-input"><span aria-hidden="true">NACA</span><input id="live-code" name="airfoil" autocomplete="off" inputmode="numeric" maxlength="4" placeholder="2515" aria-label="NACA 四位数翼型编号" aria-describedby="live-status" required></div>
+          <button type="submit" id="run-live" class="button quiet">运行新翼型</button><p id="live-status" role="status">输入四位编号。</p>
+        </form>
+        <div class="view-pair">
+          <figure class="mesh-panel">
+            <figcaption><div class="panel-label"><span class="swatch baseline"></span><strong>固定参数</strong></div><span class="panel-number" id="fixed-score">—</span></figcaption>
+            <canvas id="fixed-canvas" aria-label="固定参数网格图" role="img">当前浏览器不支持 Canvas。</canvas>
+          </figure>
+          <figure class="mesh-panel">
+            <figcaption><div class="panel-label"><span class="swatch active"></span><strong id="selected-method">SAC</strong><span class="frame-indicator" id="current-frame">—</span></div><span class="panel-number" id="active-score">—</span></figcaption>
+            <canvas id="active-canvas" aria-label="当前步骤网格图" role="img">当前浏览器不支持 Canvas。</canvas>
+          </figure>
+        </div>
+        <div class="mesh-tools">
+          <div class="segmented mode-control" role="group" aria-label="单元绘图模式"><button type="button" id="wire" aria-pressed="true">网格线</button><button type="button" id="heat" aria-pressed="false">质量着色</button></div>
+          <div id="legend" class="legend" hidden><span>有符号缩放 Jacobian</span><div class="legend-ramp" aria-hidden="true"></div><span class="mono">0</span><span>至</span><span class="mono">1</span><span class="swatch invalid" aria-hidden="true"></span><span>≤ 0</span></div>
+          <div id="seam-key" class="seam-key"><span aria-hidden="true"></span>块间接口 · 共用节点</div>
+        </div>
+        <div class="playback">
+          <div class="playback-actions">
+            <button id="play" class="button primary" type="button" disabled><span class="play-icon" aria-hidden="true"></span><span id="play-label">播放轨迹</span></button>
+            <button type="button" class="button step" id="prev" aria-label="上一步" disabled title="上一步">−</button>
+            <button type="button" class="button step" id="next" aria-label="下一步" disabled title="下一步">+</button>
+          </div>
+          <div class="range-wrap"><label for="timeline" class="visually-hidden">优化轨迹步骤</label><input type="range" id="timeline" min="0" max="0" value="0" step="1" disabled><div class="range-footer"><span>初始网格</span><output for="timeline" id="frame-count">—</output><span>最后候选</span></div></div>
+          <button type="button" class="button quiet" id="best" disabled>最佳网格</button>
+        </div>
+        <div class="metrics-grid" id="case-metrics" aria-label="算例指标"></div>
+        <details class="parameter-details" id="parameter-panel"><summary>查看当前网格参数</summary><dl id="parameter-values"></dl><p id="method-notes"></p></details>
+      </div>
+    </section>
+
+    <section id="benchmark" class="section" aria-labelledby="benchmark-title">
+      <div class="section-heading"><div><h2 id="benchmark-title">留出测试对比</h2><p id="benchmark-copy">各方法在同一组测试翼型上评估。</p></div></div>
+      <div class="detail-card table-scroll" tabindex="0" aria-label="留出测试结果表格，可横向滚动">
+        <table>
+          <thead><tr><th scope="col">方法</th><th scope="col">平均质量分</th><th scope="col">平均最小 Jacobian</th><th scope="col">平均 P05 Jacobian</th><th scope="col">平均偏斜度</th><th scope="col">有效率</th><th scope="col">中位耗时</th><th scope="col">平均评估次数</th></tr></thead>
+          <tbody id="benchmark-rows"><tr><td colspan="8">等待实验数据</td></tr></tbody>
+        </table>
+      </div>
+      <p class="section-footnote" id="benchmark-note">Jacobian 指标均为有符号缩放值。P05 为单元质量的第 5 百分位，偏斜度越低越好。</p>
+      <p class="section-footnote" id="evidence-jump" hidden><a href="#evidence">查看多随机种子与细网格补充验证</a></p>
+    </section>
+
+    <section id="evidence" class="section" aria-labelledby="evidence-title" hidden>
+      <div class="section-heading"><div><h2 id="evidence-title">二维原型的补充验证</h2><p id="evidence-context"></p></div></div>
+      <div class="detail-card evidence-card">
+        <p class="evidence-conclusion" id="evidence-conclusion"></p>
+        <div id="evidence-body"></div>
+        <p class="section-footnote" id="evidence-limit"></p>
+        <ul class="evidence-sources" id="evidence-sources" aria-label="参考文献"></ul>
+      </div>
+    </section>
+
+    <section id="training" class="section" aria-labelledby="training-title">
+      <div class="section-heading"><div><h2 id="training-title">训练记录</h2><p>用独立验证集跟踪训练期间的网格质量。</p></div></div>
+      <div class="training-grid">
+        <figure class="detail-card chart-card"><figcaption><strong>验证集平均质量分</strong><span class="mono" id="chart-caption">—</span></figcaption><canvas id="history-canvas" role="img" aria-label="验证集平均质量分随训练步数变化">当前浏览器不支持 Canvas。</canvas><p id="history-description" class="visually-hidden"></p></figure>
+        <aside class="detail-card run-card" aria-label="实验设置">
+          <h3>实验设置</h3>
+          <dl id="training-meta"></dl>
+          <p id="training-scope">二维 NACA 四位数翼型，四块 O 型拓扑。指标反映网格几何质量，CFD 求解精度待验证。</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="frame"><span>翼型结构化网格实验</span><a href="#top">返回顶部</a></div></footer>
+</body>
+</html>

@@ -8,13 +8,16 @@ version = "0.1.0"
 description = "Research scaffold for intelligent multi-block structured CFD mesh generation"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["numpy>=1.24"]
 
 [project.optional-dependencies]
 dev = ["build>=1.2", "pytest>=8"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+"smartcfd.rl.agents" = ["data/*.npz"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

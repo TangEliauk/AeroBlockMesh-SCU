@@ -6,9 +6,9 @@
 
 ## 当前状态
 
-当前版本在已有公开数据处理与验证流程基础上补齐项目目录骨架、配置草案、模块职责说明和开发工具配置。`src/smartcfd` 中的几何、分块、强化学习、网格生成、质量评价及 CFD 模块尚未实现；`tests/` 顶层六个文件为相应的测试预留模块。
+仓库包含已冻结的公开数据处理流程和一个可运行的 **二维 NACA 四位数翼型原型**。原型使用四块共形 O 型网格，支持固定参数生成和 SAC 连续参数优化。可训练策略、评价解析翼型留出集、导出 PLOT3D 网格及块间接口，并打开离线演示。
 
-`scripts/` 顶层七个预留入口支持 `--help`，执行具体任务时会明确报告“功能尚未实现”。已有可执行的数据脚本和 21 个回归测试分别位于 `scripts/data/`、`tests/data/`，公开数据及其来源与固定划分见 [公开数据说明](docs/public_data_v1.md)。
+原型使用解析翼型和搜索生成的调参示范。公开 UIUC 几何、家族划分和 CFD 参照资料继续按各自数据版本管理。自由拓扑分块、基于 UIUC 任意轮廓的策略训练、学习型块内网格生成和 CFD 求解保留为研究路线。[公开数据说明](docs/public_data_v1.md) · [二维实验与结果](docs/experiments.md)
 
 ## 目录结构
 
@@ -24,7 +24,7 @@ AeroBlockMesh-SCU/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
-├── configs/                        # 配置草案，尚未接入算法
+├── configs/                        # 通用流程配置草案
 │   ├── geometry.yaml
 │   ├── partition.yaml
 │   ├── rl.yaml
@@ -115,6 +115,7 @@ AeroBlockMesh-SCU/
 │   ├── run_cfd.py
 │   └── visualize.py
 ├── experiments/
+│   ├── sac_2d/demo/               # 二维原型的离线演示
 │   ├── checkpoints/
 │   ├── logs/
 │   └── results/
@@ -149,21 +150,20 @@ python -m pip install -e ".[dev]"
 python scripts/generate_mesh.py --help
 ```
 
-当前包没有第三方运行依赖；实现具体算法时，再补充所需依赖和版本约束。配置中的路径约定相对于仓库根目录。
+二维原型使用 NumPy。配置中的路径约定相对于仓库根目录。
 
-## 运行入口
+## 运行二维原型
 
-| 脚本 | 计划用途 | 默认配置草案 |
-| --- | --- | --- |
-| `scripts/prepare_data.py` | 准备数据 | `configs/geometry.yaml` |
-| `scripts/train_rl.py` | 训练分块策略 | `configs/rl.yaml` |
-| `scripts/pretrain_imitation.py` | 专家示范预训练 | `configs/rl.yaml` |
-| `scripts/generate_mesh.py` | 生成结构化网格 | `configs/meshing.yaml` |
-| `scripts/evaluate.py` | 评价分块与网格 | `configs/evaluation.yaml` |
-| `scripts/run_cfd.py` | CFD 验证 | `configs/cfd.yaml` |
-| `scripts/visualize.py` | 可视化 | `configs/meshing.yaml` |
+```powershell
+python scripts/generate_mesh.py --naca 2412 --method sac --fine
+python scripts/evaluate.py --naca-2d
+python scripts/train_rl.py --naca-2d --steps 24000 --seed 1729
+python scripts/visualize.py --demo
+```
 
-上述配置参数仅作为入口预留，目前不会读取配置或执行算法。
+生成和评估命令可以直接加载内置的演示策略，也可通过 `--checkpoint` 指定训练检查点。用 `--method fixed` 生成参考参数网格，用 `--output` 指定独立的本地产物目录。训练入口自动完成示范搜索、行为克隆预训练和 SAC 训练。也可在浏览器直接打开 [离线演示](experiments/sac_2d/demo/index.html)。
+
+更一般的流程入口及 YAML 保留在仓库中。使用 `--help` 查看各脚本的现有参数。
 
 ## 开发检查
 
@@ -173,7 +173,7 @@ python -m compileall -q src scripts tests
 python -m unittest discover -s tests/data -p "test_*.py" -v
 ```
 
-GitHub Actions 检查 Python 3.10、3.12 和 3.14 下的安装、依赖一致性、源码与 wheel 构建、模块导入及入口帮助，并运行已有的 21 个数据回归测试。顶层算法测试需要随实现补充。
+GitHub Actions 检查 Python 3.10、3.12 和 3.14 下的安装、依赖一致性、源码与 wheel 构建、模块导入及入口帮助。开发时用 `python -m pytest` 运行数据和算法测试。
 
 模块边界见 [架构说明](docs/architecture.md)，接口草案见 [接口说明](docs/interfaces.md)，数据约定见 [数据管理](data/README.md)，开发约定见 [参与开发](CONTRIBUTING.md)。
 

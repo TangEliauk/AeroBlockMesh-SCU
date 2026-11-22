@@ -2,7 +2,7 @@
 
 项目目标是研究利用强化学习与学习型网格方法生成 CFD 多块结构化网格。公开数据准备已有独立实现：`scripts/data/` 完成清洗、划分、参照表整理与核验，`tests/data/` 包含 21 项标准库 `unittest` 测试；版本化产物位于 `data/processed/uiuc_v1/`、`data/references/public_v1/` 和 `data/splits/uiuc_v1/`。数据范围与复现方法见 [public_data_v1.md](public_data_v1.md)。
 
-`src/smartcfd` 目前仍是模块占位，配置模板尚未接入算法入口；尚无可运行的训练、网格生成或 CFD 验证实现，也没有这些方法的实验结论。现有几何和实验参照未提供专家动作、块拓扑或 SAC 经验回放。
+`src/smartcfd` 已提供解析 NACA 四位数翼型的固定四块 O 型网格生成、SAC 参数优化和几何评价。搜索生成的调参示范、留出实验和复现命令见 [二维实验](experiments.md)。现有公开几何和实验参照未提供专家动作、块拓扑或 SAC 经验回放。
 
 建议按以下顺序形成可验证的最小流程：
 
@@ -14,6 +14,6 @@
 6. 在选定外部 CFD 求解器后实现适配，按现有实验参照的独立工况建立数值验证，保留原实验归属与适用限制；数据清洗核验不等于求解器验证。
 7. 在二维流程完整后评估三维扩展与多块模型；模块文件的存在不表示相应方法已实现。
 
-SAC、KANMeshNet、MeshNet3D 和 MultiMeshNet 等文件名目前只预留研究方向。采用具体论文方法前，应补充来源、适用假设、复现条件和实现范围，记录于 [references.md](references.md)。
+KANMeshNet、MeshNet3D 和 MultiMeshNet 保留为研究方向。已实现的 SAC 原型及其设计参照见 [参考资料](references.md)。
 
 质量指标应先写明公式和统计方式，再据此制定奖励。用于训练的奖励不能代替独立的网格质量检查或 CFD 验证；测试集不能用于选奖励权重或筛选模型。数据约定见 [datasets.md](datasets.md)，实验记录约定见 [experiments.md](experiments.md)。
