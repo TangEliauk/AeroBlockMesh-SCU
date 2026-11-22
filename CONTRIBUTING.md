@@ -22,12 +22,16 @@ python scripts/data/verify_public_data.py
 python scripts/data/verify_multiblock_data.py
 python scripts/data/clean_cgns_multiblock.py --check
 python scripts/data/clean_engineering_multiblock.py --check
+python scripts/data/verify_2d_multiblock_data.py
+python scripts/data/clean_2d_multiblock.py --check
 python scripts/generate_mesh.py --help
 ```
 
 现有数据回归测试已接入 CI，无需联网或下载原始数据。也可使用 `python -m pytest tests/data -q` 执行。实现算法后，应补齐顶层预留测试并使用 `python -m pytest` 执行全部用例。
 
 冻结的 `public_v1` 清单及其覆盖文件应保持原字节；新增版本使用独立清单。修改多块清洗器后，先重新生成产物、审查变化，再更新 `multiblock_v1/manifest.json` 中派生 JSON 的字节数与哈希。不要通过改哈希掩盖源文件变化，原件必须继续匹配冻结的来源哈希。`--check` 只读重算，CI 不替开发者更新产物。
+
+二维补充参考独立使用 `data/references/multiblock_2d_v1/manifest.json`，选定的 11 个原件随版本保留，派生边界与接口位于 `data/processed/block_topology_2d_v1/`。维护时保留源坐标、来源 URL、原件及下载归档的哈希；明确区分几何匹配得到的连接和配套文件的原始声明。更改参考用途或定位时，同步更新七组数据目录 `data/references/multiblock_case_catalog.json` 与使用指南，不把终态参考改称专家动作轨迹。其余未选中的原始大合集仍默认留在本地。
 
 已有公开数据版本、来源记录与划分清单继续版本管理。新增原始数据、大型处理产物、模型权重和运行结果默认保留在本地；轻量数据划分清单可以放入 `data/splits` 并提交。实验配置、数据版本、随机种子与结果摘要应记录在 `docs/experiments.md`。第三方数据归属见 [THIRD_PARTY_DATA.md](THIRD_PARTY_DATA.md)。
 

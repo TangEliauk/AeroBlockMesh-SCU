@@ -19,3 +19,9 @@
 公开数据 v1 的几何、实验表、划分和来源清单已纳入版本管理。`.gitkeep` 仅用于跟踪其他空目录；大体积原始数据、模型参数和后续生成结果默认留在本地或外部存储，清单应记录校验值或版本标识。复现时优先输出到独立目录，再与冻结的 v1 比较，避免覆盖原版本。
 
 实验参照的不同工况必须分别保留，数据质量检查不能替代 CFD 数值验证。第三方来源、原实验归属和许可状态以 [THIRD_PARTY_DATA.md](../THIRD_PARTY_DATA.md) 为准，UIUC 数据不套用项目代码许可。
+
+## 二维辅助终态补充
+
+[multiblock_2d_v1](../data/references/multiblock_2d_v1/README.md)独立保存 TMR 四块后向台阶、CFL3D 三块喷射器、四块带腔 Hump 的原件及配套输入；[block_topology_2d_v1](../data/processed/block_topology_2d_v1/README.md)保存其二维边界、投影和接口检查记录。源文件不改写，薄层文件的二维投影须验证并记录，后台阶的三维 NMF 索引不能直接用于二维网格。来源、字节数、哈希和处理范围以[独立清单](../data/references/multiblock_2d_v1/manifest.json)为准。
+
+这三组定位为辅助参考，不增加 UIUC 训练样本、不提供原始专家动作或人工耗时；同一几何的格式和密度变体不能重复计样。七组已有及新增资料的用途、维度与主任务贴合程度见 [参考指南](multiblock_reference_guide.md)和[机器可读用途表](../data/references/multiblock_case_catalog.json)，冻结的 `public_v1`、既有四组原件和清洗产物保持不变。

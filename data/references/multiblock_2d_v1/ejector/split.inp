@@ -1,0 +1,16 @@
+INPUT (UNSPLIT) FILES
+nozzle.inp
+null
+nozzle.p3dfmt
+null
+ICFLVER   IRONVER   IGRDFMT    ISDFMT
+      5         1         0         1
+OUTPUT (SPLIT) FILES
+null
+null
+nozzle.p3dbin
+null
+ICFLVER   IRONVER   IGRDFMT    ISDFMT
+      5         1         1         1
+NSPLITS
+0

@@ -29,3 +29,13 @@ python -m unittest discover -s tests/data -p "test_*.py" -v
 添加数据前，应确认来源与使用许可，记录数据版本、校验值、单位、坐标系及预处理参数。原始文件不要就地修改；相同几何及其派生样本应保持在同一数据划分内。
 
 详细的数据隔离与追溯约定见 [docs/datasets.md](../docs/datasets.md)。第三方数据归属及许可记录见 [THIRD_PARTY_DATA.md](../THIRD_PARTY_DATA.md)，不能由项目代码许可替代。`src/smartcfd` 中的分块、训练、网格生成和 CFD 算法仍为占位模块。
+
+## 二维辅助参考补充
+
+| 目录或文件 | 用途 |
+| --- | --- |
+| `references/multiblock_2d_v1/` | 三组二维辅助案例的 11 个原件、配套输入及独立来源清单 |
+| `processed/block_topology_2d_v1/` | 后台阶、喷射器与带腔 Hump 的二维边界、投影和接口核验 JSON |
+| `references/multiblock_case_catalog.json` | 七组终态参考的维度、参考信息、用途、定位和限制 |
+
+新增目录与其原件、派生文件独立版本管理，不改写旧数据版本；获取与复现见 [二维参考原件](references/multiblock_2d_v1/README.md)、[派生产物](processed/block_topology_2d_v1/README.md)和[七组使用指南](../docs/multiblock_reference_guide.md)。它们不进入 UIUC 划分，也不是专家操作轨迹。

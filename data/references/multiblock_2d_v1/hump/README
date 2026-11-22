@@ -1,0 +1,30 @@
+
+2-D Hump Case with Flow Control
+
+This is the oscillatory (synthetic jet) control case from the CFDVAL Workshop
+Case 3 (see http://cfdval2004.larc.nasa.gov). The conditions are as follows:
+M=0.1, Re=936,000 per chord length of hump, zero-net-mass-flux oscillatory 
+suction/blowing, frequency = 138.5 Hz.  The peak velocity amplitude at the
+bottom of the cavity is set to rho*w=.001 (nondimensionalized by freestream density
+and freestream speed of sound).  This level of blowing was chosen in an attempt
+to approximate the peak velocity out of slot (Ujetmax) during blowing part of 
+cycle of approximately 26 m/s.  CFL3D uses BC number 2028 (see CFL3D website
+http://cfl3d.larc.nasa.gov/ under "New Features" for more details on this).  
+Using this BC, the input freq that corresponds to 138.5 Hz is 0.16812.  
+Back pressure was set to p/pinf=0.99962.  This case is run with thin-layer 
+in each coordinate direction (i.e., cross-derivative terms were ignored).  
+The Spalart-Allmaras turbulence model is employed.  Currently, although the fine grid
+is of size:  793x217, 161x121, 65x121, 49x217 (for the 4 zones, respectively),
+it is currently only run for this test 1-level-down (using every other gridpoint in
+each coordinate direction):  397x109, 81x61, 33x61, 25x109.
+
+In this case, the overall flowfield was first established to a reasonable degree with
+no-flow through the cavity.  Then, this solution was restarted time-accurately
+with oscillatory blowing/suction.  The time step was set for 360 steps per
+cycle of blowing/suction.  A total of 20 subiterations per time step were
+employed.  This was run for 7 cycles (until the periodic
+flow was established fairly well).  Then, finally, 1 cycle was run in the
+third restart to obtain averaged statistics over 1 cycle (using the keyword 
+input iteravg=1).
+
+
