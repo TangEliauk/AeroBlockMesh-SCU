@@ -1,0 +1,11 @@
+# 配置草案：尚未接入程序；不代表已有可运行的网格生成器。
+# 所有相对路径均以仓库根目录为基准；null 表示尚未指定。
+meshing:
+  method: null
+  dimension: 2
+  nodes_per_edge: null
+interfaces:
+  require_matching_nodes: true
+output:
+  directory: experiments/results
+  format: null

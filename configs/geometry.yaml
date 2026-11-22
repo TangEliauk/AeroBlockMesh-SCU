@@ -1,0 +1,11 @@
+# 配置草案：尚未接入程序；键名和默认值待实现时确认。
+# 所有相对路径均以仓库根目录为基准；null 表示尚未指定。
+geometry:
+  dimension: 2
+  source_path: null
+  source_format: null
+preprocessing:
+  normalize_chord: true
+  remove_duplicate_points: true
+domain:
+  farfield_distance_chords: null
