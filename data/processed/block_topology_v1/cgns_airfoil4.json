@@ -1,0 +1,1891 @@
+{
+  "schema_version": 1,
+  "case_id": "cgns_airfoil4",
+  "source_format": "CGNS/HDF5",
+  "source": {
+    "path": "data/references/multiblock_v1/airfoil4/multi_hdf5.cgns.gz",
+    "bytes": 2298770,
+    "sha256": "7d29fed1b30e8d2588e47a1dbcee2aba6278a219112d1cde74b832a69a1ef7c7",
+    "decompressed_sha256": "7da44bb66d8b1b6bb3d43a9691c60da6e995d50895447d86cf1a7d6d234ffe58"
+  },
+  "index_convention": "CGNS 1-based inclusive [i,j,k]; stored HDF5 coordinate arrays are [k,j,i]",
+  "coordinate_units": {
+    "status": "not_fully_declared_for_coordinates",
+    "declared_length_units": [],
+    "all_coordinate_axes_have_declared_length_units": false,
+    "unit_conversion_applied": false
+  },
+  "source_unit_declarations": [
+    {
+      "source_node": "/Base/ReferenceState/AngleofAttack/DimensionalUnits",
+      "units": {
+        "mass": "Null",
+        "length": "Null",
+        "time": "Null",
+        "temperature": "Null",
+        "angle": "Degree"
+      }
+    },
+    {
+      "source_node": "/Base/ReferenceState/AngleofYaw/DimensionalUnits",
+      "units": {
+        "mass": "Null",
+        "length": "Null",
+        "time": "Null",
+        "temperature": "Null",
+        "angle": "Degree"
+      }
+    },
+    {
+      "source_node": "/Base/ReferenceState/Temperature/DimensionalUnits",
+      "units": {
+        "mass": "Null",
+        "length": "Null",
+        "time": "Null",
+        "temperature": "Rankine",
+        "angle": "Null"
+      }
+    },
+    {
+      "source_node": "/Base/Zone   1/FlowEquationSet/ViscosityModel/SutherlandLawConstant/DimensionalUnits",
+      "units": {
+        "mass": "Null",
+        "length": "Null",
+        "time": "Null",
+        "temperature": "Rankine",
+        "angle": "Null"
+      }
+    },
+    {
+      "source_node": "/Base/Zone   2/FlowEquationSet/ViscosityModel/SutherlandLawConstant/DimensionalUnits",
+      "units": {
+        "mass": "Null",
+        "length": "Null",
+        "time": "Null",
+        "temperature": "Rankine",
+        "angle": "Null"
+      }
+    },
+    {
+      "source_node": "/Base/Zone   3/FlowEquationSet/ViscosityModel/SutherlandLawConstant/DimensionalUnits",
+      "units": {
+        "mass": "Null",
+        "length": "Null",
+        "time": "Null",
+        "temperature": "Rankine",
+        "angle": "Null"
+      }
+    },
+    {
+      "source_node": "/Base/Zone   4/FlowEquationSet/ViscosityModel/SutherlandLawConstant/DimensionalUnits",
+      "units": {
+        "mass": "Null",
+        "length": "Null",
+        "time": "Null",
+        "temperature": "Rankine",
+        "angle": "Null"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "/Base/Zone   1",
+      "source_node": "/Base/Zone   1",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        2,
+        123,
+        25
+      ],
+      "cell_dimensions_ijk": [
+        1,
+        122,
+        24
+      ],
+      "point_count": 6150,
+      "cell_count": 2928,
+      "coordinate_hdf5_shape_kji": [
+        25,
+        123,
+        2
+      ],
+      "coordinate_source_nodes": [
+        "/Base/Zone   1/GridCoordinates/CoordinateX",
+        "/Base/Zone   1/GridCoordinates/CoordinateY",
+        "/Base/Zone   1/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          0.8948970000151777,
+          10.0
+        ],
+        [
+          -1.0,
+          -0.0
+        ],
+        [
+          -0.1327125107172425,
+          -0.0008615542130799447
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            -0.08245099999999969
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            25
+          ],
+          "xyz": [
+            9.99999999545172,
+            -0.0,
+            -0.132451000000037
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            123,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            -0.08245099999999969
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            123,
+            25
+          ],
+          "xyz": [
+            9.999999980828616,
+            -0.0,
+            -0.032451004196571695
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            -0.08245099999999969
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            25
+          ],
+          "xyz": [
+            9.99999999545172,
+            -1.0,
+            -0.132451000000037
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            123,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            -0.08245099999999969
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            123,
+            25
+          ],
+          "xyz": [
+            9.999999980828616,
+            -1.0,
+            -0.032451004196571695
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/Base/Zone   1/FlowSolution"
+      ]
+    },
+    {
+      "block_id": "/Base/Zone   2",
+      "source_node": "/Base/Zone   2",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        2,
+        275,
+        45
+      ],
+      "cell_dimensions_ijk": [
+        1,
+        274,
+        44
+      ],
+      "point_count": 24750,
+      "cell_count": 12056,
+      "coordinate_hdf5_shape_kji": [
+        45,
+        275,
+        2
+      ],
+      "coordinate_source_nodes": [
+        "/Base/Zone   2/GridCoordinates/CoordinateX",
+        "/Base/Zone   2/GridCoordinates/CoordinateY",
+        "/Base/Zone   2/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          0.007499437977594708,
+          10.0
+        ],
+        [
+          -1.0,
+          -0.0
+        ],
+        [
+          -0.1181435742693682,
+          0.323934699504357
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            0.1239924599999996
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            45
+          ],
+          "xyz": [
+            9.999999980828616,
+            -0.0,
+            -0.032451004196571695
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            275,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            0.1239924599999996
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            275,
+            45
+          ],
+          "xyz": [
+            9.99999998520839,
+            -0.0,
+            0.323934699504357
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            0.1239924599999996
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            45
+          ],
+          "xyz": [
+            9.999999980828616,
+            -1.0,
+            -0.032451004196571695
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            275,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            0.1239924599999996
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            275,
+            45
+          ],
+          "xyz": [
+            9.99999998520839,
+            -1.0,
+            0.323934699504357
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/Base/Zone   2/FlowSolution"
+      ]
+    },
+    {
+      "block_id": "/Base/Zone   3",
+      "source_node": "/Base/Zone   3",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        2,
+        289,
+        29
+      ],
+      "cell_dimensions_ijk": [
+        1,
+        288,
+        28
+      ],
+      "point_count": 16762,
+      "cell_count": 8064,
+      "coordinate_hdf5_shape_kji": [
+        29,
+        289,
+        2
+      ],
+      "coordinate_source_nodes": [
+        "/Base/Zone   3/GridCoordinates/CoordinateX",
+        "/Base/Zone   3/GridCoordinates/CoordinateY",
+        "/Base/Zone   3/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -0.07279837476234921,
+          10.0
+        ],
+        [
+          -1.0,
+          -0.0
+        ],
+        [
+          -0.08816619067945061,
+          0.9236186999999991
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            0.6237767
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            29
+          ],
+          "xyz": [
+            9.99999998520839,
+            -0.0,
+            0.323934699504357
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            289,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            0.6237767
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            289,
+            29
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            0.9236186999999991
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            0.6237767
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            29
+          ],
+          "xyz": [
+            9.99999998520839,
+            -1.0,
+            0.323934699504357
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            289,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            0.6237767
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            289,
+            29
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            0.9236186999999991
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/Base/Zone   3/FlowSolution"
+      ]
+    },
+    {
+      "block_id": "/Base/Zone   4",
+      "source_node": "/Base/Zone   4",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        2,
+        321,
+        17
+      ],
+      "cell_dimensions_ijk": [
+        1,
+        320,
+        16
+      ],
+      "point_count": 10914,
+      "cell_count": 5120,
+      "coordinate_hdf5_shape_kji": [
+        17,
+        321,
+        2
+      ],
+      "coordinate_source_nodes": [
+        "/Base/Zone   4/GridCoordinates/CoordinateX",
+        "/Base/Zone   4/GridCoordinates/CoordinateY",
+        "/Base/Zone   4/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": "NormalizedByUnknownDimensional"
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -9.999999974887878,
+          10.0
+        ],
+        [
+          -1.0,
+          -0.0
+        ],
+        [
+          -10.00009190794053,
+          10.00348337566793
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            9.99999999545172,
+            -0.0,
+            -0.132451000000037
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            17
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            -10.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            321,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            0.9236186999999991
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            321,
+            17
+          ],
+          "xyz": [
+            10.0,
+            -0.0,
+            9.999999999999952
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            1
+          ],
+          "xyz": [
+            9.99999999545172,
+            -1.0,
+            -0.132451000000037
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            1,
+            17
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            -10.0
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            321,
+            1
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            0.9236186999999991
+          ]
+        },
+        {
+          "index_1based": [
+            2,
+            321,
+            17
+          ],
+          "xyz": [
+            10.0,
+            -1.0,
+            9.999999999999952
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/Base/Zone   4/FlowSolution"
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "interface_id": "interface_001",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   1/ZoneGridConnectivity/1to1InterfaceA   1",
+          "source_block": "/Base/Zone   1",
+          "donor_block": "/Base/Zone   1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              25,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              123,
+              1
+            ],
+            [
+              2,
+              99,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 50,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   1/ZoneGridConnectivity/1to1InterfaceB   1",
+          "source_block": "/Base/Zone   1",
+          "donor_block": "/Base/Zone   1",
+          "point_range_1based": [
+            [
+              1,
+              123,
+              1
+            ],
+            [
+              2,
+              99,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              25,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 50,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_002",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   1/ZoneGridConnectivity/1to1InterfaceA   4",
+          "source_block": "/Base/Zone   1",
+          "donor_block": "/Base/Zone   4",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              25
+            ],
+            [
+              2,
+              57,
+              25
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              57,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 114,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   4/ZoneGridConnectivity/1to1InterfaceB   4",
+          "source_block": "/Base/Zone   4",
+          "donor_block": "/Base/Zone   1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              57,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              25
+            ],
+            [
+              2,
+              57,
+              25
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 114,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_003",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   1/ZoneGridConnectivity/1to1InterfaceA   7",
+          "source_block": "/Base/Zone   1",
+          "donor_block": "/Base/Zone   2",
+          "point_range_1based": [
+            [
+              1,
+              57,
+              25
+            ],
+            [
+              2,
+              123,
+              25
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              67,
+              45
+            ],
+            [
+              2,
+              1,
+              45
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 134,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   2/ZoneGridConnectivity/1to1InterfaceB   7",
+          "source_block": "/Base/Zone   2",
+          "donor_block": "/Base/Zone   1",
+          "point_range_1based": [
+            [
+              1,
+              67,
+              45
+            ],
+            [
+              2,
+              1,
+              45
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              57,
+              25
+            ],
+            [
+              2,
+              123,
+              25
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 134,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_004",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   2/ZoneGridConnectivity/1to1InterfaceA   2",
+          "source_block": "/Base/Zone   2",
+          "donor_block": "/Base/Zone   2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              57,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              275,
+              1
+            ],
+            [
+              2,
+              219,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 114,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   2/ZoneGridConnectivity/1to1InterfaceB   2",
+          "source_block": "/Base/Zone   2",
+          "donor_block": "/Base/Zone   2",
+          "point_range_1based": [
+            [
+              1,
+              275,
+              1
+            ],
+            [
+              2,
+              219,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              57,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 114,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_005",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   2/ZoneGridConnectivity/1to1InterfaceA   5",
+          "source_block": "/Base/Zone   2",
+          "donor_block": "/Base/Zone   4",
+          "point_range_1based": [
+            [
+              1,
+              67,
+              45
+            ],
+            [
+              2,
+              159,
+              45
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              57,
+              1
+            ],
+            [
+              2,
+              149,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 186,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   4/ZoneGridConnectivity/1to1InterfaceB   5",
+          "source_block": "/Base/Zone   4",
+          "donor_block": "/Base/Zone   2",
+          "point_range_1based": [
+            [
+              1,
+              57,
+              1
+            ],
+            [
+              2,
+              149,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              67,
+              45
+            ],
+            [
+              2,
+              159,
+              45
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 186,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_006",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   2/ZoneGridConnectivity/1to1InterfaceA   8",
+          "source_block": "/Base/Zone   2",
+          "donor_block": "/Base/Zone   3",
+          "point_range_1based": [
+            [
+              1,
+              159,
+              45
+            ],
+            [
+              2,
+              275,
+              45
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              117,
+              29
+            ],
+            [
+              2,
+              1,
+              29
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 234,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   3/ZoneGridConnectivity/1to1InterfaceB   8",
+          "source_block": "/Base/Zone   3",
+          "donor_block": "/Base/Zone   2",
+          "point_range_1based": [
+            [
+              1,
+              117,
+              29
+            ],
+            [
+              2,
+              1,
+              29
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              159,
+              45
+            ],
+            [
+              2,
+              275,
+              45
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 234,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_007",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   3/ZoneGridConnectivity/1to1InterfaceA   3",
+          "source_block": "/Base/Zone   3",
+          "donor_block": "/Base/Zone   3",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              93,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              289,
+              1
+            ],
+            [
+              2,
+              197,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 186,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   3/ZoneGridConnectivity/1to1InterfaceB   3",
+          "source_block": "/Base/Zone   3",
+          "donor_block": "/Base/Zone   3",
+          "point_range_1based": [
+            [
+              1,
+              289,
+              1
+            ],
+            [
+              2,
+              197,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              93,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            -2,
+            3
+          ],
+          "matched_coordinate_pairs": 186,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_008",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/Base/Zone   3/ZoneGridConnectivity/1to1InterfaceA   6",
+          "source_block": "/Base/Zone   3",
+          "donor_block": "/Base/Zone   4",
+          "point_range_1based": [
+            [
+              1,
+              117,
+              29
+            ],
+            [
+              2,
+              289,
+              29
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              149,
+              1
+            ],
+            [
+              2,
+              321,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 346,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/Base/Zone   4/ZoneGridConnectivity/1to1InterfaceB   6",
+          "source_block": "/Base/Zone   4",
+          "donor_block": "/Base/Zone   3",
+          "point_range_1based": [
+            [
+              1,
+              149,
+              1
+            ],
+            [
+              2,
+              321,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              117,
+              29
+            ],
+            [
+              2,
+              289,
+              29
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 346,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "source_node": "/Base/Zone   1/ZoneBC/Ihi_Seg   1",
+      "block_id": "/Base/Zone   1",
+      "bc_type": "BCExtrapolate",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          123,
+          25
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   1/ZoneBC/Ilo_Seg   1",
+      "block_id": "/Base/Zone   1",
+      "bc_type": "BCSymmetryPlane",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          123,
+          25
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   1/ZoneBC/Jhi_Seg   1",
+      "block_id": "/Base/Zone   1",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          123,
+          1
+        ],
+        [
+          2,
+          123,
+          25
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   1/ZoneBC/Jlo_Seg   1",
+      "block_id": "/Base/Zone   1",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          25
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   1/ZoneBC/Klo_Seg   2",
+      "block_id": "/Base/Zone   1",
+      "bc_type": "BCWallViscousHeatFlux",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          25,
+          1
+        ],
+        [
+          2,
+          99,
+          1
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   2/ZoneBC/Ihi_Seg   1",
+      "block_id": "/Base/Zone   2",
+      "bc_type": "BCExtrapolate",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          275,
+          45
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   2/ZoneBC/Ilo_Seg   1",
+      "block_id": "/Base/Zone   2",
+      "bc_type": "BCSymmetryPlane",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          275,
+          45
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   2/ZoneBC/Jhi_Seg   1",
+      "block_id": "/Base/Zone   2",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          275,
+          1
+        ],
+        [
+          2,
+          275,
+          45
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   2/ZoneBC/Jlo_Seg   1",
+      "block_id": "/Base/Zone   2",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          45
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   2/ZoneBC/Klo_Seg   2",
+      "block_id": "/Base/Zone   2",
+      "bc_type": "BCWallViscousHeatFlux",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          57,
+          1
+        ],
+        [
+          2,
+          219,
+          1
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   3/ZoneBC/Ihi_Seg   1",
+      "block_id": "/Base/Zone   3",
+      "bc_type": "BCExtrapolate",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          289,
+          29
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   3/ZoneBC/Ilo_Seg   1",
+      "block_id": "/Base/Zone   3",
+      "bc_type": "BCSymmetryPlane",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          289,
+          29
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   3/ZoneBC/Jhi_Seg   1",
+      "block_id": "/Base/Zone   3",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          289,
+          1
+        ],
+        [
+          2,
+          289,
+          29
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   3/ZoneBC/Jlo_Seg   1",
+      "block_id": "/Base/Zone   3",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          29
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   3/ZoneBC/Klo_Seg   2",
+      "block_id": "/Base/Zone   3",
+      "bc_type": "BCWallViscousHeatFlux",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          93,
+          1
+        ],
+        [
+          2,
+          197,
+          1
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   4/ZoneBC/Ihi_Seg   1",
+      "block_id": "/Base/Zone   4",
+      "bc_type": "BCExtrapolate",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          321,
+          17
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   4/ZoneBC/Ilo_Seg   1",
+      "block_id": "/Base/Zone   4",
+      "bc_type": "BCSymmetryPlane",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          321,
+          17
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   4/ZoneBC/Jhi_Seg   1",
+      "block_id": "/Base/Zone   4",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          321,
+          1
+        ],
+        [
+          2,
+          321,
+          17
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   4/ZoneBC/Jlo_Seg   1",
+      "block_id": "/Base/Zone   4",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          17
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    },
+    {
+      "source_node": "/Base/Zone   4/ZoneBC/Khi_Seg   1",
+      "block_id": "/Base/Zone   4",
+      "bc_type": "BCFarfield",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          17
+        ],
+        [
+          2,
+          321,
+          17
+        ]
+      ],
+      "family": null,
+      "family_source_node": null
+    }
+  ],
+  "families": [],
+  "checks": {
+    "status": "passed",
+    "structured_blocks": 4,
+    "all_coordinate_shapes_match_dimensions": true,
+    "all_coordinates_finite": true,
+    "boundary_ranges_within_zone_and_on_faces": true,
+    "directed_one_to_one_connections": 16,
+    "unique_interfaces": 8,
+    "all_interfaces_have_reciprocal_inverse_maps": true,
+    "matched_coordinate_pairs_including_both_directions": 2728,
+    "max_absolute_xyz_interface_difference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "coordinate_absolute_tolerance": 1e-10,
+    "source_node_label_counts": {
+      "\"int\"": 4,
+      "\"int[1+...+IndexDimension]\"": 4,
+      "\"int[IndexDimension]\"": 16,
+      "BC_t": 20,
+      "BaseIterativeData_t": 1,
+      "CGNSBase_t": 1,
+      "CGNSLibraryVersion_t": 1,
+      "ConvergenceHistory_t": 1,
+      "DataArray_t": 130,
+      "DataClass_t": 33,
+      "Descriptor_t": 32,
+      "DimensionalExponents_t": 7,
+      "DimensionalUnits_t": 7,
+      "FlowEquationSet_t": 4,
+      "FlowSolution_t": 4,
+      "GasModel_t": 4,
+      "GoverningEquations_t": 4,
+      "GridConnectivity1to1_t": 16,
+      "GridCoordinates_t": 4,
+      "GridLocation_t": 4,
+      "IndexRange_t": 52,
+      "ReferenceState_t": 1,
+      "Rind_t": 4,
+      "SimulationType_t": 1,
+      "ThermalConductivityModel_t": 4,
+      "TurbulenceClosure_t": 4,
+      "TurbulenceModel_t": 4,
+      "UserDefinedData_t": 5,
+      "ViscosityModel_t": 4,
+      "ZoneBC_t": 4,
+      "ZoneGridConnectivity_t": 4,
+      "ZoneIterativeData_t": 4,
+      "ZoneType_t": 4,
+      "Zone_t": 4
+    },
+    "smoothing_applied": false,
+    "resampling_applied": false
+  },
+  "limitations": [
+    "Terminal structured blocks and interfaces, not engineer operation histories or SAC transitions.",
+    "Only Structured 3-index zones, Vertex face ranges and non-periodic one-to-one connectivity are supported; other connectivity fails explicitly.",
+    "Full coordinate and flow-solution arrays remain in the unchanged referenced CGNS source; the JSON stores summaries only.",
+    "No Jacobian, wall spacing, solver convergence or CFD accuracy certification is performed.",
+    "Coordinate units are not inferred or converted; interpret source unit declarations by their CGNS node scope."
+  ]
+}

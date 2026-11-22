@@ -1,0 +1,4395 @@
+{
+  "schema_version": 1,
+  "case_id": "cgns_channel12",
+  "source_format": "CGNS/HDF5",
+  "source": {
+    "path": "data/references/multiblock_v1/channel12/sqnz_s.hdf.cgns.gz",
+    "bytes": 446341,
+    "sha256": "b8c02ac01bc94b542969bab5aa19300940e52071aeb130adfc40fd332e8ec67d",
+    "decompressed_sha256": "a86eb8b782de96ee3e5855115febd84a483157e09d20a5b40aabad54d864202b"
+  },
+  "index_convention": "CGNS 1-based inclusive [i,j,k]; stored HDF5 coordinate arrays are [k,j,i]",
+  "coordinate_units": {
+    "status": "not_fully_declared_for_coordinates",
+    "declared_length_units": [],
+    "all_coordinate_axes_have_declared_length_units": false,
+    "unit_conversion_applied": false
+  },
+  "source_unit_declarations": [],
+  "blocks": [
+    {
+      "block_id": "/SQNZ/dom1_1_1_1",
+      "source_node": "/SQNZ/dom1_1_1_1",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_1_1_1/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_1_1_1/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_1_1_1/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -1.2,
+          -0.5
+        ],
+        [
+          0.0,
+          0.76198
+        ],
+        [
+          0.0,
+          0.76198
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            0.0,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_1_1_1/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_1_1_2",
+      "source_node": "/SQNZ/dom1_1_1_2",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_1_1_2/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_1_1_2/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_1_1_2/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -1.2,
+          -0.5
+        ],
+        [
+          0.0,
+          0.76198
+        ],
+        [
+          0.67626,
+          1.0
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            0.0,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            1.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.8875
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.8875
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_1_1_2/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_1_2_1",
+      "source_node": "/SQNZ/dom1_1_2_1",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_1_2_1/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_1_2_1/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_1_2_1/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -1.2,
+          -0.5
+        ],
+        [
+          0.67626,
+          1.0
+        ],
+        [
+          0.0,
+          0.76198
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            1.0,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.67626
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_1_2_1/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_1_2_2",
+      "source_node": "/SQNZ/dom1_1_2_2",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_1_2_2/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_1_2_2/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_1_2_2/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -1.2,
+          -0.5
+        ],
+        [
+          0.67626,
+          1.0
+        ],
+        [
+          0.67626,
+          1.0
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            0.76198,
+            1.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -1.2,
+            1.0,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -1.2,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.8875
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.8875
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_1_2_2/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_2_1_1",
+      "source_node": "/SQNZ/dom1_2_1_1",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_2_1_1/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_2_1_1/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_2_1_1/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -0.5,
+          0.2
+        ],
+        [
+          0.0,
+          0.67626
+        ],
+        [
+          0.0,
+          0.67626
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_2_1_1/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_2_1_2",
+      "source_node": "/SQNZ/dom1_2_1_2",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_2_1_2/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_2_1_2/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_2_1_2/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -0.5,
+          0.2
+        ],
+        [
+          0.0,
+          0.67626
+        ],
+        [
+          0.64768,
+          0.8875
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.0,
+            0.8875
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.8875
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.856
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.856
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_2_1_2/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_2_2_1",
+      "source_node": "/SQNZ/dom1_2_2_1",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_2_2_1/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_2_2_1/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_2_2_1/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -0.5,
+          0.2
+        ],
+        [
+          0.64768,
+          0.8875
+        ],
+        [
+          0.0,
+          0.67626
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.65226
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_2_2_1/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_2_2_2",
+      "source_node": "/SQNZ/dom1_2_2_2",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        15,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        14,
+        8,
+        8
+      ],
+      "point_count": 1215,
+      "cell_count": 896,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        15
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_2_2_2/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_2_2_2/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_2_2_2/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          -0.5,
+          0.2
+        ],
+        [
+          0.64768,
+          0.8875
+        ],
+        [
+          0.64768,
+          0.8875
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.67626,
+            0.8875
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.67626
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            -0.5,
+            0.8875,
+            0.8875
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.856
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            15,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.856
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_2_2_2/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_3_1_1",
+      "source_node": "/SQNZ/dom1_3_1_1",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        17,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        16,
+        8,
+        8
+      ],
+      "point_count": 1377,
+      "cell_count": 1024,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        17
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_3_1_1/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_3_1_1/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_3_1_1/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          0.2,
+          1.0
+        ],
+        [
+          0.0,
+          0.76198
+        ],
+        [
+          0.0,
+          0.76198
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            1
+          ],
+          "xyz": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            9
+          ],
+          "xyz": [
+            1.0,
+            0.0,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            1
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            9
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            0.76198
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_3_1_1/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_3_1_2",
+      "source_node": "/SQNZ/dom1_3_1_2",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        17,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        16,
+        8,
+        8
+      ],
+      "point_count": 1377,
+      "cell_count": 1024,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        17
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_3_1_2/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_3_1_2/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_3_1_2/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          0.2,
+          1.0
+        ],
+        [
+          0.0,
+          0.76198
+        ],
+        [
+          0.65226,
+          1.0
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.0,
+            0.856
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.856
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            1
+          ],
+          "xyz": [
+            1.0,
+            0.0,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            9
+          ],
+          "xyz": [
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            1
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            9
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            1.0
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_3_1_2/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_3_2_1",
+      "source_node": "/SQNZ/dom1_3_2_1",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        17,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        16,
+        8,
+        8
+      ],
+      "point_count": 1377,
+      "cell_count": 1024,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        17
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_3_2_1/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_3_2_1/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_3_2_1/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          0.2,
+          1.0
+        ],
+        [
+          0.65226,
+          1.0
+        ],
+        [
+          0.0,
+          0.76198
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            1
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            9
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            1
+          ],
+          "xyz": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            9
+          ],
+          "xyz": [
+            1.0,
+            1.0,
+            0.76198
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_3_2_1/sol_1"
+      ]
+    },
+    {
+      "block_id": "/SQNZ/dom1_3_2_2",
+      "source_node": "/SQNZ/dom1_3_2_2",
+      "zone_type": "Structured",
+      "vertex_dimensions_ijk": [
+        17,
+        9,
+        9
+      ],
+      "cell_dimensions_ijk": [
+        16,
+        8,
+        8
+      ],
+      "point_count": 1377,
+      "cell_count": 1024,
+      "coordinate_hdf5_shape_kji": [
+        9,
+        9,
+        17
+      ],
+      "coordinate_source_nodes": [
+        "/SQNZ/dom1_3_2_2/GridCoordinates/CoordinateX",
+        "/SQNZ/dom1_3_2_2/GridCoordinates/CoordinateY",
+        "/SQNZ/dom1_3_2_2/GridCoordinates/CoordinateZ"
+      ],
+      "coordinate_metadata": [
+        {
+          "coordinate": "CoordinateX",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateY",
+          "inherited_units": null,
+          "inherited_data_class": null
+        },
+        {
+          "coordinate": "CoordinateZ",
+          "inherited_units": null,
+          "inherited_data_class": null
+        }
+      ],
+      "coordinate_bounds_xyz": [
+        [
+          0.2,
+          1.0
+        ],
+        [
+          0.65226,
+          1.0
+        ],
+        [
+          0.65226,
+          1.0
+        ]
+      ],
+      "corner_vertices": [
+        {
+          "index_1based": [
+            1,
+            1,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            1,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.65226,
+            0.856
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            1
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.65226
+          ]
+        },
+        {
+          "index_1based": [
+            1,
+            9,
+            9
+          ],
+          "xyz": [
+            0.2,
+            0.856,
+            0.856
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            1
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            1,
+            9
+          ],
+          "xyz": [
+            1.0,
+            0.76198,
+            1.0
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            1
+          ],
+          "xyz": [
+            1.0,
+            1.0,
+            0.76198
+          ]
+        },
+        {
+          "index_1based": [
+            17,
+            9,
+            9
+          ],
+          "xyz": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "family": null,
+      "family_source_node": null,
+      "flow_solution_source_nodes": [
+        "/SQNZ/dom1_3_2_2/sol_1"
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "interface_id": "interface_001",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_1_1/ZoneGridConnectivity/rac_6",
+          "source_block": "/SQNZ/dom1_1_1_1",
+          "donor_block": "/SQNZ/dom1_1_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_1_1_2/ZoneGridConnectivity/rac_5",
+          "source_block": "/SQNZ/dom1_1_1_2",
+          "donor_block": "/SQNZ/dom1_1_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_002",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_1_1/ZoneGridConnectivity/rac_4",
+          "source_block": "/SQNZ/dom1_1_1_1",
+          "donor_block": "/SQNZ/dom1_1_2_1",
+          "point_range_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_1_2_1/ZoneGridConnectivity/rac_3",
+          "source_block": "/SQNZ/dom1_1_2_1",
+          "donor_block": "/SQNZ/dom1_1_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_003",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_1_1/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_1_1_1",
+          "donor_block": "/SQNZ/dom1_2_1_1",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_1_1/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_2_1_1",
+          "donor_block": "/SQNZ/dom1_1_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_004",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_1_2/ZoneGridConnectivity/rac_4",
+          "source_block": "/SQNZ/dom1_1_1_2",
+          "donor_block": "/SQNZ/dom1_1_2_2",
+          "point_range_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_1_2_2/ZoneGridConnectivity/rac_3",
+          "source_block": "/SQNZ/dom1_1_2_2",
+          "donor_block": "/SQNZ/dom1_1_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_005",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_1_2/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_1_1_2",
+          "donor_block": "/SQNZ/dom1_2_1_2",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_1_2/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_2_1_2",
+          "donor_block": "/SQNZ/dom1_1_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_006",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_2_1/ZoneGridConnectivity/rac_6",
+          "source_block": "/SQNZ/dom1_1_2_1",
+          "donor_block": "/SQNZ/dom1_1_2_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_1_2_2/ZoneGridConnectivity/rac_5",
+          "source_block": "/SQNZ/dom1_1_2_2",
+          "donor_block": "/SQNZ/dom1_1_2_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_007",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_2_1/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_1_2_1",
+          "donor_block": "/SQNZ/dom1_2_2_1",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_2_1/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_2_2_1",
+          "donor_block": "/SQNZ/dom1_1_2_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_008",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_1_2_2/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_1_2_2",
+          "donor_block": "/SQNZ/dom1_2_2_2",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_2_2/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_2_2_2",
+          "donor_block": "/SQNZ/dom1_1_2_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_009",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_1_1/ZoneGridConnectivity/rac_6",
+          "source_block": "/SQNZ/dom1_2_1_1",
+          "donor_block": "/SQNZ/dom1_2_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_1_2/ZoneGridConnectivity/rac_5",
+          "source_block": "/SQNZ/dom1_2_1_2",
+          "donor_block": "/SQNZ/dom1_2_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_010",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_1_1/ZoneGridConnectivity/rac_4",
+          "source_block": "/SQNZ/dom1_2_1_1",
+          "donor_block": "/SQNZ/dom1_2_2_1",
+          "point_range_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_2_1/ZoneGridConnectivity/rac_3",
+          "source_block": "/SQNZ/dom1_2_2_1",
+          "donor_block": "/SQNZ/dom1_2_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_011",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_1_1/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_2_1_1",
+          "donor_block": "/SQNZ/dom1_3_1_1",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_1_1/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_3_1_1",
+          "donor_block": "/SQNZ/dom1_2_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_012",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_1_2/ZoneGridConnectivity/rac_4",
+          "source_block": "/SQNZ/dom1_2_1_2",
+          "donor_block": "/SQNZ/dom1_2_2_2",
+          "point_range_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_2_2/ZoneGridConnectivity/rac_3",
+          "source_block": "/SQNZ/dom1_2_2_2",
+          "donor_block": "/SQNZ/dom1_2_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              1,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_013",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_1_2/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_2_1_2",
+          "donor_block": "/SQNZ/dom1_3_1_2",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_1_2/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_3_1_2",
+          "donor_block": "/SQNZ/dom1_2_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_014",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_2_1/ZoneGridConnectivity/rac_6",
+          "source_block": "/SQNZ/dom1_2_2_1",
+          "donor_block": "/SQNZ/dom1_2_2_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_2_2_2/ZoneGridConnectivity/rac_5",
+          "source_block": "/SQNZ/dom1_2_2_2",
+          "donor_block": "/SQNZ/dom1_2_2_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 135,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_015",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_2_1/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_2_2_1",
+          "donor_block": "/SQNZ/dom1_3_2_1",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_2_1/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_3_2_1",
+          "donor_block": "/SQNZ/dom1_2_2_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_016",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_2_2_2/ZoneGridConnectivity/rac_2",
+          "source_block": "/SQNZ/dom1_2_2_2",
+          "donor_block": "/SQNZ/dom1_3_2_2",
+          "point_range_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_2_2/ZoneGridConnectivity/rac_1",
+          "source_block": "/SQNZ/dom1_3_2_2",
+          "donor_block": "/SQNZ/dom1_2_2_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              15,
+              1,
+              1
+            ],
+            [
+              15,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 81,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_017",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_3_1_1/ZoneGridConnectivity/rac_6",
+          "source_block": "/SQNZ/dom1_3_1_1",
+          "donor_block": "/SQNZ/dom1_3_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              9,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_1_2/ZoneGridConnectivity/rac_5",
+          "source_block": "/SQNZ/dom1_3_1_2",
+          "donor_block": "/SQNZ/dom1_3_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              9,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_018",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_3_1_1/ZoneGridConnectivity/rac_4",
+          "source_block": "/SQNZ/dom1_3_1_1",
+          "donor_block": "/SQNZ/dom1_3_2_1",
+          "point_range_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              1,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_2_1/ZoneGridConnectivity/rac_3",
+          "source_block": "/SQNZ/dom1_3_2_1",
+          "donor_block": "/SQNZ/dom1_3_1_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              1,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_019",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_3_1_2/ZoneGridConnectivity/rac_4",
+          "source_block": "/SQNZ/dom1_3_1_2",
+          "donor_block": "/SQNZ/dom1_3_2_2",
+          "point_range_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              1,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_2_2/ZoneGridConnectivity/rac_3",
+          "source_block": "/SQNZ/dom1_3_2_2",
+          "donor_block": "/SQNZ/dom1_3_1_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              1,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              9,
+              1
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "interface_id": "interface_020",
+      "reciprocal": true,
+      "directions": [
+        {
+          "source_node": "/SQNZ/dom1_3_2_1/ZoneGridConnectivity/rac_6",
+          "source_block": "/SQNZ/dom1_3_2_1",
+          "donor_block": "/SQNZ/dom1_3_2_2",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              9,
+              1
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "source_node": "/SQNZ/dom1_3_2_2/ZoneGridConnectivity/rac_5",
+          "source_block": "/SQNZ/dom1_3_2_2",
+          "donor_block": "/SQNZ/dom1_3_2_1",
+          "point_range_1based": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              17,
+              9,
+              1
+            ]
+          ],
+          "point_range_donor_1based": [
+            [
+              1,
+              1,
+              9
+            ],
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "transform": [
+            1,
+            2,
+            3
+          ],
+          "matched_coordinate_pairs": 153,
+          "max_absolute_xyz_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "source_node": "/SQNZ/dom1_1_1_1/ZoneBC/entree",
+      "block_id": "/SQNZ/dom1_1_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          9,
+          9
+        ]
+      ],
+      "family": "inflow",
+      "family_source_node": "/SQNZ/inflow"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_1_1/ZoneBC/sym1",
+      "block_id": "/SQNZ/dom1_1_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          1,
+          9
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_1_1/ZoneBC/sym2",
+      "block_id": "/SQNZ/dom1_1_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          9,
+          1
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_1_2/ZoneBC/entree",
+      "block_id": "/SQNZ/dom1_1_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          9,
+          9
+        ]
+      ],
+      "family": "inflow",
+      "family_source_node": "/SQNZ/inflow"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_1_2/ZoneBC/paroi2",
+      "block_id": "/SQNZ/dom1_1_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          9
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_1_2/ZoneBC/sym1",
+      "block_id": "/SQNZ/dom1_1_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          1,
+          9
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_2_1/ZoneBC/entree",
+      "block_id": "/SQNZ/dom1_1_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          9,
+          9
+        ]
+      ],
+      "family": "inflow",
+      "family_source_node": "/SQNZ/inflow"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_2_1/ZoneBC/paroi1",
+      "block_id": "/SQNZ/dom1_1_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_2_1/ZoneBC/sym2",
+      "block_id": "/SQNZ/dom1_1_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          9,
+          1
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_2_2/ZoneBC/entree",
+      "block_id": "/SQNZ/dom1_1_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          9,
+          9
+        ]
+      ],
+      "family": "inflow",
+      "family_source_node": "/SQNZ/inflow"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_2_2/ZoneBC/paroi1",
+      "block_id": "/SQNZ/dom1_1_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_1_2_2/ZoneBC/paroi2",
+      "block_id": "/SQNZ/dom1_1_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          9
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_1_1/ZoneBC/sym1",
+      "block_id": "/SQNZ/dom1_2_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          1,
+          9
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_1_1/ZoneBC/sym2",
+      "block_id": "/SQNZ/dom1_2_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          9,
+          1
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_1_2/ZoneBC/paroi2",
+      "block_id": "/SQNZ/dom1_2_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          9
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_1_2/ZoneBC/sym1",
+      "block_id": "/SQNZ/dom1_2_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          1,
+          9
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_2_1/ZoneBC/paroi1",
+      "block_id": "/SQNZ/dom1_2_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_2_1/ZoneBC/sym2",
+      "block_id": "/SQNZ/dom1_2_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          9,
+          1
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_2_2/ZoneBC/paroi1",
+      "block_id": "/SQNZ/dom1_2_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_2_2_2/ZoneBC/paroi2",
+      "block_id": "/SQNZ/dom1_2_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          9
+        ],
+        [
+          15,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_1_1/ZoneBC/sortie",
+      "block_id": "/SQNZ/dom1_3_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          17,
+          1,
+          1
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "outflow",
+      "family_source_node": "/SQNZ/outflow"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_1_1/ZoneBC/sym1",
+      "block_id": "/SQNZ/dom1_3_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          17,
+          1,
+          9
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_1_1/ZoneBC/sym2",
+      "block_id": "/SQNZ/dom1_3_1_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          17,
+          9,
+          1
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_1_2/ZoneBC/paroi2",
+      "block_id": "/SQNZ/dom1_3_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          9
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_1_2/ZoneBC/sortie",
+      "block_id": "/SQNZ/dom1_3_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          17,
+          1,
+          1
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "outflow",
+      "family_source_node": "/SQNZ/outflow"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_1_2/ZoneBC/sym1",
+      "block_id": "/SQNZ/dom1_3_1_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          17,
+          1,
+          9
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_2_1/ZoneBC/paroi1",
+      "block_id": "/SQNZ/dom1_3_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_2_1/ZoneBC/sortie",
+      "block_id": "/SQNZ/dom1_3_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          17,
+          1,
+          1
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "outflow",
+      "family_source_node": "/SQNZ/outflow"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_2_1/ZoneBC/sym2",
+      "block_id": "/SQNZ/dom1_3_2_1",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          17,
+          9,
+          1
+        ]
+      ],
+      "family": "sym",
+      "family_source_node": "/SQNZ/sym"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_2_2/ZoneBC/paroi1",
+      "block_id": "/SQNZ/dom1_3_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_2_2/ZoneBC/paroi2",
+      "block_id": "/SQNZ/dom1_3_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          1,
+          1,
+          9
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "wall",
+      "family_source_node": "/SQNZ/wall"
+    },
+    {
+      "source_node": "/SQNZ/dom1_3_2_2/ZoneBC/sortie",
+      "block_id": "/SQNZ/dom1_3_2_2",
+      "bc_type": "FamilySpecified",
+      "grid_location": "Vertex",
+      "point_range_1based": [
+        [
+          17,
+          1,
+          1
+        ],
+        [
+          17,
+          9,
+          9
+        ]
+      ],
+      "family": "outflow",
+      "family_source_node": "/SQNZ/outflow"
+    }
+  ],
+  "families": [
+    {
+      "source_node": "/SQNZ/inflow",
+      "name": "inflow",
+      "boundary_types": [
+        "BCInflowSubsonic"
+      ]
+    },
+    {
+      "source_node": "/SQNZ/outflow",
+      "name": "outflow",
+      "boundary_types": [
+        "BCOutflowSupersonic"
+      ]
+    },
+    {
+      "source_node": "/SQNZ/sym",
+      "name": "sym",
+      "boundary_types": [
+        "BCSymmetryPlane"
+      ]
+    },
+    {
+      "source_node": "/SQNZ/wall",
+      "name": "wall",
+      "boundary_types": [
+        "BCWallInviscid"
+      ]
+    }
+  ],
+  "checks": {
+    "status": "passed",
+    "structured_blocks": 12,
+    "all_coordinate_shapes_match_dimensions": true,
+    "all_coordinates_finite": true,
+    "boundary_ranges_within_zone_and_on_faces": true,
+    "directed_one_to_one_connections": 40,
+    "unique_interfaces": 20,
+    "all_interfaces_have_reciprocal_inverse_maps": true,
+    "matched_coordinate_pairs_including_both_directions": 4680,
+    "max_absolute_xyz_interface_difference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "coordinate_absolute_tolerance": 1e-10,
+    "source_node_label_counts": {
+      "\"int[IndexDimension]\"": 40,
+      "BC_t": 32,
+      "CGNSBase_t": 1,
+      "CGNSLibraryVersion_t": 1,
+      "DataArray_t": 107,
+      "Descriptor_t": 1,
+      "FamilyBC_t": 4,
+      "FamilyName_t": 32,
+      "Family_t": 4,
+      "FlowSolution_t": 12,
+      "GridConnectivity1to1_t": 40,
+      "GridCoordinates_t": 12,
+      "GridLocation_t": 12,
+      "IndexRange_t": 112,
+      "ReferenceState_t": 1,
+      "UserDefinedData_t": 2,
+      "ZoneBC_t": 12,
+      "ZoneGridConnectivity_t": 12,
+      "ZoneType_t": 12,
+      "Zone_t": 12
+    },
+    "smoothing_applied": false,
+    "resampling_applied": false
+  },
+  "limitations": [
+    "Terminal structured blocks and interfaces, not engineer operation histories or SAC transitions.",
+    "Only Structured 3-index zones, Vertex face ranges and non-periodic one-to-one connectivity are supported; other connectivity fails explicitly.",
+    "Full coordinate and flow-solution arrays remain in the unchanged referenced CGNS source; the JSON stores summaries only.",
+    "No Jacobian, wall spacing, solver convergence or CFD accuracy certification is performed.",
+    "Coordinate units are not inferred or converted; interpret source unit declarations by their CGNS node scope."
+  ]
+}

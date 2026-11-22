@@ -1,0 +1,998 @@
+{
+  "blocks": [
+    {
+      "bounds": {
+        "max": [
+          7.41070032,
+          1.246506179e-15,
+          7.37300014
+        ],
+        "min": [
+          0.612417936,
+          -6.37538147,
+          0.0
+        ]
+      },
+      "coordinate_source": "PLOT3D source file; full coordinates not duplicated in JSON",
+      "corners": [
+        {
+          "coordinates": [
+            7.41070032,
+            0.0,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.673699975,
+            -2.337366325e-18,
+            0.0
+          ],
+          "ijk_1based": [
+            25,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            7.41070032,
+            -6.37299967,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.633662164,
+            -6.37299967,
+            0.0
+          ],
+          "ijk_1based": [
+            25,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            7.41070032,
+            0.0,
+            1.0
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            0.95389998,
+            0.0,
+            0.99999994
+          ],
+          "ijk_1based": [
+            25,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            7.41070032,
+            0.0,
+            7.37300014
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            0.932069898,
+            5.253262813e-29,
+            7.37300014
+          ],
+          "ijk_1based": [
+            25,
+            49,
+            33
+          ]
+        }
+      ],
+      "dimensions": [
+        25,
+        49,
+        33
+      ],
+      "id": 1,
+      "node_count": 40425
+    },
+    {
+      "bounds": {
+        "max": [
+          1.02584732,
+          1.055040946e-15,
+          7.37300014
+        ],
+        "min": [
+          -6.37299967,
+          -6.37494564,
+          0.0
+        ]
+      },
+      "coordinate_source": "PLOT3D source file; full coordinates not duplicated in JSON",
+      "corners": [
+        {
+          "coordinates": [
+            0.673699975,
+            -2.337366325e-18,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ijk_1based": [
+            73,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.633662164,
+            -6.37299967,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            -6.37299967,
+            0.0,
+            0.0
+          ],
+          "ijk_1based": [
+            73,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.95389998,
+            0.0,
+            0.99999994
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            0.574999988,
+            0.0,
+            0.99999994
+          ],
+          "ijk_1based": [
+            73,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            0.932069898,
+            5.253262813e-29,
+            7.37300014
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            -4.50639105,
+            0.0,
+            5.50639153
+          ],
+          "ijk_1based": [
+            73,
+            49,
+            33
+          ]
+        }
+      ],
+      "dimensions": [
+        73,
+        49,
+        33
+      ],
+      "id": 2,
+      "node_count": 118041
+    },
+    {
+      "bounds": {
+        "max": [
+          1.02584732,
+          6.37494564,
+          7.37300014
+        ],
+        "min": [
+          -6.37299967,
+          -2.30269189e-16,
+          0.0
+        ]
+      },
+      "coordinate_source": "PLOT3D source file; full coordinates not duplicated in JSON",
+      "corners": [
+        {
+          "coordinates": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.673699975,
+            2.337366325e-18,
+            0.0
+          ],
+          "ijk_1based": [
+            73,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            -6.37299967,
+            0.0,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.633662164,
+            6.37299967,
+            0.0
+          ],
+          "ijk_1based": [
+            73,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.574999988,
+            0.0,
+            0.99999994
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            0.95389998,
+            0.0,
+            0.99999994
+          ],
+          "ijk_1based": [
+            73,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            -4.50639105,
+            0.0,
+            5.50639153
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            0.932069898,
+            5.253262813e-29,
+            7.37300014
+          ],
+          "ijk_1based": [
+            73,
+            49,
+            33
+          ]
+        }
+      ],
+      "dimensions": [
+        73,
+        49,
+        33
+      ],
+      "id": 3,
+      "node_count": 118041
+    },
+    {
+      "bounds": {
+        "max": [
+          7.41070032,
+          6.37538147,
+          7.37300014
+        ],
+        "min": [
+          0.612417936,
+          -5.970318081e-16,
+          0.0
+        ]
+      },
+      "coordinate_source": "PLOT3D source file; full coordinates not duplicated in JSON",
+      "corners": [
+        {
+          "coordinates": [
+            0.673699975,
+            2.337366325e-18,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            7.41070032,
+            0.0,
+            0.0
+          ],
+          "ijk_1based": [
+            25,
+            1,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.633662164,
+            6.37299967,
+            0.0
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            7.41070032,
+            6.37299967,
+            0.0
+          ],
+          "ijk_1based": [
+            25,
+            49,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            0.95389998,
+            0.0,
+            0.99999994
+          ],
+          "ijk_1based": [
+            1,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            7.41070032,
+            0.0,
+            1.0
+          ],
+          "ijk_1based": [
+            25,
+            1,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            0.932069898,
+            5.253262813e-29,
+            7.37300014
+          ],
+          "ijk_1based": [
+            1,
+            49,
+            33
+          ]
+        },
+        {
+          "coordinates": [
+            7.41070032,
+            0.0,
+            7.37300014
+          ],
+          "ijk_1based": [
+            25,
+            49,
+            33
+          ]
+        }
+      ],
+      "dimensions": [
+        25,
+        49,
+        33
+      ],
+      "id": 4,
+      "node_count": 40425
+    }
+  ],
+  "boundaries": [
+    {
+      "face": "I1",
+      "node_count": 1617,
+      "surface_dimensions": [
+        49,
+        33
+      ],
+      "type": "OUTFLOW",
+      "zone": 1
+    },
+    {
+      "face": "JMAX",
+      "node_count": 825,
+      "surface_dimensions": [
+        25,
+        33
+      ],
+      "type": "FREESTREAM",
+      "zone": 1
+    },
+    {
+      "face": "K1",
+      "node_count": 1225,
+      "surface_dimensions": [
+        25,
+        49
+      ],
+      "type": "REFLECTION",
+      "zone": 1
+    },
+    {
+      "face": "J1",
+      "node_count": 2409,
+      "surface_dimensions": [
+        73,
+        33
+      ],
+      "type": "VISCOUS WALL",
+      "zone": 2
+    },
+    {
+      "face": "JMAX",
+      "node_count": 2409,
+      "surface_dimensions": [
+        73,
+        33
+      ],
+      "type": "FREESTREAM",
+      "zone": 2
+    },
+    {
+      "face": "K1",
+      "node_count": 3577,
+      "surface_dimensions": [
+        73,
+        49
+      ],
+      "type": "REFLECTION",
+      "zone": 2
+    },
+    {
+      "face": "J1",
+      "node_count": 2409,
+      "surface_dimensions": [
+        73,
+        33
+      ],
+      "type": "VISCOUS WALL",
+      "zone": 3
+    },
+    {
+      "face": "JMAX",
+      "node_count": 2409,
+      "surface_dimensions": [
+        73,
+        33
+      ],
+      "type": "FREESTREAM",
+      "zone": 3
+    },
+    {
+      "face": "K1",
+      "node_count": 3577,
+      "surface_dimensions": [
+        73,
+        49
+      ],
+      "type": "REFLECTION",
+      "zone": 3
+    },
+    {
+      "face": "IMAX",
+      "node_count": 1617,
+      "surface_dimensions": [
+        49,
+        33
+      ],
+      "type": "OUTFLOW",
+      "zone": 4
+    },
+    {
+      "face": "JMAX",
+      "node_count": 825,
+      "surface_dimensions": [
+        25,
+        33
+      ],
+      "type": "FREESTREAM",
+      "zone": 4
+    },
+    {
+      "face": "K1",
+      "node_count": 1225,
+      "surface_dimensions": [
+        25,
+        49
+      ],
+      "type": "REFLECTION",
+      "zone": 4
+    }
+  ],
+  "case_id": "onera_m6",
+  "checks": {
+    "all_24_faces_declared_once": true,
+    "all_couplings_reciprocal": true,
+    "coordinate_matched_interface_count": 6,
+    "coupled_face_node_counts_equal": true,
+    "directed_coupled_face_count": 12,
+    "exact_coordinate_scalar_count": 950796,
+    "finite_coordinates": true,
+    "node_count": 316932,
+    "unique_interface_count": 6,
+    "uniquely_mapped_interface_count": 6,
+    "zone_count": 4
+  },
+  "coordinate_policy": {
+    "gman_declaration_applied_as_coordinate_conversion": false,
+    "gman_units_declaration": "feet",
+    "plot3d_coordinate_units": "not_independently_confirmed",
+    "source_coordinates_preserved": true,
+    "transforms": []
+  },
+  "gman_declarations": {
+    "control_commands": [
+      "1",
+      "file run.cgd"
+    ],
+    "faces": [
+      {
+        "face": "I1",
+        "type": "OUTFLOW",
+        "zone": 1
+      },
+      {
+        "donor_face": "I1",
+        "donor_zone": 2,
+        "face": "IMAX",
+        "type": "COUPLED",
+        "zone": 1
+      },
+      {
+        "donor_face": "J1",
+        "donor_zone": 4,
+        "face": "J1",
+        "type": "COUPLED",
+        "zone": 1
+      },
+      {
+        "face": "JMAX",
+        "type": "FREESTREAM",
+        "zone": 1
+      },
+      {
+        "face": "K1",
+        "type": "REFLECTION",
+        "zone": 1
+      },
+      {
+        "donor_face": "KMAX",
+        "donor_zone": 4,
+        "face": "KMAX",
+        "type": "COUPLED",
+        "zone": 1
+      },
+      {
+        "donor_face": "IMAX",
+        "donor_zone": 1,
+        "face": "I1",
+        "type": "COUPLED",
+        "zone": 2
+      },
+      {
+        "donor_face": "I1",
+        "donor_zone": 3,
+        "face": "IMAX",
+        "type": "COUPLED",
+        "zone": 2
+      },
+      {
+        "face": "J1",
+        "type": "VISCOUS WALL",
+        "zone": 2
+      },
+      {
+        "face": "JMAX",
+        "type": "FREESTREAM",
+        "zone": 2
+      },
+      {
+        "face": "K1",
+        "type": "REFLECTION",
+        "zone": 2
+      },
+      {
+        "donor_face": "KMAX",
+        "donor_zone": 3,
+        "face": "KMAX",
+        "type": "COUPLED",
+        "zone": 2
+      },
+      {
+        "donor_face": "IMAX",
+        "donor_zone": 2,
+        "face": "I1",
+        "type": "COUPLED",
+        "zone": 3
+      },
+      {
+        "donor_face": "I1",
+        "donor_zone": 4,
+        "face": "IMAX",
+        "type": "COUPLED",
+        "zone": 3
+      },
+      {
+        "face": "J1",
+        "type": "VISCOUS WALL",
+        "zone": 3
+      },
+      {
+        "face": "JMAX",
+        "type": "FREESTREAM",
+        "zone": 3
+      },
+      {
+        "face": "K1",
+        "type": "REFLECTION",
+        "zone": 3
+      },
+      {
+        "donor_face": "KMAX",
+        "donor_zone": 2,
+        "face": "KMAX",
+        "type": "COUPLED",
+        "zone": 3
+      },
+      {
+        "donor_face": "IMAX",
+        "donor_zone": 3,
+        "face": "I1",
+        "type": "COUPLED",
+        "zone": 4
+      },
+      {
+        "face": "IMAX",
+        "type": "OUTFLOW",
+        "zone": 4
+      },
+      {
+        "donor_face": "J1",
+        "donor_zone": 1,
+        "face": "J1",
+        "type": "COUPLED",
+        "zone": 4
+      },
+      {
+        "face": "JMAX",
+        "type": "FREESTREAM",
+        "zone": 4
+      },
+      {
+        "face": "K1",
+        "type": "REFLECTION",
+        "zone": 4
+      },
+      {
+        "donor_face": "KMAX",
+        "donor_zone": 1,
+        "face": "KMAX",
+        "type": "COUPLED",
+        "zone": 4
+      }
+    ],
+    "units_declaration": "feet"
+  },
+  "indexing": {
+    "faces": "I1/IMAX/J1/JMAX/K1/KMAX",
+    "field_order": "each zone: X then Y then Z; i varies fastest, then j, then k",
+    "logical_indices": "1-based",
+    "zone_ids": "1-based PLOT3D source order"
+  },
+  "interfaces": [
+    {
+      "donor_face": "I1",
+      "donor_surface_dimensions": [
+        49,
+        33
+      ],
+      "donor_zone": 2,
+      "face": "IMAX",
+      "mapping_check": {
+        "best_max_absolute_coordinate_difference": 0.0,
+        "coordinate_tolerance_in_source_units": 1e-12,
+        "coordinates_match": true,
+        "matching_mappings": [
+          {
+            "max_absolute_coordinate_difference": 0.0,
+            "reverse_source_u": false,
+            "reverse_source_v": false,
+            "swap_surface_axes": false
+          }
+        ],
+        "surface_axis_convention": "remaining logical axes in I,J,K order; u varies fastest",
+        "unique_mapping_verified": true
+      },
+      "node_count": 1617,
+      "reciprocal_declaration_verified": true,
+      "surface_dimensions": [
+        49,
+        33
+      ],
+      "type": "COUPLED",
+      "zone": 1
+    },
+    {
+      "donor_face": "J1",
+      "donor_surface_dimensions": [
+        25,
+        33
+      ],
+      "donor_zone": 4,
+      "face": "J1",
+      "mapping_check": {
+        "best_max_absolute_coordinate_difference": 4.67473265e-18,
+        "coordinate_tolerance_in_source_units": 1e-12,
+        "coordinates_match": true,
+        "matching_mappings": [
+          {
+            "max_absolute_coordinate_difference": 4.67473265e-18,
+            "reverse_source_u": true,
+            "reverse_source_v": false,
+            "swap_surface_axes": false
+          }
+        ],
+        "surface_axis_convention": "remaining logical axes in I,J,K order; u varies fastest",
+        "unique_mapping_verified": true
+      },
+      "node_count": 825,
+      "reciprocal_declaration_verified": true,
+      "surface_dimensions": [
+        25,
+        33
+      ],
+      "type": "COUPLED",
+      "zone": 1
+    },
+    {
+      "donor_face": "KMAX",
+      "donor_surface_dimensions": [
+        25,
+        49
+      ],
+      "donor_zone": 4,
+      "face": "KMAX",
+      "mapping_check": {
+        "best_max_absolute_coordinate_difference": 0.0,
+        "coordinate_tolerance_in_source_units": 1e-12,
+        "coordinates_match": true,
+        "matching_mappings": [
+          {
+            "max_absolute_coordinate_difference": 0.0,
+            "reverse_source_u": true,
+            "reverse_source_v": false,
+            "swap_surface_axes": false
+          }
+        ],
+        "surface_axis_convention": "remaining logical axes in I,J,K order; u varies fastest",
+        "unique_mapping_verified": true
+      },
+      "node_count": 1225,
+      "reciprocal_declaration_verified": true,
+      "surface_dimensions": [
+        25,
+        49
+      ],
+      "type": "COUPLED",
+      "zone": 1
+    },
+    {
+      "donor_face": "I1",
+      "donor_surface_dimensions": [
+        49,
+        33
+      ],
+      "donor_zone": 3,
+      "face": "IMAX",
+      "mapping_check": {
+        "best_max_absolute_coordinate_difference": 0.0,
+        "coordinate_tolerance_in_source_units": 1e-12,
+        "coordinates_match": true,
+        "matching_mappings": [
+          {
+            "max_absolute_coordinate_difference": 0.0,
+            "reverse_source_u": false,
+            "reverse_source_v": false,
+            "swap_surface_axes": false
+          }
+        ],
+        "surface_axis_convention": "remaining logical axes in I,J,K order; u varies fastest",
+        "unique_mapping_verified": true
+      },
+      "node_count": 1617,
+      "reciprocal_declaration_verified": true,
+      "surface_dimensions": [
+        49,
+        33
+      ],
+      "type": "COUPLED",
+      "zone": 2
+    },
+    {
+      "donor_face": "KMAX",
+      "donor_surface_dimensions": [
+        73,
+        49
+      ],
+      "donor_zone": 3,
+      "face": "KMAX",
+      "mapping_check": {
+        "best_max_absolute_coordinate_difference": 0.0,
+        "coordinate_tolerance_in_source_units": 1e-12,
+        "coordinates_match": true,
+        "matching_mappings": [
+          {
+            "max_absolute_coordinate_difference": 0.0,
+            "reverse_source_u": true,
+            "reverse_source_v": false,
+            "swap_surface_axes": false
+          }
+        ],
+        "surface_axis_convention": "remaining logical axes in I,J,K order; u varies fastest",
+        "unique_mapping_verified": true
+      },
+      "node_count": 3577,
+      "reciprocal_declaration_verified": true,
+      "surface_dimensions": [
+        73,
+        49
+      ],
+      "type": "COUPLED",
+      "zone": 2
+    },
+    {
+      "donor_face": "I1",
+      "donor_surface_dimensions": [
+        49,
+        33
+      ],
+      "donor_zone": 4,
+      "face": "IMAX",
+      "mapping_check": {
+        "best_max_absolute_coordinate_difference": 0.0,
+        "coordinate_tolerance_in_source_units": 1e-12,
+        "coordinates_match": true,
+        "matching_mappings": [
+          {
+            "max_absolute_coordinate_difference": 0.0,
+            "reverse_source_u": false,
+            "reverse_source_v": false,
+            "swap_surface_axes": false
+          }
+        ],
+        "surface_axis_convention": "remaining logical axes in I,J,K order; u varies fastest",
+        "unique_mapping_verified": true
+      },
+      "node_count": 1617,
+      "reciprocal_declaration_verified": true,
+      "surface_dimensions": [
+        49,
+        33
+      ],
+      "type": "COUPLED",
+      "zone": 3
+    }
+  ],
+  "limitations": [
+    "GMAN units feet is recorded as a command declaration, not used to rescale PLOT3D coordinates.",
+    "Surface mappings are coordinate-verified candidates, not explicit transforms present in GMAN.",
+    "No cell Jacobians, CFD solve, expert actions or training trajectories are generated."
+  ],
+  "schema_version": 1,
+  "sources": [
+    {
+      "bytes": 13722480,
+      "path": "data/references/multiblock_v1/onera_m6/m6wing.x.fmt",
+      "sha256": "484fa6ad108c6ee5503e3e679a8fe7c67874c2ef347ce31ed13856b33d2cc0f0"
+    },
+    {
+      "bytes": 1357,
+      "path": "data/references/multiblock_v1/onera_m6/gman.a.com",
+      "sha256": "d0a005cb817c352d46e17810b7ee09b1ea501d233d24f1f64ea832f36679b507"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 # 参与开发
 
-`src/smartcfd` 中的算法模块和 `tests/` 顶层六个算法测试模块均为占位文件，`configs` 为尚未接入代码的配置草案。已有公开数据处理脚本位于 `scripts/data/`，对应的 21 个回归测试位于 `tests/data/`；使用方式见 [公开数据说明](docs/public_data_v1.md)。
+`src/smartcfd` 中的算法模块和 `tests/` 顶层六个算法测试模块均为占位文件，`configs` 为尚未接入代码的配置草案。已有公开数据与多块终态清洗脚本位于 `scripts/data/`，对应回归测试位于 `tests/data/`；使用方式见 [公开数据说明](docs/public_data_v1.md) 和 [多块终态参考](data/references/multiblock_v1/README.md)。
 
 使用 Python 3.10 或更高版本，在仓库根目录运行：
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -e ".[dev]"
+python -m pip install -e ".[dev,data]"
 ```
 
 在对应模块中逐步添加实现；跨模块的数据约定先记录在 `docs/interfaces.md`，避免重复定义几何、分块与网格对象。算法功能应配套能够验证行为的测试，使用小型、来源清楚的测试数据。
@@ -18,10 +18,16 @@ python -m pip install -e ".[dev]"
 python -m build
 python -m compileall -q src scripts tests
 python -m unittest discover -s tests/data -p "test_*.py" -v
+python scripts/data/verify_public_data.py
+python scripts/data/verify_multiblock_data.py
+python scripts/data/clean_cgns_multiblock.py --check
+python scripts/data/clean_engineering_multiblock.py --check
 python scripts/generate_mesh.py --help
 ```
 
 现有数据回归测试已接入 CI，无需联网或下载原始数据。也可使用 `python -m pytest tests/data -q` 执行。实现算法后，应补齐顶层预留测试并使用 `python -m pytest` 执行全部用例。
+
+冻结的 `public_v1` 清单及其覆盖文件应保持原字节；新增版本使用独立清单。修改多块清洗器后，先重新生成产物、审查变化，再更新 `multiblock_v1/manifest.json` 中派生 JSON 的字节数与哈希。不要通过改哈希掩盖源文件变化，原件必须继续匹配冻结的来源哈希。`--check` 只读重算，CI 不替开发者更新产物。
 
 已有公开数据版本、来源记录与划分清单继续版本管理。新增原始数据、大型处理产物、模型权重和运行结果默认保留在本地；轻量数据划分清单可以放入 `data/splits` 并提交。实验配置、数据版本、随机种子与结果摘要应记录在 `docs/experiments.md`。第三方数据归属见 [THIRD_PARTY_DATA.md](THIRD_PARTY_DATA.md)。
 

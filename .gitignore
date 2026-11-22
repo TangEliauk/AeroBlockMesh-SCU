@@ -35,6 +35,7 @@ Thumbs.db
 /data/processed/*
 !/data/processed/.gitkeep
 !/data/processed/uiuc_v1/
+!/data/processed/block_topology_v1/
 /data/expert/*
 !/data/expert/.gitkeep
 
