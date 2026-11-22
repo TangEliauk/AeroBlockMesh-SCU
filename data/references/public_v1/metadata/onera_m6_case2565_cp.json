@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "onera_m6_case2565_cp",
+  "csv": "experiments/onera_m6_case2565_cp.csv",
+  "row_count": 271,
+  "grain": "one measured/digitized observation at one experiment condition and zone",
+  "columns": [
+    "dataset_id",
+    "case_id",
+    "run_id",
+    "section_id",
+    "eta_y_over_semispan",
+    "tap_id",
+    "x_over_l",
+    "z_over_l",
+    "cp",
+    "source_line"
+  ],
+  "units": {
+    "eta_y_over_semispan": "1",
+    "x_over_l": "1",
+    "z_over_l": "1",
+    "cp": "1",
+    "source_line": "1-based line index"
+  },
+  "primary_key": [
+    "section_id",
+    "tap_id"
+  ],
+  "conditions": {
+    "mach": 0.8372,
+    "alpha_deg": 6.06,
+    "reynolds": 11710000,
+    "reynolds_reference": "original experimental blunt-wing mean aerodynamic chord",
+    "mean_aerodynamic_chord_mm": 646.07,
+    "geometry": "original wind-tunnel model with moderately thick trailing edge",
+    "case_id": 2565,
+    "run_id_in_raw_file": 565,
+    "section_eta_y_over_semispan": {
+      "1": "0.2",
+      "2": "0.44",
+      "3": "0.65",
+      "4": "0.8",
+      "5": "0.9",
+      "6": "0.96",
+      "7": "0.99"
+    },
+    "separate_cfd_exercise": {
+      "mach": 0.84,
+      "reynolds_root_chord": 14600000,
+      "temperature_rankine": 540,
+      "geometry": "sharp trailing edge",
+      "note": "Separate numerical exercise specification; does not overwrite experimental conditions."
+    }
+  },
+  "group_counts": {
+    "1": 34,
+    "2": 34,
+    "3": 34,
+    "4": 34,
+    "5": 45,
+    "6": 45,
+    "7": 45
+  },
+  "source": {
+    "file_name": "case_2565.dat",
+    "url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/case_2565.dat",
+    "page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html",
+    "bytes": 22695,
+    "sha256": "6345287f200034492fe258bfa3748920e6b76661727b2eb22f74f1458747f95e",
+    "attribution": "V. Schmitt and F. Charpin, ONERA-M6 experiment, AGARD AR-138, 1979; numeric pressure tables distributed by TMR."
+  },
+  "license_evidence": {
+    "upstream_repository_license": "CC0-1.0",
+    "url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+    "scope_note": "TMBWG repository declaration; original experiment attribution retained. Not relabeled MIT."
+  },
+  "caveats": [
+    "Section 6 uses eta=0.96 per TMR correction; some original references list 0.95.",
+    "X/L and Z/L variable names from the raw table are preserved as x_over_l and z_over_l; L is not silently redefined as the root chord.",
+    "Case identifier and raw Run identifier differ; both are retained.",
+    "No upper/lower surface labels are inferred from the sign of Z/L."
+  ],
+  "upstream_hash_verification": {
+    "url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/case_2565.dat",
+    "sha256": "6345287f200034492fe258bfa3748920e6b76661727b2eb22f74f1458747f95e",
+    "matches_local_raw": true
+  }
+}

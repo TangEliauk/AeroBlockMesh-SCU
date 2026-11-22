@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "version": "uiuc_group_split_v1",
+  "seed": "AeroBlockMesh-UIUC-v1-2026-11-22",
+  "input": {
+    "filename": "samples.jsonl",
+    "bytes": 5014314,
+    "sha256": "1d26c7b34b97b2de10a0514229d4eb03240c3b59b71c941432a37e0828576e5f"
+  },
+  "config_sha256": "ca98de8a2f60b9e83d4587d44721aef0db7bf96bb545e594554e39dd0945f6a4",
+  "sample_count": 1607,
+  "group_count": 186,
+  "target_ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "actual_counts": {
+    "train": 1277,
+    "val": 160,
+    "test": 170
+  },
+  "actual_ratios": {
+    "train": 0.7946484131922837,
+    "val": 0.09956440572495333,
+    "test": 0.10578718108276292
+  },
+  "forced_test_family_keys": [
+    "name:naca"
+  ],
+  "forced_test_sample_count": 170,
+  "benchmark_holdout_reason": "NACA0012 is a planned CFD validation benchmark. Entire connected groups containing name:naca are reserved for final evaluation; do not use these samples for fitting, reward tuning, hyperparameters or checkpoint selection.",
+  "independent_qa": {
+    "all_polygons_rechecked": true,
+    "geometry_failures": 0,
+    "source_hashes_checked": 1613,
+    "raw_root_provided": true,
+    "accepted_source_file_references": 1613,
+    "source_reference_conflicts": 0
+  },
+  "leakage_checks": {
+    "unique_ids": true,
+    "disjoint_id_sets": true,
+    "all_samples_assigned_once": true,
+    "name_family_cross_split_leaks": 0,
+    "float_exact_duplicate_cross_split_leaks": 0,
+    "detected_near_duplicate_cross_split_leaks": 0,
+    "groups_cross_split_leaks": 0
+  },
+  "exact_float_duplicate_pairs": [],
+  "detected_near_duplicate_pair_count": 5,
+  "candidate_pair_comparisons": 12452,
+  "shape_signature": {
+    "samples_per_surface": 129,
+    "rms_threshold_chord": 0.0001,
+    "max_threshold_chord": 0.0005
+  },
+  "grouping": "Connected components of conservative name-family, independent float-exact and thresholded shape-similarity edges. Near-duplicates are retained, grouped and never deleted here.",
+  "allocation": "Configured benchmark families and their entire connected groups are forced into test first. Remaining groups: largest first, minimize sample-count weighted squared deviation from 80/10/10 targets; seed hashes break ties. Ratios are approximate because groups are indivisible and forced holdouts can exceed targets.",
+  "largest_groups": [
+    {
+      "group_id": "grp_9b54d1c7cf1da80e",
+      "family_keys": [
+        "name:goe"
+      ],
+      "count": 395,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_b12cf06fe51f62b8",
+      "family_keys": [
+        "name:e"
+      ],
+      "count": 191,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_59213faf4569a1ca",
+      "family_keys": [
+        "name:m",
+        "name:naca"
+      ],
+      "count": 170,
+      "forced_test": true,
+      "split": "test"
+    },
+    {
+      "group_id": "grp_4252f3c1e8286ff2",
+      "family_keys": [
+        "name:fx"
+      ],
+      "count": 101,
+      "forced_test": false,
+      "split": "val"
+    },
+    {
+      "group_id": "grp_3de9119971af83a9",
+      "family_keys": [
+        "name:s"
+      ],
+      "count": 62,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_e9232589121a33b3",
+      "family_keys": [
+        "name:mh"
+      ],
+      "count": 51,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_9949af49d2ae0db5",
+      "family_keys": [
+        "name:hq"
+      ],
+      "count": 44,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_bf077cb3b659e07a",
+      "family_keys": [
+        "name:ah"
+      ],
+      "count": 38,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_269badfbdd0b5d08",
+      "family_keys": [
+        "name:ag"
+      ],
+      "count": 34,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_59c94875868e28e3",
+      "family_keys": [
+        "name:sc"
+      ],
+      "count": 27,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_834dd3d623180342",
+      "family_keys": [
+        "name:usa"
+      ],
+      "count": 26,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_3fe4116bd1756e16",
+      "family_keys": [
+        "name:raf"
+      ],
+      "count": 18,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_25e18d526ae01573",
+      "family_keys": [
+        "name:rg"
+      ],
+      "count": 12,
+      "forced_test": false,
+      "split": "train"
+    },
+    {
+      "group_id": "grp_4cfa2fa4b872c8e4",
+      "family_keys": [
+        "name:vr"
+      ],
+      "count": 12,
+      "forced_test": false,
+      "split": "val"
+    },
+    {
+      "group_id": "grp_0e2fe9f1210fd82f",
+      "family_keys": [
+        "name:rc"
+      ],
+      "count": 11,
+      "forced_test": false,
+      "split": "train"
+    }
+  ],
+  "limitations": [
+    "Name prefixes are conservative proxies, not a reviewed physical airfoil genealogy; some unrelated designs are intentionally over-grouped.",
+    "Within-name families, aliases and detected normalized near-duplicates cannot cross splits. This is not proof that all undocumented cross-name ancestry was discovered.",
+    "129 interpolated vertical sections and configured tolerances define the similarity screen. Rotation, reflection, arbitrary affine deformation and high-frequency differences between sections are not fully matched.",
+    "Connected components may include pairs whose own shape distance exceeds the threshold via intermediate relatives; grouping is deliberately transitive.",
+    "Train/val/test represent geometric-family holdouts only. Geometry files contain no expert block topology, action demonstrations or CFD accuracy labels.",
+    "Independent geometry screens do not certify meshing or CFD suitability; no solver was run.",
+    "IDs and assignments are reproducible for the frozen input hash/config. Adding/removing data may change groups and packing; freeze this manifest for evaluation."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-11-22",
+  "experimental_datasets": 4,
+  "experimental_rows": 668,
+  "official_raw_sha256_matches": 4,
+  "dropped_numeric_rows": 0,
+  "imputed_values": 0,
+  "clipped_coordinates": 0,
+  "generated_training_trajectories": 0,
+  "reference_manifest_assets": 33,
+  "portable_metadata_check": "passed: no absolute Windows paths",
+  "csv_validation_cli": "passed",
+  "script_ast_parse": "passed",
+  "reference_download_smoke_tests": [
+    {
+      "asset_id": "cgns_channel_12",
+      "file_name": "sqnz_s.hdf.cgns.gz",
+      "bytes": 446341,
+      "sha256": "b8c02ac01bc94b542969bab5aa19300940e52071aeb130adfc40fd332e8ec67d",
+      "status": "downloaded_verified"
+    },
+    {
+      "asset_id": "naca0012_familyI_level7",
+      "file_name": "n0012familyI.7.p2dfmt.gz",
+      "bytes": 48075,
+      "sha256": "0f953e219cc8ad44ff21d4967665a89fce02ec3519f17d1d102d55b45c204a49",
+      "status": "downloaded_verified"
+    },
+    {
+      "asset_id": "cgns_multielement_airfoil_4",
+      "file_name": "multi_hdf5.cgns.gz",
+      "bytes": 2298770,
+      "sha256": "7d29fed1b30e8d2588e47a1dbcee2aba6278a219112d1cde74b832a69a1ef7c7",
+      "status": "downloaded_verified"
+    },
+    {
+      "asset_id": "par_quad_test_set",
+      "file_name": "par_test_set.pkl",
+      "bytes": 35827,
+      "sha256": "745a76498ff73e068cabee6430574b148ccbabf9e9a142e1ce46a2167ba0d5ca",
+      "status": "downloaded_verified"
+    }
+  ],
+  "download_smoke_test_modes": [
+    "direct official URL",
+    "ZIP member via bounded HTTP Range",
+    "official-page link resolution",
+    "GitHub fixed-commit raw URL"
+  ]
+}

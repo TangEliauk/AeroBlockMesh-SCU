@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "unit_tests_passed": 12,
+  "original_source_sha256_checks_passed": 1665,
+  "all_source_files_accounted_for": true,
+  "accepted_unique_polygons": 1607,
+  "source_reference_count": 1613,
+  "explicit_closure_metadata_checked": true,
+  "absolute_machine_paths_absent_from_data_outputs": true,
+  "second_full_run_reproduced_all_four_jsonl_files_byte_for_byte": true,
+  "second_full_run_summary_equal_except_generation_time": true,
+  "samples_jsonl_bytes": 5014314,
+  "samples_jsonl_sha256": "1d26c7b34b97b2de10a0514229d4eb03240c3b59b71c941432a37e0828576e5f",
+  "scope": "Raw-file immutability, source accounting, provenance fields, deterministic regeneration and unit regression suite. Independent polygon/family QA is maintained in stage07."
+}

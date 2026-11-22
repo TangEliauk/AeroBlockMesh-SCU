@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "version": "public_v1_2026-11-22",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 211,
+      "sha256": "6a08a5dfb1c2e8e20b5f387c5f734d698a446322fe46d2f3dbfddba6617a6b95"
+    },
+    {
+      "path": "THIRD_PARTY_DATA.md",
+      "bytes": 5021,
+      "sha256": "9b21f12a3a60e66b464cdfdcc361ef741c8c3d1ed2e8de001a9fce00d7d2fe49"
+    },
+    {
+      "path": "data/README_cleaned.md",
+      "bytes": 190,
+      "sha256": "db08c26df7afab80ffadaf22eb4f8212dde3d944a3ae037b30b2bfec08569762"
+    },
+    {
+      "path": "data/processed/uiuc_v1/README.md",
+      "bytes": 5335,
+      "sha256": "c1d1487a1fa769f6b428aabeb27dd67dee27f332f777e5ed1d31b9bec992ab23"
+    },
+    {
+      "path": "data/processed/uiuc_v1/accepted_manifest.jsonl",
+      "bytes": 1592815,
+      "sha256": "aad799f910b123f9be31fb2397706145ade2ff0b6e1afb3da747c164100ff611"
+    },
+    {
+      "path": "data/processed/uiuc_v1/duplicate_manifest.jsonl",
+      "bytes": 6699,
+      "sha256": "fb2ecaf68c55a46b9db80cd46f2dda66f113bf0ab52922727170668b0f7061f3"
+    },
+    {
+      "path": "data/processed/uiuc_v1/qa_report.json",
+      "bytes": 781,
+      "sha256": "d158694d9f5cc4add31343e5c4a998384a32bcc0c6dc86ab71ea9181f90c1b98"
+    },
+    {
+      "path": "data/processed/uiuc_v1/rejected_manifest.jsonl",
+      "bytes": 13678,
+      "sha256": "4e41ddb9be1a12793f51762bb0568bf0173e87ce6cf233fb15c147f4a98a8dae"
+    },
+    {
+      "path": "data/processed/uiuc_v1/samples.jsonl",
+      "bytes": 5014314,
+      "sha256": "1d26c7b34b97b2de10a0514229d4eb03240c3b59b71c941432a37e0828576e5f"
+    },
+    {
+      "path": "data/processed/uiuc_v1/summary.json",
+      "bytes": 2896,
+      "sha256": "4573a7a69fa723d477cf23852909f32d30175ff91e0181dbab605ac36d4a341e"
+    },
+    {
+      "path": "data/references/public_v1/.gitignore",
+      "bytes": 75,
+      "sha256": "56e56fd25b1ea910fee3fb2cb60e312e7381b334632dc40a8398b27763f7280a"
+    },
+    {
+      "path": "data/references/public_v1/README.md",
+      "bytes": 4380,
+      "sha256": "045923a980bed46b03bbd178fa2f00dfdc8cc1775f25733d3dc6241b5f769c91"
+    },
+    {
+      "path": "data/references/public_v1/cleaning_report.json",
+      "bytes": 3663,
+      "sha256": "b78162f63d08a4b2898a7ca3b054c794cc509090f61b52cfa191a4be6866edd6"
+    },
+    {
+      "path": "data/references/public_v1/experiments/naca0012_gregory_cp.csv",
+      "bytes": 3269,
+      "sha256": "4f3a2123c6cdb0f8e9cda1a90ff166efa8dd64d1336fc04fc4777929caac5901"
+    },
+    {
+      "path": "data/references/public_v1/experiments/naca0012_ladson_force.csv",
+      "bytes": 2677,
+      "sha256": "b70bafb614679fee48e71c7aae48b1b2981f2b0f4b6cc993f658bd58d09686c2"
+    },
+    {
+      "path": "data/references/public_v1/experiments/onera_m6_case2308_cp.csv",
+      "bytes": 21427,
+      "sha256": "018d6500fc46a12d979548868499fc45553dc5ad101b4450a7f72da08f2e83d1"
+    },
+    {
+      "path": "data/references/public_v1/experiments/onera_m6_case2565_cp.csv",
+      "bytes": 21416,
+      "sha256": "eb6bfb3710f1b4d7585e648be6039c370e94545bcd8c4b8d83d55232d2a0131e"
+    },
+    {
+      "path": "data/references/public_v1/license_evidence.json",
+      "bytes": 2738,
+      "sha256": "73d0d79d42dab69d4d921d619961f2a3fedd50a47483e33dc9d099c17a95ccb3"
+    },
+    {
+      "path": "data/references/public_v1/metadata/naca0012_gregory_cp.json",
+      "bytes": 2269,
+      "sha256": "f114f4a5815c4b373b3c928809ce38d2ffe3bdd7e5cab5dafff30af31439eccf"
+    },
+    {
+      "path": "data/references/public_v1/metadata/naca0012_ladson_force.json",
+      "bytes": 2020,
+      "sha256": "fc2a552275cbc6acce8d872920ec7faf6ce99167b1315b6606703b7f53e0f5a0"
+    },
+    {
+      "path": "data/references/public_v1/metadata/onera_m6_case2308_cp.json",
+      "bytes": 2947,
+      "sha256": "4164b8fb5ddca01be8fa47f8b4c1b9a59f232c3eaf2a7420d041cbb90ce1a87b"
+    },
+    {
+      "path": "data/references/public_v1/metadata/onera_m6_case2565_cp.json",
+      "bytes": 2947,
+      "sha256": "26a8d04c98c39a80abf7e4e037cf74e0fb44a68fe15d0c0b97f91e7dabcd1008"
+    },
+    {
+      "path": "data/references/public_v1/reference_manifest.json",
+      "bytes": 44312,
+      "sha256": "12f9d5f1d846ada6b41a1564becaec75cf1a9b485e30a621015d6dbc05c49ac8"
+    },
+    {
+      "path": "data/references/public_v1/release_validation.json",
+      "bytes": 1652,
+      "sha256": "47ed5fdf368dc5389ae80b3c31038b38c4bb5099563b5673bb45a5dd90985d47"
+    },
+    {
+      "path": "data/sources/public_v1/raw_sources.json",
+      "bytes": 2328,
+      "sha256": "d0ccc887b6a0be54417a57a73e5b819fd9b77f35b03ff55876556eaa5105e4cf"
+    },
+    {
+      "path": "data/splits/uiuc_v1/groups.json",
+      "bytes": 87701,
+      "sha256": "d2fceb2d73a351cc81b9feff2015d8655efb7cc5b86129373be846447712207d"
+    },
+    {
+      "path": "data/splits/uiuc_v1/independent_geometry_qa.json",
+      "bytes": 287123,
+      "sha256": "3a66055c93291003dbcac3acf678ce5c555e3b1e4c56143f33b69e6047ad7338"
+    },
+    {
+      "path": "data/splits/uiuc_v1/independent_qa_failures.json",
+      "bytes": 100,
+      "sha256": "5138c55d44c26cf1adb7a2a1a799ec2ccdcd3f2a142b938c548651711f655c2f"
+    },
+    {
+      "path": "data/splits/uiuc_v1/near_duplicate_pairs.csv",
+      "bytes": 493,
+      "sha256": "f4f503b932228e20c99e506a212c835c439e74422acb1d49ff217333d7b5759c"
+    },
+    {
+      "path": "data/splits/uiuc_v1/release_checks.json",
+      "bytes": 1689,
+      "sha256": "11b77016d46c6b84353f4b6449cdd6714d84f7e8ee092b1bbcfcd27a55f2f0db"
+    },
+    {
+      "path": "data/splits/uiuc_v1/split_config.json",
+      "bytes": 1579,
+      "sha256": "ca98de8a2f60b9e83d4587d44721aef0db7bf96bb545e594554e39dd0945f6a4"
+    },
+    {
+      "path": "data/splits/uiuc_v1/split_manifest.csv",
+      "bytes": 217976,
+      "sha256": "2ff24faa6e0495076e362987840f12c491985fcf5de49965305b7d3c559cba26"
+    },
+    {
+      "path": "data/splits/uiuc_v1/split_report.json",
+      "bytes": 6343,
+      "sha256": "0d4d1b94b1d6ce4d852a0e69d68eabae8096484d2d6715d334eadaabf839ffdd"
+    },
+    {
+      "path": "data/splits/uiuc_v1/test.json",
+      "bytes": 4765,
+      "sha256": "17f3fe0ebfaaf044067e0e2f55ca250865b8147ff30a25ba47e8088aeadf233f"
+    },
+    {
+      "path": "data/splits/uiuc_v1/train.json",
+      "bytes": 35761,
+      "sha256": "1d327b6829cec606e8a15ce1433f4c03963de04df492bdefe882ded7f0eb65cf"
+    },
+    {
+      "path": "data/splits/uiuc_v1/val.json",
+      "bytes": 4485,
+      "sha256": "0b1d92f87ee14528430f7045e504855352de9f2a280eac345cbb4fa73950dc12"
+    },
+    {
+      "path": "data/splits/uiuc_v1/说明.txt",
+      "bytes": 2343,
+      "sha256": "23d3925f627a11502ce26cb405923c83d056166b64751a372d6a71c2da39c0f9"
+    },
+    {
+      "path": "docs/public_data_v1.md",
+      "bytes": 4741,
+      "sha256": "5e9ba8e1b129898c874b75669ea446de04f08ac663de771981075806898349f9"
+    },
+    {
+      "path": "scripts/data/build_reference_manifest.py",
+      "bytes": 10645,
+      "sha256": "8ea6017b73404116ee89e9250e39afd40bcb94ed84a4f6ace795c73b19cf331c"
+    },
+    {
+      "path": "scripts/data/clean_uiuc.py",
+      "bytes": 17186,
+      "sha256": "64bf48121d78c0533718f602fea79bc013c3b059c8ab8c3e174ecb309d5e4d6a"
+    },
+    {
+      "path": "scripts/data/download_public_sources.py",
+      "bytes": 3494,
+      "sha256": "559fd6c7f2c6188e0f82a2e10c9ee5ec6b9657d37b5c13bb9d9e157374046605"
+    },
+    {
+      "path": "scripts/data/download_reference_assets.py",
+      "bytes": 6320,
+      "sha256": "f3ef573849b430af77bea083603ce914af9598c8b2226424e9c16497a279e7a0"
+    },
+    {
+      "path": "scripts/data/prepare_reference_data.py",
+      "bytes": 16666,
+      "sha256": "f0d26e1253cf433ff1f66f49cd509f8fd47217eb4a16acd152aa6c8b4d720109"
+    },
+    {
+      "path": "scripts/data/split_uiuc.py",
+      "bytes": 20121,
+      "sha256": "e6fc68716adf3d77407b9f48c9470194d749951600768f503a6717e1d8f60866"
+    },
+    {
+      "path": "scripts/data/validate_reference_data.py",
+      "bytes": 2785,
+      "sha256": "d4726067834abe5941998a543be5727f65f2d1e9d2798bb37cdb0885542380aa"
+    },
+    {
+      "path": "scripts/data/verify_public_data.py",
+      "bytes": 3877,
+      "sha256": "2bc08e3b945cf7e7f909c64d6c4c81e918d30f4cdef5acfc802c3e7e93e49eb8"
+    },
+    {
+      "path": "tests/data/test_clean_uiuc.py",
+      "bytes": 6550,
+      "sha256": "7a5ef57fcb247bb1d9b0057969bc89ac0a9a0ab27f956c6060e914de65140f60"
+    },
+    {
+      "path": "tests/data/test_download_public_sources.py",
+      "bytes": 2900,
+      "sha256": "9f3d50a45a53337760e593f905abb91d83a50d6028f481340b7ffaa15dbfed4f"
+    },
+    {
+      "path": "tests/data/test_split_uiuc.py",
+      "bytes": 4080,
+      "sha256": "97ddfc0ff710879aee5f61e3ddd354fd87ff9192542142a68bd62bb23d3fa143"
+    }
+  ],
+  "geometry_samples": 1607,
+  "split_counts": {
+    "train": 1277,
+    "val": 160,
+    "test": 170
+  },
+  "experimental_rows": 668,
+  "file_count": 49,
+  "bytes": 7509783,
+  "scientific_scope": "Normalized geometry, frozen grouped splits and experimental validation tables; no expert actions or SAC replay transitions."
+}

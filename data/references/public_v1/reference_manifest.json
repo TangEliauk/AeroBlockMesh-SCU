@@ -1,0 +1,1006 @@
+{
+  "schema_version": "1.0",
+  "release_date": "2026-11-22",
+  "assets": [
+    {
+      "asset_id": "cgns_channel_12",
+      "file_name": "sqnz_s.hdf.cgns.gz",
+      "download_url": "https://cgns.org/_downloads/ec174e1efabe2bd691be3950720dd536/sqnz_s.hdf.cgns.gz",
+      "source_page": "https://cgns.org/current/examples.html#constricting-channel",
+      "bytes": 446341,
+      "sha256": "b8c02ac01bc94b542969bab5aa19300940e52071aeb130adfc40fd332e8ec67d",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "channel",
+      "purpose": [
+        "结构化多块数据读取",
+        "Family_t边界标签",
+        "分块接口提取与检查"
+      ],
+      "limitations": [
+        "通道构型，非气动翼型",
+        "成品网格，不包含专家操作轨迹",
+        "原站声明样例按现状提供，并非委员会认证"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://cgns.org/current/examples.html#constricting-channel",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "format_by_signature": "CGNS/HDF5",
+        "gzip_crc_checked": true,
+        "zone_count": 12,
+        "structured_zone_count": 12,
+        "directed_one_to_one_connections": 40,
+        "unique_one_to_one_interfaces": 20,
+        "max_absolute_xyz_interface_difference": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "source_declared_zones": 12
+    },
+    {
+      "asset_id": "cgns_dlr_f6_26",
+      "file_name": "dlr-f6.coar.cgns.gz",
+      "download_url": "https://cgns.org/_downloads/6b2988b92a91e261e7dfbaae1f2a92c5/dlr-f6.coar.cgns.gz",
+      "source_page": "https://cgns.org/current/examples.html#dlr-f6-wing-body",
+      "bytes": 55486632,
+      "sha256": "64c439a169b7e529945d06b6cac92aef5479255df0682d26686ab73617947d63",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "dlr_f6",
+      "purpose": [
+        "三维翼身多块拓扑参考",
+        "退化块线处理",
+        "块接口与边界提取"
+      ],
+      "limitations": [
+        "官方说明含若干退化线",
+        "不含流场解",
+        "成品网格，不包含专家操作轨迹",
+        "原站声明样例按现状提供，并非委员会认证"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://cgns.org/current/examples.html#dlr-f6-wing-body",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "format_by_signature": "CGNS/ADF",
+        "gzip_crc_checked": true
+      },
+      "source_declared_zones": 26
+    },
+    {
+      "asset_id": "crm_notails_medium",
+      "file_name": "notails_medium.cgns",
+      "download_url": "https://dpw.larc.nasa.gov/DPW4/multiblock_Airbus/CGNS_Grids/notails_medium.cgns",
+      "source_page": "https://dpw.larc.nasa.gov/DPW4/multiblock_Airbus/CGNS_Grids/",
+      "bytes": 114683904,
+      "sha256": "b8e95bad7ed677087fbcf30b4630fce7393c3b25c3c0f765c45a3d4a9303c614",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "crm",
+      "purpose": [
+        "复杂翼身外流域泛化测试",
+        "三维多块接口检查",
+        "公开工程参考网格"
+      ],
+      "limitations": [
+        "公开目录仅提供无尾构型medium级别；coarse文件为有尾构型",
+        "约890万节点，非大规模独立几何训练集",
+        "坐标单位mm且相对原始几何有平移，见说明PDF",
+        "成品网格，不包含专家操作轨迹"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://dpw.larc.nasa.gov/DPW4/multiblock_Airbus/CGNS_Grids/",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "format_by_signature": "CGNS/ADF",
+        "gzip_crc_checked": false
+      },
+      "source_declared_zones": 128
+    },
+    {
+      "asset_id": "crm_description",
+      "file_name": "Grids_description.pdf",
+      "download_url": "https://dpw.larc.nasa.gov/DPW4/multiblock_Airbus/CGNS_Grids/Grids_description.pdf",
+      "source_page": "https://dpw.larc.nasa.gov/DPW4/multiblock_Airbus/CGNS_Grids/",
+      "bytes": 184967,
+      "sha256": "1304798e4619ae93322ca78db53d54d0e140c86ffc125bc97f4d49f13b911a47",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "crm",
+      "purpose": [
+        "网格构型、区数、坐标单位与平移说明"
+      ],
+      "limitations": [
+        "说明文档，不是训练样本"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://dpw.larc.nasa.gov/DPW4/multiblock_Airbus/CGNS_Grids/",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "format_by_signature": "PDF",
+        "gzip_crc_checked": false
+      }
+    },
+    {
+      "asset_id": "naca0012_familyI_level7",
+      "file_name": "n0012familyI.7.p2dfmt.gz",
+      "download_url": "https://www.nasa.gov/wp-content/uploads/2026/02/naca0012numerics-grids.zip",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 48075,
+      "sha256": "0f953e219cc8ad44ff21d4967665a89fce02ec3519f17d1d102d55b45c204a49",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "CFD mesh-convergence validation"
+      ],
+      "limitations": [
+        "Single C-grid with wake self-connection; not independent multiblock-topology training examples.",
+        "All density levels belong to one corrected sharp-trailing-edge geometry and must share an evaluation group."
+      ],
+      "retrieval": {
+        "kind": "zip_member_http_range",
+        "archive_member": "u/piyer/nasa_tmr/gitlab/turbmodels/NACA0012numerics_grids/n0012familyI.7.p2dfmt.gz",
+        "archive_total_bytes": 2981888037,
+        "zip_local_header_offset": 142808,
+        "compressed_bytes": 46225,
+        "zip_compression_method": 8,
+        "zip_crc32": "59fc082b"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "nblocks": 1,
+        "dimensions": [
+          113,
+          33
+        ],
+        "points": 3729,
+        "quadrilateral_cells": 3584,
+        "all_coordinates_finite": true,
+        "negative_cell_areas": 0,
+        "zero_cell_areas": 0,
+        "wake_max_abs_coordinate_difference": 0.0
+      }
+    },
+    {
+      "asset_id": "naca0012_neutral_map_level7",
+      "file_name": "n0012familyI.7.nmf",
+      "download_url": "https://tmbwg.github.io/turbmodels/NACA0012numerics_grids/n0012familyI.7.nmf",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 957,
+      "sha256": "597865103baf72a0c78d0e42a7e2d09688ea78b6a20f8fbcac2baa936d1445a1",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "Boundary and wake-connection indexing reference"
+      ],
+      "limitations": [
+        "Official NMF is for 3D two-plane extrusion; project indices explicitly for the 2D PLOT3D grid."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "naca0012_familyI_level6",
+      "file_name": "n0012familyI.6.p2dfmt.gz",
+      "download_url": "https://www.nasa.gov/wp-content/uploads/2026/02/naca0012numerics-grids.zip",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 192365,
+      "sha256": "2111b3853ea3009c536f392d5ba97d3e2b1338f3a8b52d4eaf3bab6ef731cab7",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "CFD mesh-convergence validation"
+      ],
+      "limitations": [
+        "Single C-grid with wake self-connection; not independent multiblock-topology training examples.",
+        "All density levels belong to one corrected sharp-trailing-edge geometry and must share an evaluation group."
+      ],
+      "retrieval": {
+        "kind": "zip_member_http_range",
+        "archive_member": "u/piyer/nasa_tmr/gitlab/turbmodels/NACA0012numerics_grids/n0012familyI.6.p2dfmt.gz",
+        "archive_total_bytes": 2981888037,
+        "zip_local_header_offset": 189173,
+        "compressed_bytes": 178936,
+        "zip_compression_method": 8,
+        "zip_crc32": "909300d3"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "nblocks": 1,
+        "dimensions": [
+          225,
+          65
+        ],
+        "points": 14625,
+        "quadrilateral_cells": 14336,
+        "all_coordinates_finite": true,
+        "negative_cell_areas": 0,
+        "zero_cell_areas": 0,
+        "wake_max_abs_coordinate_difference": 0.0
+      }
+    },
+    {
+      "asset_id": "naca0012_neutral_map_level6",
+      "file_name": "n0012familyI.6.nmf",
+      "download_url": "https://tmbwg.github.io/turbmodels/NACA0012numerics_grids/n0012familyI.6.nmf",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 957,
+      "sha256": "c6c32668f19bbd1a89510dfeb3a43c924137ae90afa7772eeb83875f9d9b34b0",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "Boundary and wake-connection indexing reference"
+      ],
+      "limitations": [
+        "Official NMF is for 3D two-plane extrusion; project indices explicitly for the 2D PLOT3D grid."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "naca0012_familyI_level5",
+      "file_name": "n0012familyI.5.p2dfmt.gz",
+      "download_url": "https://www.nasa.gov/wp-content/uploads/2026/02/naca0012numerics-grids.zip",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 740981,
+      "sha256": "fd0209a05c8178eeb600180f4d45366c73cb32f3307258b73dbd8df5c93e0842",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "CFD mesh-convergence validation"
+      ],
+      "limitations": [
+        "Single C-grid with wake self-connection; not independent multiblock-topology training examples.",
+        "All density levels belong to one corrected sharp-trailing-edge geometry and must share an evaluation group."
+      ],
+      "retrieval": {
+        "kind": "zip_member_http_range",
+        "archive_member": "u/piyer/nasa_tmr/gitlab/turbmodels/NACA0012numerics_grids/n0012familyI.5.p2dfmt.gz",
+        "archive_total_bytes": 2981888037,
+        "zip_local_header_offset": 368249,
+        "compressed_bytes": 711267,
+        "zip_compression_method": 8,
+        "zip_crc32": "cdfbc0b0"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "nblocks": 1,
+        "dimensions": [
+          449,
+          129
+        ],
+        "points": 57921,
+        "quadrilateral_cells": 57344,
+        "all_coordinates_finite": true,
+        "negative_cell_areas": 0,
+        "zero_cell_areas": 0,
+        "wake_max_abs_coordinate_difference": 0.0
+      }
+    },
+    {
+      "asset_id": "naca0012_neutral_map_level5",
+      "file_name": "n0012familyI.5.nmf",
+      "download_url": "https://tmbwg.github.io/turbmodels/NACA0012numerics_grids/n0012familyI.5.nmf",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 957,
+      "sha256": "648e7b4c368db4479db3cdcb3d0209590da991ad00e59865398330cbc4b45880",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "Boundary and wake-connection indexing reference"
+      ],
+      "limitations": [
+        "Official NMF is for 3D two-plane extrusion; project indices explicitly for the 2D PLOT3D grid."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "naca0012_familyI_level4",
+      "file_name": "n0012familyI.4.p2dfmt.gz",
+      "download_url": "https://www.nasa.gov/wp-content/uploads/2026/02/naca0012numerics-grids.zip",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 3009003,
+      "sha256": "f52eb05aeb632ee0188e2fd720f5824afdce748538c377d67f355cb62636415a",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "CFD mesh-convergence validation"
+      ],
+      "limitations": [
+        "Single C-grid with wake self-connection; not independent multiblock-topology training examples.",
+        "All density levels belong to one corrected sharp-trailing-edge geometry and must share an evaluation group."
+      ],
+      "retrieval": {
+        "kind": "zip_member_http_range",
+        "archive_member": "u/piyer/nasa_tmr/gitlab/turbmodels/NACA0012numerics_grids/n0012familyI.4.p2dfmt.gz",
+        "archive_total_bytes": 2981888037,
+        "zip_local_header_offset": 1079656,
+        "compressed_bytes": 2810052,
+        "zip_compression_method": 8,
+        "zip_crc32": "d0c84c58"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "nblocks": 1,
+        "dimensions": [
+          897,
+          257
+        ],
+        "points": 230529,
+        "quadrilateral_cells": 229376,
+        "all_coordinates_finite": true,
+        "negative_cell_areas": 0,
+        "zero_cell_areas": 0,
+        "wake_max_abs_coordinate_difference": 0.0
+      }
+    },
+    {
+      "asset_id": "naca0012_neutral_map_level4",
+      "file_name": "n0012familyI.4.nmf",
+      "download_url": "https://tmbwg.github.io/turbmodels/NACA0012numerics_grids/n0012familyI.4.nmf",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 957,
+      "sha256": "ec897e29363eb72546730a83048f142f8219d33397407b9f8cf474f94fe10365",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "Boundary and wake-connection indexing reference"
+      ],
+      "limitations": [
+        "Official NMF is for 3D two-plane extrusion; project indices explicitly for the 2D PLOT3D grid."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "naca0012_familyI_level3",
+      "file_name": "n0012familyI.3.p2dfmt.gz",
+      "download_url": "https://www.nasa.gov/wp-content/uploads/2026/02/naca0012numerics-grids.zip",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 12970524,
+      "sha256": "c67db89cbfb7a30e3bc220d34ed2f6afa6ece21517ce2a2aa0785288e3e5479e",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "CFD mesh-convergence validation"
+      ],
+      "limitations": [
+        "Single C-grid with wake self-connection; not independent multiblock-topology training examples.",
+        "All density levels belong to one corrected sharp-trailing-edge geometry and must share an evaluation group."
+      ],
+      "retrieval": {
+        "kind": "zip_member_http_range",
+        "archive_member": "u/piyer/nasa_tmr/gitlab/turbmodels/NACA0012numerics_grids/n0012familyI.3.p2dfmt.gz",
+        "archive_total_bytes": 2981888037,
+        "zip_local_header_offset": 4358593,
+        "compressed_bytes": 12931761,
+        "zip_compression_method": 8,
+        "zip_crc32": "aec26717"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "nblocks": 1,
+        "dimensions": [
+          1793,
+          513
+        ],
+        "points": 919809,
+        "quadrilateral_cells": 917504,
+        "all_coordinates_finite": true,
+        "negative_cell_areas": 0,
+        "zero_cell_areas": 0,
+        "wake_max_abs_coordinate_difference": 0.0
+      }
+    },
+    {
+      "asset_id": "naca0012_neutral_map_level3",
+      "file_name": "n0012familyI.3.nmf",
+      "download_url": "https://tmbwg.github.io/turbmodels/NACA0012numerics_grids/n0012familyI.3.nmf",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012numerics_grids.html",
+      "bytes": 957,
+      "sha256": "78a81b36f87309a0cadc47e899b9c0437ef083e5c29e672dd64999b09b84b8f5",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "Boundary and wake-connection indexing reference"
+      ],
+      "limitations": [
+        "Official NMF is for 3D two-plane extrusion; project indices explicitly for the 2D PLOT3D grid."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "naca0012_corrected_surface",
+      "file_name": "n0012points_superbig_clust_fix.dat",
+      "download_url": "https://tmbwg.github.io/turbmodels/NACA0012_grids/n0012points_superbig_clust_fix.dat",
+      "source_page": "https://tmbwg.github.io/turbmodels/naca0012_val.html",
+      "bytes": 824246,
+      "sha256": "74e147db4fa052be7ab79465a756c55b39b1786bfd7141a86257e89586728ae1",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "naca0012_corrected",
+      "purpose": [
+        "Corrected scaled sharp-trailing-edge geometry definition"
+      ],
+      "limitations": [
+        "Keep separate from original finite trailing-edge NACA0012 definitions."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_sharp_cad",
+      "file_name": "AileM6_with_sharp_TE.stp",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_grids/AileM6_with_sharp_TE.stp",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html",
+      "bytes": 197124,
+      "sha256": "0ed2862f3952d04b747b0f90e47062d059ff98b2e48933a323d1c6b66771a7bf",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "尖尾缘机翼CAD，用于三维几何输入；与钝尾缘版本分开标记。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_thick_cad",
+      "file_name": "AileM6_with_thick_TE.igs",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_grids/AileM6_with_thick_TE.igs",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html",
+      "bytes": 150903,
+      "sha256": "407ba52c4e3d23761a760092662531a87b210020a74a04f235d85693176e1bb2",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "钝尾缘原始几何参考；不能与尖尾缘工况不加区分地混用。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_onera_d_section",
+      "file_name": "profile_ONERA-D.dat",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/profile_ONERA-D.dat",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html",
+      "bytes": 12636,
+      "sha256": "855972cf06b1bcd753006791b6a34e7dbb08ccbc03275192fd3b38694efc5b8a",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "原始ONERA-D翼型剖面坐标。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_root_section",
+      "file_name": "profile_M6_streamwise_alongy=0.dat",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/profile_M6_streamwise_alongy=0.dat",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html",
+      "bytes": 1712,
+      "sha256": "cd9531b8720eb9ac2c60eb700f4d23b33dcdfbfa01e68b24cf0a46dcf11d34c6",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "M6根部顺流方向剖面坐标。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_geometry_description",
+      "file_name": "ONERA_M6_Test_Case_TMR.pdf",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/ONERA_M6_Test_Case_TMR.pdf",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html",
+      "bytes": 4341049,
+      "sha256": "aff893dd355fb07074e1df6215c9f618c5ddf47dd758a5190d5cd62e52ca67b8",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "官方算例和几何定义说明。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_grid_generator",
+      "file_name": "wing-release-072319.zip",
+      "download_url": "https://www.nasa.gov/wp-content/uploads/2026/04/wing-release-072319.zip",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_grids.html",
+      "bytes": 125194,
+      "sha256": "b8005774fff3bcf2c86958af16cfb4c6d2329b7832a821446aa143f682d75819",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "官方Fortran网格生成和粗化源程序及说明；下载不代表已编译运行。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "zip_crc": "passed"
+      }
+    },
+    {
+      "asset_id": "onera_m6_generator_input1",
+      "file_name": "input.nml_wing_strct_stt",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_grids/input.nml_wing_strct_stt",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_grids.html",
+      "bytes": 3708,
+      "sha256": "da161bca069a2f44ccedc2ae74a60e1db1ff46f4b99da7f80be3d438ec40e7b8",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "结构网格生成输入；使用时按官方说明重命名为input.nml。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_generator_input2",
+      "file_name": "input.nml_wing_strct_2_stt",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_grids/input.nml_wing_strct_2_stt",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_grids.html",
+      "bytes": 3708,
+      "sha256": "d88af755eff3a401c16443532a37a988221f0bfd17ad88f0d898a8fb3a7e90c0",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "增加表面点数、调整前后缘拉伸的第二组结构网格参数。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_coarsening_input",
+      "file_name": "input_coarsen.nml_wing_strct_stt",
+      "download_url": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_grids/input_coarsen.nml_wing_strct_stt",
+      "source_page": "https://tmbwg.github.io/turbmodels/onerawingnumerics_grids.html",
+      "bytes": 1238,
+      "sha256": "1b71012d7d08d954239043b408f0a647b944311dcdfdcdb663c1fff63ba023cd",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "结构网格粗化输入；可用于构建网格收敛系列。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "CC0-1.0 (TMBWG repository)",
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_wind_run_configuration",
+      "file_name": "run.dat",
+      "download_url": "https://www.grc.nasa.gov/WWW/wind/valid/m6wing/m6wing01/run.dat",
+      "source_page": "https://www.grc.nasa.gov/WWW/wind/valid/m6wing/m6wing01/m6wing01.html",
+      "bytes": 689,
+      "sha256": "fd42845724d9083583346e1d56782589200ed0b163ad4d78a4a75869b61267e9",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "已有四块网格对应的WIND参考设置；迁移至开源求解器需要重新配置。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://www.grc.nasa.gov/WWW/wind/valid/m6wing/m6wing01/m6wing01.html",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_four_block_grid",
+      "file_name": "m6wing.x.fmt",
+      "download_url": "https://www.grc.nasa.gov/WWW/wind/valid/m6wing/m6wing01/m6wing.x.fmt",
+      "source_page": null,
+      "bytes": 13722480,
+      "sha256": "484fa6ad108c6ee5503e3e679a8fe7c67874c2ef347ce31ed13856b33d2cc0f0",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "四块PLOT3D成品网格，已有，不重复下载。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": null,
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "onera_m6_gman_boundaries",
+      "file_name": "gman.a.com",
+      "download_url": "https://www.grc.nasa.gov/WWW/wind/valid/m6wing/m6wing01/gman.a.com",
+      "source_page": null,
+      "bytes": 1357,
+      "sha256": "d0a005cb817c352d46e17810b7ee09b1ea501d233d24f1f64ea832f36679b507",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "已有边界与接口配对命令，原名gman.a.com。"
+      ],
+      "limitations": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": null,
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "cgns_multielement_airfoil_4",
+      "file_name": "multi_hdf5.cgns.gz",
+      "download_url": "https://cgns.org/current/examples.html",
+      "source_page": "https://cgns.org/current/examples.html",
+      "bytes": 2298770,
+      "sha256": "7d29fed1b30e8d2588e47a1dbcee2aba6278a219112d1cde74b832a69a1ef7c7",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "multielement_airfoil",
+      "purpose": [
+        "接口映射、结构块、边界和流场数据读写的小样例。"
+      ],
+      "limitations": [
+        "单个多段翼型成品网格，不能视为大规模训练库或专家状态动作轨迹。",
+        "本次验证压缩完整性和HDF5签名；块尺寸、接口与流场语义沿用本地导读既有核验，本次未重新用CGNS API解析。"
+      ],
+      "retrieval": {
+        "kind": "official_page_link",
+        "link_file_name": "multi_hdf5.cgns.gz"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://cgns.org/current/examples.html",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "dpw3_f6_icem_rev2",
+      "file_name": "dlr_f6_wingbody_icem_REV2.zip",
+      "download_url": "https://dpw.larc.nasa.gov/DPW3/multiblock_icem_cfd/dlr_f6_wingbody_icem_REV2.zip",
+      "source_page": "https://dpw.larc.nasa.gov/DPW3/multiblock_icem_cfd/",
+      "bytes": 777661,
+      "sha256": "6865bdad90c12982f6f60351ac6afd119be763d10bf0ec5c0e80b97a7020b693",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "dlr_f6",
+      "purpose": [
+        "提取几何与最终分块工程定义，观察同外形不同密度设置。"
+      ],
+      "limitations": [
+        "工程包不是对应的大型PLOT3D体网格包。",
+        "coarse、med、fine属于同一几何，不能计作三个独立外形；最终BLK工程文件不等于专家操作序列。"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://dpw.larc.nasa.gov/DPW3/multiblock_icem_cfd/",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "zip_crc": "passed",
+        "file_count": 4
+      }
+    },
+    {
+      "asset_id": "par_quad_test_set",
+      "file_name": "par_test_set.pkl",
+      "download_url": "https://raw.githubusercontent.com/ArjunNarayanan/par-quad/b8d4e22bc4adf217445f7260a774b0c73ef9d719/data/par_test_set.pkl",
+      "source_page": "https://github.com/ArjunNarayanan/par-quad",
+      "bytes": 35827,
+      "sha256": "745a76498ff73e068cabee6430574b148ccbabf9e9a142e1ce46a2167ba0d5ca",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "synthetic_polygons",
+      "purpose": [
+        "通用二维四边形分块算法测试集候选；README关联par>0评价。"
+      ],
+      "limitations": [
+        "本次未反序列化pickle，因此未核实内部实例数、字段或可执行性。",
+        "不能当作翼型/机翼气动专家分块库，也不能当作已核实状态动作轨迹。"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "MIT (repository)",
+        "evidence_url": "https://github.com/ArjunNarayanan/par-quad/blob/b8d4e22bc4adf217445f7260a774b0c73ef9d719/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "par_quad_synthetic_demo_generator",
+      "file_name": "solved_instances.py",
+      "download_url": "https://raw.githubusercontent.com/ArjunNarayanan/par-quad/b8d4e22bc4adf217445f7260a774b0c73ef9d719/envs/solved_instances.py",
+      "source_page": "https://github.com/ArjunNarayanan/par-quad",
+      "bytes": 69279,
+      "sha256": "8eccdcb0589e5735ae9794539b5d12fe34e2eb314895665ff28d7e8256a48917",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "synthetic_polygons",
+      "purpose": [
+        "构造带已知解的通用二维实例及可重放操作，供行为克隆流程借鉴。"
+      ],
+      "limitations": [
+        "代码工具，不是已下载气动专家数据。",
+        "源码声明使用反向删除/逆序回放得到示范；本次只读源码，没有运行生成或验证轨迹。",
+        "迁移到气动域需另补曲边、尾迹、近壁层和接口配点等约束。"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "MIT (repository)",
+        "evidence_url": "https://github.com/ArjunNarayanan/par-quad/blob/b8d4e22bc4adf217445f7260a774b0c73ef9d719/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {}
+    },
+    {
+      "asset_id": "srl_afm_meshes1",
+      "file_name": "SL dataset.zip",
+      "download_url": "https://raw.githubusercontent.com/CMU-CBML/SRL-AssistedAFM/e35a87895fa0e7c9191325f78efe8901bd0ee34e/SL%20dataset.zip",
+      "source_page": "https://github.com/CMU-CBML/SRL-AssistedAFM",
+      "bytes": 24878444,
+      "sha256": "213fa53b6086d88daa6d1643b2d656d8f424046153dac22523ebd0d5d8260df2",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "unstructured_quad_meshes",
+      "purpose": [
+        "非结构四边形网格辅助方法对照及成品网格质量分析。"
+      ],
+      "limitations": [
+        "平面非结构四边形网格，不等于多块结构化网格。",
+        "成品网格不能直接替代结构分块状态动作轨迹。",
+        "原仓库发布包偏向推理/权重/数据，本索引未执行学习或网格算法。"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "BSD-3-Clause (repository)",
+        "evidence_url": "https://github.com/CMU-CBML/SRL-AssistedAFM/blob/e35a87895fa0e7c9191325f78efe8901bd0ee34e/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "zip_crc": "passed",
+        "file_count": 213
+      }
+    },
+    {
+      "asset_id": "srl_afm_meshes2",
+      "file_name": "SL dataset2.zip",
+      "download_url": "https://raw.githubusercontent.com/CMU-CBML/SRL-AssistedAFM/e35a87895fa0e7c9191325f78efe8901bd0ee34e/SL%20dataset2.zip",
+      "source_page": "https://github.com/CMU-CBML/SRL-AssistedAFM",
+      "bytes": 16229283,
+      "sha256": "0f43957a94a78d0b02c47f804d438549a9b15fec75f05795a6019d3f346b4b8a",
+      "release_payload": "reference_only_not_bundled",
+      "geometry_family": "unstructured_quad_meshes",
+      "purpose": [
+        "非结构四边形网格辅助方法对照及成品网格质量分析。"
+      ],
+      "limitations": [
+        "平面非结构四边形网格，不等于多块结构化网格。",
+        "成品网格不能直接替代结构分块状态动作轨迹。",
+        "原仓库发布包偏向推理/权重/数据，本索引未执行学习或网格算法。"
+      ],
+      "retrieval": {
+        "kind": "direct"
+      },
+      "license_evidence": {
+        "repository_or_source_license": "BSD-3-Clause (repository)",
+        "evidence_url": "https://github.com/CMU-CBML/SRL-AssistedAFM/blob/e35a87895fa0e7c9191325f78efe8901bd0ee34e/LICENSE",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "acquisition_checks": {
+        "zip_crc": "passed",
+        "file_count": 147
+      }
+    }
+  ],
+  "asset_count": 33,
+  "bundled_large_grid_payloads": 0,
+  "requires_construction": [
+    "Aerodynamic expert blocking trajectories with state, legal-action mask, chosen action and next state",
+    "CFD solver configurations and same-condition convergence runs",
+    "Independent geometry-family train/validation/test groups",
+    "Human preparation, repair and handover time measurements"
+  ],
+  "boundary": "Reference inventory only; terminal grids, synthetic generators and experimental observations are not relabeled as real expert trajectories."
+}

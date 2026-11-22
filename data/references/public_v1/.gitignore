@@ -1,0 +1,6 @@
+_download_smoke_test/
+_rebuild_check/
+raw_cache/
+__pycache__/
+*.pyc
+*.part

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "naca0012_ladson_force",
+  "csv": "experiments/naca0012_ladson_force.csv",
+  "row_count": 53,
+  "grain": "one measured/digitized observation at one experiment condition and zone",
+  "columns": [
+    "dataset_id",
+    "grit_number",
+    "alpha_deg",
+    "cl",
+    "cd",
+    "source_line"
+  ],
+  "units": {
+    "grit_number": "grit designation; not a physical length",
+    "alpha_deg": "degree",
+    "cl": "1",
+    "cd": "1",
+    "source_line": "1-based line index"
+  },
+  "primary_key": [
+    "grit_number",
+    "alpha_deg"
+  ],
+  "conditions": {
+    "mach": 0.15,
+    "reynolds": 6000000,
+    "reynolds_reference": "airfoil chord",
+    "transition": "tripped",
+    "roughness_grit_groups": [
+      80,
+      120,
+      180
+    ]
+  },
+  "group_counts": {
+    "80": 17,
+    "120": 18,
+    "180": 18
+  },
+  "source": {
+    "file_name": "CLCD_Ladson_expdata.dat",
+    "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CLCD_Ladson_expdata.dat",
+    "page": "https://tmbwg.github.io/turbmodels/naca0012_val.html",
+    "bytes": 1343,
+    "sha256": "78cd2f6aa4968e80f44cbf6c96f699bd9c6e45681d958ec528a10cf72ed23357",
+    "attribution": "C. L. Ladson, NASA TM 4074, 1988; force-data transcription distributed by TMR."
+  },
+  "license_evidence": {
+    "upstream_repository_license": "CC0-1.0",
+    "url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+    "scope_note": "TMBWG repository declaration; original experiment attribution retained. Not relabeled MIT."
+  },
+  "caveats": [
+    "Do not pool grit groups or identify them as independent geometries.",
+    "Post-stall observations and high drag values are retained, not deleted as outliers."
+  ],
+  "upstream_hash_verification": {
+    "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CLCD_Ladson_expdata.dat",
+    "sha256": "78cd2f6aa4968e80f44cbf6c96f699bd9c6e45681d958ec528a10cf72ed23357",
+    "matches_local_raw": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "checked_on": "2026-11-22",
+  "third_party_data_not_relicensed_under_project_code_license": true,
+  "sources": [
+    {
+      "source": "TMBWG turbmodels",
+      "declared_license": "CC0-1.0",
+      "evidence_urls": [
+        "https://github.com/TMBWG/turbmodels",
+        "https://raw.githubusercontent.com/TMBWG/turbmodels/main/LICENSE"
+      ],
+      "release_treatment": "preserve upstream declaration and original experiment attribution; normalized small CSV payloads included"
+    },
+    {
+      "source": "UIUC airfoil coordinates",
+      "declared_license": "NOASSERTION",
+      "evidence_urls": [
+        "https://m-selig.ae.illinois.edu/ads/coord_database.html",
+        "https://m-selig.ae.illinois.edu/ads.html",
+        "https://m-selig.ae.illinois.edu/ads_faq.html"
+      ],
+      "release_treatment": "retain per-file provenance; no invented MIT/CC0 declaration",
+      "interpretation_boundary": "Absence of a confirmed unified license is not itself a conclusion that redistribution is prohibited."
+    },
+    {
+      "source": "CGNS submitted examples",
+      "declared_license": "NOASSERTION (asset-specific)",
+      "evidence_urls": [
+        "https://cgns.org/current/examples.html",
+        "https://cgns.org/license.html"
+      ],
+      "release_treatment": "reference-only URLs and hashes; software license not automatically applied to contributed data"
+    },
+    {
+      "source": "NASA DPW3 ICEM and DPW4 Airbus CRM",
+      "declared_license": "NOASSERTION (asset-specific)",
+      "evidence_urls": [
+        "https://dpw.larc.nasa.gov/DPW3/multiblock_icem_cfd/",
+        "https://dpw.larc.nasa.gov/DPW4/multiblock_Airbus/CGNS_Grids/"
+      ],
+      "release_treatment": "reference-only URLs and hashes; omission of binary payloads is a scope choice, not a prohibition finding"
+    },
+    {
+      "source": "par-quad repository",
+      "declared_license": "MIT",
+      "evidence_urls": [
+        "https://github.com/ArjunNarayanan/par-quad/blob/b8d4e22bc4adf217445f7260a774b0c73ef9d719/LICENSE"
+      ],
+      "local_snapshot_license_sha256": "3df32959cbf6e81f445da68b747fba152e57aff358a4bd36b7d71614e5847897",
+      "release_treatment": "reference only; preserve notices if redistributing code"
+    },
+    {
+      "source": "SRL-AssistedAFM repository",
+      "declared_license": "BSD-3-Clause",
+      "evidence_urls": [
+        "https://github.com/CMU-CBML/SRL-AssistedAFM/blob/e35a87895fa0e7c9191325f78efe8901bd0ee34e/LICENSE"
+      ],
+      "local_snapshot_license_sha256": "03ee770e327b87c353ca73d2a14cf6284e62ebdab2ea166f4a9336f0fad0a3ea",
+      "release_treatment": "reference only; no separately invented license for ZIP data"
+    }
+  ]
+}

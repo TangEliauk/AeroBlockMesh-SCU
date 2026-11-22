@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "role": "experimental CFD validation references; not RL training trajectories",
+  "datasets": [
+    {
+      "dataset_id": "naca0012_ladson_force",
+      "rows": 53,
+      "source_sha256": "78cd2f6aa4968e80f44cbf6c96f699bd9c6e45681d958ec528a10cf72ed23357",
+      "csv_sha256": "b70bafb614679fee48e71c7aae48b1b2981f2b0f4b6cc993f658bd58d09686c2",
+      "group_counts": {
+        "80": 17,
+        "120": 18,
+        "180": 18
+      },
+      "zone_declared_counts": {},
+      "primary_key_unique": true,
+      "finite_numeric_values": true,
+      "csv_roundtrip_exact": true,
+      "all_raw_numeric_rows_retained": true,
+      "x_over_c_outside_unit_interval_retained": 0,
+      "out_of_range_source_lines": [],
+      "upstream_hash_matches_local": true
+    },
+    {
+      "dataset_id": "naca0012_gregory_cp",
+      "rows": 73,
+      "source_sha256": "38d8474bc67661c3cef5e4cd9eeddb95d4a436d06abc1f58a8518066f510647c",
+      "csv_sha256": "4f3a2123c6cdb0f8e9cda1a90ff166efa8dd64d1336fc04fc4777929caac5901",
+      "group_counts": {
+        "0": 25,
+        "10": 24,
+        "15": 24
+      },
+      "zone_declared_counts": {},
+      "primary_key_unique": true,
+      "finite_numeric_values": true,
+      "csv_roundtrip_exact": true,
+      "all_raw_numeric_rows_retained": true,
+      "x_over_c_outside_unit_interval_retained": 3,
+      "out_of_range_source_lines": [
+        31,
+        58,
+        81
+      ],
+      "upstream_hash_matches_local": true
+    },
+    {
+      "dataset_id": "onera_m6_case2308_cp",
+      "rows": 271,
+      "source_sha256": "020c5fcc58060737024eb87d9404f56bc563f3f6f15e337675c47477fa91f0d0",
+      "csv_sha256": "018d6500fc46a12d979548868499fc45553dc5ad101b4450a7f72da08f2e83d1",
+      "group_counts": {
+        "1": 34,
+        "2": 34,
+        "3": 34,
+        "4": 34,
+        "5": 45,
+        "6": 45,
+        "7": 45
+      },
+      "zone_declared_counts": {
+        "1": 34,
+        "2": 34,
+        "3": 34,
+        "4": 34,
+        "5": 45,
+        "6": 45,
+        "7": 45
+      },
+      "primary_key_unique": true,
+      "finite_numeric_values": true,
+      "csv_roundtrip_exact": true,
+      "all_raw_numeric_rows_retained": true,
+      "x_over_c_outside_unit_interval_retained": 0,
+      "out_of_range_source_lines": [],
+      "upstream_hash_matches_local": true
+    },
+    {
+      "dataset_id": "onera_m6_case2565_cp",
+      "rows": 271,
+      "source_sha256": "6345287f200034492fe258bfa3748920e6b76661727b2eb22f74f1458747f95e",
+      "csv_sha256": "eb6bfb3710f1b4d7585e648be6039c370e94545bcd8c4b8d83d55232d2a0131e",
+      "group_counts": {
+        "1": 34,
+        "2": 34,
+        "3": 34,
+        "4": 34,
+        "5": 45,
+        "6": 45,
+        "7": 45
+      },
+      "zone_declared_counts": {
+        "1": 34,
+        "2": 34,
+        "3": 34,
+        "4": 34,
+        "5": 45,
+        "6": 45,
+        "7": 45
+      },
+      "primary_key_unique": true,
+      "finite_numeric_values": true,
+      "csv_roundtrip_exact": true,
+      "all_raw_numeric_rows_retained": true,
+      "x_over_c_outside_unit_interval_retained": 0,
+      "out_of_range_source_lines": [],
+      "upstream_hash_matches_local": true
+    }
+  ],
+  "total_rows": 668,
+  "transforms": [
+    "parse Tecplot zone structure",
+    "canonical decimal formatting without rounding",
+    "retain source row ordering and 1-based line provenance",
+    "keep experiments and conditions separate"
+  ],
+  "dropped_numeric_rows": 0,
+  "imputed_values": 0,
+  "clipped_coordinates": 0,
+  "generated_trajectories": 0
+}

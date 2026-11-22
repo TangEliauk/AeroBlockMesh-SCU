@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "naca0012_gregory_cp",
+  "csv": "experiments/naca0012_gregory_cp.csv",
+  "row_count": 73,
+  "grain": "one measured/digitized observation at one experiment condition and zone",
+  "columns": [
+    "dataset_id",
+    "alpha_deg",
+    "x_over_c",
+    "cp",
+    "source_line"
+  ],
+  "units": {
+    "alpha_deg": "degree",
+    "x_over_c": "1",
+    "cp": "1",
+    "source_line": "1-based line index"
+  },
+  "primary_key": [
+    "alpha_deg",
+    "x_over_c"
+  ],
+  "conditions": {
+    "mach": null,
+    "mach_note": "not specified in this digitized source file; not filled from the Ladson experiment",
+    "reynolds": 2880000,
+    "reynolds_reference": "airfoil chord",
+    "alpha_deg_groups": [
+      0,
+      10,
+      15
+    ],
+    "surface": "upper only",
+    "measurement_form": "digitized from photocopy; approximate"
+  },
+  "group_counts": {
+    "0": 25,
+    "10": 24,
+    "15": 24
+  },
+  "source": {
+    "file_name": "CP_Gregory_expdata.dat",
+    "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CP_Gregory_expdata.dat",
+    "page": "https://tmbwg.github.io/turbmodels/naca0012_val.html",
+    "bytes": 1608,
+    "sha256": "38d8474bc67661c3cef5e4cd9eeddb95d4a436d06abc1f58a8518066f510647c",
+    "attribution": "N. Gregory and C. L. O'Reilly, R&M 3726, 1970; digitized upper-surface pressures distributed by TMR."
+  },
+  "license_evidence": {
+    "upstream_repository_license": "CC0-1.0",
+    "url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+    "scope_note": "TMBWG repository declaration; original experiment attribution retained. Not relabeled MIT."
+  },
+  "caveats": [
+    "This is not the Re=6 million Ladson force experiment.",
+    "Small x/c excursions outside [0,1] caused by digitization are retained and flagged, never clipped.",
+    "The raw header calls the report 'NASA R&M 3726'; the report identifier and authors are retained without adopting that organizational label."
+  ],
+  "upstream_hash_verification": {
+    "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CP_Gregory_expdata.dat",
+    "sha256": "38d8474bc67661c3cef5e4cd9eeddb95d4a436d06abc1f58a8518066f510647c",
+    "matches_local_raw": true
+  }
+}

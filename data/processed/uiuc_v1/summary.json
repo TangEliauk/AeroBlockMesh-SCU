@@ -1,0 +1,52 @@
+{
+  "pipeline_version": "1.0.0",
+  "generated_at_utc": "2026-11-22T11:06:03+00:00",
+  "source": {
+    "name": "UIUC Airfoil Coordinates Database",
+    "source_page": "https://m-selig.ae.illinois.edu/ads/coord_database.html",
+    "input_path_policy": "Source paths are relative to the CLI --input directory; no machine-specific paths stored.",
+    "data_license": "No uniform data reuse license established; code license does not relicense third-party geometry."
+  },
+  "input_dat_files": 1665,
+  "accepted_source_files": 1613,
+  "unique_samples": 1607,
+  "duplicate_source_files": 6,
+  "rejected_source_files": 52,
+  "rejection_reasons": {
+    "adjacent_edge_overlap": 2,
+    "excessive_open_trailing_edge_gap": 1,
+    "long_edge_or_disconnected_contours": 4,
+    "near_zero_length_edge": 12,
+    "open_contour_endpoints_away_from_te": 1,
+    "outside_single_airfoil_y_span": 4,
+    "self_intersection_or_nonadjacent_touch": 28
+  },
+  "thresholds": {
+    "min_vertices": 12,
+    "max_vertices": 5000,
+    "min_normalized_area": 1e-05,
+    "max_normalized_y_span": 0.6,
+    "max_edge_length": 0.4,
+    "min_edge_length": 1e-10,
+    "open_endpoint_x_tolerance": 0.02,
+    "max_open_closure_gap": 0.1,
+    "max_branch_x_backtracking": 0.02,
+    "intersection_epsilon": 1e-12,
+    "lednicer_le_join_tolerance": 1e-06
+  },
+  "threshold_interpretation": "Operational filters for a conventional single-element, chord-aligned training subset, not universal CFD validity standards.",
+  "representation": {
+    "polygon": "Unit-x-chord CCW polygon, canonical LE start, no duplicate terminal vertex; closure is implicit last-to-first segment.",
+    "normalization": "Translation plus uniform positive scale only; no rotation, smoothing, resampling or imputation.",
+    "deduplication": "Exact decimal/Fraction arithmetic after normalization, orientation and cyclic ordering. Vertex sampling must match exactly; near-duplicates and collinear-resampled equivalents are retained.",
+    "serialization": "Polygon floats are for convenient use; canonical SHA256 is computed from exact rational coordinates before float conversion."
+  },
+  "limitations": [
+    "Geometry only; no expert actions, block topology, connectivity or CFD ground truth.",
+    "Implicit closure defines an edge between input endpoints; no points are inserted. For accepted open chains both endpoints must be near the trailing edge and gap within threshold.",
+    "Rejected means outside this conservative subset or needs review; it does not prove the original airfoil is wrong.",
+    "Segment tests use a configurable floating-point epsilon; no exact-predicate robustness claim.",
+    "No curvature, boundary-layer suitability, grid Jacobian, aerodynamic performance or CAD-validity guarantee.",
+    "Near-duplicate/family-aware train-test grouping must be performed separately."
+  ]
+}

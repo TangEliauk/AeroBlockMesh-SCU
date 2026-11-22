@@ -1,0 +1,7 @@
+# Preserve frozen release bytes and SHA-256 values across Git checkouts.
+/data/** -text
+/scripts/data/** -text
+/tests/data/** -text
+/docs/public_data_v1.md -text
+/THIRD_PARTY_DATA.md -text
+/.gitattributes -text

@@ -1,0 +1,35 @@
+{
+  "input": {
+    "filename": "samples.jsonl",
+    "bytes": 5014314,
+    "sha256": "1d26c7b34b97b2de10a0514229d4eb03240c3b59b71c941432a37e0828576e5f"
+  },
+  "full_repeat_all_output_hashes_identical": true,
+  "rerun_output_sha256": {
+    "groups.json": "d2fceb2d73a351cc81b9feff2015d8655efb7cc5b86129373be846447712207d",
+    "independent_geometry_qa.json": "3a66055c93291003dbcac3acf678ce5c555e3b1e4c56143f33b69e6047ad7338",
+    "independent_qa_failures.json": "5138c55d44c26cf1adb7a2a1a799ec2ccdcd3f2a142b938c548651711f655c2f",
+    "near_duplicate_pairs.csv": "f4f503b932228e20c99e506a212c835c439e74422acb1d49ff217333d7b5759c",
+    "split_config.json": "ca98de8a2f60b9e83d4587d44721aef0db7bf96bb545e594554e39dd0945f6a4",
+    "split_manifest.csv": "2ff24faa6e0495076e362987840f12c491985fcf5de49965305b7d3c559cba26",
+    "split_report.json": "0d4d1b94b1d6ce4d852a0e69d68eabae8096484d2d6715d334eadaabf839ffdd",
+    "test.json": "17f3fe0ebfaaf044067e0e2f55ca250865b8147ff30a25ba47e8088aeadf233f",
+    "train.json": "1d327b6829cec606e8a15ce1433f4c03963de04df492bdefe882ded7f0eb65cf",
+    "val.json": "0b1d92f87ee14528430f7045e504855352de9f2a280eac345cbb4fa73950dc12",
+    "说明.txt": "23d3925f627a11502ce26cb405923c83d056166b64751a372d6a71c2da39c0f9"
+  },
+  "regression_tests": {
+    "count": 4,
+    "result": "passed"
+  },
+  "leakage_checks": {
+    "unique_ids": true,
+    "disjoint_id_sets": true,
+    "all_samples_assigned_once": true,
+    "name_family_cross_split_leaks": 0,
+    "float_exact_duplicate_cross_split_leaks": 0,
+    "detected_near_duplicate_cross_split_leaks": 0,
+    "groups_cross_split_leaks": 0
+  },
+  "source_hashes_rechecked": 1613
+}

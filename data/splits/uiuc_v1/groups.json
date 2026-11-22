@@ -1,0 +1,3657 @@
+[
+  {
+    "group_id": "grp_01820ae4b6a04918",
+    "sample_ids": [
+      "uiuc_325990d6bcc4f36c"
+    ],
+    "family_keys": [
+      "name:hsnlf"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_01e7e1903d291177",
+    "sample_ids": [
+      "uiuc_b74b521e5af10464"
+    ],
+    "family_keys": [
+      "name:mistrut"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_052f32d836b00176",
+    "sample_ids": [
+      "uiuc_e31af90937af2e6d"
+    ],
+    "family_keys": [
+      "name:2032c"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_05ad96d8db26d054",
+    "sample_ids": [
+      "uiuc_06413b9bd974217b"
+    ],
+    "family_keys": [
+      "name:wasp"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_0809c4ee8a95acae",
+    "sample_ids": [
+      "uiuc_555039b9579393da",
+      "uiuc_60c7357053cb3e50",
+      "uiuc_6940a098566f84f9",
+      "uiuc_b37f8c89641158c7"
+    ],
+    "family_keys": [
+      "name:l"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_084299638c65ce93",
+    "sample_ids": [
+      "uiuc_6a201499c42cfae8"
+    ],
+    "family_keys": [
+      "name:30p30n"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_0e2fe9f1210fd82f",
+    "sample_ids": [
+      "uiuc_06e848372ad1351f",
+      "uiuc_31bf3c0fe3a06287",
+      "uiuc_673989936603f1ef",
+      "uiuc_7e2b73b6d5075ae8",
+      "uiuc_96ace231cc6f4f21",
+      "uiuc_b7faa51e376c9bf4",
+      "uiuc_bb82438b4a84c6dd",
+      "uiuc_c7bbdd86af770092",
+      "uiuc_cac664fb372bde9b",
+      "uiuc_d34a802e13d83134",
+      "uiuc_d692bc3d930781e4"
+    ],
+    "family_keys": [
+      "name:rc"
+    ],
+    "count": 11,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_0f917d1e214b6d1a",
+    "sample_ids": [
+      "uiuc_4eb9d4dc84a06afa",
+      "uiuc_a76af79508dbebbd",
+      "uiuc_e14e4ff767aaee0b",
+      "uiuc_f873047d28050cde"
+    ],
+    "family_keys": [
+      "name:rhodesg"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_110eb9ad7a458406",
+    "sample_ids": [
+      "uiuc_0b0881a26ccbb295"
+    ],
+    "family_keys": [
+      "name:trainer"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_13e59b46ccb08e7b",
+    "sample_ids": [
+      "uiuc_08b01144a87dc63a",
+      "uiuc_44c8d3231eb64b84",
+      "uiuc_68e12770eb8cd3ab",
+      "uiuc_69afcce753154171",
+      "uiuc_71f22d028e6bfc0b",
+      "uiuc_78dd0f374fc46396",
+      "uiuc_b60619dbd4ef8411",
+      "uiuc_ba544f47d5d176fb",
+      "uiuc_dea553bea9b3b91a",
+      "uiuc_e30821d8b5266059",
+      "uiuc_e32c4b517d4f36dd"
+    ],
+    "family_keys": [
+      "name:c"
+    ],
+    "count": 11,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_140b7444805ff5cb",
+    "sample_ids": [
+      "uiuc_9d25134a5e4c1f6e"
+    ],
+    "family_keys": [
+      "name:whitcomb"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_16b41c830ada7e9b",
+    "sample_ids": [
+      "uiuc_23214c6a99650c02"
+    ],
+    "family_keys": [
+      "name:griffith"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_17776081d0201ac0",
+    "sample_ids": [
+      "uiuc_eb687f88618ad1df"
+    ],
+    "family_keys": [
+      "name:daytonwrightt"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_18856e6b7763148e",
+    "sample_ids": [
+      "uiuc_85fba4684c20fc83",
+      "uiuc_f0086b27589f9888"
+    ],
+    "family_keys": [
+      "name:psu"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_198181e13fe23dcc",
+    "sample_ids": [
+      "uiuc_977088c73ed83db6"
+    ],
+    "family_keys": [
+      "name:falcon"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_1b2e67e878b97767",
+    "sample_ids": [
+      "uiuc_51f52cac1936a227"
+    ],
+    "family_keys": [
+      "name:saratov"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_1c6c39fe232f5c98",
+    "sample_ids": [
+      "uiuc_582d64566ef378cb"
+    ],
+    "family_keys": [
+      "name:marsden"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_1c968e0fb2b2edea",
+    "sample_ids": [
+      "uiuc_7a044b4e3dd61853",
+      "uiuc_bee9e32d26ea078a"
+    ],
+    "family_keys": [
+      "name:w"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_1ef2c9dd067e2e0b",
+    "sample_ids": [
+      "uiuc_07ae5099012b9527",
+      "uiuc_c25002e50596cdc8"
+    ],
+    "family_keys": [
+      "name:ssca"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_2075a9b0e21ef6fd",
+    "sample_ids": [
+      "uiuc_13a61236139cba98",
+      "uiuc_554ec78b5297725f",
+      "uiuc_f77180e17e649306"
+    ],
+    "family_keys": [
+      "name:coanda"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_2203f036eddbcfa8",
+    "sample_ids": [
+      "uiuc_26b62029643da9c5"
+    ],
+    "family_keys": [
+      "name:ultimate"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_241206f646191982",
+    "sample_ids": [
+      "uiuc_916a56f9c0793a2b"
+    ],
+    "family_keys": [
+      "name:tsagir"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_24c9eacfbc93b8e7",
+    "sample_ids": [
+      "uiuc_de226b5ca857d961",
+      "uiuc_f536996b7788848c"
+    ],
+    "family_keys": [
+      "name:tsagi"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_25e18d526ae01573",
+    "sample_ids": [
+      "uiuc_274e16c5de877875",
+      "uiuc_5102ec1e584eff70",
+      "uiuc_51e33b1b29466b46",
+      "uiuc_568fe0a7211c59a8",
+      "uiuc_5b5a4c29b42b3f58",
+      "uiuc_6b3b1728bc957dce",
+      "uiuc_7b226652ae0a7bd7",
+      "uiuc_99e78535df7688ae",
+      "uiuc_c372a393b7436116",
+      "uiuc_f149be42f6164140",
+      "uiuc_f35a4b52fedb9049",
+      "uiuc_fdf00dcc2299c08c"
+    ],
+    "family_keys": [
+      "name:rg"
+    ],
+    "count": 12,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_269badfbdd0b5d08",
+    "sample_ids": [
+      "uiuc_07eb6cf83f2fea52",
+      "uiuc_0b721df8ba33693a",
+      "uiuc_0cbe547b9011ba97",
+      "uiuc_1137bb3a666ed67a",
+      "uiuc_1e518687e479c9e9",
+      "uiuc_280727c9fb6aa4c0",
+      "uiuc_3561ec46119880e3",
+      "uiuc_3762167fdb6ae50c",
+      "uiuc_3e60d5474a76729e",
+      "uiuc_440d9ac7d7dd1d33",
+      "uiuc_5b66e7bc0f8347a7",
+      "uiuc_737d011def897591",
+      "uiuc_813f6a69be920014",
+      "uiuc_8fab52a79ac753be",
+      "uiuc_9367e93b639049ee",
+      "uiuc_9cd4cdd0220659b7",
+      "uiuc_9e9d39212e6cfb8f",
+      "uiuc_a72a32c113ded6b8",
+      "uiuc_b3a76ca8258e9a07",
+      "uiuc_b43b801c1509772c",
+      "uiuc_b636b2e3468c1051",
+      "uiuc_bcf7573a9b04e63f",
+      "uiuc_c05276fee8db915e",
+      "uiuc_c72578a0a294fde2",
+      "uiuc_cdd15654f4109808",
+      "uiuc_cddbf24e6b628a9f",
+      "uiuc_db9657dcb9216881",
+      "uiuc_dd6780673178eb27",
+      "uiuc_ecad890e635fbb3b",
+      "uiuc_efd7c8015450fc08",
+      "uiuc_f1c942638cb50da1",
+      "uiuc_f697e761a389529c",
+      "uiuc_f93bed98926b9d31",
+      "uiuc_fdd133b7e32b1398"
+    ],
+    "family_keys": [
+      "name:ag"
+    ],
+    "count": 34,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_2817a342803ee30f",
+    "sample_ids": [
+      "uiuc_074ec9d253e9a87b",
+      "uiuc_1bd2a584f48fbf9d",
+      "uiuc_43aa67dc73ae0c3d",
+      "uiuc_773bc05fcd7f5476",
+      "uiuc_a18f53ceac8249cc",
+      "uiuc_c5f055d1b1a97ddb",
+      "uiuc_d3171d47f0c3b596",
+      "uiuc_e724b21e8d026424",
+      "uiuc_e7f33c0034a06b8d",
+      "uiuc_e870cb2f0571e2d3"
+    ],
+    "family_keys": [
+      "name:rae"
+    ],
+    "count": 10,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_2969ea37436b039f",
+    "sample_ids": [
+      "uiuc_4379160f650d158d",
+      "uiuc_7a58550901713a35",
+      "uiuc_97cec3e9e82f5c78",
+      "uiuc_d8531deca0340db6",
+      "uiuc_f4a346176b0fc5a1",
+      "uiuc_fb6044bccba5ec44"
+    ],
+    "family_keys": [
+      "name:marske"
+    ],
+    "count": 6,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_29df1bdebfe9d1e9",
+    "sample_ids": [
+      "uiuc_5b9af2dc3d2f125d"
+    ],
+    "family_keys": [
+      "name:giiig"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_2a6b4a308c934993",
+    "sample_ids": [
+      "uiuc_6964eabe2cd1b40d",
+      "uiuc_6aea5214c29fabac",
+      "uiuc_ae078f9cabff8c19"
+    ],
+    "family_keys": [
+      "name:glennmartin"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_2e020c7261248133",
+    "sample_ids": [
+      "uiuc_db4be74064ce6b92"
+    ],
+    "family_keys": [
+      "name:joukowsk"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_3043dce5a84a9862",
+    "sample_ids": [
+      "uiuc_4d993ab2c81cb396"
+    ],
+    "family_keys": [
+      "name:rcsc"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3081e6a72880060e",
+    "sample_ids": [
+      "uiuc_9bef72123efebf1c"
+    ],
+    "family_keys": [
+      "name:mb"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_31236b06d5497b6d",
+    "sample_ids": [
+      "uiuc_c818f32252ebfc26"
+    ],
+    "family_keys": [
+      "name:bacxxx"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_339e87cf66da3030",
+    "sample_ids": [
+      "uiuc_c9740ec3f1268691"
+    ],
+    "family_keys": [
+      "name:btefk"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_340b74b2d7af5c3d",
+    "sample_ids": [
+      "uiuc_67d33c16359cad38"
+    ],
+    "family_keys": [
+      "name:lds"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_342ce0988d7830f4",
+    "sample_ids": [
+      "uiuc_9b3ebca0bcda7829"
+    ],
+    "family_keys": [
+      "name:mivawt"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_344028aaa95bbdb3",
+    "sample_ids": [
+      "uiuc_1153a69fa0ec895b"
+    ],
+    "family_keys": [
+      "name:nplx"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_352192c7b3ef43de",
+    "sample_ids": [
+      "uiuc_6e42dc630779bd9f"
+    ],
+    "family_keys": [
+      "name:ch"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3680f0c058f7df68",
+    "sample_ids": [
+      "uiuc_989f3aa15b495e91",
+      "uiuc_c122e26c7f460307",
+      "uiuc_feb28e2c4475f510"
+    ],
+    "family_keys": [
+      "name:ea"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_36c3b65ddfc8e04a",
+    "sample_ids": [
+      "uiuc_59fead1cf09dedf7",
+      "uiuc_5d6312b01f339f43",
+      "uiuc_67ef743959ffb947",
+      "uiuc_c4a42dda9d1080e0",
+      "uiuc_f5a47067c827e39f"
+    ],
+    "family_keys": [
+      "name:sa"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3a8d8190cb8777c7",
+    "sample_ids": [
+      "uiuc_769d771b73396ddf",
+      "uiuc_7a920c1a06a9a249",
+      "uiuc_99f01f9edbb2fc46",
+      "uiuc_bcd8e49a74fdf206",
+      "uiuc_d0c3868abba8f8b4"
+    ],
+    "family_keys": [
+      "name:dae"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3b43385fefdd2408",
+    "sample_ids": [
+      "uiuc_6b73680bdce8c975"
+    ],
+    "family_keys": [
+      "name:nn"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3b6d6886d2a766cc",
+    "sample_ids": [
+      "uiuc_615df2223068660c"
+    ],
+    "family_keys": [
+      "name:ec"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3c52e69bdc37cc03",
+    "sample_ids": [
+      "uiuc_39fc6a1aa36966d5"
+    ],
+    "family_keys": [
+      "name:fauvel"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3c8413bd5992cd49",
+    "sample_ids": [
+      "uiuc_2861c53eb282a524"
+    ],
+    "family_keys": [
+      "name:us"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3c932d5b02e84020",
+    "sample_ids": [
+      "uiuc_326581b25666bb5f",
+      "uiuc_ad8fa9b1cce2fef9"
+    ],
+    "family_keys": [
+      "name:ste"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3de9119971af83a9",
+    "sample_ids": [
+      "uiuc_09fd2a2ab354dd64",
+      "uiuc_0cb4bd6f47f769d4",
+      "uiuc_0ee04a12f372a60d",
+      "uiuc_10a7cca319956d42",
+      "uiuc_145fe89206f93e9f",
+      "uiuc_14b8eba62c20768e",
+      "uiuc_168fde7f8ee45157",
+      "uiuc_1874bd3f1c44a69b",
+      "uiuc_1a5bd54fde8f6050",
+      "uiuc_1b5189d2f2d016c7",
+      "uiuc_1c5b0ec3425e9863",
+      "uiuc_1c8f548f42161f1d",
+      "uiuc_1d24b7d66b87cadb",
+      "uiuc_249f8546a3353486",
+      "uiuc_3069026328634c1e",
+      "uiuc_3735404bd5feedc7",
+      "uiuc_3a5b1f27f6e3ead7",
+      "uiuc_413e77780f0a770a",
+      "uiuc_45dcb54df358cb8f",
+      "uiuc_498e7cb52e4a767e",
+      "uiuc_4995aaaae6875cdb",
+      "uiuc_4b9e6086e7689428",
+      "uiuc_4cf37e9f81b7a6ed",
+      "uiuc_4f4ace0b34a4dcb7",
+      "uiuc_518ccf9c2742f392",
+      "uiuc_5445b86e10519a20",
+      "uiuc_5a61d2ed690d1c11",
+      "uiuc_5bab47e8880a0e16",
+      "uiuc_5bc4b6f4e85dcc8f",
+      "uiuc_64d8d857181148de",
+      "uiuc_68bf0c843bcaced6",
+      "uiuc_6b0fc0f26f78f1a6",
+      "uiuc_6d7b8574b7e4d440",
+      "uiuc_7c126e69bb79df1f",
+      "uiuc_8163a352a836937a",
+      "uiuc_81fd7bc839a7dbb8",
+      "uiuc_8d0a1e86688269a0",
+      "uiuc_947e58a4fe4d88b6",
+      "uiuc_9489beb5767d958e",
+      "uiuc_974e8a3ef69a7d13",
+      "uiuc_9cf782f313666d36",
+      "uiuc_a13ab3632d467424",
+      "uiuc_a18c1f55ba7c81f6",
+      "uiuc_a374c1422595b5bc",
+      "uiuc_a3e2238014f0afa1",
+      "uiuc_a55f767303c9b163",
+      "uiuc_a681034c69b31d87",
+      "uiuc_abe3149fc2831ceb",
+      "uiuc_b71e0b21090b9231",
+      "uiuc_bb783745e08f222f",
+      "uiuc_bd6e2b6e8e5c3660",
+      "uiuc_bd9a668c91a2d67f",
+      "uiuc_cff9d991be55250e",
+      "uiuc_d5e6ccbd1e609c2c",
+      "uiuc_dd7dcc9949ed61ab",
+      "uiuc_de8e71af0edd53be",
+      "uiuc_e9187fdeebeb8387",
+      "uiuc_ebd124431cbeaa15",
+      "uiuc_f93dc702bbf69084",
+      "uiuc_fa9d58399ec199a8",
+      "uiuc_fed3806c63aedf63",
+      "uiuc_ff5e58f3996053a1"
+    ],
+    "family_keys": [
+      "name:s"
+    ],
+    "count": 62,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3fd5b42bc261e844",
+    "sample_ids": [
+      "uiuc_026fbd831fdc86ef",
+      "uiuc_2253633041bbf643",
+      "uiuc_228d99de7ac73ab2",
+      "uiuc_3cff35d04b294ecd",
+      "uiuc_70f40f5ef556c6a6",
+      "uiuc_7afd797148115242",
+      "uiuc_85381620f340e18d",
+      "uiuc_be2ebb90415f6960",
+      "uiuc_caecd7bb1849da90",
+      "uiuc_e31c3dbfc7f0f4bb",
+      "uiuc_f9c9e1ea7517aef6"
+    ],
+    "family_keys": [
+      "name:b"
+    ],
+    "count": 11,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_3fe4116bd1756e16",
+    "sample_ids": [
+      "uiuc_034881c18fb76794",
+      "uiuc_1d91b47b8644c475",
+      "uiuc_1fe3c1631dd2b242",
+      "uiuc_2552cab9ded3c6ea",
+      "uiuc_28ef3fadf685872d",
+      "uiuc_4622e1dfdaf1a91e",
+      "uiuc_58e8ffe5705f7a68",
+      "uiuc_89d19a3c5c35cb82",
+      "uiuc_8e3573890ef6bae4",
+      "uiuc_a82d2e5f16f9c7d4",
+      "uiuc_a8770163ea9ef993",
+      "uiuc_bd52c850a743ef4b",
+      "uiuc_c99e1ec4067c76f6",
+      "uiuc_d13fd743f22e4328",
+      "uiuc_d3fcd3f64ea487a5",
+      "uiuc_d84c750ff07d68ed",
+      "uiuc_dcf48f77c8785083",
+      "uiuc_f9bd6c0dd2296198"
+    ],
+    "family_keys": [
+      "name:raf"
+    ],
+    "count": 18,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4062384b1949b297",
+    "sample_ids": [
+      "uiuc_18ccf2ea42051768",
+      "uiuc_677dd6853483196a",
+      "uiuc_7002a677b2524089",
+      "uiuc_820813edea77a2ac",
+      "uiuc_9bdec464a219d7e0",
+      "uiuc_aa4a8e5d1808e298",
+      "uiuc_bef714cb69e49db6",
+      "uiuc_f95e26ac2393ec84"
+    ],
+    "family_keys": [
+      "name:eh"
+    ],
+    "count": 8,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_40afcf6644232dd5",
+    "sample_ids": [
+      "uiuc_61bb624263b18c94"
+    ],
+    "family_keys": [
+      "name:spica"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4105aeba9fb1d7ba",
+    "sample_ids": [
+      "uiuc_33d86d23a918dc58"
+    ],
+    "family_keys": [
+      "name:fxm"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4120d5b38cc5835b",
+    "sample_ids": [
+      "uiuc_c5892722556a98b4",
+      "uiuc_fff0fb563e3b7c1d"
+    ],
+    "family_keys": [
+      "name:wb"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4252f3c1e8286ff2",
+    "sample_ids": [
+      "uiuc_02ab9a4a64eb7f55",
+      "uiuc_0d39c5a85cbddbfd",
+      "uiuc_0df4353e79a72962",
+      "uiuc_0e6279d478b89282",
+      "uiuc_12b959fa2175c500",
+      "uiuc_143caef20763c286",
+      "uiuc_151d59a011dc4ab1",
+      "uiuc_164cfbce61675d5f",
+      "uiuc_1a746da5f8a88258",
+      "uiuc_1ae4002a29dcc941",
+      "uiuc_1b976d8bf3bfa963",
+      "uiuc_1ba3b80a8deede8b",
+      "uiuc_20be4d019cbc63e4",
+      "uiuc_21b88899be652566",
+      "uiuc_23f5ce968e9bc6ac",
+      "uiuc_2938f070712395e1",
+      "uiuc_2dc340825fffe0cb",
+      "uiuc_2e007e9f22daf147",
+      "uiuc_2fd074a3a32ae87d",
+      "uiuc_3113ae92ffb90b93",
+      "uiuc_319fc6ad59530a06",
+      "uiuc_323b0812d437de61",
+      "uiuc_32bc0792e0aed06a",
+      "uiuc_34593722c0d5a5c4",
+      "uiuc_3470619afca1e97f",
+      "uiuc_35be01e321493648",
+      "uiuc_36301ceb413bbcf7",
+      "uiuc_38cf98c371320ad2",
+      "uiuc_3df4ff850923181a",
+      "uiuc_423960cf5ce89d30",
+      "uiuc_440e7d099b09f9f1",
+      "uiuc_4477ad880632fbc1",
+      "uiuc_45294580769bf87d",
+      "uiuc_4570b73643c74ad0",
+      "uiuc_4cf61ec368079602",
+      "uiuc_523c38d61d160dd5",
+      "uiuc_52a3313c6a0cc803",
+      "uiuc_537fd698ebe509a8",
+      "uiuc_538e789ae46244ba",
+      "uiuc_53fc35a3d96b5d8e",
+      "uiuc_55208ca20d373aa0",
+      "uiuc_55219d3aa5bc96e9",
+      "uiuc_5c68984d9450a958",
+      "uiuc_5e7843cca941f6c0",
+      "uiuc_624d7d30abbb5086",
+      "uiuc_62f06609b9abc85c",
+      "uiuc_688d2c85d38e2fb7",
+      "uiuc_68991bcdc579783f",
+      "uiuc_69fcbc23b663fff2",
+      "uiuc_6bb1e3d02b9d03c2",
+      "uiuc_6c3f19abc78cd3c1",
+      "uiuc_6ee1b3baacf92e5a",
+      "uiuc_6f6113941e1a5c1f",
+      "uiuc_6fe35c943f276ec4",
+      "uiuc_71fbb4827fc3e8c1",
+      "uiuc_745b5ac83328900e",
+      "uiuc_751f67c027d1db5f",
+      "uiuc_79efc5e47d76d156",
+      "uiuc_7cbd82a798f25dea",
+      "uiuc_80c8b6c0afdd1b87",
+      "uiuc_82a02713debf0468",
+      "uiuc_8393f43ce5e91d88",
+      "uiuc_84fee0a20d75f1c9",
+      "uiuc_85abd68a5cada1df",
+      "uiuc_892988226f523ca8",
+      "uiuc_8b0099f38a600eff",
+      "uiuc_90939af6cbb4e82a",
+      "uiuc_926e3567522c5f39",
+      "uiuc_92a34b0dc7e3d14a",
+      "uiuc_92cca4717a9e87d8",
+      "uiuc_9329ed84a077d80b",
+      "uiuc_949d4648fd1a7dc8",
+      "uiuc_973254da7bfbc0c9",
+      "uiuc_9f08c2cd62412043",
+      "uiuc_a1bfd285262c6588",
+      "uiuc_a2ff7d648626d99c",
+      "uiuc_ad86086ab3e00ff6",
+      "uiuc_ae858fbd0f9f653c",
+      "uiuc_b3e02f8719f0da61",
+      "uiuc_b640acd9a04ac5f7",
+      "uiuc_be273dea7f7633c8",
+      "uiuc_c1e509ebfca27d7b",
+      "uiuc_c814fdb833cccf55",
+      "uiuc_c82a3da4d5e35feb",
+      "uiuc_d13ed62600ccf0e8",
+      "uiuc_d15b5c22e520c814",
+      "uiuc_d49fabd6440c88a3",
+      "uiuc_d6de5a0c593318e7",
+      "uiuc_d7f15c2957031f32",
+      "uiuc_d97c13b42184d146",
+      "uiuc_da7089e3f15e9c14",
+      "uiuc_da98209a1affd690",
+      "uiuc_de9156ce59e2606d",
+      "uiuc_df16203711f30a76",
+      "uiuc_e25d5679aec902c0",
+      "uiuc_e635789bf035a413",
+      "uiuc_ec299233ae057f35",
+      "uiuc_eefa9c0443081774",
+      "uiuc_f12d5423ea0c13dc",
+      "uiuc_f7deef31f6756df0",
+      "uiuc_fb2a50d31021039e"
+    ],
+    "family_keys": [
+      "name:fx"
+    ],
+    "count": 101,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_462ea451cc9874aa",
+    "sample_ids": [
+      "uiuc_7956c2aa45d82aa5"
+    ],
+    "family_keys": [
+      "name:giiii"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_47d90dbcc8b6821e",
+    "sample_ids": [
+      "uiuc_9ad25c2b3483d1af",
+      "uiuc_ca2240a596075161"
+    ],
+    "family_keys": [
+      "name:be"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_49df81a5dad112e8",
+    "sample_ids": [
+      "uiuc_746b7e65b62506fc",
+      "uiuc_d4f9ea5d076050e3"
+    ],
+    "family_keys": [
+      "name:cr"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4a06ca9f7b439e15",
+    "sample_ids": [
+      "uiuc_c538a9552a46c937"
+    ],
+    "family_keys": [
+      "name:giiib"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4a2ce6757a38c63f",
+    "sample_ids": [
+      "uiuc_4335b1928db2bb65",
+      "uiuc_fddbf1d519974aac"
+    ],
+    "family_keys": [
+      "name:ua79"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4bcef4bd8deb2a61",
+    "sample_ids": [
+      "uiuc_76c1202b98aa9091",
+      "uiuc_a4b95c965abbfb52",
+      "uiuc_d40416c7d1fc9867"
+    ],
+    "family_keys": [
+      "name:sp"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4cfa2fa4b872c8e4",
+    "sample_ids": [
+      "uiuc_05aec1804ed1c575",
+      "uiuc_4169032d5af2745c",
+      "uiuc_49c3908d23c3aaf9",
+      "uiuc_6c6480f40e9bc822",
+      "uiuc_7f400d8be52f9421",
+      "uiuc_812b0b65dcdb3ca9",
+      "uiuc_8f97265aea94dea9",
+      "uiuc_9a2a2193283d02c5",
+      "uiuc_9ed1ea32e5862bc7",
+      "uiuc_b85e8b50cd1c34be",
+      "uiuc_e179104093eeedca",
+      "uiuc_f6e9efda5a00aa54"
+    ],
+    "family_keys": [
+      "name:vr"
+    ],
+    "count": 12,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_4e789056e356ee41",
+    "sample_ids": [
+      "uiuc_3a9183a913626624",
+      "uiuc_edf8cf56981775f9"
+    ],
+    "family_keys": [
+      "name:prandtl_d"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4f5f876a6037d150",
+    "sample_ids": [
+      "uiuc_01e59c529b9b6598",
+      "uiuc_75c100ef90e7ce3c",
+      "uiuc_d59365b3b29f36c0"
+    ],
+    "family_keys": [
+      "name:tempest"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_4f975674ab551ac4",
+    "sample_ids": [
+      "uiuc_0648c529ed0874bb",
+      "uiuc_15b66bc1484eb1c1",
+      "uiuc_3166c8bbc9918072",
+      "uiuc_3268225d1b88eb2d",
+      "uiuc_822f10283d9884d6",
+      "uiuc_b0525d1cf1dcdd8d",
+      "uiuc_c4d29a70cbe3a9f7",
+      "uiuc_e7fba06cd9fd23b5"
+    ],
+    "family_keys": [
+      "name:mrc"
+    ],
+    "count": 8,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_51bfa511882e45d3",
+    "sample_ids": [
+      "uiuc_428f7e10ec5a647d"
+    ],
+    "family_keys": [
+      "name:sokolov"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_52b38063977003a3",
+    "sample_ids": [
+      "uiuc_01f5f764edfe7e53",
+      "uiuc_19feb08c73906f15",
+      "uiuc_82f591f9594bf5f4",
+      "uiuc_896fa36e7ef60742",
+      "uiuc_bbd9b67908479f14",
+      "uiuc_c73f97708ae964a3",
+      "uiuc_e3196824bc6677fd",
+      "uiuc_f660c170073db3e1"
+    ],
+    "family_keys": [
+      "name:n"
+    ],
+    "count": 8,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_534731aab494fd9c",
+    "sample_ids": [
+      "uiuc_e36d312eefc87798"
+    ],
+    "family_keys": [
+      "name:kenmar"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_542bb0a3130179b5",
+    "sample_ids": [
+      "uiuc_71fabe993d6960f5"
+    ],
+    "family_keys": [
+      "name:bambino"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_545bfc059bb7e634",
+    "sample_ids": [
+      "uiuc_658272ae397e5bcf"
+    ],
+    "family_keys": [
+      "name:fxlv"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_5479f57e12dceca1",
+    "sample_ids": [
+      "uiuc_69293df26f72b549"
+    ],
+    "family_keys": [
+      "name:jn"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_5520062badd3f59f",
+    "sample_ids": [
+      "uiuc_9100cb9875c6333d"
+    ],
+    "family_keys": [
+      "name:avistar"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_5910971654e03b3e",
+    "sample_ids": [
+      "uiuc_92b1b7e867568bb9"
+    ],
+    "family_keys": [
+      "name:gs"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_59213faf4569a1ca",
+    "sample_ids": [
+      "uiuc_03882526303dce6b",
+      "uiuc_038c9521d9680dd0",
+      "uiuc_043e817e10426211",
+      "uiuc_060dd1100d04a32b",
+      "uiuc_0654565b823110f2",
+      "uiuc_06adc9fb3cbe5366",
+      "uiuc_06d2ad08851d1aa6",
+      "uiuc_077048992a5802d5",
+      "uiuc_077057562fc83607",
+      "uiuc_0a422e3027635b95",
+      "uiuc_0a9ad3b106cd0a5f",
+      "uiuc_0b83e1760193a341",
+      "uiuc_0cb788ec4130d726",
+      "uiuc_0d6b0c97d8a92b32",
+      "uiuc_0d7737061bb77895",
+      "uiuc_0e44ae528e973bdd",
+      "uiuc_0e7c73f965cca0c4",
+      "uiuc_11f2917301a60a21",
+      "uiuc_12c0413252877e5d",
+      "uiuc_13a5e8e5da37bb3a",
+      "uiuc_1456d64696a948c5",
+      "uiuc_15069d73c73e0e3b",
+      "uiuc_151a40b34fd6ad89",
+      "uiuc_161086bd13564ae2",
+      "uiuc_1676671f107bf212",
+      "uiuc_1a3c215126fac416",
+      "uiuc_1ba55291e743c163",
+      "uiuc_1c6b7f227b122792",
+      "uiuc_1dfac3a326ae7f89",
+      "uiuc_21377a07dea8871a",
+      "uiuc_215e404a404beb4a",
+      "uiuc_21ef2d589f4c7e64",
+      "uiuc_2290861dc32dd5c2",
+      "uiuc_22a97614fb5b3dfd",
+      "uiuc_241d258431a313af",
+      "uiuc_2453ba9968161989",
+      "uiuc_26335861def0bda2",
+      "uiuc_2681f2dce5c84624",
+      "uiuc_2697a7034a4da700",
+      "uiuc_28555e45415e6b21",
+      "uiuc_2986420f874e8d33",
+      "uiuc_2a86fe4063e1dc18",
+      "uiuc_2aac77d663c7714d",
+      "uiuc_2d804a5c00c8039f",
+      "uiuc_3067d75eb2fffb5e",
+      "uiuc_31ae71dd62c22b20",
+      "uiuc_31ecd01098488a8e",
+      "uiuc_34fe51da15f76e2a",
+      "uiuc_351e51ffc501a8e8",
+      "uiuc_352bb46f9e37c872",
+      "uiuc_3697fa71ca5fd159",
+      "uiuc_3817b0dcf098731e",
+      "uiuc_38d1c3bdbc3d0fe5",
+      "uiuc_3a1ecf391784c67c",
+      "uiuc_3bb7932b0a83d651",
+      "uiuc_40c67e8d4304c93f",
+      "uiuc_45081fb9c51f6a63",
+      "uiuc_46fa14397644d8da",
+      "uiuc_4802e74339b7ff07",
+      "uiuc_496d360ea6ee10e6",
+      "uiuc_4a818fbb8b69cc44",
+      "uiuc_4b8a0b9f7b8cef77",
+      "uiuc_4cfb703b6b719975",
+      "uiuc_4eaedfa85e1d3e08",
+      "uiuc_4ee9351e3c2ec74e",
+      "uiuc_4efda22c95947981",
+      "uiuc_4f32525688b60c25",
+      "uiuc_4f5b7126394cc8c6",
+      "uiuc_5092a7dfc5e764a2",
+      "uiuc_514342a798f9c978",
+      "uiuc_57115341b9e8b287",
+      "uiuc_578d08c1c8f29a4b",
+      "uiuc_57c305f59da52001",
+      "uiuc_58024d5e1b394230",
+      "uiuc_59d0fe0620ca1c80",
+      "uiuc_5c593e4348b38310",
+      "uiuc_5e8f3c10749914ec",
+      "uiuc_5f714d47eac881ef",
+      "uiuc_5ff8299b3553d1a9",
+      "uiuc_62dce6c21919ee1b",
+      "uiuc_65ce4c473a7c58f5",
+      "uiuc_6651b8c303d92bc0",
+      "uiuc_673c2d3b5dec3778",
+      "uiuc_682a41e2cfd6c25e",
+      "uiuc_68803e1db6113fc0",
+      "uiuc_68c553075aae5115",
+      "uiuc_6beaa4b4a0b85636",
+      "uiuc_6c4ba26cc3dcd2ce",
+      "uiuc_6ce04f8f3f07fb1e",
+      "uiuc_6eb20a6acb12c3c4",
+      "uiuc_6f2170fb01afb8ff",
+      "uiuc_700f217277873891",
+      "uiuc_7012d88c91c738b2",
+      "uiuc_746013b3acff828d",
+      "uiuc_7543f11c9c387529",
+      "uiuc_767adbafc6f715f3",
+      "uiuc_7ac74a5156144caf",
+      "uiuc_7ba88b50de0e4291",
+      "uiuc_7bc9181800d2bd9c",
+      "uiuc_7bd1e9af0cf839ec",
+      "uiuc_8389a3562ad16b01",
+      "uiuc_843d9ebdaf24e044",
+      "uiuc_870b0106238b07c2",
+      "uiuc_88a8ecfdaf4e86dd",
+      "uiuc_8a35157c55b0a4d6",
+      "uiuc_8a44562715c8d457",
+      "uiuc_8f2927abe3a05e88",
+      "uiuc_8f4e757abb64ae13",
+      "uiuc_94050fab85504f19",
+      "uiuc_9459214ef3b2d5e5",
+      "uiuc_94d0a1781b801b4f",
+      "uiuc_9b23159c5b12474e",
+      "uiuc_9b531608fc6889cc",
+      "uiuc_9bb983000cff9e2a",
+      "uiuc_9c8b6e6f105ce1f9",
+      "uiuc_9cf6837ab789d30a",
+      "uiuc_9dc740d47aef9453",
+      "uiuc_9f67875873700691",
+      "uiuc_a1231ca2306dc9fe",
+      "uiuc_a12b2d471bebf0a9",
+      "uiuc_a3e996637cf7e164",
+      "uiuc_a481fa994c7d6c87",
+      "uiuc_a72d29bdab3c0e10",
+      "uiuc_abdc9d9931abf603",
+      "uiuc_ad34b07e7aa10ccf",
+      "uiuc_ae17843cf9a55eb9",
+      "uiuc_af9de02afe4d894d",
+      "uiuc_b01a0c6f586a9e88",
+      "uiuc_b11edaa75d76f645",
+      "uiuc_b53b98add08b4d9d",
+      "uiuc_b636d6c4ca40758b",
+      "uiuc_b6719549786191d8",
+      "uiuc_b78b757d5fd5f174",
+      "uiuc_b9d235655f295a1a",
+      "uiuc_bd7c7b72b1c5d3dc",
+      "uiuc_c369fc7bd7bd8db5",
+      "uiuc_c4b0816f85c62489",
+      "uiuc_c66f39d4d3089eef",
+      "uiuc_c72f2994ecaf817f",
+      "uiuc_c830729679e9f4f9",
+      "uiuc_c8de389c425f149d",
+      "uiuc_cb798e9dee202339",
+      "uiuc_cdd3ef68eec45771",
+      "uiuc_ceb6c6a74ee2021a",
+      "uiuc_cf31cc6b04bff2e4",
+      "uiuc_cfb91144ff734ad5",
+      "uiuc_d127cd18faa9e6a5",
+      "uiuc_d15b4c618e079171",
+      "uiuc_d47158c20224428e",
+      "uiuc_d953563cdaa987b0",
+      "uiuc_db0bd43b61eaa00e",
+      "uiuc_dc79ace7ff23dd75",
+      "uiuc_dcee102659f0bedc",
+      "uiuc_ddf8dbfbef2aa139",
+      "uiuc_e060dc10d913bdea",
+      "uiuc_e51ae5de41523d1a",
+      "uiuc_e7ec0f4ac5fad8a3",
+      "uiuc_e7fa49d1c86d5175",
+      "uiuc_e85104c3cea20280",
+      "uiuc_ea340bf64b53c444",
+      "uiuc_ede5f71c652288c0",
+      "uiuc_ee3bd168f2873b69",
+      "uiuc_f13b8bbab4afb592",
+      "uiuc_f16100b4c7778e59",
+      "uiuc_f23ca50d2ce7f500",
+      "uiuc_f2a23f3539e1545d",
+      "uiuc_f7f7015aea2d8dc1",
+      "uiuc_f8bc30c52b6ac4c4",
+      "uiuc_fce5b21dfb167092",
+      "uiuc_fd9395027e4bbde7"
+    ],
+    "family_keys": [
+      "name:m",
+      "name:naca"
+    ],
+    "count": 170,
+    "forced_test": true,
+    "split": "test"
+  },
+  {
+    "group_id": "grp_593043549c05dc6f",
+    "sample_ids": [
+      "uiuc_b2ea0df0d0451efb",
+      "uiuc_b491da3f71f60659"
+    ],
+    "family_keys": [
+      "name:bw"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_59c94875868e28e3",
+    "sample_ids": [
+      "uiuc_0741388f80692916",
+      "uiuc_1034d128a34c7fd6",
+      "uiuc_172ed4722d49fe11",
+      "uiuc_1db8f6803e78363b",
+      "uiuc_2171d76af66ce3be",
+      "uiuc_25147de9ad29da9b",
+      "uiuc_252c66d904c4aa77",
+      "uiuc_2b5b725362194bb0",
+      "uiuc_2b5c812f029772d1",
+      "uiuc_56360fb07b75ac1a",
+      "uiuc_5ef1fb126e31edbb",
+      "uiuc_613b0341a19113dd",
+      "uiuc_67fac3a53b5f1817",
+      "uiuc_71e0c3f7b91aee0b",
+      "uiuc_738aefa5c31bd27c",
+      "uiuc_82e1532d0261bd4f",
+      "uiuc_855175ca714dd73d",
+      "uiuc_b410c6012743a679",
+      "uiuc_bd377260a2caa779",
+      "uiuc_bf7069195a7534ad",
+      "uiuc_c37259288e74ab03",
+      "uiuc_ce80c9989853c21c",
+      "uiuc_d69be64b0fcb9c81",
+      "uiuc_d853446a2d686644",
+      "uiuc_db347cf4cf9248ec",
+      "uiuc_e14a9f8b902f0c5a",
+      "uiuc_e5aa98b2776fba91"
+    ],
+    "family_keys": [
+      "name:sc"
+    ],
+    "count": 27,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_5c2a280140e4a033",
+    "sample_ids": [
+      "uiuc_cc4eaee2dd9465e9"
+    ],
+    "family_keys": [
+      "name:gm"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_5fb7062687970349",
+    "sample_ids": [
+      "uiuc_8234924d65fb3dc8"
+    ],
+    "family_keys": [
+      "name:dsma"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_608011d38cfec6fb",
+    "sample_ids": [
+      "uiuc_2badc351ec7baf5a"
+    ],
+    "family_keys": [
+      "name:uag"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_61ab59510e4fcd95",
+    "sample_ids": [
+      "uiuc_4216e8aa43464499",
+      "uiuc_6be0e759e7d2e77f",
+      "uiuc_9a2ab21b87892c79",
+      "uiuc_f88f0d4282f3af82"
+    ],
+    "family_keys": [
+      "name:hor"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_62f1f64b57a820b5",
+    "sample_ids": [
+      "uiuc_63379018080f000c",
+      "uiuc_c81d2883123b90d5"
+    ],
+    "family_keys": [
+      "name:amsoil"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_6350353a53ed1331",
+    "sample_ids": [
+      "uiuc_35d63ae0bd170b93"
+    ],
+    "family_keys": [
+      "name:dbln"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_6392b39886199869",
+    "sample_ids": [
+      "uiuc_90b2a73dc088aa0a"
+    ],
+    "family_keys": [
+      "name:fxl"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_653c412382968d18",
+    "sample_ids": [
+      "uiuc_2eb8310795a49415",
+      "uiuc_78d7bd0952e38a0b"
+    ],
+    "family_keys": [
+      "name:boe"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_6e6bf6cd9b733636",
+    "sample_ids": [
+      "uiuc_8f87de36fb687e8d"
+    ],
+    "family_keys": [
+      "name:giiil"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_700b72a327d0fb78",
+    "sample_ids": [
+      "uiuc_2ace7a2a3934c308"
+    ],
+    "family_keys": [
+      "name:cootie"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_705d66b366de41bc",
+    "sample_ids": [
+      "uiuc_2093e18759d5a667",
+      "uiuc_9f27fc5530fcfb04",
+      "uiuc_bee474063193811f",
+      "uiuc_c73f1118de8e54de",
+      "uiuc_d398e68de08bcd4f"
+    ],
+    "family_keys": [
+      "name:kc"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_738bd30d8c96ec68",
+    "sample_ids": [
+      "uiuc_7416fd4df3d11fc5"
+    ],
+    "family_keys": [
+      "name:zv"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_755e5b48da3e5f0f",
+    "sample_ids": [
+      "uiuc_25a27d12282c241f"
+    ],
+    "family_keys": [
+      "name:giiia"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_764a12b55ff03863",
+    "sample_ids": [
+      "uiuc_27900a64ebdb2e26",
+      "uiuc_d71399f3ddcd64af"
+    ],
+    "family_keys": [
+      "name:nlr"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_772e82be46302425",
+    "sample_ids": [
+      "uiuc_8baad315cf479c42"
+    ],
+    "family_keys": [
+      "name:giiih"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_776d399ce7fbe744",
+    "sample_ids": [
+      "uiuc_30d879d5b321aa76",
+      "uiuc_4b8eeac392413878"
+    ],
+    "family_keys": [
+      "name:ds"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_77cbd3faa40a6b0c",
+    "sample_ids": [
+      "uiuc_0b1b63d354fd16a7"
+    ],
+    "family_keys": [
+      "name:chen"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_7917b8fa744339b6",
+    "sample_ids": [
+      "uiuc_31529c37dc8d0a9f",
+      "uiuc_495ce44cc7d85078",
+      "uiuc_507d8ab76e02ca77",
+      "uiuc_6e8dc06c5fd30ee7"
+    ],
+    "family_keys": [
+      "name:fg"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_7a10ab1d42e2eb0d",
+    "sample_ids": [
+      "uiuc_4bdc70d7714318fb"
+    ],
+    "family_keys": [
+      "name:ebambino"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_7c8382e463d5ec6b",
+    "sample_ids": [
+      "uiuc_d9df5acc16a554e7"
+    ],
+    "family_keys": [
+      "name:legionair"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_7d4cc0b9750d964a",
+    "sample_ids": [
+      "uiuc_33bcce3e9d9bfa4b",
+      "uiuc_577ee3c4640335b5",
+      "uiuc_6de1a0907cb2ae86",
+      "uiuc_794706df31b0709a",
+      "uiuc_d3e088b7199b3eb8"
+    ],
+    "family_keys": [
+      "name:k"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_7e3cbe09192984e9",
+    "sample_ids": [
+      "uiuc_88f1b0d908806174"
+    ],
+    "family_keys": [
+      "name:sm"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_7fda7718a38ba473",
+    "sample_ids": [
+      "uiuc_5f5530645025ff35",
+      "uiuc_5fd16bd6d41a1cda"
+    ],
+    "family_keys": [
+      "name:ms"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_8011cf23b6d51003",
+    "sample_ids": [
+      "uiuc_fdebc61471623488"
+    ],
+    "family_keys": [
+      "name:august"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_81f94c501bdb0d12",
+    "sample_ids": [
+      "uiuc_580a9c1ddbba11cb"
+    ],
+    "family_keys": [
+      "name:t"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_827dc00d71a88c58",
+    "sample_ids": [
+      "uiuc_fc88a548f243532b"
+    ],
+    "family_keys": [
+      "name:aquila"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_834dd3d623180342",
+    "sample_ids": [
+      "uiuc_05e405861d9002f8",
+      "uiuc_0cb861030e643ba3",
+      "uiuc_170b74a2804344a6",
+      "uiuc_1b5a3e2c75425d9e",
+      "uiuc_2f04c3b7dae006f1",
+      "uiuc_3b883b50d36e2561",
+      "uiuc_3cf55b2fcb486fd2",
+      "uiuc_3dce2a6c0c7c54ef",
+      "uiuc_50047eaabcdd5be6",
+      "uiuc_5f71b19cd0137196",
+      "uiuc_857e36b630c56728",
+      "uiuc_93fad4c02c2cdfbb",
+      "uiuc_994fc55d501794fa",
+      "uiuc_9dd3a208cf9b934e",
+      "uiuc_9eef5f8ade7ea9e1",
+      "uiuc_a26ca922768117b4",
+      "uiuc_a710e7aac72ec37e",
+      "uiuc_b4aa08b788aff25f",
+      "uiuc_c36acf4d2b7e89b4",
+      "uiuc_d3b49937cd7272c6",
+      "uiuc_e12b912560110f27",
+      "uiuc_e2ce7e396d15248d",
+      "uiuc_e8668e906041f2a2",
+      "uiuc_ed9463df899b22bd",
+      "uiuc_f059d9ba1a67142c",
+      "uiuc_fa7106c10072a952"
+    ],
+    "family_keys": [
+      "name:usa"
+    ],
+    "count": 26,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_84864a0e3e22efcf",
+    "sample_ids": [
+      "uiuc_9890ce9f0e4c87ea"
+    ],
+    "family_keys": [
+      "name:giiif"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_849bfa4e0e525318",
+    "sample_ids": [
+      "uiuc_a1a4ed17b721982b"
+    ],
+    "family_keys": [
+      "name:j"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_8572ea6ed3fe12f8",
+    "sample_ids": [
+      "uiuc_c0fb2cff40d77f98"
+    ],
+    "family_keys": [
+      "name:giiie"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_863db33ed8b3eaf1",
+    "sample_ids": [
+      "uiuc_187dbb4705a1d91e",
+      "uiuc_59970ccf25e49cbd"
+    ],
+    "family_keys": [
+      "name:lrn"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_87885cb285712188",
+    "sample_ids": [
+      "uiuc_cc5b17281bc74dfa",
+      "uiuc_d566648bb6f1f3e8",
+      "uiuc_e1720907984495a1"
+    ],
+    "family_keys": [
+      "name:defcnd"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_8821523602a814d6",
+    "sample_ids": [
+      "uiuc_5bf509e9a4f04c96",
+      "uiuc_ab4afd1cfee4fddc",
+      "uiuc_e1a8eb1b9ef86167"
+    ],
+    "family_keys": [
+      "name:fxs"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_8be9c4c881d2ebaf",
+    "sample_ids": [
+      "uiuc_c7c97d3a1f981a27"
+    ],
+    "family_keys": [
+      "name:bqm"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_8d549ed7f10fd6a3",
+    "sample_ids": [
+      "uiuc_38f0f73b29d9c708"
+    ],
+    "family_keys": [
+      "name:bacnlf"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_8d9359065d217fa3",
+    "sample_ids": [
+      "uiuc_f4ce3ed383257c6d"
+    ],
+    "family_keys": [
+      "name:atr"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_8e83b7fd5415a6b5",
+    "sample_ids": [
+      "uiuc_2fcf73dd17ae83f3",
+      "uiuc_45ba2672844144be",
+      "uiuc_54786a499aaa85f4",
+      "uiuc_8632a6d020fad147",
+      "uiuc_ae924b34e0a756e9"
+    ],
+    "family_keys": [
+      "name:v"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_8e9b0149a288f54b",
+    "sample_ids": [
+      "uiuc_68f1ac3bced78a36"
+    ],
+    "family_keys": [
+      "name:strand"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_929875aacfaece0b",
+    "sample_ids": [
+      "uiuc_9ca036f9328f3e35"
+    ],
+    "family_keys": [
+      "name:curtisc"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_948b0846cf5506e7",
+    "sample_ids": [
+      "uiuc_c75a7b852a041674"
+    ],
+    "family_keys": [
+      "name:dormoy"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_95fd9ad39e655d03",
+    "sample_ids": [
+      "uiuc_00577b266bc5ae1f",
+      "uiuc_59c4b06c59c3e028",
+      "uiuc_7436b1c0c6d07118",
+      "uiuc_a38dd6de55c80e34",
+      "uiuc_ab99034f2cbdf4a8",
+      "uiuc_cdb116e308890351"
+    ],
+    "family_keys": [
+      "name:nlf"
+    ],
+    "count": 6,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_9612ebd7a5159e91",
+    "sample_ids": [
+      "uiuc_526da6e5f7b15ef0"
+    ],
+    "family_keys": [
+      "name:dfvlrr"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_9631fc7d0ec01d88",
+    "sample_ids": [
+      "uiuc_755b63a086ee01ea",
+      "uiuc_ce8e1391e766e1fe",
+      "uiuc_df91e37fd2e4f483",
+      "uiuc_fce83e2a0353dcbb"
+    ],
+    "family_keys": [
+      "name:isa"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_9790d0a9eb8ef366",
+    "sample_ids": [
+      "uiuc_74e1ff72bac25e34",
+      "uiuc_c70eed10961754a8"
+    ],
+    "family_keys": [
+      "name:nl"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_991656c794a3cb02",
+    "sample_ids": [
+      "uiuc_07ec31309c916b8a",
+      "uiuc_86d9bf2a44f34ed5",
+      "uiuc_95a078df706719c6",
+      "uiuc_dd6d9257777ad884",
+      "uiuc_deb7218e62d2efe3"
+    ],
+    "family_keys": [
+      "name:lwk"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_99262a433e0f9c18",
+    "sample_ids": [
+      "uiuc_359a0d5da16a78c7"
+    ],
+    "family_keys": [
+      "name:usnps"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_9949af49d2ae0db5",
+    "sample_ids": [
+      "uiuc_0b52a318ec372349",
+      "uiuc_11fdc65ae3974ab6",
+      "uiuc_1756a56783419c9f",
+      "uiuc_17d9f62d7538ef81",
+      "uiuc_186bd95b8b5b7dea",
+      "uiuc_20a4efaea3f7d0d2",
+      "uiuc_212d54f43f191575",
+      "uiuc_25d924a84bc83bcf",
+      "uiuc_2870260ed79323c4",
+      "uiuc_2d6748365f2764e7",
+      "uiuc_2f3cb033f5a3e951",
+      "uiuc_2f4654be3d8cafad",
+      "uiuc_41d6af1599b81ed3",
+      "uiuc_43ccabf1dd59ae87",
+      "uiuc_445cfb0bd6f3d44b",
+      "uiuc_4d59151c93aea3c7",
+      "uiuc_52f6810b033d1b7c",
+      "uiuc_532dc88123f9cd7d",
+      "uiuc_594b4f1907a1ef75",
+      "uiuc_5db1d66284e9319b",
+      "uiuc_61b52f055a35d086",
+      "uiuc_67dbf46c3edfe479",
+      "uiuc_68261e074db78437",
+      "uiuc_6847294a9b3780ea",
+      "uiuc_75aaed0e94e385f3",
+      "uiuc_7f0fb2c3bd0ff978",
+      "uiuc_803c736291f8aacf",
+      "uiuc_819cbe1b0b946fef",
+      "uiuc_8ba4c2b4fbe13a3b",
+      "uiuc_93628a4b69a01b79",
+      "uiuc_a029c859c8f0689c",
+      "uiuc_a25bf04d4ce491ba",
+      "uiuc_a8050786b360e8cd",
+      "uiuc_b14a2be64d47b755",
+      "uiuc_b4b7d19e6c711c72",
+      "uiuc_b54043ea8a5ac63e",
+      "uiuc_c48da807fb37e06e",
+      "uiuc_c537f3b4ad8c8f05",
+      "uiuc_c745fbd1723e7ddf",
+      "uiuc_c881f159fa4ece8f",
+      "uiuc_ddd871e37dffe403",
+      "uiuc_e5c76e1783c8ab7f",
+      "uiuc_f7170570718d35a0",
+      "uiuc_f93351f66957831c"
+    ],
+    "family_keys": [
+      "name:hq"
+    ],
+    "count": 44,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_99a5be75e57ee546",
+    "sample_ids": [
+      "uiuc_b36be410b2151a45"
+    ],
+    "family_keys": [
+      "name:gu"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_9a5eeddf73618c55",
+    "sample_ids": [
+      "uiuc_171ddf3a35685e94",
+      "uiuc_289bec5095756c7d",
+      "uiuc_8565a855f9079807",
+      "uiuc_f4dadd9247c8f48a"
+    ],
+    "family_keys": [
+      "name:oa"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_9b4f9c90612eedff",
+    "sample_ids": [
+      "uiuc_1b8ae2afc9e595f0",
+      "uiuc_92e9d07afd4141aa",
+      "uiuc_ddf06d33fdc36c91"
+    ],
+    "family_keys": [
+      "name:cal"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_9b54d1c7cf1da80e",
+    "sample_ids": [
+      "uiuc_0086ca3b2735f20e",
+      "uiuc_00bdf8c306013416",
+      "uiuc_00e6eb00e8e3dbd7",
+      "uiuc_01ad4c9946d348bd",
+      "uiuc_0226ec7e3b0a688e",
+      "uiuc_041a31235f3f870f",
+      "uiuc_04676e391f036eca",
+      "uiuc_06a74702fcb2da61",
+      "uiuc_071bf96b74d67225",
+      "uiuc_077158315c2b0c63",
+      "uiuc_07a26c7819d16104",
+      "uiuc_07e02d329433af05",
+      "uiuc_07e2bc71058e0916",
+      "uiuc_09fabc12c1d4183b",
+      "uiuc_0bad51413139444e",
+      "uiuc_0baf3cb1d72f137c",
+      "uiuc_0bb61f786b3b07f8",
+      "uiuc_0bfcd433b83ada62",
+      "uiuc_0d00b7c88b7c850c",
+      "uiuc_0dd23fc37377b19c",
+      "uiuc_0ded89af2f837074",
+      "uiuc_0f19db2bcaa809b9",
+      "uiuc_0f5853799d58a261",
+      "uiuc_0f658fc14447fde5",
+      "uiuc_0f7bdcda02c0a184",
+      "uiuc_1006f8b02946e6b3",
+      "uiuc_101e91b3658977ef",
+      "uiuc_1064dc9615ffe92a",
+      "uiuc_109a9d7232550e76",
+      "uiuc_10a3d50fee2cd830",
+      "uiuc_1219ba1f2cedeec3",
+      "uiuc_12e8550839b4c852",
+      "uiuc_12f533915793f0c2",
+      "uiuc_13b4cce8c7963dcb",
+      "uiuc_146791015a3b529a",
+      "uiuc_14ddde8701051753",
+      "uiuc_15571687a795e5dd",
+      "uiuc_158bf5f1bafe72d5",
+      "uiuc_180cc6c660ca7d43",
+      "uiuc_1832822bee7b5588",
+      "uiuc_1b478aa2d124cc5a",
+      "uiuc_1bcf2a1cf6101fd7",
+      "uiuc_1be42f7548a21e2e",
+      "uiuc_1be5ad0159d70d83",
+      "uiuc_1bfdf4404a534af1",
+      "uiuc_1ca0787d0b1a118f",
+      "uiuc_1caa8e340285411a",
+      "uiuc_1e2321c4b5110aea",
+      "uiuc_1e331b711ecd662b",
+      "uiuc_1e9ab50fb1737ea9",
+      "uiuc_1eab13c2b83dc112",
+      "uiuc_1f59af939a565a11",
+      "uiuc_20713845507fd3cc",
+      "uiuc_207fb1f14e291075",
+      "uiuc_209a272c29838f67",
+      "uiuc_22f31ce6bbb61f29",
+      "uiuc_230927c4a29a2315",
+      "uiuc_239dd4e459d7a7f4",
+      "uiuc_23b4067dd838a59a",
+      "uiuc_24058a3534aa5bc7",
+      "uiuc_247d1018e826a8ab",
+      "uiuc_24dbb3d4382f206b",
+      "uiuc_25b02b3189d6a3a9",
+      "uiuc_265fbd0b7962051b",
+      "uiuc_26aca5e20e56f1eb",
+      "uiuc_26fbd354ccd642a2",
+      "uiuc_27ebd7a8deee5848",
+      "uiuc_28f0a7f8e85869ca",
+      "uiuc_299b00dc1e184a83",
+      "uiuc_29a86c143c969132",
+      "uiuc_2a91517cf866b3c5",
+      "uiuc_2b8505c6435ede66",
+      "uiuc_2ba455128caaa9de",
+      "uiuc_2ed1d14618f50ac8",
+      "uiuc_2fbd2a217f12fe57",
+      "uiuc_30740060ab94e77d",
+      "uiuc_308739ef2744dc33",
+      "uiuc_30a922581538cd90",
+      "uiuc_3111d90f43fc76e0",
+      "uiuc_3195b2bbd128b52c",
+      "uiuc_32a780c6803dee4f",
+      "uiuc_32ab1c49cbc11546",
+      "uiuc_33f2e8782e5d56b3",
+      "uiuc_34230957dd39466e",
+      "uiuc_34685e3b7d8df177",
+      "uiuc_3590cbc3ccb8d2c7",
+      "uiuc_35a874e6321b3926",
+      "uiuc_35d580018470c946",
+      "uiuc_35f3eec54039cd56",
+      "uiuc_36d32f37fe1497d5",
+      "uiuc_376598d81a2b439f",
+      "uiuc_3807ee86779c0656",
+      "uiuc_394632133c8d2be4",
+      "uiuc_3992b8686a6eca98",
+      "uiuc_39b0235e1de57fd8",
+      "uiuc_39d4054e46475130",
+      "uiuc_3a796a54a361bcaa",
+      "uiuc_3acd62536426f2d3",
+      "uiuc_3bee703f22097b3d",
+      "uiuc_3e005ae2151fbb32",
+      "uiuc_3e5fca9313e493a3",
+      "uiuc_3eeddfdc4b8b8798",
+      "uiuc_3f328a82a823fac8",
+      "uiuc_3fa7a74b8281695a",
+      "uiuc_3ff4d176e32b9fc4",
+      "uiuc_401b848c416aec2f",
+      "uiuc_404aab944f91aa5a",
+      "uiuc_40e98234fed94bfd",
+      "uiuc_41891694537dff6d",
+      "uiuc_42fda8c1b4f88417",
+      "uiuc_43bad817c1cde274",
+      "uiuc_43c56cf6df48a74d",
+      "uiuc_4402dae3a03ec3d6",
+      "uiuc_447ed16ac24952f2",
+      "uiuc_44e8f3c5987a9b14",
+      "uiuc_472ba4eea9e8b350",
+      "uiuc_478de7c8f0b75e6d",
+      "uiuc_48d6e345c93c770d",
+      "uiuc_4956e96e069d324c",
+      "uiuc_4a269e9bf6d8fe2b",
+      "uiuc_4a81bb8a71655704",
+      "uiuc_4ae185907015c9ad",
+      "uiuc_4b2a0f0248ed4839",
+      "uiuc_4b904b31df02005e",
+      "uiuc_4c553b2441949810",
+      "uiuc_4d46168d15b21a26",
+      "uiuc_4dbf6ccdb8176c50",
+      "uiuc_4fad24e7bdcb623f",
+      "uiuc_5110452dcbb29579",
+      "uiuc_51243fa445d0b319",
+      "uiuc_5186423a4ce17b9f",
+      "uiuc_52d11886b6719f7d",
+      "uiuc_52e96caace1b91af",
+      "uiuc_52f04356ce939ddc",
+      "uiuc_530a2c4071674525",
+      "uiuc_5412754836e4f64d",
+      "uiuc_55542e127b9151a5",
+      "uiuc_5576d76ab24f3e48",
+      "uiuc_55e153cb9b9868e1",
+      "uiuc_55e757ec0392db16",
+      "uiuc_567ed5b91e05cc87",
+      "uiuc_578cc2882d1a08aa",
+      "uiuc_57cd1852794072ae",
+      "uiuc_57eaa0073d32ff1d",
+      "uiuc_587a78d455a23be9",
+      "uiuc_58feb4ea508c5f18",
+      "uiuc_594c11dee29982cc",
+      "uiuc_5adc8ec006c41e0a",
+      "uiuc_5b0e07d0f070caaa",
+      "uiuc_5b4626f02c9da468",
+      "uiuc_5baba9fc120d3898",
+      "uiuc_5ca58763abc2974c",
+      "uiuc_5ce520f3180c5387",
+      "uiuc_5de69ce4ffecb787",
+      "uiuc_5e14d875406afa75",
+      "uiuc_60a5f5fb5c978989",
+      "uiuc_60b4a5d801c51ee7",
+      "uiuc_60c1b4be2f7081a0",
+      "uiuc_614d3b8375aef0b6",
+      "uiuc_61d102ff27fffc8b",
+      "uiuc_6346fb22f03c9bb1",
+      "uiuc_6396879ced54d88b",
+      "uiuc_64f2d1c12b94bfd2",
+      "uiuc_650ceab795a394ab",
+      "uiuc_652d944a34c7712a",
+      "uiuc_65534e4faeaaa521",
+      "uiuc_66a2fd72f01f8233",
+      "uiuc_66ee3df0a7ef773f",
+      "uiuc_67f9ee7e63b2d259",
+      "uiuc_68c7ba7af0860177",
+      "uiuc_69aecebc95f6849a",
+      "uiuc_69bdf5982757dbe0",
+      "uiuc_6aadc8d422355820",
+      "uiuc_6abe89487f1df04c",
+      "uiuc_6b38efe8e1cd0485",
+      "uiuc_6b92a916e1e25f4d",
+      "uiuc_6c55291ea63694e9",
+      "uiuc_6c967b391dfb4a5f",
+      "uiuc_6dfad1c85c96271a",
+      "uiuc_6ef2770e646b7814",
+      "uiuc_6f3e46cdb9188958",
+      "uiuc_702483d58d0df861",
+      "uiuc_71607653f8847d9b",
+      "uiuc_71a77acfff9aeb6c",
+      "uiuc_7339fd4091e1b77e",
+      "uiuc_73b507ed8ecf341b",
+      "uiuc_73d1304120c78d5e",
+      "uiuc_73da9e3647caa1d4",
+      "uiuc_74474a3673e46275",
+      "uiuc_756fa434bd28fa2b",
+      "uiuc_75cbfe96b6610f4c",
+      "uiuc_76d0b722ed1406f3",
+      "uiuc_76f8e84505809338",
+      "uiuc_77a76a4a8c888a5b",
+      "uiuc_792f7463067289aa",
+      "uiuc_7a41e21f3014ae7c",
+      "uiuc_7ba02a294dd61d1f",
+      "uiuc_7c4f5f213662c30b",
+      "uiuc_7f015f299052a6b1",
+      "uiuc_7f237ba8b40f3b49",
+      "uiuc_8021ed3d3fbbbe6c",
+      "uiuc_80fce1bb719e7347",
+      "uiuc_8155cbadf3718f8e",
+      "uiuc_816a2a04e5fcee01",
+      "uiuc_82ba3816d0ed8497",
+      "uiuc_82e29c694665b600",
+      "uiuc_8381cac9e85b57dd",
+      "uiuc_857866f25da247da",
+      "uiuc_86813f05fd22bba6",
+      "uiuc_86c68820abd30c9f",
+      "uiuc_86f048d4b7a00cce",
+      "uiuc_8706ddc4f4e1febf",
+      "uiuc_878b245f49a6ab7b",
+      "uiuc_887526ef7f766ec5",
+      "uiuc_88a7215d887bfd93",
+      "uiuc_8a7b82f5382e4c23",
+      "uiuc_8aa41e11f4058214",
+      "uiuc_8b12cef1d3f87e7b",
+      "uiuc_8b4681de8ccb7e64",
+      "uiuc_8b51b8e811fe1e86",
+      "uiuc_8cfb124d47ca5954",
+      "uiuc_8dc9cea247398f83",
+      "uiuc_90ce2c73c4ccd463",
+      "uiuc_92175b6507398cf6",
+      "uiuc_92dee103ed4062d4",
+      "uiuc_92eac5c1a3ab7f6a",
+      "uiuc_9393bbf75b77c75f",
+      "uiuc_93eaaa34bc1b12d7",
+      "uiuc_94248ad475f2f39e",
+      "uiuc_942641fbf7ca99f6",
+      "uiuc_94852db68750b7b9",
+      "uiuc_94ed2daa287320f1",
+      "uiuc_9524a2d8a66a0a93",
+      "uiuc_9608a42bdf2c5f08",
+      "uiuc_960de1f4d3f728d1",
+      "uiuc_96dc87548b7ecc3d",
+      "uiuc_9837450ccc22b219",
+      "uiuc_986e085048a90f11",
+      "uiuc_98aa0751ccd284de",
+      "uiuc_99aec09e5ce916f2",
+      "uiuc_9a06449256c79170",
+      "uiuc_9a8638235058530a",
+      "uiuc_9aa6f75639e6ae08",
+      "uiuc_9cca63770258a941",
+      "uiuc_9cfc18d02c46b7cd",
+      "uiuc_9da31dba67420386",
+      "uiuc_9df13eafb7dacad6",
+      "uiuc_9df179663e3e034c",
+      "uiuc_9e2610abcd652492",
+      "uiuc_9e533efc1604fed9",
+      "uiuc_9e6c13f2ece40912",
+      "uiuc_9e892d51c50dcd64",
+      "uiuc_9fc9dd4a69785a2e",
+      "uiuc_a036ce46192f45a1",
+      "uiuc_a091ff0cae6328aa",
+      "uiuc_a3057600733ce5d6",
+      "uiuc_a37328a08371e635",
+      "uiuc_a42d19a94e497594",
+      "uiuc_a527cca90f92150b",
+      "uiuc_a5523e262abb1499",
+      "uiuc_a665003e5b3f9883",
+      "uiuc_a6ca4d19a0362b2b",
+      "uiuc_a787a617aac5d1db",
+      "uiuc_a7ad6a6f871ef6fd",
+      "uiuc_a818b8dd4706e0fd",
+      "uiuc_a8844eacd37a2659",
+      "uiuc_a9ecf6df6e829f5e",
+      "uiuc_aa76ea24be5a7889",
+      "uiuc_ab277906b7fd86b5",
+      "uiuc_aba283080bf68fe2",
+      "uiuc_ac0a720801546044",
+      "uiuc_ad328d492af232d6",
+      "uiuc_adab2bb56cd00970",
+      "uiuc_adb2079eec2b5b77",
+      "uiuc_adc554d2d94e8638",
+      "uiuc_adf23ef036778cc2",
+      "uiuc_ae1d16964cb2e83d",
+      "uiuc_b206f960003ebb9d",
+      "uiuc_b25d45c50ca0ee83",
+      "uiuc_b29cca2ff4096337",
+      "uiuc_b3c03450dd00f0c1",
+      "uiuc_b57e19d61a1a8d21",
+      "uiuc_b648d3439296da52",
+      "uiuc_b815ad70f58bee61",
+      "uiuc_b8e0f5309c1d8f87",
+      "uiuc_b9a860bfc25a4dc4",
+      "uiuc_b9dd057834414331",
+      "uiuc_b9e1ed3776b0cd23",
+      "uiuc_bb279d4e52ba96aa",
+      "uiuc_bba8a477aed5e51f",
+      "uiuc_bf1d7f90711029e8",
+      "uiuc_bf525c75dbc2518b",
+      "uiuc_bfa56d412f4fecff",
+      "uiuc_bfa770e544116a7b",
+      "uiuc_c17693f9a85fd01e",
+      "uiuc_c17f88011b517bd2",
+      "uiuc_c1979b4e27a32162",
+      "uiuc_c1b2ba5e920b104b",
+      "uiuc_c22e44ef23f3886f",
+      "uiuc_c289626631a302f5",
+      "uiuc_c2bcca45c8925cbb",
+      "uiuc_c3d9eabf43c190ae",
+      "uiuc_c4e27c467dc66c54",
+      "uiuc_c5483182e6581ea3",
+      "uiuc_c557450834322c25",
+      "uiuc_c5611573165e2559",
+      "uiuc_c63c0388ec25d34d",
+      "uiuc_c686b45570c59cb9",
+      "uiuc_c7109bdec711eb68",
+      "uiuc_c7daf5f0780c6e8e",
+      "uiuc_c9f223ef288cee30",
+      "uiuc_ca0895d62b004412",
+      "uiuc_cb61a963d1368b6e",
+      "uiuc_cbb263371a1e9491",
+      "uiuc_ccc7f5c8fac1e887",
+      "uiuc_cd22d5211ec7e6ae",
+      "uiuc_cdbfa9b42301b585",
+      "uiuc_cdcc06b472544e35",
+      "uiuc_cdfd03e363d991ca",
+      "uiuc_cefca2fb1e100ff6",
+      "uiuc_cf7d93dbaaae92c8",
+      "uiuc_d0c28dde022d4ee1",
+      "uiuc_d13144c0f89412a4",
+      "uiuc_d158b094e779d388",
+      "uiuc_d2e149e260731208",
+      "uiuc_d4890bb4085b95b5",
+      "uiuc_d4c7f411998b305a",
+      "uiuc_d54c440bac3d9361",
+      "uiuc_d60ade5a0106d085",
+      "uiuc_d783979065b667a6",
+      "uiuc_d7e72f3bd73629ba",
+      "uiuc_d835fb782ceefcdc",
+      "uiuc_d85afc0cceb808c3",
+      "uiuc_d8941712b0de5368",
+      "uiuc_da1af42fdd5cd839",
+      "uiuc_da60a98209889d2a",
+      "uiuc_db84d6b7c61af45d",
+      "uiuc_dbf0660bda5f4e32",
+      "uiuc_dcf91ef32973c812",
+      "uiuc_dde51732c7606ddc",
+      "uiuc_de2a1abc0a70ea6b",
+      "uiuc_de6da7ed7d8b1598",
+      "uiuc_df8d156915fb14b9",
+      "uiuc_e006266771011e82",
+      "uiuc_e052e92d48fe3b5d",
+      "uiuc_e144127aaea3c5dd",
+      "uiuc_e1ddbf432df93ff1",
+      "uiuc_e1e1988b0409d325",
+      "uiuc_e2bbb0bf4f598e57",
+      "uiuc_e2d1f9e9fbd14eca",
+      "uiuc_e45a35a920c02df9",
+      "uiuc_e47da7c45bbbc371",
+      "uiuc_e4f074d5cfe06924",
+      "uiuc_e5764fa9631eb343",
+      "uiuc_e61175b156d5b637",
+      "uiuc_e8bbc9994e7f1f4b",
+      "uiuc_e90ddd0357c6d8fd",
+      "uiuc_ea789fe26c63cb8d",
+      "uiuc_eaad5281e8866876",
+      "uiuc_eb9be2f2547b7f8f",
+      "uiuc_ebd01e86b81d1e6d",
+      "uiuc_ebef47ff98c11e21",
+      "uiuc_edb8abe537e0efee",
+      "uiuc_ee4bb5b6e0ac9173",
+      "uiuc_ee6a12bc8b1c2e0f",
+      "uiuc_efbaa1fdc4293570",
+      "uiuc_f01d89e1b7e98699",
+      "uiuc_f08425f870858c04",
+      "uiuc_f16cc64b25314cdf",
+      "uiuc_f18d597b35fd9499",
+      "uiuc_f19474effeb79c54",
+      "uiuc_f39d17bd103e31eb",
+      "uiuc_f4aa3cc56bd359b0",
+      "uiuc_f4e1945583a5d598",
+      "uiuc_f547fe8a34424abd",
+      "uiuc_f5ec9749e73c2cbe",
+      "uiuc_f62c7391428fd113",
+      "uiuc_f64fda3fe6a71a04",
+      "uiuc_f6aac70163d32194",
+      "uiuc_f790e581b25abc5c",
+      "uiuc_f7e95542053c0741",
+      "uiuc_f8fc0976c6ec6891",
+      "uiuc_f906c4004116d82e",
+      "uiuc_f926d48f50e69f42",
+      "uiuc_f9856c951de04d8e",
+      "uiuc_f98809e820a8c078",
+      "uiuc_fa51b59103a0ce25",
+      "uiuc_fb0eba228a2fad89",
+      "uiuc_fbd9c5e5b43c0b9f",
+      "uiuc_fc487d14ecb13762",
+      "uiuc_fc65c7f74083d96a",
+      "uiuc_fcd0173de22680f2",
+      "uiuc_fd84c5021086e8fd",
+      "uiuc_fde2486c6fb2a028",
+      "uiuc_ff5df08f600d5013"
+    ],
+    "family_keys": [
+      "name:goe"
+    ],
+    "count": 395,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_a0872f9a65f668d0",
+    "sample_ids": [
+      "uiuc_063ad2bae81a5d0f",
+      "uiuc_3c04fed37ce45b15",
+      "uiuc_707acd463516cf58",
+      "uiuc_7d385e3ad6e94a91",
+      "uiuc_82c4bfa199d8c1dc",
+      "uiuc_aaab03df5ab6c446",
+      "uiuc_e4821e2cc887226a",
+      "uiuc_f5d700361ee9f9c3",
+      "uiuc_f88cc74016b538a9"
+    ],
+    "family_keys": [
+      "name:r"
+    ],
+    "count": 9,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_a1bee08e7f07f6db",
+    "sample_ids": [
+      "uiuc_38420c941b59abb6",
+      "uiuc_bd9006d129a95154",
+      "uiuc_c544693f3541459d",
+      "uiuc_f96715e59e68ea06"
+    ],
+    "family_keys": [
+      "name:jxgs"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_aac5eac2f6a94b5a",
+    "sample_ids": [
+      "uiuc_8733333b90be5010",
+      "uiuc_9269b88a707d7b93"
+    ],
+    "family_keys": [
+      "name:apex"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_abfe557fadef4822",
+    "sample_ids": [
+      "uiuc_f6d4cbdf68a5de2e"
+    ],
+    "family_keys": [
+      "name:lg"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_ac5ccc21e7b1d72d",
+    "sample_ids": [
+      "uiuc_171450a8b1fac42f"
+    ],
+    "family_keys": [
+      "name:pmc"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_aebc1db3d0755b67",
+    "sample_ids": [
+      "uiuc_39b86b567e87a636",
+      "uiuc_6db67251a9ed70fb",
+      "uiuc_ffd7a8e35dfbd39a"
+    ],
+    "family_keys": [
+      "name:la"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b03ece50bf036c04",
+    "sample_ids": [
+      "uiuc_1e462892e6affcad",
+      "uiuc_c49c3bb3a2f1449d",
+      "uiuc_c8a45f40f50aca8a",
+      "uiuc_e0a6d0f7e4b37622",
+      "uiuc_ee25b4a606598703",
+      "uiuc_fc52d115cd10d660"
+    ],
+    "family_keys": [
+      "name:sg"
+    ],
+    "count": 6,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_b12cf06fe51f62b8",
+    "sample_ids": [
+      "uiuc_0010fbe549e508fe",
+      "uiuc_014b6088464ba1a9",
+      "uiuc_01a1a425d9c21000",
+      "uiuc_0236cadeadb4fe3c",
+      "uiuc_02c46ce3b014f84a",
+      "uiuc_040b86311e6469b1",
+      "uiuc_0566c1955f3195d2",
+      "uiuc_059e0b5468e51f10",
+      "uiuc_06358603ffb60321",
+      "uiuc_06540783d07b0633",
+      "uiuc_06ddff0898660063",
+      "uiuc_0743fcf894b4f7ba",
+      "uiuc_07b35de70aac18f9",
+      "uiuc_083636d0f6b0d1ca",
+      "uiuc_09623fc198c9ea73",
+      "uiuc_0aefa0668dd96f30",
+      "uiuc_0b3b801c3f366711",
+      "uiuc_0d5b17f3186d3143",
+      "uiuc_10f447dadc5bcad8",
+      "uiuc_1330cb824a2da4fa",
+      "uiuc_1341d697ed9de3fd",
+      "uiuc_147e400ca8447932",
+      "uiuc_16eff712d49e1161",
+      "uiuc_1bbbc5d814d2356a",
+      "uiuc_1cb3140cfdbea8f4",
+      "uiuc_1cea461760407fda",
+      "uiuc_1e8e9dc98e266ca0",
+      "uiuc_20cddcf1659740fc",
+      "uiuc_217b3e70d629d1dd",
+      "uiuc_2276603b3763a0e7",
+      "uiuc_22e800478b58c8c0",
+      "uiuc_244e02b964bd53bd",
+      "uiuc_25bd01b0426265bb",
+      "uiuc_27772ceeda7b9f37",
+      "uiuc_289e0da1cc8b44f9",
+      "uiuc_28f2bcd37211a0f8",
+      "uiuc_29082c5248ffe06b",
+      "uiuc_298093624cf8e4cd",
+      "uiuc_2ab2766afab11c8f",
+      "uiuc_2c8727e8ea961d0d",
+      "uiuc_2d63191723437eb8",
+      "uiuc_2e49a9adf27e8633",
+      "uiuc_2e4c4cd6990c6b6c",
+      "uiuc_2f3819474cb81fc2",
+      "uiuc_2f57cc7ecbd67797",
+      "uiuc_2f66b7611a928d61",
+      "uiuc_304a5c477441866e",
+      "uiuc_31df9e6d82115a5b",
+      "uiuc_3418e6748c2ad265",
+      "uiuc_3498be5293140504",
+      "uiuc_34c45adb79471c29",
+      "uiuc_34ec1b8cef3670e1",
+      "uiuc_361a2293f38eb672",
+      "uiuc_36cca95f89265c7b",
+      "uiuc_377fac38562b0cad",
+      "uiuc_38f94ff91985ed09",
+      "uiuc_395a32d82c028cf1",
+      "uiuc_3af23a765a27991a",
+      "uiuc_3be186e228dbf075",
+      "uiuc_3c26b630ac26e751",
+      "uiuc_3c5015fa05daf7a0",
+      "uiuc_3ca60dbc6f96790d",
+      "uiuc_3dffbd58c4003737",
+      "uiuc_3ec47d71ac09cd90",
+      "uiuc_42d9f2ce26c7d2c1",
+      "uiuc_44fd0e7580bb2807",
+      "uiuc_45e6aa342a464972",
+      "uiuc_46b449bdd4e1f49d",
+      "uiuc_46e069aff431e39d",
+      "uiuc_4a50afe9b1e06f5f",
+      "uiuc_4fb3b79d0a91ab49",
+      "uiuc_53db7b2f4b8abd00",
+      "uiuc_54288bd20c19ba46",
+      "uiuc_570212d812f1a4f5",
+      "uiuc_5b71e832748c99b9",
+      "uiuc_5c9ad7e1df80b16e",
+      "uiuc_5f07f631a99ab5fc",
+      "uiuc_5f8a2dc4e156e9e0",
+      "uiuc_5fd9bee4c733d79b",
+      "uiuc_5fff608c364c23ea",
+      "uiuc_61ee4517a04d8383",
+      "uiuc_63f70f4ff74337e2",
+      "uiuc_680913e4adb4bb57",
+      "uiuc_68234859b591500f",
+      "uiuc_6961abadbe4c7be7",
+      "uiuc_6e8750f1adf41dea",
+      "uiuc_6f445f45105179d6",
+      "uiuc_700fd2f93181346e",
+      "uiuc_719015bad4bc6249",
+      "uiuc_71face1a7e1d47f1",
+      "uiuc_73335b8fa4522ee4",
+      "uiuc_76917184a049ff21",
+      "uiuc_770069724c576147",
+      "uiuc_7830f78184d5ac60",
+      "uiuc_7a890df17c3cb6ac",
+      "uiuc_7db99bb49766337a",
+      "uiuc_824547c0f6326690",
+      "uiuc_824a70197166afc8",
+      "uiuc_8257161f50770d60",
+      "uiuc_834aaea9b8350010",
+      "uiuc_8402c8e81f6e9de9",
+      "uiuc_862654507245c164",
+      "uiuc_883d8c51cf897abd",
+      "uiuc_8afa93e7d8035751",
+      "uiuc_8e218d6b22c0c73f",
+      "uiuc_8f028da2622db956",
+      "uiuc_9077106a57d52c29",
+      "uiuc_907b9cae17f5d2e0",
+      "uiuc_9125e8609e7c152f",
+      "uiuc_91ad38c82e060061",
+      "uiuc_92725ed3a76c3898",
+      "uiuc_939c16faeab7b845",
+      "uiuc_9426e62881218dda",
+      "uiuc_94d63e9044015eb0",
+      "uiuc_94fc519fd7337576",
+      "uiuc_986b20ee05851b39",
+      "uiuc_9d10788dfb89cb0b",
+      "uiuc_9e3b5f228827f486",
+      "uiuc_9f78964ec5975171",
+      "uiuc_9fb74a8a3bdf0cec",
+      "uiuc_9fd9a521fefed182",
+      "uiuc_a1292dd07996eb61",
+      "uiuc_a150a5fd961b532e",
+      "uiuc_a21e4848dd7f1443",
+      "uiuc_a460094612eb040b",
+      "uiuc_a76c4ecf73db5b9f",
+      "uiuc_a781abec3824ae2a",
+      "uiuc_a8f4667445ec3ce1",
+      "uiuc_add3e27ce8daa38f",
+      "uiuc_aedbdbd6ca2a8827",
+      "uiuc_af8811fec44bb2d6",
+      "uiuc_b01ffec62c7764fb",
+      "uiuc_b042bc2ff12419d3",
+      "uiuc_b0c568872eccd03b",
+      "uiuc_b1de5868846c9978",
+      "uiuc_b4301b168302ccce",
+      "uiuc_b61adbc9e7d2e20a",
+      "uiuc_b6de82739b8e3b4e",
+      "uiuc_b8b215c72ba705ff",
+      "uiuc_b8ea8f545287044f",
+      "uiuc_b9ea8bd053f45352",
+      "uiuc_be4659060bd8ac9b",
+      "uiuc_be722e8fc485ea58",
+      "uiuc_c11e49fb7c454b52",
+      "uiuc_c502fff4c1a9ea2a",
+      "uiuc_c7bc636e6bc12e88",
+      "uiuc_c82efcbdb61e50e6",
+      "uiuc_c8b72363d365f029",
+      "uiuc_cafba8ecd1830d50",
+      "uiuc_cb7bd29d45b3c060",
+      "uiuc_cd5820f854794750",
+      "uiuc_ce1e9d5eada3e445",
+      "uiuc_cef2cad0bbfa8981",
+      "uiuc_d2d5c0d310f12060",
+      "uiuc_d2da556604106830",
+      "uiuc_d54e8cef2fdc3895",
+      "uiuc_d761071d5da0c995",
+      "uiuc_d797cefbc500ba5a",
+      "uiuc_d81b6239af5cd871",
+      "uiuc_d821c386f485ff7a",
+      "uiuc_db1717d16dec2750",
+      "uiuc_dc405875e25727c5",
+      "uiuc_ddce58bd412be121",
+      "uiuc_e001b146eeaceae3",
+      "uiuc_e02f573c710026a5",
+      "uiuc_e04389cd6c45992c",
+      "uiuc_e0bd2400108d0925",
+      "uiuc_e0d39230f9643b02",
+      "uiuc_e35b55552423e81b",
+      "uiuc_e562925dd443c6ab",
+      "uiuc_e6a1fc749d52e38b",
+      "uiuc_e78c7108320a24dd",
+      "uiuc_e7db0d8219eef878",
+      "uiuc_e806fa2d3f3453f7",
+      "uiuc_e97bca030a805f33",
+      "uiuc_edf475a62a5197c3",
+      "uiuc_ef2ead3195447cd3",
+      "uiuc_efbe638894fe098d",
+      "uiuc_f00ff71f8ec69963",
+      "uiuc_f06d2927365a88d1",
+      "uiuc_f4482f002274bf64",
+      "uiuc_f486d9b208e39e75",
+      "uiuc_f5d7f6008bd41768",
+      "uiuc_f5d846ee5cc56f5e",
+      "uiuc_f65144fb38ff7be3",
+      "uiuc_f904a97998965669",
+      "uiuc_fa5bb574514f239f",
+      "uiuc_fadfd90e33cc619e",
+      "uiuc_fb4a7f07d399659a",
+      "uiuc_fbaae2ce58c66619",
+      "uiuc_fe0155459b06b0cc"
+    ],
+    "family_keys": [
+      "name:e"
+    ],
+    "count": 191,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b39e114f825a9d3b",
+    "sample_ids": [
+      "uiuc_a47a57945967f408"
+    ],
+    "family_keys": [
+      "name:ncambre"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b413725a85972730",
+    "sample_ids": [
+      "uiuc_0d77dc1b0c096956",
+      "uiuc_17bd6beb698c7166",
+      "uiuc_1b1d53c4ba5c64a2",
+      "uiuc_55708b46e5c82c0d",
+      "uiuc_6a6938e1b0702272",
+      "uiuc_877f99cc9c38b776",
+      "uiuc_8e45481af0528f5d"
+    ],
+    "family_keys": [
+      "name:sd"
+    ],
+    "count": 7,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b4361358770c1620",
+    "sample_ids": [
+      "uiuc_49fdde74051cd437",
+      "uiuc_b6732abcf8915e0d"
+    ],
+    "family_keys": [
+      "name:df"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b4e061ffe966775d",
+    "sample_ids": [
+      "uiuc_4bb29a5c34544413",
+      "uiuc_ce4dd660479ec4ff",
+      "uiuc_f4568eb27cc98dbb"
+    ],
+    "family_keys": [
+      "name:davis"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b6266da2939b0c1f",
+    "sample_ids": [
+      "uiuc_3b2292e1061bf1b6",
+      "uiuc_ced776c82eacfa6d"
+    ],
+    "family_keys": [
+      "name:dga"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b6e8b2602202eabf",
+    "sample_ids": [
+      "uiuc_d0fbea337840200c"
+    ],
+    "family_keys": [
+      "name:cast"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_b809e038b61cecb4",
+    "sample_ids": [
+      "uiuc_b008f57de55b1805",
+      "uiuc_beb15cef65fededa"
+    ],
+    "family_keys": [
+      "name:hobie"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_bb5e158bbe2c9d18",
+    "sample_ids": [
+      "uiuc_2024885ebac0f35f",
+      "uiuc_2c45800d0ed5d321",
+      "uiuc_3b893bc4c5faac7d",
+      "uiuc_699b9f5583438fba",
+      "uiuc_bbeb2ba034bf6cf3"
+    ],
+    "family_keys": [
+      "name:oaf"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_bc7ae1dea206fe28",
+    "sample_ids": [
+      "uiuc_4d6a7e218a0f5e48"
+    ],
+    "family_keys": [
+      "name:ui"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_bcb88f7d7dfbe170",
+    "sample_ids": [
+      "uiuc_0f8e88be146f77a1"
+    ],
+    "family_keys": [
+      "name:miley"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_bf077cb3b659e07a",
+    "sample_ids": [
+      "uiuc_020ce2500647061c",
+      "uiuc_1cdd18e050b41131",
+      "uiuc_22dbfee53d9ad7f8",
+      "uiuc_248b4cf1499e0ef8",
+      "uiuc_295f8543d10836a2",
+      "uiuc_2ef37b9306de21a5",
+      "uiuc_313b7e0da405d715",
+      "uiuc_3f896f77f193e435",
+      "uiuc_41b3d3330f19d1dc",
+      "uiuc_438ec60e5be1cb7d",
+      "uiuc_49dbbd3059fed854",
+      "uiuc_52e5d36414fdbc42",
+      "uiuc_5674e0f2099d4bc4",
+      "uiuc_56fd6e3b9c8d4d95",
+      "uiuc_60d41db40f7902ed",
+      "uiuc_610d9cdf1b9af352",
+      "uiuc_6cc674ee31e066d9",
+      "uiuc_6cd3c04329e17ef0",
+      "uiuc_6e86eab953661658",
+      "uiuc_753f88bde2e8d246",
+      "uiuc_7e283d5a1f923dc5",
+      "uiuc_85cc78cbf8aaf374",
+      "uiuc_86fc1db6613de596",
+      "uiuc_871b409f01798a7f",
+      "uiuc_8bb7172394e57602",
+      "uiuc_998f46d786496175",
+      "uiuc_a5be8af5ff2c1099",
+      "uiuc_ae35f298287fedb6",
+      "uiuc_b3a88f1618f923c6",
+      "uiuc_c6d3f401d0c79192",
+      "uiuc_c9e6d71c90547e15",
+      "uiuc_cb869f009fbfb0d9",
+      "uiuc_d1193b83fff9bdb7",
+      "uiuc_dfacaecb6e783d74",
+      "uiuc_e82c547dcdae410d",
+      "uiuc_f5fb9317f2e772ec",
+      "uiuc_fbd80145f76a3006",
+      "uiuc_ffee0e15ace5d160"
+    ],
+    "family_keys": [
+      "name:ah"
+    ],
+    "count": 38,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_bfaa9f7a23239af5",
+    "sample_ids": [
+      "uiuc_3fbe2f53a52f9451"
+    ],
+    "family_keys": [
+      "name:dh"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_c0cbcd8406843310",
+    "sample_ids": [
+      "uiuc_170c9aae149f81e0"
+    ],
+    "family_keys": [
+      "name:lnv"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_c211bc80677023e5",
+    "sample_ids": [
+      "uiuc_018f8128a858b6a2",
+      "uiuc_0cf9fee09c5e3dbc",
+      "uiuc_19013c2356a1ee80",
+      "uiuc_1aa45b22732a29ad",
+      "uiuc_27e6cc317d276029",
+      "uiuc_62c276cacc96638f",
+      "uiuc_933aa95ddf715d7e",
+      "uiuc_b9338b4b4dbb4948",
+      "uiuc_cdfb14ad2feb737b",
+      "uiuc_d1f2eab3a67fce10",
+      "uiuc_d572209ce1c5e3d4"
+    ],
+    "family_keys": [
+      "name:ht"
+    ],
+    "count": 11,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_c47aad0e05f149dc",
+    "sample_ids": [
+      "uiuc_0692f5f8a65afccf",
+      "uiuc_2a2020bf5680e06e",
+      "uiuc_716c5cd9dbf1a2cc",
+      "uiuc_e72ca0fad3d93977"
+    ],
+    "family_keys": [
+      "name:p51"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_c5dda167e990b3c9",
+    "sample_ids": [
+      "uiuc_40914898c0fd3741",
+      "uiuc_88409b00a7d8f2eb"
+    ],
+    "family_keys": [
+      "name:ua"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_c74f09b15d4c23d9",
+    "sample_ids": [
+      "uiuc_4ec6863612e86e76",
+      "uiuc_567b7ca7b83fd2f4",
+      "uiuc_6c360a274aa776ff",
+      "uiuc_b82e1720955295ff",
+      "uiuc_cec8e19710f9293f"
+    ],
+    "family_keys": [
+      "name:eiffel"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_c875501f6f2e9af8",
+    "sample_ids": [
+      "uiuc_2262bba515971297",
+      "uiuc_53f43b76360675a2",
+      "uiuc_707243908a790dd6",
+      "uiuc_b30408b1ec8dc34c",
+      "uiuc_b8c7912ac94d2e9e"
+    ],
+    "family_keys": [
+      "name:du"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_cebb72d8fa560654",
+    "sample_ids": [
+      "uiuc_278b795156554a80",
+      "uiuc_3fa74e51815dd229",
+      "uiuc_46913918e6a0a269",
+      "uiuc_7929f76994eb4ab6",
+      "uiuc_8f4cf6d09a05f12b",
+      "uiuc_936cac366647d8f9",
+      "uiuc_9e8c6212902b69ef",
+      "uiuc_cb5576176ebb6b67",
+      "uiuc_ee367cdf7cdeb42a"
+    ],
+    "family_keys": [
+      "name:clark"
+    ],
+    "count": 9,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_d18aca46eee57f4c",
+    "sample_ids": [
+      "uiuc_2841abd50fb2e89f",
+      "uiuc_947ea8747c14d700",
+      "uiuc_a9af33f9630b8dff",
+      "uiuc_c8f11ed478d09674",
+      "uiuc_fa83e79b3322beb8"
+    ],
+    "family_keys": [
+      "name:gw"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_d5fa49ac3230d565",
+    "sample_ids": [
+      "uiuc_3dcf0dc03e6089d3"
+    ],
+    "family_keys": [
+      "name:esa"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_d868a137c4099e0d",
+    "sample_ids": [
+      "uiuc_5c9cd344a04a2596",
+      "uiuc_a2baa2ab0780c595",
+      "uiuc_cb78a83de4a58596",
+      "uiuc_fb2e680a696f8abe"
+    ],
+    "family_keys": [
+      "name:stcyr"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_d90d043d9269e2a4",
+    "sample_ids": [
+      "uiuc_dba9cd9bee5e09b4"
+    ],
+    "family_keys": [
+      "name:th"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_d9820a7ef508af11",
+    "sample_ids": [
+      "uiuc_0381524a16732a49",
+      "uiuc_0ad71dce418ed82a",
+      "uiuc_677578b51b07ec74"
+    ],
+    "family_keys": [
+      "name:dai"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_dbc57a7fd29bd664",
+    "sample_ids": [
+      "uiuc_b9738fe474bafef4"
+    ],
+    "family_keys": [
+      "name:drgnfly"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_dc031b668653970f",
+    "sample_ids": [
+      "uiuc_2d7f10cb8b474bc7",
+      "uiuc_623561cbe9b3c06e",
+      "uiuc_8e429ddf7256a73c",
+      "uiuc_df651c4ce07cdfa2",
+      "uiuc_df89955453e54d87",
+      "uiuc_f02fc43fba69ee61"
+    ],
+    "family_keys": [
+      "name:hs"
+    ],
+    "count": 6,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_dcab6444e395fe7a",
+    "sample_ids": [
+      "uiuc_44cab94d8150b5f0",
+      "uiuc_4adc454313416d45",
+      "uiuc_614a5b9054504fd0",
+      "uiuc_c999b630a738fe21",
+      "uiuc_cacc27e913e68f9f"
+    ],
+    "family_keys": [
+      "name:npl"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_dde2feb06f4dffc3",
+    "sample_ids": [
+      "uiuc_5ca4e814dedde192"
+    ],
+    "family_keys": [
+      "name:doa"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_de66e04e0c423e69",
+    "sample_ids": [
+      "uiuc_b43e7f92f71e1d42"
+    ],
+    "family_keys": [
+      "name:hh"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_df04c2bc6476cc7e",
+    "sample_ids": [
+      "uiuc_4318f57bfe443ffb"
+    ],
+    "family_keys": [
+      "name:giiim"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "val"
+  },
+  {
+    "group_id": "grp_df0808be98d2676e",
+    "sample_ids": [
+      "uiuc_7315303db4b7462f"
+    ],
+    "family_keys": [
+      "name:giiin"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e030ba3f811d7154",
+    "sample_ids": [
+      "uiuc_71424c8ea14c3b5f"
+    ],
+    "family_keys": [
+      "name:mue"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e08861b343f5e546",
+    "sample_ids": [
+      "uiuc_2a90e999b515bca8"
+    ],
+    "family_keys": [
+      "name:giiik"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e35ed06fdc56c107",
+    "sample_ids": [
+      "uiuc_8f0cae487acc7938",
+      "uiuc_991d9222b25e440d",
+      "uiuc_cf9745d4bfdc8593"
+    ],
+    "family_keys": [
+      "name:as"
+    ],
+    "count": 3,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e45ebfb9ec56664a",
+    "sample_ids": [
+      "uiuc_1c22b1d3a796a297",
+      "uiuc_21460b5c590988fa"
+    ],
+    "family_keys": [
+      "name:ma"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e4fe9c554e9d4dce",
+    "sample_ids": [
+      "uiuc_0dc26d67874aafde"
+    ],
+    "family_keys": [
+      "name:daytonwright"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e6b0d652ba6c16d7",
+    "sample_ids": [
+      "uiuc_0b9b438ed2b9a1df",
+      "uiuc_0ba6ae9c2ee27ee8",
+      "uiuc_47f1ae1f0a94e245",
+      "uiuc_55ccbc21e98e563d",
+      "uiuc_5eb15e3062bf204a",
+      "uiuc_6f4603abebdcd059",
+      "uiuc_7b9ac8ae608dd0b7"
+    ],
+    "family_keys": [
+      "name:ls"
+    ],
+    "count": 7,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e86f465412abb946",
+    "sample_ids": [
+      "uiuc_b3c6d5af78211dea"
+    ],
+    "family_keys": [
+      "name:pfcm"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e8eb0303d9c6e601",
+    "sample_ids": [
+      "uiuc_6431e8cf59df0b16"
+    ],
+    "family_keys": [
+      "name:giiij"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_e9232589121a33b3",
+    "sample_ids": [
+      "uiuc_005b3c7f267f2d13",
+      "uiuc_14747b1f5f842fe8",
+      "uiuc_192e64a1e0c36c6d",
+      "uiuc_1b3bc090f3ba40a4",
+      "uiuc_2e270db1e323dba1",
+      "uiuc_2f9dfea71eea7aa6",
+      "uiuc_311bb4f9c5aee327",
+      "uiuc_3c0ff1997404d988",
+      "uiuc_447077495a186cec",
+      "uiuc_4ea93b8904e6ced7",
+      "uiuc_507b2ea7160c93ff",
+      "uiuc_5ad8412ae2839cd9",
+      "uiuc_5f4733e365209019",
+      "uiuc_618dc7820d483223",
+      "uiuc_689c1df6ec618d1d",
+      "uiuc_704a9c345f4115e0",
+      "uiuc_72735bb52ac9f610",
+      "uiuc_7757570c1dd80c21",
+      "uiuc_7799deb313f3f630",
+      "uiuc_77d2584ce751d284",
+      "uiuc_7a21972878011fbd",
+      "uiuc_7b1c8e15597ff45a",
+      "uiuc_866baec783079b47",
+      "uiuc_891c6f8370f488bf",
+      "uiuc_8f84bca67df2537b",
+      "uiuc_91dc36ecc01e8ab3",
+      "uiuc_983519ccdda3ebaf",
+      "uiuc_9861949e26544edb",
+      "uiuc_9e6c56a6258a6594",
+      "uiuc_a19a359feb37a1dd",
+      "uiuc_a2e4d3cabaec7186",
+      "uiuc_a434571b634728de",
+      "uiuc_a7fafa4a0bd42263",
+      "uiuc_b8bdf38efbcdcb5e",
+      "uiuc_bbb81cdad705521d",
+      "uiuc_beee8f05f436275e",
+      "uiuc_c0c2176e99f90b51",
+      "uiuc_c3dce16a7c7ac722",
+      "uiuc_ca83677ef49c771c",
+      "uiuc_cd222a377901af5e",
+      "uiuc_d2355b4dbab6e4dd",
+      "uiuc_d8f07b4e3df9c5bb",
+      "uiuc_e40304301d223182",
+      "uiuc_ef90343c3bd42bc6",
+      "uiuc_f34e0e8fffe4a718",
+      "uiuc_f863ccf823f2434d",
+      "uiuc_f8f52aba8cb5bf01",
+      "uiuc_f92d16e47542dd71",
+      "uiuc_fa6dca676656982b",
+      "uiuc_fd79d72eec10f819",
+      "uiuc_fe5ef956d2f2afdd"
+    ],
+    "family_keys": [
+      "name:mh"
+    ],
+    "count": 51,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_edbae2baef272c05",
+    "sample_ids": [
+      "uiuc_7ad499182a612fc9"
+    ],
+    "family_keys": [
+      "name:bacj"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_ef3cdcab949f68f8",
+    "sample_ids": [
+      "uiuc_17585d47c339629c"
+    ],
+    "family_keys": [
+      "name:gemini"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_f172d77680328c4d",
+    "sample_ids": [
+      "uiuc_00145a862b4c8586",
+      "uiuc_0e865b9233e910cf",
+      "uiuc_5e1b35de6338ccc4",
+      "uiuc_bdd62fb924a71096",
+      "uiuc_e2dc33b79593c963"
+    ],
+    "family_keys": [
+      "name:istmt"
+    ],
+    "count": 5,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_f281437e1748124b",
+    "sample_ids": [
+      "uiuc_3574bcf784219424",
+      "uiuc_449edc0b57317c97",
+      "uiuc_9c7e9c0e4564ab41",
+      "uiuc_a680a86c9ef05aef"
+    ],
+    "family_keys": [
+      "name:ys"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_f37d0d076418262e",
+    "sample_ids": [
+      "uiuc_646c45d75fdcefd7"
+    ],
+    "family_keys": [
+      "name:giiic"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_f5cdad8c62f827de",
+    "sample_ids": [
+      "uiuc_61510fe3e26c6556",
+      "uiuc_6c78b17aa2a167d5"
+    ],
+    "family_keys": [
+      "name:clarym"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_f6b8e798d7714d80",
+    "sample_ids": [
+      "uiuc_8b76b879160c09d8"
+    ],
+    "family_keys": [
+      "name:giiid"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_fae4058b67195bbf",
+    "sample_ids": [
+      "uiuc_01961cb2176776d8"
+    ],
+    "family_keys": [
+      "name:pt"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_fb81cd34eea9ba73",
+    "sample_ids": [
+      "uiuc_009be800eace795c",
+      "uiuc_379f83dcb4d72824",
+      "uiuc_493a3489d88db47c",
+      "uiuc_79080881ee6ed86e",
+      "uiuc_8fd7e4a3ef4d97b7",
+      "uiuc_9c997cfc4ca2f32e"
+    ],
+    "family_keys": [
+      "name:a",
+      "name:ames"
+    ],
+    "count": 6,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_fbbfe15b3d554806",
+    "sample_ids": [
+      "uiuc_24dbfa1f2c5fba7f",
+      "uiuc_4af346076e86fbd9"
+    ],
+    "family_keys": [
+      "name:supermarine"
+    ],
+    "count": 2,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_fd1c03a98af4a0f6",
+    "sample_ids": [
+      "uiuc_69c6060c8de7b6ab",
+      "uiuc_891f075c9d728da3",
+      "uiuc_cc42f32c2a08eabb",
+      "uiuc_f034d7364949ee6e"
+    ],
+    "family_keys": [
+      "name:arad"
+    ],
+    "count": 4,
+    "forced_test": false,
+    "split": "train"
+  },
+  {
+    "group_id": "grp_fe0aabfb04ac063c",
+    "sample_ids": [
+      "uiuc_21f88dfe7b39ff7c"
+    ],
+    "family_keys": [
+      "name:stf"
+    ],
+    "count": 1,
+    "forced_test": false,
+    "split": "train"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "version": "uiuc_group_split_v1",
+  "seed": "AeroBlockMesh-UIUC-v1-2026-11-22",
+  "ratios": {"train": 0.8, "val": 0.1, "test": 0.1},
+  "forced_test_family_keys": ["name:naca"],
+  "signature_samples": 129,
+  "near_duplicate_rms_chord": 0.0001,
+  "near_duplicate_max_chord": 0.0005,
+  "geometry_epsilon": 1e-12,
+  "smooth_or_modified_suffixes": ["smoothed", "smooth", "corrected", "modified", "mod", "sm"],
+  "named_family_rules": [
+    {"key": "naca", "pattern": "^(?:naca|n[0-9]{4,}|n[0-9]+h[0-9]+)"},
+    {"key": "sc", "pattern": "^(?:nasasc|sc[0-9])"},
+    {"key": "clark", "pattern": "^clark"},
+    {"key": "30p30n", "pattern": "^30p-?30n"},
+    {"key": "prandtl_d", "pattern": "^prandtl-d"},
+    {"key": "p51", "pattern": "^p51"},
+    {"key": "ua79", "pattern": "^ua79"}
+  ],
+  "name_rule_description": "Normalize case and remove punctuation; repeatedly strip listed smoothing/modification suffixes; apply explicit rules first, then conservatively group all names sharing the leading alphabetic prefix. Names without an alphabetic prefix use their cleaned complete name. This deliberately coarse naming proxy is not a verified aerodynamic taxonomy.",
+  "signature_description": "129 fixed interior cosine-spaced x/c sections; polygon intersections provide lower and upper y/c. Equal-length fingerprints are compared by RMS and maximum absolute deviation. This ignores point density, cyclic order, orientation, translation and uniform positive scale under the cleaner's axis-aligned chord normalization. No rotation, reflection or arbitrary affine matching is claimed."
+}
