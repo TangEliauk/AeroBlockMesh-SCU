@@ -1,0 +1,555 @@
+{
+  "acquisition_verification": {
+    "all_11_files_reacquired_with_release_downloader": true,
+    "comparison": "Exact SHA-256 and byte counts; ZIP Range/member CRC and tar archive hashes also checked.",
+    "original_archives_bundled": false,
+    "verified_date": "2026-11-22"
+  },
+  "case_count": 3,
+  "cases": [
+    {
+      "block_projection_summary": {
+        "max_projected_plane_difference": 0.0,
+        "physical_axes": [
+          "X",
+          "Y"
+        ],
+        "selected_source_plane_index": null,
+        "source_logical_axes": [
+          "I",
+          "J"
+        ],
+        "thin_coordinate_values": null,
+        "thin_logical_axis": null,
+        "thin_physical_axis": null
+      },
+      "case_id": "backstep4",
+      "cleaned_path": "data/processed/block_topology_2d_v1/backstep4.json",
+      "cleaning_checks": {
+        "all_coordinate_counts_match_dimensions": true,
+        "all_coordinates_finite": true,
+        "all_interfaces_reciprocal": true,
+        "cell_quality_or_jacobian_checked": false,
+        "directed_connections": 6,
+        "interface_absolute_tolerance": 1e-10,
+        "matched_coordinate_pairs": 123,
+        "max_absolute_interface_difference": 0.0,
+        "projection_validated": true,
+        "resampling_applied": false,
+        "smoothing_applied": false,
+        "source_coordinate_scalar_count": 10560,
+        "status": "passed",
+        "structured_blocks": 4,
+        "unclassified_boundary_segments": 11,
+        "unique_interfaces": 3
+      },
+      "data_role": "auxiliary_terminal_block_reference",
+      "geometry_family": "backstep",
+      "grid_format": "plot3d_2d",
+      "has_original_expert_action_history": false,
+      "limitations": [
+        "单个基准构型，不能证明对新型翼型/机翼的泛化。",
+        "不含原始专家动作轨迹或人工分块耗时。",
+        "未执行策略训练、单元质量认证、求解器复算或CFD精度验证。",
+        "边界/单位和求解设置需按原文件逐项匹配，不能仅凭几何连接推断。"
+      ],
+      "positioning": "二维基础辅助基准，不替代翼型核心样本",
+      "projection": {
+        "absolute_tolerance": 1e-10,
+        "full_source_planes_retained_in_raw_file": true,
+        "policy": "original_2d"
+      },
+      "reference_information": [
+        "结构块边界折线与源索引",
+        "由坐标匹配验证的块间连接候选",
+        "原坐标范围与二维投影记录",
+        "配套原始边界/求解输入（不自动解释全部语义）"
+      ],
+      "source_declaration_review": {
+        "automatically_interpreted_by_cleaner": false,
+        "checked_date": "2026-11-22",
+        "companion_path": "data/references/multiblock_2d_v1/backstep/backstep5_4levdn.nmf",
+        "companion_sha256": "d2830cd539b2c600f1aab5f8b9bfd8e4e3581dd878f85188576ffeaf04aac418",
+        "declared_interface_pairs": 3,
+        "matches_coordinate_inferred_source_ranges": true,
+        "method": "independent_one_time_endpoint_range_and_orientation_crosscheck",
+        "scope": "Independent source range/endpoint and orientation cross-check. NMF faces 5/6 projected from thin (I,J,K) to 2D (J,K); CFL thin I=1 retained. Other boundary/solver semantics not interpreted."
+      },
+      "source_declared_blocks": 4,
+      "source_grid": "data/references/multiblock_2d_v1/backstep/backstep5_4levdn.p2dfmt.gz",
+      "split_assignment": null,
+      "uses": [
+        "分块边界与一对一连接参考",
+        "非凸流域及台阶角点约束测试",
+        "简单课程学习案例候选"
+      ]
+    },
+    {
+      "block_projection_summary": {
+        "max_projected_plane_difference": 0.0,
+        "physical_axes": [
+          "X",
+          "Z"
+        ],
+        "selected_source_plane_index": 1,
+        "source_logical_axes": [
+          "J",
+          "K"
+        ],
+        "thin_coordinate_values": [
+          0.0,
+          -1.0
+        ],
+        "thin_logical_axis": "I",
+        "thin_physical_axis": "Y"
+      },
+      "case_id": "ejector3",
+      "cleaned_path": "data/processed/block_topology_2d_v1/ejector3.json",
+      "cleaning_checks": {
+        "all_coordinate_counts_match_dimensions": true,
+        "all_coordinates_finite": true,
+        "all_interfaces_reciprocal": true,
+        "cell_quality_or_jacobian_checked": false,
+        "directed_connections": 4,
+        "interface_absolute_tolerance": 1e-10,
+        "matched_coordinate_pairs": 112,
+        "max_absolute_interface_difference": 0.0,
+        "projection_validated": true,
+        "resampling_applied": false,
+        "smoothing_applied": false,
+        "source_coordinate_scalar_count": 94158,
+        "status": "passed",
+        "structured_blocks": 3,
+        "unclassified_boundary_segments": 10,
+        "unique_interfaces": 2
+      },
+      "data_role": "auxiliary_terminal_block_reference",
+      "geometry_family": "ejector",
+      "grid_format": "plot3d_thin_3d",
+      "has_original_expert_action_history": false,
+      "limitations": [
+        "单个基准构型，不能证明对新型翼型/机翼的泛化。",
+        "不含原始专家动作轨迹或人工分块耗时。",
+        "未执行策略训练、单元质量认证、求解器复算或CFD精度验证。",
+        "边界/单位和求解设置需按原文件逐项匹配，不能仅凭几何连接推断。"
+      ],
+      "positioning": "二维内流补充及可选跨构型测试",
+      "projection": {
+        "absolute_tolerance": 1e-10,
+        "full_source_planes_retained_in_raw_file": true,
+        "policy": "verified_axis_aligned_two_plane_extrusion"
+      },
+      "reference_information": [
+        "结构块边界折线与源索引",
+        "由坐标匹配验证的块间连接候选",
+        "原坐标范围与二维投影记录",
+        "配套原始边界/求解输入（不自动解释全部语义）"
+      ],
+      "source_declaration_review": {
+        "automatically_interpreted_by_cleaner": false,
+        "checked_date": "2026-11-22",
+        "companion_path": "data/references/multiblock_2d_v1/ejector/nozzle.inp",
+        "companion_sha256": "75e59699042cc45ad005ca2ac633df10332d5b4960b18e112fecfe61d92569eb",
+        "declared_interface_pairs": 2,
+        "matches_coordinate_inferred_source_ranges": true,
+        "method": "independent_one_time_endpoint_range_and_orientation_crosscheck",
+        "scope": "Independent source range/endpoint and orientation cross-check. NMF faces 5/6 projected from thin (I,J,K) to 2D (J,K); CFL thin I=1 retained. Other boundary/solver semantics not interpreted."
+      },
+      "source_declared_blocks": 3,
+      "source_grid": "data/references/multiblock_2d_v1/ejector/nozzle.p3dfmt",
+      "split_assignment": null,
+      "uses": [
+        "内部流道汇合处分块参考",
+        "点匹配接口和子边对接测试"
+      ]
+    },
+    {
+      "block_projection_summary": {
+        "max_projected_plane_difference": 0.0,
+        "physical_axes": [
+          "X",
+          "Z"
+        ],
+        "selected_source_plane_index": 1,
+        "source_logical_axes": [
+          "J",
+          "K"
+        ],
+        "thin_coordinate_values": [
+          0.0,
+          -1.0
+        ],
+        "thin_logical_axis": "I",
+        "thin_physical_axis": "Y"
+      },
+      "case_id": "hump4",
+      "cleaned_path": "data/processed/block_topology_2d_v1/hump4.json",
+      "cleaning_checks": {
+        "all_coordinate_counts_match_dimensions": true,
+        "all_coordinates_finite": true,
+        "all_interfaces_reciprocal": true,
+        "cell_quality_or_jacobian_checked": false,
+        "directed_connections": 6,
+        "interface_absolute_tolerance": 1e-10,
+        "matched_coordinate_pairs": 459,
+        "max_absolute_interface_difference": 0.0,
+        "projection_validated": true,
+        "resampling_applied": false,
+        "smoothing_applied": false,
+        "source_coordinate_scalar_count": 1260360,
+        "status": "passed",
+        "structured_blocks": 4,
+        "unclassified_boundary_segments": 12,
+        "unique_interfaces": 3
+      },
+      "data_role": "auxiliary_terminal_block_reference",
+      "geometry_family": "hump",
+      "grid_format": "plot3d_thin_3d",
+      "has_original_expert_action_history": false,
+      "limitations": [
+        "单个基准构型，不能证明对新型翼型/机翼的泛化。",
+        "不含原始专家动作轨迹或人工分块耗时。",
+        "未执行策略训练、单元质量认证、求解器复算或CFD精度验证。",
+        "边界/单位和求解设置需按原文件逐项匹配，不能仅凭几何连接推断。"
+      ],
+      "positioning": "复杂二维辅助验证，不替代翼型/机翼主体样本",
+      "projection": {
+        "absolute_tolerance": 1e-10,
+        "full_source_planes_retained_in_raw_file": true,
+        "policy": "verified_axis_aligned_two_plane_extrusion"
+      },
+      "reference_information": [
+        "结构块边界折线与源索引",
+        "由坐标匹配验证的块间连接候选",
+        "原坐标范围与二维投影记录",
+        "配套原始边界/求解输入（不自动解释全部语义）"
+      ],
+      "source_declaration_review": {
+        "automatically_interpreted_by_cleaner": false,
+        "checked_date": "2026-11-22",
+        "companion_path": "data/references/multiblock_2d_v1/hump/hump2_e_oscillate_newtop.inp_1",
+        "companion_sha256": "6dc6e43b2f61ee0d5cb1bae54d57c6be4150c38b92d26f51eec4c114bfe4f0ea",
+        "declared_interface_pairs": 3,
+        "matches_coordinate_inferred_source_ranges": true,
+        "method": "independent_one_time_endpoint_range_and_orientation_crosscheck",
+        "scope": "Independent source range/endpoint and orientation cross-check. NMF faces 5/6 projected from thin (I,J,K) to 2D (J,K); CFL thin I=1 retained. Other boundary/solver semantics not interpreted."
+      },
+      "source_declared_blocks": 4,
+      "source_grid": "data/references/multiblock_2d_v1/hump/hump2_e_newtop.fmt",
+      "split_assignment": null,
+      "uses": [
+        "曲壁、控制缝口和腔体附近分块参考",
+        "复杂二维工程边界案例"
+      ]
+    }
+  ],
+  "cleaned_files": [
+    {
+      "bytes": 65112,
+      "case_id": "backstep4",
+      "path": "data/processed/block_topology_2d_v1/backstep4.json",
+      "sha256": "36f73b42f185636b010b5e16704c58bb8d65564da33293063723451f068df6ea"
+    },
+    {
+      "bytes": 86496,
+      "case_id": "ejector3",
+      "path": "data/processed/block_topology_2d_v1/ejector3.json",
+      "sha256": "5475d8478f399fdb6153ff9bbfdcfb3c59f639f391cc8a566bff8b879d12f57e"
+    },
+    {
+      "bytes": 316484,
+      "case_id": "hump4",
+      "path": "data/processed/block_topology_2d_v1/hump4.json",
+      "sha256": "198c64480f6a42f5bfa5161f65e2e924959687d44d70296b80fd4029e2b7327b"
+    }
+  ],
+  "cleaning_policy": {
+    "normalization_applied": false,
+    "resampling_applied": false,
+    "source_coordinates_modified": false,
+    "thin_projection": "For thin-3D sources, verify matching planar coordinates before selecting a documented plane; preserve original full coordinates in source files.",
+    "training_trajectories_generated": false,
+    "uiuc_splits_modified": false
+  },
+  "created_date": "2026-11-22",
+  "raw_file_count": 11,
+  "raw_files": [
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "backstep4_grid",
+      "bytes": 31716,
+      "http": {
+        "content_range": "bytes 7646076-7676677/62191798",
+        "final_url": "https://www.nasa.gov/wp-content/uploads/2026/02/backstep-grids.zip",
+        "status": 206
+      },
+      "license_evidence": {
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "license": "CC0-1.0 (TMBWG repository source declaration)",
+        "scope": "Upstream source declaration; no project relicense."
+      },
+      "path": "data/references/multiblock_2d_v1/backstep/backstep5_4levdn.p2dfmt.gz",
+      "retrieval": {
+        "archive_member": "u/piyer/nasa_tmr/gitlab/turbmodels/Backstep_grids/backstep5_4levdn.p2dfmt.gz",
+        "compressed_bytes": 30602,
+        "kind": "zip_member_http_range",
+        "zip_compression_method": 8,
+        "zip_crc32": "a4055e3f",
+        "zip_local_header_offset": 7645942
+      },
+      "sha256": "2443952546193f4ca66fe7e6dc299343310e4e1dd8afb36f8e286f4d34d2b9c9",
+      "source_page": "https://tmbwg.github.io/turbmodels/backstep_grids.html",
+      "source_url": "https://www.nasa.gov/wp-content/uploads/2026/02/backstep-grids.zip"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "backstep4_nmf",
+      "bytes": 1924,
+      "http": {
+        "content_range": null,
+        "final_url": "https://tmbwg.github.io/turbmodels/Backstep_grids/backstep5_4levdn.nmf",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://github.com/TMBWG/turbmodels/blob/main/LICENSE",
+        "license": "CC0-1.0 (TMBWG repository source declaration)",
+        "scope": "Upstream source declaration; no project relicense."
+      },
+      "path": "data/references/multiblock_2d_v1/backstep/backstep5_4levdn.nmf",
+      "retrieval": {
+        "kind": "direct"
+      },
+      "sha256": "d2830cd539b2c600f1aab5f8b9bfd8e4e3581dd878f85188576ffeaf04aac418",
+      "source_page": "https://tmbwg.github.io/turbmodels/backstep_grids.html",
+      "source_url": "https://tmbwg.github.io/turbmodels/Backstep_grids/backstep5_4levdn.nmf"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "ejector3_grid",
+      "bytes": 1020206,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Ejectornozzle/Ejectornozzle.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/ejector/nozzle.p3dfmt",
+      "retrieval": {
+        "archive_bytes": 180653,
+        "archive_member": "Ejectornozzle/nozzle.p3dfmt",
+        "archive_sha256": "eb7bbe215a44b33d3ecff3d2d21ee37e6de1482a2dfe91ac29de7ff67ba22188",
+        "kind": "tar_member"
+      },
+      "sha256": "71586cf797a84b2b80171690a6864609724babc71b9a3548391f260a6c1d4305",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Ejectornozzle/Ejectornozzle.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "ejector3_input",
+      "bytes": 7085,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Ejectornozzle/Ejectornozzle.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/ejector/nozzle.inp",
+      "retrieval": {
+        "archive_bytes": 180653,
+        "archive_member": "Ejectornozzle/nozzle.inp",
+        "archive_sha256": "eb7bbe215a44b33d3ecff3d2d21ee37e6de1482a2dfe91ac29de7ff67ba22188",
+        "kind": "tar_member"
+      },
+      "sha256": "75e59699042cc45ad005ca2ac633df10332d5b4960b18e112fecfe61d92569eb",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Ejectornozzle/Ejectornozzle.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "ejector_splitter_input",
+      "bytes": 269,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Ejectornozzle/Ejectornozzle.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/ejector/split.inp",
+      "retrieval": {
+        "archive_bytes": 180653,
+        "archive_member": "Ejectornozzle/split.inp",
+        "archive_sha256": "eb7bbe215a44b33d3ecff3d2d21ee37e6de1482a2dfe91ac29de7ff67ba22188",
+        "kind": "tar_member"
+      },
+      "sha256": "3c8f4406a0070ecc70edf20c8e12e12b94c66ceb946be6d85c1595d29a0266c9",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Ejectornozzle/Ejectornozzle.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "hump4_grid",
+      "bytes": 30668830,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/hump/hump2_e_newtop.fmt",
+      "retrieval": {
+        "archive_bytes": 3611986,
+        "archive_member": "Humpcase/hump2_e_newtop.fmt",
+        "archive_sha256": "33a366d287c29e675539cdfa9eaf322193ac19d9bf5da554635d5eab03a0976e",
+        "kind": "tar_member"
+      },
+      "sha256": "4dc1ecfd949dff93c80f5e66e45589b488743c5e9075c6e755870e44c8aaf3a0",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "hump4_input_average",
+      "bytes": 8521,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/hump/hump2_e_oscillate_newtop.inp_3",
+      "retrieval": {
+        "archive_bytes": 3611986,
+        "archive_member": "Humpcase/hump2_e_oscillate_newtop.inp_3",
+        "archive_sha256": "33a366d287c29e675539cdfa9eaf322193ac19d9bf5da554635d5eab03a0976e",
+        "kind": "tar_member"
+      },
+      "sha256": "6b6049dfb4f94b5effb50a5322437ebcbfb17b9d6408dcc19064d702488f4129",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "hump4_input_oscillatory",
+      "bytes": 8521,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/hump/hump2_e_oscillate_newtop.inp_2",
+      "retrieval": {
+        "archive_bytes": 3611986,
+        "archive_member": "Humpcase/hump2_e_oscillate_newtop.inp_2",
+        "archive_sha256": "33a366d287c29e675539cdfa9eaf322193ac19d9bf5da554635d5eab03a0976e",
+        "kind": "tar_member"
+      },
+      "sha256": "25480ff22cb7d6e91c23be5b1904dd4ba67a6f1b2722198edc76023d074952bf",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "hump4_input_steady",
+      "bytes": 8386,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/hump/hump2_e_oscillate_newtop.inp_1",
+      "retrieval": {
+        "archive_bytes": 3611986,
+        "archive_member": "Humpcase/hump2_e_oscillate_newtop.inp_1",
+        "archive_sha256": "33a366d287c29e675539cdfa9eaf322193ac19d9bf5da554635d5eab03a0976e",
+        "kind": "tar_member"
+      },
+      "sha256": "6dc6e43b2f61ee0d5cb1bae54d57c6be4150c38b92d26f51eec4c114bfe4f0ea",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "hump4_upstream_readme",
+      "bytes": 1815,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/hump/README",
+      "retrieval": {
+        "archive_bytes": 3611986,
+        "archive_member": "Humpcase/README",
+        "archive_sha256": "33a366d287c29e675539cdfa9eaf322193ac19d9bf5da554635d5eab03a0976e",
+        "kind": "tar_member"
+      },
+      "sha256": "37d0bf986802f173570779a373398bc71eeadb34cb8ca4c5401a13aff69beeef",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz"
+    },
+    {
+      "acquired_date": "2026-11-22",
+      "asset_id": "hump_splitter_input",
+      "bytes": 302,
+      "http": {
+        "content_range": null,
+        "final_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz",
+        "status": 200
+      },
+      "license_evidence": {
+        "evidence_url": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+        "license": "NOASSERTION for individual sample data",
+        "scope": "Official public test archive; CFL3D software license is not automatically assigned to all sample data."
+      },
+      "path": "data/references/multiblock_2d_v1/hump/split.inp",
+      "retrieval": {
+        "archive_bytes": 3611986,
+        "archive_member": "Humpcase/split.inp",
+        "archive_sha256": "33a366d287c29e675539cdfa9eaf322193ac19d9bf5da554635d5eab03a0976e",
+        "kind": "tar_member"
+      },
+      "sha256": "46d43468a3ff68d21d3ce6899db30a1dfe1e8f76899ab65508b949917533c84b",
+      "source_page": "https://nasa.github.io/CFL3D/Cfl3dv6/cfl3dv6_testcases.html",
+      "source_url": "https://nasa.github.io/CFL3D/Cfl3dv6/2DTestcases/Hump/Humpcase.tar.gz"
+    }
+  ],
+  "raw_total_bytes": 31757575,
+  "schema_version": 1,
+  "version": "multiblock_2d_v1"
+}

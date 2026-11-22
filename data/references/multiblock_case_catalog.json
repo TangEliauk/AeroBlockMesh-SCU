@@ -1,0 +1,197 @@
+{
+  "case_count": 7,
+  "cases": [
+    {
+      "case_id": "cgns_channel12",
+      "cleaned_path": "data/processed/block_topology_v1/cgns_channel12.json",
+      "dimensionality": "three_dimensional",
+      "has_original_expert_action_history": false,
+      "included_in_new_2d_release": false,
+      "limitations": [
+        "终态参考，不是逐步人工分块记录或可直接训练的SAC回放。",
+        "尚未运行本项目CFD复算或公平人工耗时对照。"
+      ],
+      "name": "CGNS 十二块收缩通道",
+      "positioning": "接口与数据结构测试参考",
+      "primary_2d_aerodynamic_reference": false,
+      "reference_information": [
+        "12个结构区",
+        "20组去重一对一接口",
+        "边界分类、范围与索引变换"
+      ],
+      "source_manifest": "data/references/multiblock_v1/manifest.json",
+      "split_assignment": null,
+      "uses": [
+        "CGNS读写与接口验证",
+        "多块数据结构测试"
+      ]
+    },
+    {
+      "case_id": "cgns_airfoil4",
+      "cleaned_path": "data/processed/block_topology_v1/cgns_airfoil4.json",
+      "dimensionality": "two_dimensional_case_two_planes",
+      "has_original_expert_action_history": false,
+      "included_in_new_2d_release": false,
+      "limitations": [
+        "终态参考，不是逐步人工分块记录或可直接训练的SAC回放。",
+        "尚未运行本项目CFD复算或公平人工耗时对照。"
+      ],
+      "name": "CGNS 四块多段翼型",
+      "positioning": "二维气动分块主线参考",
+      "primary_2d_aerodynamic_reference": true,
+      "reference_information": [
+        "4个结构区",
+        "8组去重一对一接口",
+        "边界与流场信息；两平面原件保留"
+      ],
+      "source_manifest": "data/references/multiblock_v1/manifest.json",
+      "split_assignment": null,
+      "uses": [
+        "翼型外流分块布局参考",
+        "气动边界与块间对接研究"
+      ]
+    },
+    {
+      "case_id": "dlr_f6_icem",
+      "cleaned_path": "data/processed/block_topology_v1/dlr_f6_icem.json",
+      "dimensionality": "three_dimensional",
+      "has_original_expert_action_history": false,
+      "included_in_new_2d_release": false,
+      "limitations": [
+        "终态参考，不是逐步人工分块记录或可直接训练的SAC回放。",
+        "尚未运行本项目CFD复算或公平人工耗时对照。",
+        "三份BLK属于同一外形，不算三个独立几何。",
+        "每份BLK的374条SUPERBLOCKS是源记录数，不是已确认的活动流体块数。"
+      ],
+      "name": "DLR-F6 ICEM 工程",
+      "positioning": "后续三维工程blocking参考",
+      "primary_2d_aerodynamic_reference": false,
+      "reference_information": [
+        "TIN几何源文件",
+        "粗中细三份BLK blocking源记录",
+        "未解释的活动/投影/CAD属性明确保留"
+      ],
+      "source_manifest": "data/references/multiblock_v1/manifest.json",
+      "split_assignment": null,
+      "uses": [
+        "工程blocking定义参考",
+        "同构型密度设置比较"
+      ]
+    },
+    {
+      "case_id": "onera_m6",
+      "cleaned_path": "data/processed/block_topology_v1/onera_m6.json",
+      "dimensionality": "three_dimensional",
+      "has_original_expert_action_history": false,
+      "included_in_new_2d_release": false,
+      "limitations": [
+        "终态参考，不是逐步人工分块记录或可直接训练的SAC回放。",
+        "尚未运行本项目CFD复算或公平人工耗时对照。"
+      ],
+      "name": "ONERA M6 四块网格与GMAN",
+      "positioning": "后续三维机翼及CFD验证参考",
+      "primary_2d_aerodynamic_reference": false,
+      "reference_information": [
+        "4块PLOT3D网格",
+        "6组坐标核验接口",
+        "GMAN边界和配对声明"
+      ],
+      "source_manifest": "data/references/multiblock_v1/manifest.json",
+      "split_assignment": null,
+      "uses": [
+        "三维机翼接口验证",
+        "匹配工况后的CFD验证准备"
+      ]
+    },
+    {
+      "case_id": "backstep4",
+      "cleaned_path": "data/processed/block_topology_2d_v1/backstep4.json",
+      "dimensionality": "two_dimensional",
+      "has_original_expert_action_history": false,
+      "included_in_new_2d_release": true,
+      "limitations": [
+        "单个基准构型，不能证明对新型翼型/机翼的泛化。",
+        "不含原始专家动作轨迹或人工分块耗时。",
+        "未执行策略训练、单元质量认证、求解器复算或CFD精度验证。",
+        "边界/单位和求解设置需按原文件逐项匹配，不能仅凭几何连接推断。",
+        "本次只收最粗一级；官方五级密度属于同一几何系列。NMF为薄层3D版本，不把其索引直接套到二维网格。"
+      ],
+      "name": "NASA TMR 四块后向台阶",
+      "positioning": "二维基础辅助基准，不替代翼型核心样本",
+      "primary_2d_aerodynamic_reference": false,
+      "reference_information": [
+        "结构块边界折线与源索引",
+        "由坐标匹配验证的块间连接候选",
+        "原坐标范围与二维投影记录",
+        "配套原始边界/求解输入（不自动解释全部语义）"
+      ],
+      "source_manifest": "data/references/multiblock_2d_v1/manifest.json",
+      "split_assignment": null,
+      "uses": [
+        "分块边界与一对一连接参考",
+        "非凸流域及台阶角点约束测试",
+        "简单课程学习案例候选"
+      ]
+    },
+    {
+      "case_id": "ejector3",
+      "cleaned_path": "data/processed/block_topology_2d_v1/ejector3.json",
+      "dimensionality": "two_dimensional_case_two_planes",
+      "has_original_expert_action_history": false,
+      "included_in_new_2d_release": true,
+      "limitations": [
+        "单个基准构型，不能证明对新型翼型/机翼的泛化。",
+        "不含原始专家动作轨迹或人工分块耗时。",
+        "未执行策略训练、单元质量认证、求解器复算或CFD精度验证。",
+        "边界/单位和求解设置需按原文件逐项匹配，不能仅凭几何连接推断。"
+      ],
+      "name": "NASA CFL3D 三块喷射器",
+      "positioning": "二维内流补充及可选跨构型测试",
+      "primary_2d_aerodynamic_reference": false,
+      "reference_information": [
+        "结构块边界折线与源索引",
+        "由坐标匹配验证的块间连接候选",
+        "原坐标范围与二维投影记录",
+        "配套原始边界/求解输入（不自动解释全部语义）"
+      ],
+      "source_manifest": "data/references/multiblock_2d_v1/manifest.json",
+      "split_assignment": null,
+      "uses": [
+        "内部流道汇合处分块参考",
+        "点匹配接口和子边对接测试"
+      ]
+    },
+    {
+      "case_id": "hump4",
+      "cleaned_path": "data/processed/block_topology_2d_v1/hump4.json",
+      "dimensionality": "two_dimensional_case_two_planes",
+      "has_original_expert_action_history": false,
+      "included_in_new_2d_release": true,
+      "limitations": [
+        "单个基准构型，不能证明对新型翼型/机翼的泛化。",
+        "不含原始专家动作轨迹或人工分块耗时。",
+        "未执行策略训练、单元质量认证、求解器复算或CFD精度验证。",
+        "边界/单位和求解设置需按原文件逐项匹配，不能仅凭几何连接推断。"
+      ],
+      "name": "NASA CFL3D 四块带腔Hump",
+      "positioning": "复杂二维辅助验证，不替代翼型/机翼主体样本",
+      "primary_2d_aerodynamic_reference": false,
+      "reference_information": [
+        "结构块边界折线与源索引",
+        "由坐标匹配验证的块间连接候选",
+        "原坐标范围与二维投影记录",
+        "配套原始边界/求解输入（不自动解释全部语义）"
+      ],
+      "source_manifest": "data/references/multiblock_2d_v1/manifest.json",
+      "split_assignment": null,
+      "uses": [
+        "曲壁、控制缝口和腔体附近分块参考",
+        "复杂二维工程边界案例"
+      ]
+    }
+  ],
+  "catalog_id": "multiblock_reference_roles_v1",
+  "created_date": "2026-11-22",
+  "role_scope": "Reference roles are project judgments. Terminal cases are not automatically expert action histories or training labels.",
+  "schema_version": 1
+}

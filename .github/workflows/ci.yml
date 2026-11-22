@@ -36,6 +36,10 @@ jobs:
           python scripts/data/verify_multiblock_data.py
           python scripts/data/clean_cgns_multiblock.py --check
           python scripts/data/clean_engineering_multiblock.py --check
+      - name: Reproduce cleaned 2D multiblock references
+        run: |
+          python scripts/data/verify_2d_multiblock_data.py
+          python scripts/data/clean_2d_multiblock.py --check
       - name: Import all package modules
         run: |
           python - <<'PY'

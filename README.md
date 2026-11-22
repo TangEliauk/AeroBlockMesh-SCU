@@ -188,3 +188,9 @@ GitHub Actions 检查 Python 3.10、3.12 和 3.14 下的安装、依赖一致性
 ## 许可证
 
 许可证尚未选择；`LICENSE` 当前是待确定的占位文件，不构成开源许可。
+
+## 二维多块参考补充
+
+新增 [三组二维辅助终态参考](data/references/multiblock_2d_v1/README.md)：TMR 四块后向台阶、CFL3D 三块喷射器和四块带腔 Hump。官方原件与配套输入保留，二维边界、投影与连接检查另存于 [block_topology_2d_v1](data/processed/block_topology_2d_v1/README.md)，不改写既有四组或冻结的 `public_v1`。
+
+七组资料的维度、可参考信息、用途与定位见 [对照指南](docs/multiblock_reference_guide.md)和[机器可读用途表](data/references/multiblock_case_catalog.json)。新增三组用于基础约束、内流和复杂二维案例的辅助研究，不等同于翼型专家轨迹，也不表示分块、训练或 CFD 算法已接入。

@@ -5,3 +5,13 @@
 /docs/public_data_v1.md -text
 /THIRD_PARTY_DATA.md -text
 /.gitattributes -text
+
+# Keep large third-party coordinate payloads out of textual PR diffs.
+/data/references/multiblock_2d_v1/**/*.fmt -diff
+/data/references/multiblock_2d_v1/**/*.p3dfmt -diff
+/data/processed/block_topology_2d_v1/*.json linguist-generated=true
+
+# Official source members retain their original whitespace and CRLF bytes.
+/data/references/multiblock_2d_v1/backstep/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+/data/references/multiblock_2d_v1/ejector/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+/data/references/multiblock_2d_v1/hump/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
