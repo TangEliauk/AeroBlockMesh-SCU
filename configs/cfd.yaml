@@ -1,0 +1,15 @@
+# 配置草案：尚未接入程序；外部求解器及其适配器均未实现。
+# 所有相对路径均以仓库根目录为基准；null 表示尚未指定。
+cfd:
+  enabled: false
+  solver: null
+  case_template: null
+  mesh_path: null
+operating_point:
+  reynolds_number: null
+  mach_number: null
+convergence:
+  max_iterations: null
+  residual_target: null
+output:
+  directory: experiments/results

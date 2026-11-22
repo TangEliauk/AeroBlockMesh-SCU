@@ -1,0 +1,47 @@
+# Python and development environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Large data stays local; published UIUC v1 and split manifests stay versioned.
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/processed/uiuc_v1/
+/data/expert/*
+!/data/expert/.gitkeep
+
+# Generated experiment artifacts
+/experiments/checkpoints/*
+!/experiments/checkpoints/.gitkeep
+/experiments/logs/*
+!/experiments/logs/.gitkeep
+/experiments/results/*
+!/experiments/results/.gitkeep

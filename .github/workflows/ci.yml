@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scaffold:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package and build tools
+        run: python -m pip install ".[dev]"
+      - name: Check installed dependencies
+        run: python -m pip check
+      - name: Build source and wheel distributions
+        run: python -m build
+      - name: Check Python syntax
+        run: python -m compileall -q src scripts tests
+      - name: Run existing data regression tests
+        run: python -m unittest discover -s tests/data -p "test_*.py" -v
+      - name: Import all package modules
+        run: |
+          python - <<'PY'
+          import importlib
+          import pkgutil
+          import smartcfd
+
+          for module in pkgutil.walk_packages(smartcfd.__path__, smartcfd.__name__ + "."):
+              importlib.import_module(module.name)
+          print("smartcfd", smartcfd.__version__)
+          PY
+      - name: Check script help
+        run: |
+          for script in scripts/*.py; do
+            python "$script" --help
+          done

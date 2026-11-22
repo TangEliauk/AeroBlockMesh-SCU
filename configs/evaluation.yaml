@@ -1,0 +1,10 @@
+# 配置草案：尚未接入程序；评价公式、统计口径与阈值待确认。
+# 所有相对路径均以仓库根目录为基准；null 表示尚未指定。
+input:
+  partition_path: null
+  mesh_path: null
+evaluation:
+  metrics: []
+  thresholds: {}
+output:
+  directory: experiments/results

@@ -1,0 +1,9 @@
+# 配置草案：尚未接入程序；不代表已有可运行的自动分块方法。
+# 所有相对路径均以仓库根目录为基准；null 表示尚未指定。
+partition:
+  method: null
+  max_blocks: null
+constraints:
+  preserve_geometry_boundary: true
+  require_connected_blocks: true
+expert_data_dir: data/expert

@@ -1,0 +1,13 @@
+# 配置草案：尚未接入程序；状态、动作、奖励与训练算法均待实现。
+# 所有相对路径均以仓库根目录为基准；null 表示尚未指定。
+training:
+  algorithm: null
+  seed: 42
+  total_steps: null
+data:
+  train_manifest: null
+  validation_manifest: null
+  test_manifest: null
+output:
+  checkpoint_dir: experiments/checkpoints
+  log_dir: experiments/logs
