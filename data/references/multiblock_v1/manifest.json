@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "version": "multiblock_v1",
+  "case_count": 4,
+  "source_manifest": "data/references/public_v1/reference_manifest.json",
+  "source_manifest_policy": "public_v1 remains an unchanged historical release; this manifest records the newly bundled selection.",
+  "scope": "Final multiblock mesh and blocking project references; not expert action trajectories or SAC replay.",
+  "raw_files": [
+    {
+      "asset_id": "cgns_channel_12",
+      "path": "data/references/multiblock_v1/channel12/sqnz_s.hdf.cgns.gz",
+      "bytes": 446341,
+      "sha256": "b8c02ac01bc94b542969bab5aa19300940e52071aeb130adfc40fd332e8ec67d",
+      "format": "cgns_hdf5_gzip",
+      "source_url": "https://cgns.org/_downloads/ec174e1efabe2bd691be3950720dd536/sqnz_s.hdf.cgns.gz",
+      "source_page": "https://cgns.org/current/examples.html#constricting-channel",
+      "source_file_name": "sqnz_s.hdf.cgns.gz",
+      "geometry_family": "channel",
+      "purpose": [
+        "结构化多块数据读取",
+        "Family_t边界标签",
+        "分块接口提取与检查"
+      ],
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://cgns.org/current/examples.html#constricting-channel",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "source_limitations_at_public_v1_release": [
+        "通道构型，非气动翼型",
+        "成品网格，不包含专家操作轨迹",
+        "原站声明样例按现状提供，并非委员会认证"
+      ],
+      "bundled_in_this_release": true,
+      "derived_case_id": "cgns_channel12"
+    },
+    {
+      "asset_id": "cgns_multielement_airfoil_4",
+      "path": "data/references/multiblock_v1/airfoil4/multi_hdf5.cgns.gz",
+      "bytes": 2298770,
+      "sha256": "7d29fed1b30e8d2588e47a1dbcee2aba6278a219112d1cde74b832a69a1ef7c7",
+      "format": "cgns_hdf5_gzip",
+      "source_url": "https://cgns.org/current/examples.html",
+      "source_page": "https://cgns.org/current/examples.html",
+      "source_file_name": "multi_hdf5.cgns.gz",
+      "geometry_family": "multielement_airfoil",
+      "purpose": [
+        "接口映射、结构块、边界和流场数据读写的小样例。"
+      ],
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://cgns.org/current/examples.html",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "source_limitations_at_public_v1_release": [
+        "单个多段翼型成品网格，不能视为大规模训练库或专家状态动作轨迹。",
+        "本次验证压缩完整性和HDF5签名；块尺寸、接口与流场语义沿用本地导读既有核验，本次未重新用CGNS API解析。"
+      ],
+      "bundled_in_this_release": true,
+      "derived_case_id": "cgns_airfoil4"
+    },
+    {
+      "asset_id": "dpw3_f6_icem_rev2",
+      "path": "data/references/multiblock_v1/dlr_f6_icem/dlr_f6_wingbody_icem_REV2.zip",
+      "bytes": 777661,
+      "sha256": "6865bdad90c12982f6f60351ac6afd119be763d10bf0ec5c0e80b97a7020b693",
+      "format": "icem_zip",
+      "source_url": "https://dpw.larc.nasa.gov/DPW3/multiblock_icem_cfd/dlr_f6_wingbody_icem_REV2.zip",
+      "source_page": "https://dpw.larc.nasa.gov/DPW3/multiblock_icem_cfd/",
+      "source_file_name": "dlr_f6_wingbody_icem_REV2.zip",
+      "geometry_family": "dlr_f6",
+      "purpose": [
+        "提取几何与最终分块工程定义，观察同外形不同密度设置。"
+      ],
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": "https://dpw.larc.nasa.gov/DPW3/multiblock_icem_cfd/",
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "source_limitations_at_public_v1_release": [
+        "工程包不是对应的大型PLOT3D体网格包。",
+        "coarse、med、fine属于同一几何，不能计作三个独立外形；最终BLK工程文件不等于专家操作序列。"
+      ],
+      "bundled_in_this_release": true,
+      "derived_case_id": "dlr_f6_icem"
+    },
+    {
+      "asset_id": "onera_m6_four_block_grid",
+      "path": "data/references/multiblock_v1/onera_m6/m6wing.x.fmt",
+      "bytes": 13722480,
+      "sha256": "484fa6ad108c6ee5503e3e679a8fe7c67874c2ef347ce31ed13856b33d2cc0f0",
+      "format": "plot3d_ascii",
+      "source_url": "https://www.grc.nasa.gov/WWW/wind/valid/m6wing/m6wing01/m6wing.x.fmt",
+      "source_page": null,
+      "source_file_name": "m6wing.x.fmt",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "四块PLOT3D成品网格，已有，不重复下载。"
+      ],
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": null,
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "source_limitations_at_public_v1_release": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "bundled_in_this_release": true,
+      "derived_case_id": "onera_m6"
+    },
+    {
+      "asset_id": "onera_m6_gman_boundaries",
+      "path": "data/references/multiblock_v1/onera_m6/gman.a.com",
+      "bytes": 1357,
+      "sha256": "d0a005cb817c352d46e17810b7ee09b1ea501d233d24f1f64ea832f36679b507",
+      "format": "gman_ascii",
+      "source_url": "https://www.grc.nasa.gov/WWW/wind/valid/m6wing/m6wing01/gman.a.com",
+      "source_page": null,
+      "source_file_name": "gman.a.com",
+      "geometry_family": "onera_m6",
+      "purpose": [
+        "已有边界与接口配对命令，原名gman.a.com。"
+      ],
+      "license_evidence": {
+        "repository_or_source_license": null,
+        "evidence_url": null,
+        "note": "Source declaration retained; no new blanket MIT license is applied to third-party data."
+      },
+      "source_limitations_at_public_v1_release": [
+        "Geometry versions, units and near-wall treatment must be matched explicitly.",
+        "No expert state-action history is provided."
+      ],
+      "bundled_in_this_release": true,
+      "derived_case_id": "onera_m6"
+    }
+  ],
+  "raw_file_count": 5,
+  "raw_total_bytes": 17246609,
+  "cleaned_files": [
+    {
+      "case_id": "cgns_channel12",
+      "path": "data/processed/block_topology_v1/cgns_channel12.json",
+      "bytes": 86799,
+      "sha256": "d050217b903e6dee307775ff9a573ece4f57ba2a5e5022142e1f5bb85f871dd4",
+      "cleaning_script": "scripts/data/clean_cgns_multiblock.py",
+      "parse_coverage": "supported_topology_verified",
+      "validation_record": "checks field in the cleaned JSON; detailed limitations retained there"
+    },
+    {
+      "case_id": "cgns_airfoil4",
+      "path": "data/processed/block_topology_v1/cgns_airfoil4.json",
+      "bytes": 39879,
+      "sha256": "2d75ac37a2b6aa903b92d23d6ce3c9d28304594a2c34b8e831a16127c6414ace",
+      "cleaning_script": "scripts/data/clean_cgns_multiblock.py",
+      "parse_coverage": "supported_topology_verified",
+      "validation_record": "checks field in the cleaned JSON; detailed limitations retained there"
+    },
+    {
+      "case_id": "dlr_f6_icem",
+      "path": "data/processed/block_topology_v1/dlr_f6_icem.json",
+      "bytes": 2039520,
+      "sha256": "73cdaee01e2fc7a9c933c4406eee8c11c3ddf86b0cd1381489a1126af0983bae",
+      "cleaning_script": "scripts/data/clean_engineering_multiblock.py",
+      "parse_coverage": "partial_proprietary_semantics",
+      "validation_record": "checks field in the cleaned JSON; detailed limitations retained there"
+    },
+    {
+      "case_id": "onera_m6",
+      "path": "data/processed/block_topology_v1/onera_m6.json",
+      "bytes": 20375,
+      "sha256": "60e5e5c4324695ccfa65eee69a5577503fc29c2587ebf62dfdca0d4e9b187877",
+      "cleaning_script": "scripts/data/clean_engineering_multiblock.py",
+      "parse_coverage": "supported_topology_verified",
+      "validation_record": "checks field in the cleaned JSON; detailed limitations retained there"
+    }
+  ],
+  "excluded_large_assets": [
+    "cgns_dlr_f6_26",
+    "crm_notails_medium"
+  ],
+  "third_party_data_not_relicensed": true,
+  "cleaning_policy": {
+    "source_coordinates_modified": false,
+    "smoothing_applied": false,
+    "resampling_applied": false,
+    "unit_conversion_applied": false,
+    "expert_actions_generated": false,
+    "unknown_proprietary_semantics": "retained and explicitly marked, never inferred"
+  }
+}
