@@ -13,6 +13,14 @@ dependencies = []
 [project.optional-dependencies]
 dev = ["build>=1.2", "pytest>=8"]
 data = ["numpy>=1.26", "h5py>=3.11"]
+ch-sac = [
+    "numpy>=1.26",
+    "scipy>=1.9",
+    "shapely>=2,<3",
+    "gmsh>=4.13,<5",
+    "matplotlib>=3.8,<4",
+    "torch>=2.6,<3",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

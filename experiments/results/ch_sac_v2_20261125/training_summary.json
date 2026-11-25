@@ -1,0 +1,103 @@
+{
+  "torch_version": "2.12.0.dev20260408+cu128",
+  "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "epochs": 60,
+  "episodes_per_epoch": 80,
+  "steps_per_epoch": 400,
+  "total_online_steps": 24000,
+  "warmup_transitions": 1000,
+  "seeds_run_now": [
+    {
+      "seed": 42,
+      "resumed": true,
+      "best_val_score": 0.71551,
+      "best_epoch": 60
+    },
+    {
+      "seed": 43,
+      "resumed": false,
+      "best_val_score": 0.7137886425386769,
+      "best_epoch": 58,
+      "final_val_score": 0.7125509195440497,
+      "total_sec": 441.83
+    },
+    {
+      "seed": 44,
+      "resumed": false,
+      "best_val_score": 0.7174484107911119,
+      "best_epoch": 40,
+      "final_val_score": 0.7165802390585891,
+      "total_sec": 437.6
+    },
+    {
+      "seed": 45,
+      "resumed": false,
+      "best_val_score": 0.7153426890073599,
+      "best_epoch": 50,
+      "final_val_score": 0.7140748197961155,
+      "total_sec": 435.56
+    },
+    {
+      "seed": 46,
+      "resumed": false,
+      "best_val_score": 0.7148733123975459,
+      "best_epoch": 48,
+      "final_val_score": 0.7141761015186663,
+      "total_sec": 435.55
+    }
+  ],
+  "all_seeds_summary": [
+    {
+      "seed": 42,
+      "best_epoch": 60,
+      "best_val_score": 0.71551,
+      "best_val_jmin": 0.77467,
+      "best_val_j05": 0.8847,
+      "best_val_far_ar": 305.69,
+      "final_val_score": 0.71551,
+      "rows": 31
+    },
+    {
+      "seed": 43,
+      "best_epoch": 58,
+      "best_val_score": 0.71379,
+      "best_val_jmin": 0.7741,
+      "best_val_j05": 0.88709,
+      "best_val_far_ar": 307.14,
+      "final_val_score": 0.71255,
+      "rows": 31
+    },
+    {
+      "seed": 44,
+      "best_epoch": 40,
+      "best_val_score": 0.71745,
+      "best_val_jmin": 0.77807,
+      "best_val_j05": 0.8927,
+      "best_val_far_ar": 306.53,
+      "final_val_score": 0.71658,
+      "rows": 31
+    },
+    {
+      "seed": 45,
+      "best_epoch": 50,
+      "best_val_score": 0.71534,
+      "best_val_jmin": 0.7721,
+      "best_val_j05": 0.88983,
+      "best_val_far_ar": 303.19,
+      "final_val_score": 0.71407,
+      "rows": 31
+    },
+    {
+      "seed": 46,
+      "best_epoch": 48,
+      "best_val_score": 0.71487,
+      "best_val_jmin": 0.77132,
+      "best_val_j05": 0.88259,
+      "best_val_far_ar": 303.9,
+      "final_val_score": 0.71418,
+      "rows": 31
+    }
+  ],
+  "median_val_seed": 45,
+  "wall_sec": 1752.28
+}

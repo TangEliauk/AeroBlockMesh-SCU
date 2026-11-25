@@ -1,0 +1,17 @@
+{
+  "history_rows": 4655,
+  "last_inner_iteration": 4654,
+  "initial_log10_rms_density": -5.37244294,
+  "final_log10_rms_density": -9.893130378,
+  "rms_density_reduction_decades": 4.520687438,
+  "rms_density_target": -9.0,
+  "rms_density_target_met": true,
+  "force_window_rows": 50,
+  "cl_window_range": 4.477660000001826e-05,
+  "cd_window_range": 5.743999999981153e-07,
+  "cl": 0.9429008489,
+  "cd": 0.02330474973,
+  "exit_code": 0,
+  "seconds": 41.15922859999955,
+  "cfl": 15
+}
