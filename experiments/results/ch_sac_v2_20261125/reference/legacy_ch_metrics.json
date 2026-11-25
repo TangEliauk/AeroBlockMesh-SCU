@@ -1,0 +1,722 @@
+[
+  {
+    "id": "naca0010_1536",
+    "name": "naca0010",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.28449754490924883,
+      "min_scaled_jacobian": 0.9871452988971754,
+      "q05_scaled_jacobian": 0.9927479555735493,
+      "wall_angle_q10_deg": 85.65364680287638,
+      "farfield_max_aspect_ratio": 12466.847185710496,
+      "max_aspect_ratio": 12466.847185710496
+    }
+  },
+  {
+    "id": "naca0010_5120",
+    "name": "naca0010",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.07176484191230126,
+      "min_scaled_jacobian": 0.9927131787437165,
+      "q05_scaled_jacobian": 0.9927457358513632,
+      "wall_angle_q10_deg": 85.71414254253276,
+      "farfield_max_aspect_ratio": 51353.50335832349,
+      "max_aspect_ratio": 51353.50335832349
+    }
+  },
+  {
+    "id": "naca0012_1536",
+    "name": "naca0012",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.27798169676341666,
+      "min_scaled_jacobian": 0.9896044523634102,
+      "q05_scaled_jacobian": 0.9896084959100604,
+      "wall_angle_q10_deg": 85.34508437771223,
+      "farfield_max_aspect_ratio": 12761.385266395668,
+      "max_aspect_ratio": 12761.385266395668
+    }
+  },
+  {
+    "id": "naca0012_5120",
+    "name": "naca0012",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.07160000607509431,
+      "min_scaled_jacobian": 0.98954836006073,
+      "q05_scaled_jacobian": 0.9896017719943797,
+      "wall_angle_q10_deg": 85.98323025622784,
+      "farfield_max_aspect_ratio": 51367.68176147718,
+      "max_aspect_ratio": 51367.68176147718
+    }
+  },
+  {
+    "id": "naca0016_1536",
+    "name": "naca0016",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.26526006503702015,
+      "min_scaled_jacobian": 0.9817394342149648,
+      "q05_scaled_jacobian": 0.9817464527377339,
+      "wall_angle_q10_deg": 85.43102659506157,
+      "farfield_max_aspect_ratio": 13410.38889486804,
+      "max_aspect_ratio": 13410.38889486804
+    }
+  },
+  {
+    "id": "naca0016_5120",
+    "name": "naca0016",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.06414310290967529,
+      "min_scaled_jacobian": 0.9816064609312598,
+      "q05_scaled_jacobian": 0.981726149400009,
+      "wall_angle_q10_deg": 85.81186091888446,
+      "farfield_max_aspect_ratio": 51401.118679517516,
+      "max_aspect_ratio": 51401.118679517516
+    }
+  },
+  {
+    "id": "naca0022_1536",
+    "name": "naca0022",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.24278156230504078,
+      "min_scaled_jacobian": 0.9662913012862479,
+      "q05_scaled_jacobian": 0.966303954198137,
+      "wall_angle_q10_deg": 85.61465834481842,
+      "farfield_max_aspect_ratio": 14552.618612049338,
+      "max_aspect_ratio": 14552.618612049338
+    }
+  },
+  {
+    "id": "naca0022_5120",
+    "name": "naca0022",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.05481033907770183,
+      "min_scaled_jacobian": 0.9659441719545538,
+      "q05_scaled_jacobian": 0.9662323265280247,
+      "wall_angle_q10_deg": 86.11912308514118,
+      "farfield_max_aspect_ratio": 51473.51915554719,
+      "max_aspect_ratio": 51473.51915554719
+    }
+  },
+  {
+    "id": "naca2409_1536",
+    "name": "naca2409",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.26091551442255545,
+      "min_scaled_jacobian": 0.9847470181418609,
+      "q05_scaled_jacobian": 0.9847698469704365,
+      "wall_angle_q10_deg": 84.3110852881261,
+      "farfield_max_aspect_ratio": 13172.00832521927,
+      "max_aspect_ratio": 13172.00832521927
+    }
+  },
+  {
+    "id": "naca2409_5120",
+    "name": "naca2409",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.05598609266273058,
+      "min_scaled_jacobian": 0.984646035459953,
+      "q05_scaled_jacobian": 0.9847587702020596,
+      "wall_angle_q10_deg": 84.55506308166511,
+      "farfield_max_aspect_ratio": 51387.79505149105,
+      "max_aspect_ratio": 51387.79505149105
+    }
+  },
+  {
+    "id": "naca2412_1536",
+    "name": "naca2412",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.25330660125508175,
+      "min_scaled_jacobian": 0.9779149613181364,
+      "q05_scaled_jacobian": 0.977947673732604,
+      "wall_angle_q10_deg": 84.73296937548801,
+      "farfield_max_aspect_ratio": 13702.751486549387,
+      "max_aspect_ratio": 13702.751486549387
+    }
+  },
+  {
+    "id": "naca2412_5120",
+    "name": "naca2412",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.055878555948481345,
+      "min_scaled_jacobian": 0.9777362358085191,
+      "q05_scaled_jacobian": 0.9779280679427136,
+      "wall_angle_q10_deg": 85.17131521285577,
+      "farfield_max_aspect_ratio": 51418.99505016381,
+      "max_aspect_ratio": 51418.99505016381
+    }
+  },
+  {
+    "id": "naca2415_1536",
+    "name": "naca2415",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.24401811725281652,
+      "min_scaled_jacobian": 0.9699275088382816,
+      "q05_scaled_jacobian": 0.9699715108385174,
+      "wall_angle_q10_deg": 85.10284609697327,
+      "farfield_max_aspect_ratio": 14290.579112642052,
+      "max_aspect_ratio": 14290.579112642052
+    }
+  },
+  {
+    "id": "naca2415_5120",
+    "name": "naca2415",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.05313011897427222,
+      "min_scaled_jacobian": 0.9696385519216386,
+      "q05_scaled_jacobian": 0.9699432730314745,
+      "wall_angle_q10_deg": 85.57826334306303,
+      "farfield_max_aspect_ratio": 51456.7483533937,
+      "max_aspect_ratio": 51456.7483533937
+    }
+  },
+  {
+    "id": "naca2420_1536",
+    "name": "naca2420",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.22570719884185042,
+      "min_scaled_jacobian": 0.9542419549134026,
+      "q05_scaled_jacobian": 0.9543073029961985,
+      "wall_angle_q10_deg": 85.69718534985533,
+      "farfield_max_aspect_ratio": 15414.52573410572,
+      "max_aspect_ratio": 15414.52573410572
+    }
+  },
+  {
+    "id": "naca2420_5120",
+    "name": "naca2420",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.044177657777447865,
+      "min_scaled_jacobian": 0.9536798946493267,
+      "q05_scaled_jacobian": 0.9542576773292969,
+      "wall_angle_q10_deg": 85.95216091038148,
+      "farfield_max_aspect_ratio": 51527.38113299237,
+      "max_aspect_ratio": 51527.38113299237
+    }
+  },
+  {
+    "id": "naca2423_1536",
+    "name": "naca2423",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.20958527849069974,
+      "min_scaled_jacobian": 0.9435396829039913,
+      "q05_scaled_jacobian": 0.9436189760369141,
+      "wall_angle_q10_deg": 85.61784267413603,
+      "farfield_max_aspect_ratio": 16187.738591698266,
+      "max_aspect_ratio": 16187.738591698266
+    }
+  },
+  {
+    "id": "naca2423_5120",
+    "name": "naca2423",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.036364089380369724,
+      "min_scaled_jacobian": 0.9427484036317397,
+      "q05_scaled_jacobian": 0.9435554458569151,
+      "wall_angle_q10_deg": 86.00498957091534,
+      "farfield_max_aspect_ratio": 51577.20025358749,
+      "max_aspect_ratio": 51577.20025358749
+    }
+  },
+  {
+    "id": "naca3509_1536",
+    "name": "naca3509",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.2445950751287368,
+      "min_scaled_jacobian": 0.9743011626048513,
+      "q05_scaled_jacobian": 0.9743390181363163,
+      "wall_angle_q10_deg": 84.3668972248354,
+      "farfield_max_aspect_ratio": 13971.52705088854,
+      "max_aspect_ratio": 13971.52705088854
+    }
+  },
+  {
+    "id": "naca3509_5120",
+    "name": "naca3509",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.053491522850160345,
+      "min_scaled_jacobian": 0.9740751518711346,
+      "q05_scaled_jacobian": 0.9743149463658409,
+      "wall_angle_q10_deg": 85.2180040410953,
+      "farfield_max_aspect_ratio": 51435.73521875985,
+      "max_aspect_ratio": 51435.73521875985
+    }
+  },
+  {
+    "id": "naca3512_1536",
+    "name": "naca3512",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.23482300047309201,
+      "min_scaled_jacobian": 0.9656917944186809,
+      "q05_scaled_jacobian": 0.965741667884714,
+      "wall_angle_q10_deg": 84.76564410379459,
+      "farfield_max_aspect_ratio": 14595.640276569353,
+      "max_aspect_ratio": 14595.640276569353
+    }
+  },
+  {
+    "id": "naca3512_5120",
+    "name": "naca3512",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.046573759482451016,
+      "min_scaled_jacobian": 0.9653359763930075,
+      "q05_scaled_jacobian": 0.9657074454194283,
+      "wall_angle_q10_deg": 85.18269574489449,
+      "farfield_max_aspect_ratio": 51476.97251149018,
+      "max_aspect_ratio": 51476.97251149018
+    }
+  },
+  {
+    "id": "naca3515_1536",
+    "name": "naca3515",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.22426984781893322,
+      "min_scaled_jacobian": 0.9559710261814178,
+      "q05_scaled_jacobian": 0.9560340743697131,
+      "wall_angle_q10_deg": 85.22212692535561,
+      "farfield_max_aspect_ratio": 15290.739647880948,
+      "max_aspect_ratio": 15290.739647880948
+    }
+  },
+  {
+    "id": "naca3515_5120",
+    "name": "naca3515",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.04523831487381469,
+      "min_scaled_jacobian": 0.9554419468165004,
+      "q05_scaled_jacobian": 0.9559868023301362,
+      "wall_angle_q10_deg": 85.92022460978765,
+      "farfield_max_aspect_ratio": 51521.13574752166,
+      "max_aspect_ratio": 51521.13574752166
+    }
+  },
+  {
+    "id": "naca3520_1536",
+    "name": "naca3520",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.20105442884679114,
+      "min_scaled_jacobian": 0.9375062399750772,
+      "q05_scaled_jacobian": 0.9375931756993306,
+      "wall_angle_q10_deg": 85.63053932296967,
+      "farfield_max_aspect_ratio": 16631.915427318963,
+      "max_aspect_ratio": 16631.915427318963
+    }
+  },
+  {
+    "id": "naca3520_5120",
+    "name": "naca3520",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.0312717340274169,
+      "min_scaled_jacobian": 0.9365767986557677,
+      "q05_scaled_jacobian": 0.9375190210730486,
+      "wall_angle_q10_deg": 85.95251265639484,
+      "farfield_max_aspect_ratio": 51604.49400143769,
+      "max_aspect_ratio": 51604.49400143769
+    }
+  },
+  {
+    "id": "naca3523_1536",
+    "name": "naca3523",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.18216101829909315,
+      "min_scaled_jacobian": 0.9252078502710629,
+      "q05_scaled_jacobian": 0.9253098804675299,
+      "wall_angle_q10_deg": 85.46441578111404,
+      "farfield_max_aspect_ratio": 17564.333601915656,
+      "max_aspect_ratio": 17564.333601915656
+    }
+  },
+  {
+    "id": "naca3523_5120",
+    "name": "naca3523",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.02205223669911649,
+      "min_scaled_jacobian": 0.9239564134530898,
+      "q05_scaled_jacobian": 0.9252210176670789,
+      "wall_angle_q10_deg": 85.98600001749769,
+      "farfield_max_aspect_ratio": 51659.59735009171,
+      "max_aspect_ratio": 51659.59735009171
+    }
+  },
+  {
+    "id": "naca4409_1536",
+    "name": "naca4409",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.24269994229883718,
+      "min_scaled_jacobian": 0.9713032258313111,
+      "q05_scaled_jacobian": 0.9713453036776131,
+      "wall_angle_q10_deg": 84.69311629202389,
+      "farfield_max_aspect_ratio": 14190.782282987931,
+      "max_aspect_ratio": 14190.782282987931
+    }
+  },
+  {
+    "id": "naca4409_5120",
+    "name": "naca4409",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.04792707649532846,
+      "min_scaled_jacobian": 0.9710379117939083,
+      "q05_scaled_jacobian": 0.9713184169019483,
+      "wall_angle_q10_deg": 84.8264452658865,
+      "farfield_max_aspect_ratio": 51449.20838960383,
+      "max_aspect_ratio": 51449.20838960383
+    }
+  },
+  {
+    "id": "naca4412_1536",
+    "name": "naca4412",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.23414627792644238,
+      "min_scaled_jacobian": 0.9622642026599889,
+      "q05_scaled_jacobian": 0.9623187691753171,
+      "wall_angle_q10_deg": 85.29679081347678,
+      "farfield_max_aspect_ratio": 14841.012075368304,
+      "max_aspect_ratio": 14841.012075368304
+    }
+  },
+  {
+    "id": "naca4412_5120",
+    "name": "naca4412",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.04864102185075536,
+      "min_scaled_jacobian": 0.9618493593554658,
+      "q05_scaled_jacobian": 0.9622802236090895,
+      "wall_angle_q10_deg": 85.74725953744002,
+      "farfield_max_aspect_ratio": 51492.63143854003,
+      "max_aspect_ratio": 51492.63143854003
+    }
+  },
+  {
+    "id": "naca4415_1536",
+    "name": "naca4415",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.21766383804968958,
+      "min_scaled_jacobian": 0.9521258693474679,
+      "q05_scaled_jacobian": 0.9521940142922197,
+      "wall_angle_q10_deg": 85.10104402556192,
+      "farfield_max_aspect_ratio": 15566.32466554882,
+      "max_aspect_ratio": 15566.32466554882
+    }
+  },
+  {
+    "id": "naca4415_5120",
+    "name": "naca4415",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.041574468900335115,
+      "min_scaled_jacobian": 0.9515219705185922,
+      "q05_scaled_jacobian": 0.9521420282378493,
+      "wall_angle_q10_deg": 85.83469884108219,
+      "farfield_max_aspect_ratio": 51535.11243268138,
+      "max_aspect_ratio": 51535.11243268138
+    }
+  },
+  {
+    "id": "naca4420_1536",
+    "name": "naca4420",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.19392638909589743,
+      "min_scaled_jacobian": 0.93299449211638,
+      "q05_scaled_jacobian": 0.9330870404821865,
+      "wall_angle_q10_deg": 85.54730795601338,
+      "farfield_max_aspect_ratio": 16969.333302362786,
+      "max_aspect_ratio": 16969.333302362786
+    }
+  },
+  {
+    "id": "naca4420_5120",
+    "name": "naca4420",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.028326981350189184,
+      "min_scaled_jacobian": 0.9319493997727913,
+      "q05_scaled_jacobian": 0.9330075893404075,
+      "wall_angle_q10_deg": 86.01781769868526,
+      "farfield_max_aspect_ratio": 51626.49773884968,
+      "max_aspect_ratio": 51626.49773884968
+    }
+  },
+  {
+    "id": "naca4423_1536",
+    "name": "naca4423",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.18045962860796605,
+      "min_scaled_jacobian": 0.9221649097709103,
+      "q05_scaled_jacobian": 0.9222705752798037,
+      "wall_angle_q10_deg": 85.7788601880369,
+      "farfield_max_aspect_ratio": 17801.76771919712,
+      "max_aspect_ratio": 17801.76771919712
+    }
+  },
+  {
+    "id": "naca4423_5120",
+    "name": "naca4423",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.020900843367984145,
+      "min_scaled_jacobian": 0.9208287123787099,
+      "q05_scaled_jacobian": 0.9221769002428742,
+      "wall_angle_q10_deg": 86.13168185804544,
+      "farfield_max_aspect_ratio": 51677.63556144033,
+      "max_aspect_ratio": 51677.63556144033
+    }
+  },
+  {
+    "id": "naca6409_1536",
+    "name": "naca6409",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.21285916085331336,
+      "min_scaled_jacobian": 0.9541974523239285,
+      "q05_scaled_jacobian": 0.9542628594281459,
+      "wall_angle_q10_deg": 84.16319599219436,
+      "farfield_max_aspect_ratio": 15417.714373240768,
+      "max_aspect_ratio": 15417.714373240768
+    }
+  },
+  {
+    "id": "naca6409_5120",
+    "name": "naca6409",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.029381232174785055,
+      "min_scaled_jacobian": 0.9536346130671087,
+      "q05_scaled_jacobian": 0.9542131897884543,
+      "wall_angle_q10_deg": 84.18071856452494,
+      "farfield_max_aspect_ratio": 51527.639607307465,
+      "max_aspect_ratio": 51527.639607307465
+    }
+  },
+  {
+    "id": "naca6412_1536",
+    "name": "naca6412",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.2017189070134202,
+      "min_scaled_jacobian": 0.9431183242980008,
+      "q05_scaled_jacobian": 0.9431981562761562,
+      "wall_angle_q10_deg": 84.74643414903551,
+      "farfield_max_aspect_ratio": 16218.527148788866,
+      "max_aspect_ratio": 16218.527148788866
+    }
+  },
+  {
+    "id": "naca6412_5120",
+    "name": "naca6412",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.02717555754178891,
+      "min_scaled_jacobian": 0.942319203163819,
+      "q05_scaled_jacobian": 0.9431341725447138,
+      "wall_angle_q10_deg": 84.94149666617301,
+      "farfield_max_aspect_ratio": 51579.698187180344,
+      "max_aspect_ratio": 51579.698187180344
+    }
+  },
+  {
+    "id": "naca6415_1536",
+    "name": "naca6415",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.1935839304494581,
+      "min_scaled_jacobian": 0.9310056659272968,
+      "q05_scaled_jacobian": 0.9311006606990516,
+      "wall_angle_q10_deg": 85.84600331906071,
+      "farfield_max_aspect_ratio": 17119.696179173807,
+      "max_aspect_ratio": 17119.696179173807
+    }
+  },
+  {
+    "id": "naca6415_5120",
+    "name": "naca6415",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.02628400283157295,
+      "min_scaled_jacobian": 0.9299091015899913,
+      "q05_scaled_jacobian": 0.9310189420758022,
+      "wall_angle_q10_deg": 85.95653557376993,
+      "farfield_max_aspect_ratio": 51634.2186565961,
+      "max_aspect_ratio": 51634.2186565961
+    }
+  },
+  {
+    "id": "naca6420_1536",
+    "name": "naca6420",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.17599125122662473,
+      "min_scaled_jacobian": 0.9221649097709103,
+      "q05_scaled_jacobian": 0.9222705752798037,
+      "wall_angle_q10_deg": 85.24265490227594,
+      "farfield_max_aspect_ratio": 17801.76771919712,
+      "max_aspect_ratio": 17801.76771919712
+    }
+  },
+  {
+    "id": "naca6420_5120",
+    "name": "naca6420",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.017334832106356224,
+      "min_scaled_jacobian": 0.9208287123787099,
+      "q05_scaled_jacobian": 0.9221769002428742,
+      "wall_angle_q10_deg": 85.70376050665008,
+      "farfield_max_aspect_ratio": 51677.63556144033,
+      "max_aspect_ratio": 51677.63556144033
+    }
+  },
+  {
+    "id": "naca6423_1536",
+    "name": "naca6423",
+    "budget": 1536,
+    "valid": true,
+    "metrics": {
+      "quads": 1536,
+      "score": 0.1805760508347919,
+      "min_scaled_jacobian": 0.9221649097709103,
+      "q05_scaled_jacobian": 0.9222705752798037,
+      "wall_angle_q10_deg": 85.792830855256,
+      "farfield_max_aspect_ratio": 17801.76771919712,
+      "max_aspect_ratio": 17801.76771919712
+    }
+  },
+  {
+    "id": "naca6423_5120",
+    "name": "naca6423",
+    "budget": 5120,
+    "valid": true,
+    "metrics": {
+      "quads": 5120,
+      "score": 0.022247332569185208,
+      "min_scaled_jacobian": 0.9208287123787099,
+      "q05_scaled_jacobian": 0.9221769002428742,
+      "wall_angle_q10_deg": 86.29326056218956,
+      "farfield_max_aspect_ratio": 51677.63556144033,
+      "max_aspect_ratio": 51677.63556144033
+    }
+  }
+]
