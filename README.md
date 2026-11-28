@@ -1,21 +1,21 @@
 # AeroBlockMesh-SCU
 
-面向 CFD 的智能多块结构化网格生成研究项目，计划结合强化学习自动分块与无监督学习网格生成。
+面向 CFD 的智能多块结构化网格生成研究项目。当前实现涵盖翼型自动分块、TFI 结构化制网与 SU2 验证。
 
 本仓库按照 SmartCFD-Mesh 的模块结构组织，保留 GitHub 仓库名称 `AeroBlockMesh-SCU`，Python 包名为 `smartcfd`。
 
-## 当前状态
+## 当前实验 FusionSAC
 
-本分支发布了 CH-SAC v2 二维单翼型结构化多块网格实验。模型、权重、测试数据、图像与复现命令见 [CH-SAC v2 实验说明](experiments/results/ch_sac_v2_20261125/README.md)。
+FusionSAC 用带合法动作掩码的离散 SAC 选择切割、共享边插点和 STOP，自动生成翼型分块拓扑。通过验证的终图用于生成 1,536 和 5,120 单元两档 TFI 网格。仓库内提供正式评估、封存权重和从训练到 SU2 的完整复现流程。
 
-本分支也收录了本地翼型自动分块融合实验。离散策略编辑可变块图，合法终图用于两档 TFI 网格和 SU2 求解。融合流程从仓库内冻结的 A 方案参考和固定 Git 提交中的 CH-SAC v2 读取对照证据。
-
-- [从 Git 检出复现训练、评估和 CFD](docs/airfoil_fusion.md)
+- [从 tgx 复现训练、评估和 CFD](docs/airfoil_fusion.md)
 - [正式结果、封存权重和单例复算](experiments/results/airfoil_fusion_20261128/README.md)
 - [本地方案与 GitHub CH-SAC v2 的实现对照](docs/airfoil_fusion_audit.md)
 - [CPU 几何检查与验证耗时](docs/airfoil_fusion_performance.md)
 
-仓库包含公开数据处理与验证流程、项目目录骨架、配置草案和开发工具配置。本分支还提供 CH-SAC v2 使用的块图、分块编辑、TFI 网格生成与 SU2 导出实现。
+CH-SAC v2 提供固定 C–H 拓扑的连续调参对照。对应的模型、权重、评估结果和复现命令随原发布保留。[CH-SAC v2 实验说明](experiments/results/ch_sac_v2_20261125/README.md)
+
+## 公开数据与开发入口
 
 `scripts/` 提供数据准备、训练、制网、评估、CFD 和绘图入口。公开数据脚本和回归测试分别位于 `scripts/data/`、`tests/data/`。数据来源与固定划分见 [公开数据说明](docs/public_data_v1.md)。
 
