@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import os
+from pathlib import Path
 import re
 import shutil
 import subprocess
@@ -22,6 +23,7 @@ from .evaluate import case_key
 from .mesh import BUDGETS, evaluate_mesh_budget
 from .protocol import ROOT, published_bytes, read_json
 from .rollout import selection_key
+
 
 def solver_path():
     name = "SU2_CFD.exe" if os.name == "nt" else "SU2_CFD"

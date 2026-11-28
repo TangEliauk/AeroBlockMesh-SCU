@@ -7,6 +7,7 @@ from dataclasses import asdict
 from smartcfd.airfoil_decomposition.config import AirfoilDecompositionConfig
 from smartcfd.airfoil_decomposition.env import synthetic_profile
 from smartcfd.airfoil_decomposition.experiment import fixed_action, rule_action
+from smartcfd.airfoil_fusion import cfd
 from smartcfd.airfoil_fusion.env import FusionEnv, GuardedFusionEnv
 from smartcfd.airfoil_fusion.learning import FusionSAC, bc_update, candidate_batch
 from smartcfd.airfoil_fusion.mesh import evaluate_mesh_budget
@@ -22,6 +23,22 @@ def single_thread():
     torch.set_num_threads(1)
     yield
     torch.set_num_threads(old)
+
+
+def test_solver_path_accepts_configured_executable_and_path(tmp_path, monkeypatch):
+    solver = tmp_path / "solver"
+    solver.touch()
+    monkeypatch.setattr(cfd, "ROOT", tmp_path)
+    monkeypatch.setenv("AEROBLOCK_SU2", str(solver))
+    assert cfd.solver_path() == solver.resolve()
+
+    monkeypatch.delenv("AEROBLOCK_SU2")
+    monkeypatch.setattr(cfd.shutil, "which", lambda name: str(solver) if name == "SU2_CFD" else None)
+    assert cfd.solver_path() == solver.resolve()
+
+    monkeypatch.setenv("AEROBLOCK_SU2", str(tmp_path / "missing"))
+    with pytest.raises(FileNotFoundError, match="AEROBLOCK_SU2"):
+        cfd.solver_path()
 
 
 def _fixed_steps(env, count=3):
