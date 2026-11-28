@@ -1,0 +1,664 @@
+{
+  "release_tag": "fusion-v2-evidence-20261128",
+  "original_run": "airfoil_fusion_formal_v2",
+  "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402",
+  "evaluation_lock_sha256": "31ef6c068feaeb8103574fb24ec9bb24b981f02d82294d13b5be4986d72eff8c",
+  "training_matrix_sha256": "8d41a7374f87844c66da041e87d9db663cf302b7b2571bbe49b1915804cacfd6",
+  "counts": {
+    "evaluation_jobs": 67,
+    "evaluation_receipts": 6030,
+    "training_logs": 80,
+    "teacher_cases": 128,
+    "cfd_cases": 6
+  },
+  "release_assets": {
+    "fusion-v2-evaluation-records.zip": {
+      "bytes": 28892344,
+      "sha256": "84e9fdb82a741cab38cc99f78c612310bbcf75bb130ae8ceb762bf04425c1efc",
+      "source_files": 6097
+    },
+    "fusion-v2-training-logs.zip": {
+      "bytes": 25574265,
+      "sha256": "5b71f477c8c08ac2b2c1de64cae69c431e9c4314316e7c8f74ae0ee54893cfd2",
+      "source_files": 80
+    }
+  },
+  "repository_files": {
+    "cfd/analytic_E1_42_1536/attempt_001/rans.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E1_42_1536/attempt_001/rans.stdout.log": {
+      "bytes": 17352,
+      "sha256": "b3b3df54d80beab9720d1d4b93e88eae9a2ff0ddcaada8a9cbe94cb11b486e09"
+    },
+    "cfd/analytic_E1_42_1536/attempt_001/rans_surface.csv": {
+      "bytes": 4045,
+      "sha256": "0126f9c5175b5d2081908497493622b726f4b57429a7721f46dd3835301a9bf4"
+    },
+    "cfd/analytic_E1_42_1536/attempt_001/warm.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E1_42_1536/attempt_001/warm.stdout.log": {
+      "bytes": 14207,
+      "sha256": "b412231057419e258642d106fa367bea4224c02687980a3ecdc50189501cf79e"
+    },
+    "cfd/analytic_E1_42_5120/attempt_001/rans.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E1_42_5120/attempt_001/rans.stdout.log": {
+      "bytes": 17281,
+      "sha256": "15ac0469ae55647f91435f49f9bf2e7834d208f6c070e95f3a17c607c4d7f23d"
+    },
+    "cfd/analytic_E1_42_5120/attempt_001/rans_surface.csv": {
+      "bytes": 6730,
+      "sha256": "1bffb95f9ec7f99509f3aa6229c46602861a155ee98b3516d980aa6cf8ca1e72"
+    },
+    "cfd/analytic_E1_42_5120/attempt_001/warm.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E1_42_5120/attempt_001/warm.stdout.log": {
+      "bytes": 14136,
+      "sha256": "d54b91c10a745434ef868faad63fdf96bbf7528e9751408c387d35b592ecb6c2"
+    },
+    "cfd/analytic_E7_44_1536/attempt_001/rans.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E7_44_1536/attempt_001/rans.stdout.log": {
+      "bytes": 17352,
+      "sha256": "b3b3df54d80beab9720d1d4b93e88eae9a2ff0ddcaada8a9cbe94cb11b486e09"
+    },
+    "cfd/analytic_E7_44_1536/attempt_001/rans_surface.csv": {
+      "bytes": 4045,
+      "sha256": "0126f9c5175b5d2081908497493622b726f4b57429a7721f46dd3835301a9bf4"
+    },
+    "cfd/analytic_E7_44_1536/attempt_001/warm.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E7_44_1536/attempt_001/warm.stdout.log": {
+      "bytes": 14207,
+      "sha256": "b412231057419e258642d106fa367bea4224c02687980a3ecdc50189501cf79e"
+    },
+    "cfd/analytic_E7_44_5120/attempt_001/rans.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E7_44_5120/attempt_001/rans.stdout.log": {
+      "bytes": 17281,
+      "sha256": "15ac0469ae55647f91435f49f9bf2e7834d208f6c070e95f3a17c607c4d7f23d"
+    },
+    "cfd/analytic_E7_44_5120/attempt_001/rans_surface.csv": {
+      "bytes": 6730,
+      "sha256": "1bffb95f9ec7f99509f3aa6229c46602861a155ee98b3516d980aa6cf8ca1e72"
+    },
+    "cfd/analytic_E7_44_5120/attempt_001/warm.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E7_44_5120/attempt_001/warm.stdout.log": {
+      "bytes": 14136,
+      "sha256": "d54b91c10a745434ef868faad63fdf96bbf7528e9751408c387d35b592ecb6c2"
+    },
+    "cfd/analytic_E8_44_1536/attempt_001/rans.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E8_44_1536/attempt_001/rans.stdout.log": {
+      "bytes": 17352,
+      "sha256": "b3b3df54d80beab9720d1d4b93e88eae9a2ff0ddcaada8a9cbe94cb11b486e09"
+    },
+    "cfd/analytic_E8_44_1536/attempt_001/rans_surface.csv": {
+      "bytes": 4045,
+      "sha256": "0126f9c5175b5d2081908497493622b726f4b57429a7721f46dd3835301a9bf4"
+    },
+    "cfd/analytic_E8_44_1536/attempt_001/warm.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E8_44_1536/attempt_001/warm.stdout.log": {
+      "bytes": 14207,
+      "sha256": "b412231057419e258642d106fa367bea4224c02687980a3ecdc50189501cf79e"
+    },
+    "cfd/analytic_E8_44_5120/attempt_001/rans.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E8_44_5120/attempt_001/rans.stdout.log": {
+      "bytes": 17281,
+      "sha256": "15ac0469ae55647f91435f49f9bf2e7834d208f6c070e95f3a17c607c4d7f23d"
+    },
+    "cfd/analytic_E8_44_5120/attempt_001/rans_surface.csv": {
+      "bytes": 6730,
+      "sha256": "1bffb95f9ec7f99509f3aa6229c46602861a155ee98b3516d980aa6cf8ca1e72"
+    },
+    "cfd/analytic_E8_44_5120/attempt_001/warm.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cfd/analytic_E8_44_5120/attempt_001/warm.stdout.log": {
+      "bytes": 14136,
+      "sha256": "d54b91c10a745434ef868faad63fdf96bbf7528e9751408c387d35b592ecb6c2"
+    },
+    "teachers/manifest.json": {
+      "bytes": 3341277,
+      "sha256": "7eedbda79027b46791a894419bf29348777416109caadacaebe0cc076cb19a22"
+    },
+    "teachers/uiuc_00577b266bc5ae1f.json": {
+      "bytes": 22378,
+      "sha256": "94ed51fa0e9709a41d807f4d325d6be1ef81e8b424cdf00625b4b6310f784da7"
+    },
+    "teachers/uiuc_01e59c529b9b6598.json": {
+      "bytes": 22379,
+      "sha256": "c2f3ff65df1cba75b6b603f80576ccd7c3ba780fa8ad5cc35df5aff073f2ad47"
+    },
+    "teachers/uiuc_07ec31309c916b8a.json": {
+      "bytes": 22377,
+      "sha256": "1eee09aa4f9d29b1acf835e17b4edd7fd801a6897af86f38b70e4f61d7a05151"
+    },
+    "teachers/uiuc_0ad71dce418ed82a.json": {
+      "bytes": 22375,
+      "sha256": "ff7fe3a15cc7f2efb09fc5db6d5a50b9be8650ec0adac67b8ad27b56a46c0b92"
+    },
+    "teachers/uiuc_0d77dc1b0c096956.json": {
+      "bytes": 22585,
+      "sha256": "7c363a60be92df02b257e9c7512ceb799fe11935dfbec8b2032ee110934e2a9b"
+    },
+    "teachers/uiuc_0dc26d67874aafde.json": {
+      "bytes": 22379,
+      "sha256": "108fefbb81c3c28d32495f648330d73258877f9e48b6402b679a356f86f2163b"
+    },
+    "teachers/uiuc_0f8e88be146f77a1.json": {
+      "bytes": 22579,
+      "sha256": "1530435077254e8f7167840f5888665da32bcd7d51cafb383275e867379cdc06"
+    },
+    "teachers/uiuc_1153a69fa0ec895b.json": {
+      "bytes": 22378,
+      "sha256": "ea73c410747250ab610b0ac5bf5d63ed19c394f78829f53ba3a1d84e4eef3aa9"
+    },
+    "teachers/uiuc_13a61236139cba98.json": {
+      "bytes": 22379,
+      "sha256": "0511e12ba6c3a6f9bf91d5482e1529d536bad58abc5619296189e49bb371e488"
+    },
+    "teachers/uiuc_170c9aae149f81e0.json": {
+      "bytes": 22378,
+      "sha256": "94331c6f0f46e2c08f895a013d1261ca12c359bce2573f0b8f04cef23f077309"
+    },
+    "teachers/uiuc_187dbb4705a1d91e.json": {
+      "bytes": 22372,
+      "sha256": "9349a6ab61b4f99aa0a0940944496d0ee0c4571d3142f7ff1dcf25fef2bd2554"
+    },
+    "teachers/uiuc_228d99de7ac73ab2.json": {
+      "bytes": 22591,
+      "sha256": "592f8ca208f3ae17f927dac691307e5c7edf685219deeacce4fd8c98eb8b2ab3"
+    },
+    "teachers/uiuc_24dbfa1f2c5fba7f.json": {
+      "bytes": 22395,
+      "sha256": "9a231ac0a0962c27fd247e1cc77729cea9f962bbf8c7acd36eb2f5c4bc276dc2"
+    },
+    "teachers/uiuc_2badc351ec7baf5a.json": {
+      "bytes": 22376,
+      "sha256": "0cfb71d89bada40bcf2ee807cdd1640c2bec8f55571e2c3e8544f04e0fb014c8"
+    },
+    "teachers/uiuc_2fcf73dd17ae83f3.json": {
+      "bytes": 22378,
+      "sha256": "80256d88319e5e50af28b79d186831feaca7e3f8fdf60bd8c3ef4315d00be796"
+    },
+    "teachers/uiuc_30d879d5b321aa76.json": {
+      "bytes": 22378,
+      "sha256": "cd0556a462e801daca350670fe20f6ccb925486388e248ac58d58bd127fc585a"
+    },
+    "teachers/uiuc_31529c37dc8d0a9f.json": {
+      "bytes": 22378,
+      "sha256": "931317bd62f7e21032ebc051e33080cdd73aa43e6b5461949b192ea71309a99e"
+    },
+    "teachers/uiuc_33bcce3e9d9bfa4b.json": {
+      "bytes": 22378,
+      "sha256": "5bf92c5b1bb36f727a0f463b29017cb6a3bace891df5e67d3793bbacc128bbd8"
+    },
+    "teachers/uiuc_33d86d23a918dc58.json": {
+      "bytes": 22375,
+      "sha256": "1e2ac2b50069c872ea987bb9b4189c321a58b7dfb4ff715186d7f8e38f2ebad0"
+    },
+    "teachers/uiuc_38420c941b59abb6.json": {
+      "bytes": 22378,
+      "sha256": "3649ae7a6139b18cc4ec7bf5a83ae72247c08d1d3f513a63929c681cd33c31de"
+    },
+    "teachers/uiuc_39fc6a1aa36966d5.json": {
+      "bytes": 22591,
+      "sha256": "cee0c6b1a50787a3c94cac71fa10bcab3d97e964de2ed7fe8a009dc824a54eae"
+    },
+    "teachers/uiuc_3a9183a913626624.json": {
+      "bytes": 22578,
+      "sha256": "646446ea994f80f204d217e72f9a9f1dda0583330bba733b28256726f1f8cbf9"
+    },
+    "teachers/uiuc_40914898c0fd3741.json": {
+      "bytes": 22380,
+      "sha256": "da78719effeff2aaa5c56fcd35fa522b3db30547fe51e3987efb79707723d1a9"
+    },
+    "teachers/uiuc_4335b1928db2bb65.json": {
+      "bytes": 22374,
+      "sha256": "a0b35645ff4d9bfe8dc83225b8817dae06762284bef8341a930df8e285d31386"
+    },
+    "teachers/uiuc_449edc0b57317c97.json": {
+      "bytes": 22380,
+      "sha256": "7aaa69d5b5d5e498117ec0f587d2b312ba839eab5e115cac0216b97b05eb29f7"
+    },
+    "teachers/uiuc_4af346076e86fbd9.json": {
+      "bytes": 22378,
+      "sha256": "c3ad9652a19ec19b2062cd57f07d0a62781dadca036f6dddf4a14d7956d04de8"
+    },
+    "teachers/uiuc_4b8eeac392413878.json": {
+      "bytes": 641,
+      "sha256": "843462fef1e1f5265c4e7ac4cb6e8be635aaa135b78b6b5f78acefdea5f11c34"
+    },
+    "teachers/uiuc_4bb29a5c34544413.json": {
+      "bytes": 22379,
+      "sha256": "c3472b2ab7aa0332bd2fccc60bcbfd917b368fc04c58990e683f50821f39804f"
+    },
+    "teachers/uiuc_4eb9d4dc84a06afa.json": {
+      "bytes": 22379,
+      "sha256": "3c00ba20adccc4fe81613ed7c924bf404e0000a523f375a39c81593c3eece9f9"
+    },
+    "teachers/uiuc_4ec6863612e86e76.json": {
+      "bytes": 22380,
+      "sha256": "785cf1c7dd8994376385e12858eff33d3c683748328ddf0e90ad941ed7ec41a3"
+    },
+    "teachers/uiuc_4f4ace0b34a4dcb7.json": {
+      "bytes": 22378,
+      "sha256": "4a1c303f423475023c395f74106b66e7a3501dd4cc5c55eef03c2cf640139cfa"
+    },
+    "teachers/uiuc_5102ec1e584eff70.json": {
+      "bytes": 22379,
+      "sha256": "c1a8b35fbacc5f4c6300dac9223dd440b0e3f87a23dc9a444c2eb16008588f4e"
+    },
+    "teachers/uiuc_51f52cac1936a227.json": {
+      "bytes": 22377,
+      "sha256": "40f988ce89549a234397ca69849bbca1db059d097146c62252a542a94dea95f4"
+    },
+    "teachers/uiuc_53f43b76360675a2.json": {
+      "bytes": 22380,
+      "sha256": "85188946c233cdd37a79dfa67f6469f3af4ae19cac923b8c265f1855c799ba83"
+    },
+    "teachers/uiuc_554ec78b5297725f.json": {
+      "bytes": 22377,
+      "sha256": "d176cae72628ab6149d53ead3bb17c80412c542ba081dc6ec5350d74bdff9865"
+    },
+    "teachers/uiuc_55708b46e5c82c0d.json": {
+      "bytes": 22378,
+      "sha256": "50fe674c8a7f5a370d664761f78c5afa5fb485edee7770e1bd125a05cfec607a"
+    },
+    "teachers/uiuc_582d64566ef378cb.json": {
+      "bytes": 16755,
+      "sha256": "a8c09bfb602fbdbabb5639c2b7a476f6b31a634b745eb6a7b615966ba5a38dde"
+    },
+    "teachers/uiuc_59970ccf25e49cbd.json": {
+      "bytes": 22377,
+      "sha256": "fdc20a2ba97c8124f952c71fa5bdfedb49237599ce2753f7abe62d489f9b47f0"
+    },
+    "teachers/uiuc_5bab47e8880a0e16.json": {
+      "bytes": 22583,
+      "sha256": "c676146fca5ea0f7a69e5656e27a8b700029d71ab4ee4692e373fc3c6749e323"
+    },
+    "teachers/uiuc_5fd9bee4c733d79b.json": {
+      "bytes": 22378,
+      "sha256": "f1e8aefd50f9f2c7578f91a6ad82d1495d1061a5d25f16fe05e0bf7b11c149a5"
+    },
+    "teachers/uiuc_60c7357053cb3e50.json": {
+      "bytes": 22379,
+      "sha256": "7eb317c15c57bfd6225c0b9f3b1ffedde55c807aca738e9fbdcadf3330e9d064"
+    },
+    "teachers/uiuc_615df2223068660c.json": {
+      "bytes": 22377,
+      "sha256": "50b6b861e97bb38e9d4308aa6c73117e8906d2663227f2daea2385d9afa1adad"
+    },
+    "teachers/uiuc_61bb624263b18c94.json": {
+      "bytes": 22377,
+      "sha256": "1e5f6b44bffae5947895efaa90715ea83aa05cdef766868effbcc063803ee863"
+    },
+    "teachers/uiuc_62c276cacc96638f.json": {
+      "bytes": 22378,
+      "sha256": "7263776f250c4b82c890c05bc31f0b93f9f5155c9ea8ae71c8e085a06993b4a5"
+    },
+    "teachers/uiuc_677578b51b07ec74.json": {
+      "bytes": 22380,
+      "sha256": "1a2b61a8799ea8c40e2628dc0637e5488197ee842de808aefd58c35340685435"
+    },
+    "teachers/uiuc_677dd6853483196a.json": {
+      "bytes": 22378,
+      "sha256": "79fade2c1cc58d43234efd30218a6dfae6d03a73a3af4e6c2e1a694666113a06"
+    },
+    "teachers/uiuc_68f1ac3bced78a36.json": {
+      "bytes": 22378,
+      "sha256": "f5b312657e718f9d1d6286ef75dbd370de161bb6b1dac574aa9355cd091cceb9"
+    },
+    "teachers/uiuc_6940a098566f84f9.json": {
+      "bytes": 22379,
+      "sha256": "36b4817526eca18b9146136b7afd28c61b7bf50ebc041aaedc5e47e731ea2a6d"
+    },
+    "teachers/uiuc_6964eabe2cd1b40d.json": {
+      "bytes": 22376,
+      "sha256": "45ebb04e154db04964b1b6db4009c639d27454cac5844c11479428aa2efd63b2"
+    },
+    "teachers/uiuc_6a201499c42cfae8.json": {
+      "bytes": 643,
+      "sha256": "ec117a9f65fa482eb6f3287e105ba3a3aabd0ee14f5a533f3e9a3073ed83066f"
+    },
+    "teachers/uiuc_6aea5214c29fabac.json": {
+      "bytes": 22375,
+      "sha256": "2361c9a1b6e5e26625f24f4c55eb380f6fed306573ace66a2ee80b1ec12ccfe9"
+    },
+    "teachers/uiuc_6b73680bdce8c975.json": {
+      "bytes": 22376,
+      "sha256": "d470e87e9a56ff231b39d70582ecca75997e7f027c061cf6b992178fef59a366"
+    },
+    "teachers/uiuc_6db67251a9ed70fb.json": {
+      "bytes": 22376,
+      "sha256": "0ca144530ccc348eebb148e5a655393b7d433447d8404f780bcf61b9675f9631"
+    },
+    "teachers/uiuc_6e8dc06c5fd30ee7.json": {
+      "bytes": 22378,
+      "sha256": "fb55f8105a74f84e255c7423b4737c906a9dd47d786b4f4f1978adaa5bd4101b"
+    },
+    "teachers/uiuc_71424c8ea14c3b5f.json": {
+      "bytes": 22378,
+      "sha256": "b0e25aee03b62059acb5251634eb90e0dc590c29943b92b1f1f51e802deb4138"
+    },
+    "teachers/uiuc_71fabe993d6960f5.json": {
+      "bytes": 22378,
+      "sha256": "4ff0b8df0d372300a7c65cc3025f6cb42415fb02e4e5105e8fb606e6c96d2c88"
+    },
+    "teachers/uiuc_7416fd4df3d11fc5.json": {
+      "bytes": 22584,
+      "sha256": "f613159184a4c9d2a94a6ac071227aeced93307679e65a2844dc434567847245"
+    },
+    "teachers/uiuc_75aaed0e94e385f3.json": {
+      "bytes": 22377,
+      "sha256": "38f70f1205d53f3272d521d5649a0426efdaeea78b35dd85bb592d0be24951d1"
+    },
+    "teachers/uiuc_75c100ef90e7ce3c.json": {
+      "bytes": 22376,
+      "sha256": "a0c70b11a60e190dda6a9c4cc8bfcaa3696b587ecec3145d58c15c9090b2d73c"
+    },
+    "teachers/uiuc_794706df31b0709a.json": {
+      "bytes": 22380,
+      "sha256": "380f7e7ef5a409594ae2f1135a55f7048fd9c9d626f4c9b035293a91b367ebec"
+    },
+    "teachers/uiuc_7a920c1a06a9a249.json": {
+      "bytes": 22378,
+      "sha256": "2ea8ea3dc5fb726b4be05af3eb0720c9f807663e684bf0bb179800e5a476a9bd"
+    },
+    "teachers/uiuc_820813edea77a2ac.json": {
+      "bytes": 22380,
+      "sha256": "4407524177721dfb8c4a553f38fc54fe93cd8b960601f6ce1e232fa9beaf75dc"
+    },
+    "teachers/uiuc_82f591f9594bf5f4.json": {
+      "bytes": 22378,
+      "sha256": "d1914a1240f4c7d4b432ba6c59a4aa3fdae1cb79bb9b71da54996bf30d8f5eee"
+    },
+    "teachers/uiuc_871b409f01798a7f.json": {
+      "bytes": 22380,
+      "sha256": "14d2dc403d66460429115c086cbb653ae7ffb55aae62dd4980ca4c295382cd26"
+    },
+    "teachers/uiuc_88409b00a7d8f2eb.json": {
+      "bytes": 22377,
+      "sha256": "5dbf2823890150b50be6a040d013fbb982e7fcf0f38f996a086a11f7b209a651"
+    },
+    "teachers/uiuc_887526ef7f766ec5.json": {
+      "bytes": 22379,
+      "sha256": "54d522e6cad917f9d5badfacba6aca7248e2ce866c0fe17656c71cbc17236f76"
+    },
+    "teachers/uiuc_88f1b0d908806174.json": {
+      "bytes": 22380,
+      "sha256": "ffc18b3eec70e15588d8061fba4b1ec7cc6528ed9e9a0511ecef07075c31e806"
+    },
+    "teachers/uiuc_90b2a73dc088aa0a.json": {
+      "bytes": 22582,
+      "sha256": "4d115f0bca9c27391a93193d592c7302cf1952e1b528e2b4c4fdecbf3068ee94"
+    },
+    "teachers/uiuc_9269b88a707d7b93.json": {
+      "bytes": 22379,
+      "sha256": "7c5b6ec9f6cc89dffa43018cbb414305f47304785ba4083fdbbaefc37a8402be"
+    },
+    "teachers/uiuc_92b1b7e867568bb9.json": {
+      "bytes": 22378,
+      "sha256": "385c604f859e2942e971d34e9869cef00eecca1290fb8cd2ad2dd82cec9bb1c8"
+    },
+    "teachers/uiuc_97cec3e9e82f5c78.json": {
+      "bytes": 22574,
+      "sha256": "44147fe57f06a829a3afec4bb873571d1ec479b9f5f0afa46561a74b10dc4cdf"
+    },
+    "teachers/uiuc_989f3aa15b495e91.json": {
+      "bytes": 22375,
+      "sha256": "513398ab738c696837659c060876924594b9b2db234870dd9cfdafc896ab1c93"
+    },
+    "teachers/uiuc_9a06449256c79170.json": {
+      "bytes": 22375,
+      "sha256": "2259bcf296291d6e80bde576ef280adb8dfc1cc95eb43f0ef2facc6f83a564b7"
+    },
+    "teachers/uiuc_9bef72123efebf1c.json": {
+      "bytes": 22376,
+      "sha256": "7a278fadfeefebb55ec1fdb9c83378b2da6d8bb454aab5cde8a4a0144304aa2d"
+    },
+    "teachers/uiuc_a1a4ed17b721982b.json": {
+      "bytes": 22377,
+      "sha256": "4d647331c26ce515bcb805f9bb3f67226a6e795a328823352ecf26a863cb197d"
+    },
+    "teachers/uiuc_a25bf04d4ce491ba.json": {
+      "bytes": 22380,
+      "sha256": "b45c47c4200c3a1bbaa5ac09e1215b8ab1fbbe96dacc3fe535ce1313a058bf3f"
+    },
+    "teachers/uiuc_a2baa2ab0780c595.json": {
+      "bytes": 22375,
+      "sha256": "d3d890816c5b56fc4279affb416f9f7e369ce24b5b9afa1fd76e0b1738681d2c"
+    },
+    "teachers/uiuc_a38dd6de55c80e34.json": {
+      "bytes": 22378,
+      "sha256": "811991df6dd54760d707ab748bc4ec0660bade4607f1f0155395657ef774231d"
+    },
+    "teachers/uiuc_a680a86c9ef05aef.json": {
+      "bytes": 22378,
+      "sha256": "0daa78c0014147e907db693a0ef6e04f5c35d10a629c1fa080e4b59135836288"
+    },
+    "teachers/uiuc_a710e7aac72ec37e.json": {
+      "bytes": 22379,
+      "sha256": "170b11d2b8231a4fa2058461b8b9f5cc3d9c982699d7e25399f0cf0524a164c6"
+    },
+    "teachers/uiuc_aaab03df5ab6c446.json": {
+      "bytes": 22380,
+      "sha256": "3da5e50f7d4175d4e4436df6edbc95f8989cedf2bc72e997fa3d5d6dfb12f3f8"
+    },
+    "teachers/uiuc_ae924b34e0a756e9.json": {
+      "bytes": 22379,
+      "sha256": "0cf84f724a6afd17629500a3338ece9a72e5089827f30f5f6a2c09c514810343"
+    },
+    "teachers/uiuc_b008f57de55b1805.json": {
+      "bytes": 22380,
+      "sha256": "cdd941944eee38acc9d741e99565be57ef2de3345883f79e74f08684b0b0b853"
+    },
+    "teachers/uiuc_b36be410b2151a45.json": {
+      "bytes": 22377,
+      "sha256": "e5bb21f14746af7c6a7b8ab988ace4f52e8d6fc660a07c4c260d3f8e3f45adc6"
+    },
+    "teachers/uiuc_b82e1720955295ff.json": {
+      "bytes": 22379,
+      "sha256": "e2452a7df6910a2d5f8a9de4160c3cafa70551cd1cf2ac8823b9bacef25b37d0"
+    },
+    "teachers/uiuc_b8c7912ac94d2e9e.json": {
+      "bytes": 22380,
+      "sha256": "857d84317f152520911911293c0d5e78a244546db20bc4b718a61d8925b1f73a"
+    },
+    "teachers/uiuc_b9738fe474bafef4.json": {
+      "bytes": 22379,
+      "sha256": "0ed372ef250745e6038c64521628268f1206c0e9089bc27172c1e1fde8f75ef9"
+    },
+    "teachers/uiuc_bcd8e49a74fdf206.json": {
+      "bytes": 22380,
+      "sha256": "937cc899d10563f87d9fd3649bea59b5ca76378a30decab2049679d51edf088f"
+    },
+    "teachers/uiuc_beb15cef65fededa.json": {
+      "bytes": 22379,
+      "sha256": "9a2995b1fb673a87e5d555905f5af468ac8c0aa0a429be90ba0f1531387bb633"
+    },
+    "teachers/uiuc_bee474063193811f.json": {
+      "bytes": 22380,
+      "sha256": "2bacbb7e48963d86ee4c9b9212806c6476e31c7bc38a3a88739b1b05ac63dc8d"
+    },
+    "teachers/uiuc_c36acf4d2b7e89b4.json": {
+      "bytes": 22375,
+      "sha256": "19e36d4edeb06b30417541f3001e21ea638c4a0f0a511eb0fa2e7cd92ca7554c"
+    },
+    "teachers/uiuc_c4a42dda9d1080e0.json": {
+      "bytes": 22380,
+      "sha256": "be75f0b25fc41aa78ec03164f8274e2f826458eef2a7acf4eb91373f24c0b8ab"
+    },
+    "teachers/uiuc_c544693f3541459d.json": {
+      "bytes": 22378,
+      "sha256": "6a0af8741bc15c75cc539136fdafe4e3e70f7752dedde074a0a69f765a800aac"
+    },
+    "teachers/uiuc_c75a7b852a041674.json": {
+      "bytes": 22378,
+      "sha256": "81f2dcb3383ae70bd0ce6f1a8c93bfe1a3cffa22df10ee4e63b13e055ae9a89d"
+    },
+    "teachers/uiuc_c7c97d3a1f981a27.json": {
+      "bytes": 22379,
+      "sha256": "29797d569ef039b4c89209fa9b29278b06a8d831721223024bcfd6170f255127"
+    },
+    "teachers/uiuc_c99e1ec4067c76f6.json": {
+      "bytes": 22378,
+      "sha256": "af628949cbcf53832ac198c96d0aa25d85da4fab5bf8a5543ff8207214be288e"
+    },
+    "teachers/uiuc_caecd7bb1849da90.json": {
+      "bytes": 22379,
+      "sha256": "a391b3d869c945cb1127e6a24860cff9ad71f418c581acc0b27791a347717019"
+    },
+    "teachers/uiuc_cb5576176ebb6b67.json": {
+      "bytes": 22378,
+      "sha256": "2762f894c672433c9dc74662b59b934b33044cdd84b960776a25f54f9c54e1d3"
+    },
+    "teachers/uiuc_cb869f009fbfb0d9.json": {
+      "bytes": 22379,
+      "sha256": "b1d2530892acf58069c4cfe28d99d1391f1c02658fb7ab46739f8c49bf058878"
+    },
+    "teachers/uiuc_cc5b17281bc74dfa.json": {
+      "bytes": 22378,
+      "sha256": "f89d84a3c979429f933d0a5d251f5d5d0f2812b8b7bcb3f676537b21d857e4e2"
+    },
+    "teachers/uiuc_d398e68de08bcd4f.json": {
+      "bytes": 22379,
+      "sha256": "4f785f23fec819b5735f6d5285b62a5be1128715e1cf67c4b5a06a5392ae8ef0"
+    },
+    "teachers/uiuc_dba9cd9bee5e09b4.json": {
+      "bytes": 22379,
+      "sha256": "58f520710898e45f1667a1f9e51c73fd1953dda84c5b07f8c47e57d4b6b6292d"
+    },
+    "teachers/uiuc_dcf48f77c8785083.json": {
+      "bytes": 22379,
+      "sha256": "461b1a04f0a246a809a211d47fac4a0f35d27be43592b879ae49256aab4f4cc3"
+    },
+    "teachers/uiuc_de226b5ca857d961.json": {
+      "bytes": 22589,
+      "sha256": "7e8476f33325ef1da6f14b544b1235d3bce77924fb1fc1d6276ab1ceb501c746"
+    },
+    "teachers/uiuc_e14e4ff767aaee0b.json": {
+      "bytes": 22377,
+      "sha256": "d8ab1b36931dd8396e339848e78b5ecb89fd180aa58a0564a90c03dabea8dad7"
+    },
+    "teachers/uiuc_e1720907984495a1.json": {
+      "bytes": 22379,
+      "sha256": "d482bab091b08f01b4fcdd7ee6dd154fa031feae5ebbce97c22a0e7329372149"
+    },
+    "teachers/uiuc_e36d312eefc87798.json": {
+      "bytes": 16759,
+      "sha256": "10e4b3e4456e3306a1f665444641e3ea6417e771691fa414fd2b7df884489061"
+    },
+    "teachers/uiuc_e7db0d8219eef878.json": {
+      "bytes": 22375,
+      "sha256": "246a0dc874f302673210d6ec33d5c631cbf8b115a4dd85de0917f6e1d3632959"
+    },
+    "teachers/uiuc_edf8cf56981775f9.json": {
+      "bytes": 22568,
+      "sha256": "573e71efc11eab89d59cfd4d5c5f490b0f5019a86159c1c68b9cabfe15a230d4"
+    },
+    "teachers/uiuc_ee367cdf7cdeb42a.json": {
+      "bytes": 22579,
+      "sha256": "297812c5ae94226fdfdd723f3ae0269a1dcb3afe15f718cda4bd5ba7fac0ba0d"
+    },
+    "teachers/uiuc_f0086b27589f9888.json": {
+      "bytes": 22379,
+      "sha256": "f9ba03d295c33254be8887b578674ec67382c78cf6affcb574d90be602abbf25"
+    },
+    "teachers/uiuc_f34e0e8fffe4a718.json": {
+      "bytes": 22590,
+      "sha256": "2aac8618f6eb25321bb5ee980405740ff84d8a74f196c23bf1d4df19276444ac"
+    },
+    "teachers/uiuc_f4568eb27cc98dbb.json": {
+      "bytes": 22378,
+      "sha256": "7f0a43af2b515f2bb831cf5842b0bd9ebb2eb14f423431a1207488856f1245ea"
+    },
+    "teachers/uiuc_f4a346176b0fc5a1.json": {
+      "bytes": 22585,
+      "sha256": "0211f204af5aa5aeb027b707407275e5810674c6e322485dc8a7f6316282f30a"
+    },
+    "teachers/uiuc_f4ce3ed383257c6d.json": {
+      "bytes": 22376,
+      "sha256": "b9e80090ebe701c5ec62e037c2af23f95be9e88ecf0f6742776e32dcea637741"
+    },
+    "teachers/uiuc_f536996b7788848c.json": {
+      "bytes": 22590,
+      "sha256": "14dee7aec554c11c209a03d146007144a6c4f6c3aee1b9efa35afb955a329b41"
+    },
+    "teachers/uiuc_f5a47067c827e39f.json": {
+      "bytes": 22378,
+      "sha256": "f5899372b874d000fac30080c926c65708c407aa22d38a517b19b51b9ab0ef7a"
+    },
+    "teachers/uiuc_f660c170073db3e1.json": {
+      "bytes": 22377,
+      "sha256": "04d370a422dd0e0b23c97dbafa7f278825cf6924e69079e3375eb68b04759c26"
+    },
+    "teachers/uiuc_f88cc74016b538a9.json": {
+      "bytes": 22379,
+      "sha256": "747a6a4ad5a83eb409ecc7ed429263f4684515a5887855d5b6c7553a09b497bd"
+    },
+    "teachers/uiuc_f92d16e47542dd71.json": {
+      "bytes": 22574,
+      "sha256": "eb5fb61bec08412f8dec1eb07658a1f0f5239b53dd9a96d4e172f0d3f5324f44"
+    },
+    "teachers/uiuc_f96715e59e68ea06.json": {
+      "bytes": 22379,
+      "sha256": "44ce05a41b19cfd70c919b55be370e6298299f816c22bb58f3a70d88627983db"
+    },
+    "teachers/uiuc_fb2e680a696f8abe.json": {
+      "bytes": 22379,
+      "sha256": "441872ffd133650ea3b5f13f88d31b5df9c6fd2a0a43cc0c82c596c46cc354e1"
+    },
+    "teachers/uiuc_fc88a548f243532b.json": {
+      "bytes": 22379,
+      "sha256": "1c9d54f8fd91d28eaca72c8ebb9ae61ca00e761ab611ed208d34c582e2988997"
+    },
+    "teachers/uiuc_fddbf1d519974aac.json": {
+      "bytes": 22376,
+      "sha256": "6113984b8ad619f3c4284fd5795f0838ecaba74f0fa37ee4473c4b692cba9802"
+    },
+    "teachers/uiuc_fdf00dcc2299c08c.json": {
+      "bytes": 22376,
+      "sha256": "a4b8e431db432c8029ea10ef16e17e788cecb7fe654a6ec42d0a11c7f088ebe4"
+    },
+    "teachers/uiuc_feb28e2c4475f510.json": {
+      "bytes": 22380,
+      "sha256": "e74b7386dcd61fc3f6945e0b3339cd112c1a5a94f755e811d14b9ef5d08d4e1e"
+    },
+    "teachers/uiuc_ffd7a8e35dfbd39a.json": {
+      "bytes": 22377,
+      "sha256": "adc18a6f74323af95ba19e6b03c89d17523bb9712724ca6d62d0317bff868c2b"
+    },
+    "teachers/uiuc_fff0fb563e3b7c1d.json": {
+      "bytes": 22379,
+      "sha256": "c9ebb3c06691497405d50c589021523eede2a20dae02617c91c443a47ae80814"
+    }
+  }
+}

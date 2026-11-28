@@ -1,0 +1,1052 @@
+{
+  "sample_id": "uiuc_7416fd4df3d11fc5",
+  "group_id": "grp_738bd30d8c96ec68",
+  "selected": {
+    "method": "fixed",
+    "reason": "completed",
+    "success": true,
+    "seconds": 2.0151810000006662,
+    "actions": [
+      {
+        "kind": "insert_chord",
+        "face_id": 4,
+        "source": 6,
+        "target": 11,
+        "source_uv": [
+          0.25,
+          0.5
+        ],
+        "target_uv": [
+          0.25,
+          1.0
+        ],
+        "owners": [
+          4
+        ]
+      },
+      {
+        "kind": "insert_chord",
+        "face_id": 4,
+        "source": 7,
+        "target": 12,
+        "source_uv": [
+          0.5,
+          0.5
+        ],
+        "target_uv": [
+          0.5,
+          1.0
+        ],
+        "owners": [
+          4
+        ]
+      },
+      {
+        "kind": "insert_chord",
+        "face_id": 4,
+        "source": 8,
+        "target": 13,
+        "source_uv": [
+          0.75,
+          0.5
+        ],
+        "target_uv": [
+          0.75,
+          1.0
+        ],
+        "owners": [
+          4
+        ]
+      },
+      {
+        "kind": "stop",
+        "face_id": null
+      }
+    ],
+    "decisions": 4,
+    "graph_sha256": "ad805d2608e716a82528de899e6ad7135f5ca33e7b40cd4e113766dd99e74cc8",
+    "score": 0.7929698078584093
+  },
+  "attempts": [
+    {
+      "method": "fixed",
+      "reason": "completed",
+      "success": true,
+      "seconds": 2.0151810000006662,
+      "actions": [
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 6,
+          "target": 11,
+          "source_uv": [
+            0.25,
+            0.5
+          ],
+          "target_uv": [
+            0.25,
+            1.0
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 7,
+          "target": 12,
+          "source_uv": [
+            0.5,
+            0.5
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 8,
+          "target": 13,
+          "source_uv": [
+            0.75,
+            0.5
+          ],
+          "target_uv": [
+            0.75,
+            1.0
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "stop",
+          "face_id": null
+        }
+      ],
+      "decisions": 4,
+      "graph_sha256": "ad805d2608e716a82528de899e6ad7135f5ca33e7b40cd4e113766dd99e74cc8",
+      "score": 0.7929698078584093
+    },
+    {
+      "method": "greedy",
+      "reason": "step_budget_exhausted",
+      "success": false,
+      "seconds": 56.55098349999935,
+      "actions": [
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 8,
+          "target": 13,
+          "source_uv": [
+            0.75,
+            0.5
+          ],
+          "target_uv": [
+            0.75,
+            1.0
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 13,
+          "target": 5,
+          "source_uv": [
+            0.75,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 13,
+          "target": 12,
+          "source_uv": [
+            0.75,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.6666666668070412,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 13,
+          "target": 15,
+          "source_uv": [
+            0.75,
+            1.0
+          ],
+          "target_uv": [
+            0.6666666668070412,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.7222222221890664,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 13,
+          "target": 16,
+          "source_uv": [
+            0.75,
+            1.0
+          ],
+          "target_uv": [
+            0.7222222221890664,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.7407407406947752,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 15,
+          "target": 5,
+          "source_uv": [
+            0.6666666668070412,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 15,
+          "target": 12,
+          "source_uv": [
+            0.6666666668070412,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.6111111117172111,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 15,
+          "target": 18,
+          "source_uv": [
+            0.6666666668070412,
+            1.0
+          ],
+          "target_uv": [
+            0.6111111117172111,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.6481481487215349,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 15,
+          "target": 19,
+          "source_uv": [
+            0.6666666668070412,
+            1.0
+          ],
+          "target_uv": [
+            0.6481481487215349,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.6604938278079183,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 18,
+          "target": 5,
+          "source_uv": [
+            0.6111111117172111,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 18,
+          "target": 12,
+          "source_uv": [
+            0.6111111117172111,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.574074074966701,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 18,
+          "target": 21,
+          "source_uv": [
+            0.6111111117172111,
+            1.0
+          ],
+          "target_uv": [
+            0.574074074966701,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5987654332411874,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 18,
+          "target": 22,
+          "source_uv": [
+            0.6111111117172111,
+            1.0
+          ],
+          "target_uv": [
+            0.5987654332411874,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.6069958858325766,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 21,
+          "target": 5,
+          "source_uv": [
+            0.574074074966701,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 21,
+          "target": 12,
+          "source_uv": [
+            0.574074074966701,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5493827168974975,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 21,
+          "target": 24,
+          "source_uv": [
+            0.574074074966701,
+            1.0
+          ],
+          "target_uv": [
+            0.5493827168974975,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5658436222377587,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 21,
+          "target": 25,
+          "source_uv": [
+            0.574074074966701,
+            1.0
+          ],
+          "target_uv": [
+            0.5658436222377587,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5713305908144086,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 24,
+          "target": 5,
+          "source_uv": [
+            0.5493827168974975,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 24,
+          "target": 12,
+          "source_uv": [
+            0.5493827168974975,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5329218114100978,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 24,
+          "target": 27,
+          "source_uv": [
+            0.5493827168974975,
+            1.0
+          ],
+          "target_uv": [
+            0.5329218114100978,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5438957484794525,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 24,
+          "target": 28,
+          "source_uv": [
+            0.5493827168974975,
+            1.0
+          ],
+          "target_uv": [
+            0.5438957484794525,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5475537274336665,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 27,
+          "target": 5,
+          "source_uv": [
+            0.5329218114100978,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 27,
+          "target": 12,
+          "source_uv": [
+            0.5329218114100978,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5219478744583214,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 27,
+          "target": 30,
+          "source_uv": [
+            0.5329218114100978,
+            1.0
+          ],
+          "target_uv": [
+            0.5219478744583214,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.529263832477939,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 27,
+          "target": 31,
+          "source_uv": [
+            0.5329218114100978,
+            1.0
+          ],
+          "target_uv": [
+            0.529263832477939,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5317024851544032,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 30,
+          "target": 5,
+          "source_uv": [
+            0.5219478744583214,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 30,
+          "target": 12,
+          "source_uv": [
+            0.5219478744583214,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5146319165233437,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 30,
+          "target": 33,
+          "source_uv": [
+            0.5219478744583214,
+            1.0
+          ],
+          "target_uv": [
+            0.5146319165233437,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5195092218956143,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 30,
+          "target": 34,
+          "source_uv": [
+            0.5219478744583214,
+            1.0
+          ],
+          "target_uv": [
+            0.5195092218956143,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5211349902438321,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 33,
+          "target": 5,
+          "source_uv": [
+            0.5146319165233437,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 33,
+          "target": 12,
+          "source_uv": [
+            0.5146319165233437,
+            1.0
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5097546112876398,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 33,
+          "target": 36,
+          "source_uv": [
+            0.5146319165233437,
+            1.0
+          ],
+          "target_uv": [
+            0.5097546112876398,
+            1.0
+          ],
+          "fraction": 0.3333333333333333,
+          "point_uv": [
+            0.5130061481439038,
+            1.0
+          ],
+          "owners": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "refined",
+      "reason": "completed",
+      "success": true,
+      "seconds": 3.7917930999992677,
+      "actions": [
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 6,
+          "target": 11,
+          "source_uv": [
+            0.25,
+            0.5
+          ],
+          "target_uv": [
+            0.25,
+            1.0
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 4,
+          "source": 11,
+          "target": 6,
+          "source_uv": [
+            0.25,
+            1.0
+          ],
+          "target_uv": [
+            0.25,
+            0.5
+          ],
+          "fraction": 0.5,
+          "point_uv": [
+            0.25,
+            0.9614985666636524
+          ],
+          "owners": [
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 7,
+          "target": 12,
+          "source_uv": [
+            0.5,
+            0.5
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 5,
+          "source": 10,
+          "target": 5,
+          "source_uv": [
+            0.0,
+            1.0
+          ],
+          "target_uv": [
+            0.0,
+            0.5
+          ],
+          "fraction": 0.5,
+          "point_uv": [
+            0.0,
+            0.9614985666636525
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 5,
+          "source": 16,
+          "target": 15,
+          "source_uv": [
+            0.0,
+            0.9614985666636525
+          ],
+          "target_uv": [
+            0.25,
+            0.9614985666636524
+          ],
+          "owners": [
+            5
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 8,
+          "target": 13,
+          "source_uv": [
+            0.75,
+            0.5
+          ],
+          "target_uv": [
+            0.75,
+            1.0
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 6,
+          "source": 7,
+          "target": 12,
+          "source_uv": [
+            0.5,
+            0.5
+          ],
+          "target_uv": [
+            0.5,
+            1.0
+          ],
+          "fraction": 0.5,
+          "point_uv": [
+            0.5,
+            0.9614985666636524
+          ],
+          "owners": [
+            6,
+            8
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 6,
+          "source": 15,
+          "target": 17,
+          "source_uv": [
+            0.25,
+            0.9614985666636524
+          ],
+          "target_uv": [
+            0.5,
+            0.9614985666636524
+          ],
+          "owners": [
+            6
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 8,
+          "source": 8,
+          "target": 13,
+          "source_uv": [
+            0.75,
+            0.5
+          ],
+          "target_uv": [
+            0.75,
+            1.0
+          ],
+          "fraction": 0.5,
+          "point_uv": [
+            0.75,
+            0.9614985666636524
+          ],
+          "owners": [
+            4,
+            8
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 8,
+          "source": 17,
+          "target": 18,
+          "source_uv": [
+            0.5,
+            0.9614985666636524
+          ],
+          "target_uv": [
+            0.75,
+            0.9614985666636524
+          ],
+          "owners": [
+            8
+          ]
+        },
+        {
+          "kind": "insert_edge_point",
+          "face_id": 4,
+          "source": 9,
+          "target": 14,
+          "source_uv": [
+            1.0,
+            0.5
+          ],
+          "target_uv": [
+            1.0,
+            1.0
+          ],
+          "fraction": 0.5,
+          "point_uv": [
+            1.0,
+            0.9614985666636524
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "insert_chord",
+          "face_id": 4,
+          "source": 19,
+          "target": 18,
+          "source_uv": [
+            1.0,
+            0.9614985666636524
+          ],
+          "target_uv": [
+            0.75,
+            0.9614985666636524
+          ],
+          "owners": [
+            4
+          ]
+        },
+        {
+          "kind": "stop",
+          "face_id": null
+        }
+      ],
+      "decisions": 13,
+      "graph_sha256": "82abbc62abde2213102c7aac15494d6aac08c849e4894567c95e78186677418d",
+      "score": 0.7591249322250984
+    }
+  ]
+}

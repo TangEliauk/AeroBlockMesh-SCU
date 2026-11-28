@@ -1,0 +1,28 @@
+{
+  "sample_id": "uiuc_6a201499c42cfae8",
+  "group_id": "grp_084299638c65ce93",
+  "selected": null,
+  "attempts": [
+    {
+      "method": "fixed",
+      "reason": "invalid_physical_face",
+      "success": false,
+      "seconds": 2.4000000848900527e-06,
+      "actions": []
+    },
+    {
+      "method": "greedy",
+      "reason": "invalid_physical_face",
+      "success": false,
+      "seconds": 8.999995770864189e-07,
+      "actions": []
+    },
+    {
+      "method": "refined",
+      "reason": "invalid_physical_face",
+      "success": false,
+      "seconds": 3.9999940781854093e-07,
+      "actions": []
+    }
+  ]
+}
