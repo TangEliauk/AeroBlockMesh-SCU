@@ -1,0 +1,47 @@
+{
+  "profile": "formal",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "train_count": 128,
+  "val_count": 32,
+  "first_steps": 4000,
+  "extended_steps": 8000,
+  "extension_compare_step": 3000,
+  "validation_every": 500,
+  "bc_updates": 1000,
+  "online_warmup": 128,
+  "critic_warmup": 128,
+  "runtime": {
+    "workers": 3,
+    "torch_threads": 1,
+    "checkpoint_every": 250,
+    "batch_size": 32,
+    "replay_capacity": 2048,
+    "replay_max_bytes": 134217728
+  },
+  "geometry": {
+    "farfield": 20.0,
+    "stretch": 18.0,
+    "protected_thickness": 0.02,
+    "curve_tolerance": 0.0001,
+    "area_tolerance": 1e-08,
+    "curve_max_depth": 18,
+    "max_steps": 32,
+    "max_blocks": 32,
+    "max_vertices": 128,
+    "max_half_edges": 256,
+    "max_face_vertices": 32,
+    "max_candidates": 1024,
+    "gamma": 0.99,
+    "step_cost": 0.02,
+    "failure_reward": -5.0,
+    "success_reward": 5.0,
+    "outer_block_cost": 0.02
+  },
+  "max_workers": 3
+}

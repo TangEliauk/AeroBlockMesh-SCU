@@ -1,0 +1,23 @@
+{
+  "run": "airfoil_fusion_formal_v2",
+  "arm": "E8",
+  "seed": 44,
+  "stage": "development_checkpoint_validation",
+  "online_step": 4000,
+  "validation_report_present_at_last_sample": false,
+  "measurement": "Windows process CPU counter for the Python child of the queue worker",
+  "samples": [
+    {
+      "timestamp": "2026-11-27T20:22:58.5308903+08:00",
+      "cpu_seconds": 7182.390625,
+      "working_set_mib": 1771
+    },
+    {
+      "timestamp": "2026-11-27T20:24:09.3883676+08:00",
+      "cpu_seconds": 7252.8125,
+      "working_set_mib": 1751
+    }
+  ],
+  "wall_seconds_between_samples": 70.8574773,
+  "cpu_seconds_between_samples": 70.421875
+}

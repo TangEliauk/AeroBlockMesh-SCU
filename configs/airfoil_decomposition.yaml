@@ -1,0 +1,45 @@
+version: 1
+environment:
+  farfield: 20.0
+  stretch: 18.0
+  protected_thickness: 0.02
+  curve_tolerance: 0.0001
+  area_tolerance: 0.00000001
+  curve_max_depth: 18
+  max_steps: 32
+  max_blocks: 32
+  max_vertices: 128
+  max_half_edges: 256
+  max_face_vertices: 32
+  max_candidates: 1024
+  gamma: 0.99
+  step_cost: 0.02
+  failure_reward: -5.0
+  success_reward: 5.0
+  outer_block_cost: 0.02
+data:
+  seed: 42
+  train_count: 32
+  val_count: 8
+model:
+  hidden_dim: 64
+  layers: 2
+training:
+  seed: 42
+  steps: 2000
+  warmup_steps: 128
+  batch_size: 32
+  evaluation_interval: 500
+  replay_capacity: 2048
+  replay_max_bytes: 134217728
+  alpha: 0.01
+  gamma: 0.99
+  tau: 0.005
+  learning_rate: 0.0003
+  grad_clip: 1.0
+diagnostics:
+  intervals: 16
+  protected_intervals: 32
+  max_intervals: 256
+  smoothing_steps: 0
+  max_cells: 500000

@@ -1,0 +1,31 @@
+{
+  "points": 1650,
+  "quads": 1536,
+  "marker_edges": {
+    "airfoil": 76,
+    "farfield": 152
+  },
+  "min_scaled_jacobian": 0.8498567091459165,
+  "q05_scaled_jacobian": 0.8862139439011301,
+  "wall_angle_min_deg": 84.10969272130014,
+  "wall_angle_q10_deg": 85.28985843313774,
+  "wall_angle_median_deg": 87.465411633068,
+  "first_layer_normal_height_median_chords": 0.004380161931756296,
+  "max_equiangle_skewness": 0.3533768033236127,
+  "q95_equiangle_skewness": 0.3066523226593827,
+  "mean_equiangle_skewness": 0.08969608423994446,
+  "max_aspect_ratio": 159.36461757473398,
+  "q95_aspect_ratio": 84.2965940875636,
+  "median_aspect_ratio": 6.129776406483093,
+  "farfield_bounds": {
+    "x_min": -17.65,
+    "x_max": 19.0,
+    "y_min": -18.0,
+    "y_max": 18.0
+  },
+  "farfield_max_aspect_ratio": 159.36461757473398,
+  "farfield_q95_aspect_ratio": 92.4941018892955,
+  "farfield_median_aspect_ratio": 14.467068556473532,
+  "score": 0.8534790199909319,
+  "mesh_sha256": "788347a45ac3b0856b6bec153e59e2a659913ed56b94cfc1f5ba6635133c7768"
+}

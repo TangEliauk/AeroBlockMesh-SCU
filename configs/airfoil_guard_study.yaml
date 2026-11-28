@@ -1,0 +1,13 @@
+version: 1
+experiment_config: configs/airfoil_decomposition.yaml
+seeds: [42, 43, 44]
+guard:
+  depth: 2
+  second_layer_budget: 128
+bc:
+  updates: 1000
+  batch_size: 32
+  learning_rate: 0.0003
+execution:
+  device: cpu
+  torch_threads: 1

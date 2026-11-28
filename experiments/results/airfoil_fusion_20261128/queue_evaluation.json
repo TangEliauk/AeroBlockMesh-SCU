@@ -1,0 +1,478 @@
+{
+  "stage": "evaluation",
+  "status": "completed",
+  "jobs": {
+    "E1_42_rule": {
+      "status": "completed",
+      "pid": 34252,
+      "log": "evaluation_E1_42_rule_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E3_42_rule": {
+      "status": "completed",
+      "pid": 18476,
+      "log": "evaluation_E3_42_rule_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E2_42_rule": {
+      "status": "completed",
+      "pid": 30552,
+      "log": "evaluation_E2_42_rule_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E2_43_rule": {
+      "status": "completed",
+      "pid": 29236,
+      "log": "evaluation_E2_43_rule_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E2_44_rule": {
+      "status": "completed",
+      "pid": 38760,
+      "log": "evaluation_E2_44_rule_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E2_45_rule": {
+      "status": "completed",
+      "pid": 29604,
+      "log": "evaluation_E2_45_rule_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E2_46_rule": {
+      "status": "completed",
+      "pid": 20372,
+      "log": "evaluation_E2_46_rule_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_42_best": {
+      "status": "completed",
+      "pid": 9008,
+      "log": "evaluation_E4_42_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_42_final": {
+      "status": "completed",
+      "pid": 39252,
+      "log": "evaluation_E4_42_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_43_best": {
+      "status": "completed",
+      "pid": 18672,
+      "log": "evaluation_E4_43_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_43_final": {
+      "status": "completed",
+      "pid": 2012,
+      "log": "evaluation_E4_43_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_44_best": {
+      "status": "completed",
+      "pid": 28444,
+      "log": "evaluation_E4_44_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_44_final": {
+      "status": "completed",
+      "pid": 35660,
+      "log": "evaluation_E4_44_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_45_best": {
+      "status": "completed",
+      "pid": 30096,
+      "log": "evaluation_E4_45_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_45_final": {
+      "status": "completed",
+      "pid": 23700,
+      "log": "evaluation_E4_45_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_46_best": {
+      "status": "completed",
+      "pid": 37496,
+      "log": "evaluation_E4_46_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4_46_final": {
+      "status": "completed",
+      "pid": 33196,
+      "log": "evaluation_E4_46_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_42_best": {
+      "status": "completed",
+      "pid": 23696,
+      "log": "evaluation_E4a_42_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_42_final": {
+      "status": "completed",
+      "pid": 10368,
+      "log": "evaluation_E4a_42_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_43_best": {
+      "status": "completed",
+      "pid": 26308,
+      "log": "evaluation_E4a_43_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_43_final": {
+      "status": "completed",
+      "pid": 31052,
+      "log": "evaluation_E4a_43_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_44_best": {
+      "status": "completed",
+      "pid": 27992,
+      "log": "evaluation_E4a_44_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_44_final": {
+      "status": "completed",
+      "pid": 39836,
+      "log": "evaluation_E4a_44_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_45_best": {
+      "status": "completed",
+      "pid": 6180,
+      "log": "evaluation_E4a_45_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_45_final": {
+      "status": "completed",
+      "pid": 38588,
+      "log": "evaluation_E4a_45_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_46_best": {
+      "status": "completed",
+      "pid": 30816,
+      "log": "evaluation_E4a_46_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E4a_46_final": {
+      "status": "completed",
+      "pid": 10644,
+      "log": "evaluation_E4a_46_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_42_best": {
+      "status": "completed",
+      "pid": 37276,
+      "log": "evaluation_E6_42_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_42_final": {
+      "status": "completed",
+      "pid": 10408,
+      "log": "evaluation_E6_42_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_43_best": {
+      "status": "completed",
+      "pid": 22840,
+      "log": "evaluation_E6_43_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_43_final": {
+      "status": "completed",
+      "pid": 2668,
+      "log": "evaluation_E6_43_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_44_best": {
+      "status": "completed",
+      "pid": 12836,
+      "log": "evaluation_E6_44_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_44_final": {
+      "status": "completed",
+      "pid": 32724,
+      "log": "evaluation_E6_44_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_45_best": {
+      "status": "completed",
+      "pid": 22664,
+      "log": "evaluation_E6_45_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_45_final": {
+      "status": "completed",
+      "pid": 3868,
+      "log": "evaluation_E6_45_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_46_best": {
+      "status": "completed",
+      "pid": 20792,
+      "log": "evaluation_E6_46_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E6_46_final": {
+      "status": "completed",
+      "pid": 35388,
+      "log": "evaluation_E6_46_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_42_best": {
+      "status": "completed",
+      "pid": 30288,
+      "log": "evaluation_E7_42_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_42_final": {
+      "status": "completed",
+      "pid": 3300,
+      "log": "evaluation_E7_42_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_43_best": {
+      "status": "completed",
+      "pid": 29520,
+      "log": "evaluation_E7_43_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_43_final": {
+      "status": "completed",
+      "pid": 35320,
+      "log": "evaluation_E7_43_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_44_best": {
+      "status": "completed",
+      "pid": 31148,
+      "log": "evaluation_E7_44_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_44_final": {
+      "status": "completed",
+      "pid": 35992,
+      "log": "evaluation_E7_44_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_45_best": {
+      "status": "completed",
+      "pid": 7296,
+      "log": "evaluation_E7_45_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_45_final": {
+      "status": "completed",
+      "pid": 36620,
+      "log": "evaluation_E7_45_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_46_best": {
+      "status": "completed",
+      "pid": 13392,
+      "log": "evaluation_E7_46_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E7_46_final": {
+      "status": "completed",
+      "pid": 31016,
+      "log": "evaluation_E7_46_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_42_best": {
+      "status": "completed",
+      "pid": 33888,
+      "log": "evaluation_E8_42_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_42_final": {
+      "status": "completed",
+      "pid": 33360,
+      "log": "evaluation_E8_42_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_43_best": {
+      "status": "completed",
+      "pid": 37360,
+      "log": "evaluation_E8_43_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_43_final": {
+      "status": "completed",
+      "pid": 17552,
+      "log": "evaluation_E8_43_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_44_best": {
+      "status": "completed",
+      "pid": 26008,
+      "log": "evaluation_E8_44_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_44_final": {
+      "status": "completed",
+      "pid": 35500,
+      "log": "evaluation_E8_44_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_45_best": {
+      "status": "completed",
+      "pid": 35608,
+      "log": "evaluation_E8_45_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_45_final": {
+      "status": "completed",
+      "pid": 34460,
+      "log": "evaluation_E8_45_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_46_best": {
+      "status": "completed",
+      "pid": 37456,
+      "log": "evaluation_E8_46_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E8_46_final": {
+      "status": "completed",
+      "pid": 9068,
+      "log": "evaluation_E8_46_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_42_best": {
+      "status": "completed",
+      "pid": 36356,
+      "log": "evaluation_E5_42_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_42_final": {
+      "status": "completed",
+      "pid": 35308,
+      "log": "evaluation_E5_42_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_43_best": {
+      "status": "completed",
+      "pid": 21044,
+      "log": "evaluation_E5_43_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_43_final": {
+      "status": "completed",
+      "pid": 34380,
+      "log": "evaluation_E5_43_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_44_best": {
+      "status": "completed",
+      "pid": 39600,
+      "log": "evaluation_E5_44_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_44_final": {
+      "status": "completed",
+      "pid": 5204,
+      "log": "evaluation_E5_44_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_45_best": {
+      "status": "completed",
+      "pid": 8256,
+      "log": "evaluation_E5_45_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_45_final": {
+      "status": "completed",
+      "pid": 1012,
+      "log": "evaluation_E5_45_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_46_best": {
+      "status": "completed",
+      "pid": 18192,
+      "log": "evaluation_E5_46_best_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    },
+    "E5_46_final": {
+      "status": "completed",
+      "pid": 28300,
+      "log": "evaluation_E5_46_final_a1.log",
+      "attempt": 1,
+      "exit_code": 0
+    }
+  },
+  "pending": 0,
+  "live_children": {},
+  "failures": []
+}

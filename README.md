@@ -6,9 +6,18 @@
 
 ## 当前状态
 
-当前版本在已有公开数据处理与验证流程基础上补齐项目目录骨架、配置草案、模块职责说明和开发工具配置。`src/smartcfd` 中的几何、分块、强化学习、网格生成、质量评价及 CFD 模块尚未实现；`tests/` 顶层六个文件为相应的测试预留模块。
+本分支发布了 CH-SAC v2 二维单翼型结构化多块网格实验。模型、权重、测试数据、图像与复现命令见 [CH-SAC v2 实验说明](experiments/results/ch_sac_v2_20261125/README.md)。
 
-`scripts/` 顶层七个预留入口支持 `--help`，执行具体任务时会明确报告“功能尚未实现”。已有可执行的数据脚本和回归测试分别位于 `scripts/data/`、`tests/data/`，公开数据及其来源与固定划分见 [公开数据说明](docs/public_data_v1.md)。
+本分支也收录了本地翼型自动分块融合实验。离散策略编辑可变块图，合法终图用于两档 TFI 网格和 SU2 求解。融合流程从仓库内冻结的 A 方案参考和固定 Git 提交中的 CH-SAC v2 读取对照证据。
+
+- [从 Git 检出复现训练、评估和 CFD](docs/airfoil_fusion.md)
+- [正式结果、封存权重和单例复算](experiments/results/airfoil_fusion_20261128/README.md)
+- [本地方案与 GitHub CH-SAC v2 的实现对照](docs/airfoil_fusion_audit.md)
+- [CPU 几何检查与验证耗时](docs/airfoil_fusion_performance.md)
+
+仓库包含公开数据处理与验证流程、项目目录骨架、配置草案和开发工具配置。本分支还提供 CH-SAC v2 使用的块图、分块编辑、TFI 网格生成与 SU2 导出实现。
+
+`scripts/` 提供数据准备、训练、制网、评估、CFD 和绘图入口。公开数据脚本和回归测试分别位于 `scripts/data/`、`tests/data/`。数据来源与固定划分见 [公开数据说明](docs/public_data_v1.md)。
 
 已补入四组 [多块分块终态参考](data/references/multiblock_v1/README.md)：十二块通道、四块多段翼型、DLR-F6 ICEM 工程、M6 四块网格及配对文件。原件与来源哈希保留，实际清洗的块、接口、边界记录另存于 [block_topology_v1](data/processed/block_topology_v1/README.md)。这些工程参考尚未转化为训练动作轨迹。
 
@@ -26,7 +35,7 @@ AeroBlockMesh-SCU/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
-├── configs/                        # 配置草案，尚未接入算法
+├── configs/                        # 通用流程与实验配置
 │   ├── geometry.yaml
 │   ├── partition.yaml
 │   ├── rl.yaml
@@ -153,11 +162,11 @@ python -m pip install -e ".[dev,data]"
 python scripts/generate_mesh.py --help
 ```
 
-基础包没有第三方运行依赖；多块清洗工具通过可选的 `data` 依赖使用 NumPy/h5py。配置中的路径约定相对于仓库根目录。
+基础包使用 NumPy、PyYAML 和 Gymnasium。`data` 提供多块清洗使用的 h5py。翼型融合使用 Python 3.11 和 `fusion` 依赖。配置中的路径相对于仓库根目录。
 
 ## 运行入口
 
-| 脚本 | 计划用途 | 默认配置草案 |
+| 脚本 | 用途 | 配置 |
 | --- | --- | --- |
 | `scripts/prepare_data.py` | 准备数据 | `configs/geometry.yaml` |
 | `scripts/train_rl.py` | 训练分块策略 | `configs/rl.yaml` |
@@ -167,7 +176,7 @@ python scripts/generate_mesh.py --help
 | `scripts/run_cfd.py` | CFD 验证 | `configs/cfd.yaml` |
 | `scripts/visualize.py` | 可视化 | `configs/meshing.yaml` |
 
-上述配置参数仅作为入口预留，目前不会读取配置或执行算法。
+各脚本的 `--help` 显示相应参数。实验专用入口和冻结协议见 [翼型融合复现](docs/airfoil_fusion.md)。
 
 ## 开发检查
 
@@ -181,7 +190,7 @@ python scripts/data/clean_cgns_multiblock.py --check
 python scripts/data/clean_engineering_multiblock.py --check
 ```
 
-GitHub Actions 检查 Python 3.10、3.12 和 3.14 下的安装、依赖一致性、源码与 wheel 构建、模块导入及入口帮助，并运行数据回归测试、冻结版本哈希核验和多块清洗产物重现检查。顶层算法测试需要随实现补充。
+GitHub Actions 在 Python 3.10、3.12 和 3.14 上检查安装、构建、数据回归、冻结版本哈希及多块清洗产物。Python 3.11 作业检查模块导入、脚本入口、融合回归和正式权重的单例复算。
 
 模块边界见 [架构说明](docs/architecture.md)，接口草案见 [接口说明](docs/interfaces.md)，数据约定见 [数据管理](data/README.md)，开发约定见 [参与开发](CONTRIBUTING.md)。
 

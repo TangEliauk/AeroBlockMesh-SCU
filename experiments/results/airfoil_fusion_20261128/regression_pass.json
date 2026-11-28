@@ -1,0 +1,19 @@
+{
+  "source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+  "finished_at_utc": "2026-11-25T17:51:23.314767+00:00",
+  "failures": 0,
+  "full_suite": {
+    "passed": 380,
+    "warnings": 17,
+    "seconds": 302.03,
+    "exec_session_id": 66254
+  },
+  "targeted_follow_up": {
+    "passed": 2,
+    "deselected": 7,
+    "test_names": [
+      "test_official_cases_cannot_be_loaded_before_training_is_sealed",
+      "test_budget_pairing_retains_partition_failures_in_primary_denominator"
+    ]
+  }
+}

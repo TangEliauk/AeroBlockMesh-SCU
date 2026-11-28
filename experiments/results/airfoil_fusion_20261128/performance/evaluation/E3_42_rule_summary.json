@@ -1,0 +1,20 @@
+{
+  "arm": "E3",
+  "seed": 42,
+  "tag": "rule",
+  "step": null,
+  "checkpoint_sha256": null,
+  "lock_sha256": "31ef6c068feaeb8103574fb24ec9bb24b981f02d82294d13b5be4986d72eff8c",
+  "summary": {
+    "total": 90,
+    "successful": 0,
+    "success_rate": 0.0,
+    "initializable": 90,
+    "mesh_successful": 0,
+    "budget_mesh_successful": 0,
+    "mesh_score": null,
+    "mean_penalized_edits": 32.0,
+    "total_seconds": 3420.950550800044
+  },
+  "source_report_sha256": "57c3c4e513afcfc61c2a149814fffb9ecc686c2f30b4628b61e8364e447279df"
+}

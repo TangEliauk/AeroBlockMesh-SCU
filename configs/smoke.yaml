@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "domain": {
+    "farfield": 500.0,
+    "stretch": 18.0
+  },
+  "env": {
+    "max_half_edges": 256,
+    "local_actions": 4,
+    "max_blocks": 32,
+    "max_steps": 128,
+    "gamma": 0.99,
+    "step_cost": 0.01,
+    "failure_reward": -5.0,
+    "success_reward": 5.0,
+    "environment_version": "final_mesh_v2"
+  },
+  "model": {
+    "hidden_dim": 32,
+    "layers": 2
+  },
+  "training": {
+    "algorithm": "bc_discrete_sac",
+    "seed": 42,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "total_steps": 32,
+    "smoke_steps": 32,
+    "batch_size": 4,
+    "learning_rate": 0.0003,
+    "alpha": 0.1,
+    "tau": 0.005,
+    "gamma": 0.99,
+    "replay_capacity": 20000,
+    "replay_max_bytes": 536870912,
+    "warmup_steps": 4,
+    "bc_epochs": 3,
+    "bc_patience": 5,
+    "demo_episodes": 8,
+    "critic_warmup_updates": 2,
+    "evaluation_interval": 16,
+    "validation_episodes": 2
+  },
+  "data": {
+    "sharp_only": true,
+    "train_manifest": "data/splits/uiuc_v1/train.json",
+    "validation_manifest": "data/splits/uiuc_v1/val.json",
+    "test_manifest": "data/splits/uiuc_v1/test.json"
+  },
+  "output": {
+    "directory": "experiments/runs"
+  },
+  "mesh": {
+    "intervals": 16,
+    "protected_intervals": 32,
+    "max_intervals": 256,
+    "smoothing_steps": 0,
+    "max_cells": 500000
+  },
+  "cfd": {
+    "enabled": false,
+    "solver": "SU2",
+    "executable": null,
+    "mach": 0.15,
+    "reynolds": 6000000,
+    "alpha_deg": 10.0,
+    "temperature_K": 300.0,
+    "max_iterations": 5000
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "activated_at_utc": "2026-11-27T14:37:06.833805+00:00",
+  "scope": "single-process development checkpoint validation in future workers",
+  "formal_data_sealed_at_activation": true,
+  "frozen_protocol_source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+  "previous_launcher_sha256": "d45c90f53cf2a1702ccfd85c89546e84c007c3aa6c76769462e7e1d7e436e3e4",
+  "launcher_sha256": "e26a5af27039d0b177022cf4669516365156aa5fa7f59ee179840eda29c8e8ab",
+  "validation_receipts_module_sha256": "06574b04aff62d76cb72923f8ac39123e3d9de805067df418a34dfd57174b5da",
+  "validation_gate_sha256": "c9799b8afeab7a5bdb39c906e88748a48ef72c3a2a08083101389586e87885fd",
+  "sole_launcher_changes": [
+    "ParallelValidation.rows",
+    "ParallelValidation.validate"
+  ],
+  "interruption_gate": {
+    "scope": "four real SAC steps on a synthetic development fixture, with an interruption during step 2 validation",
+    "preserved_partial_case": 1,
+    "reused_cases": 1,
+    "unchanged_weights": {
+      "best.pt": "e5a50e2c19439c7aca096677c8f8e60bacfea09be893b598d9afa8a7dbc0279e",
+      "final.pt": "d1a43dea0452a7e5a47f1e1bcfce299aa6df8775735badc907ab46f022505f6d"
+    },
+    "same_interactions_except_wall_time": true,
+    "same_torch_action_python_rng": true,
+    "same_validation_selection": true,
+    "candidate_sha256": "e26a5af27039d0b177022cf4669516365156aa5fa7f59ee179840eda29c8e8ab",
+    "receipt_module_sha256": "06574b04aff62d76cb72923f8ac39123e3d9de805067df418a34dfd57174b5da",
+    "source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73"
+  }
+}

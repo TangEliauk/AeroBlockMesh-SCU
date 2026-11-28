@@ -1,0 +1,20 @@
+{
+  "arm": "E4a",
+  "seed": 43,
+  "tag": "final",
+  "step": 4000,
+  "checkpoint_sha256": "676695cfa30198df69cc5233a3d4cd9b72e1ca48617a027421ceab4ab868bef5",
+  "lock_sha256": "31ef6c068feaeb8103574fb24ec9bb24b981f02d82294d13b5be4986d72eff8c",
+  "summary": {
+    "total": 90,
+    "successful": 0,
+    "success_rate": 0.0,
+    "initializable": 90,
+    "mesh_successful": 0,
+    "budget_mesh_successful": 0,
+    "mesh_score": null,
+    "mean_penalized_edits": 32.0,
+    "total_seconds": 3948.0122029000195
+  },
+  "source_report_sha256": "1a36793e4d73b8e9c4b6606f5313480bcbed2a5366d2341981e5b4e2989c4e6a"
+}

@@ -1,4 +1,5 @@
-"""专家示范数据与模仿学习预训练模块。
+"""Real-environment demonstration replay and behavior cloning."""
+from .dataset import DemonstrationDataset, load_replayed_demonstrations, rollout_episode
+from .pretrain import train_behavior_cloning
 
-当前仅预留模块位置，具体功能与接口尚待实现。
-"""
+__all__ = ["DemonstrationDataset", "load_replayed_demonstrations", "rollout_episode", "train_behavior_cloning"]

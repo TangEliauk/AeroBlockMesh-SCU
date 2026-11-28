@@ -8,11 +8,26 @@ version = "0.1.0"
 description = "Research scaffold for intelligent multi-block structured CFD mesh generation"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["numpy>=2.0,<3", "PyYAML>=6.0,<7", "gymnasium==1.1.1"]
 
 [project.optional-dependencies]
 dev = ["build>=1.2", "pytest>=8"]
 data = ["numpy>=1.26", "h5py>=3.11"]
+train = ["torch==2.7.1"]
+visualize = ["matplotlib>=3.9,<4"]
+decomposition = ["shapely==2.2.0"]
+fusion = ["torch==2.7.1", "matplotlib==3.10.3", "shapely==2.2.0", "XlsxWriter==3.3.4"]
+ch-sac = [
+    "numpy>=1.26",
+    "scipy>=1.9",
+    "shapely>=2,<3",
+    "gmsh>=4.13,<5",
+    "matplotlib>=3.8,<4",
+    "torch>=2.6,<3",
+]
+
+[project.scripts]
+smartcfd = "smartcfd.pipeline.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

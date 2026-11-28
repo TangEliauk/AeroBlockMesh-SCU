@@ -1,0 +1,1367 @@
+{
+  "provenance": "Frozen first-attempt train[9], greedy rule prefix through genuine step31 observation failure; no test/holdout data",
+  "sample": {
+    "sample_id": "uiuc_e36d312eefc87798",
+    "geometry_only": true,
+    "closure": "implicit_last_to_first",
+    "orientation": "CCW",
+    "canonical_start": "lexicographic_minimum_x_then_y",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.001398,
+        -0.013805
+      ],
+      [
+        0.0047754,
+        -0.0282722
+      ],
+      [
+        0.0100915,
+        -0.0416824
+      ],
+      [
+        0.0172333,
+        -0.0515577
+      ],
+      [
+        0.0261887,
+        -0.0581687
+      ],
+      [
+        0.036944,
+        -0.0620757
+      ],
+      [
+        0.0495055,
+        -0.0648295
+      ],
+      [
+        0.063829,
+        -0.0669816
+      ],
+      [
+        0.0798718,
+        -0.0687733
+      ],
+      [
+        0.0975622,
+        -0.0701367
+      ],
+      [
+        0.1168389,
+        -0.0710433
+      ],
+      [
+        0.1376331,
+        -0.0715255
+      ],
+      [
+        0.1598457,
+        -0.0716062
+      ],
+      [
+        0.1833956,
+        -0.0712674
+      ],
+      [
+        0.2081936,
+        -0.0705218
+      ],
+      [
+        0.2341399,
+        -0.0693827
+      ],
+      [
+        0.2611263,
+        -0.0679131
+      ],
+      [
+        0.2890636,
+        -0.0661255
+      ],
+      [
+        0.3178326,
+        -0.0640633
+      ],
+      [
+        0.3473143,
+        -0.0617504
+      ],
+      [
+        0.3773983,
+        -0.0591797
+      ],
+      [
+        0.4079735,
+        -0.0563045
+      ],
+      [
+        0.4388972,
+        -0.0530489
+      ],
+      [
+        0.4700573,
+        -0.0493263
+      ],
+      [
+        0.5013304,
+        -0.04503
+      ],
+      [
+        0.5325842,
+        -0.040084
+      ],
+      [
+        0.5636876,
+        -0.0344422
+      ],
+      [
+        0.5945206,
+        -0.028118
+      ],
+      [
+        0.6249662,
+        -0.0211949
+      ],
+      [
+        0.6549217,
+        -0.013936
+      ],
+      [
+        0.6842567,
+        -0.0066651
+      ],
+      [
+        0.7128826,
+        0.0002449
+      ],
+      [
+        0.740688,
+        0.0065004
+      ],
+      [
+        0.767558,
+        0.0119084
+      ],
+      [
+        0.7934063,
+        0.0163661
+      ],
+      [
+        0.8181233,
+        0.0198503
+      ],
+      [
+        0.8416089,
+        0.0223681
+      ],
+      [
+        0.8637721,
+        0.0239568
+      ],
+      [
+        0.8845317,
+        0.0246441
+      ],
+      [
+        0.9037864,
+        0.0244871
+      ],
+      [
+        0.9214628,
+        0.0235935
+      ],
+      [
+        0.937498,
+        0.0220617
+      ],
+      [
+        0.9518209,
+        0.0199297
+      ],
+      [
+        0.9643791,
+        0.0172858
+      ],
+      [
+        0.9751081,
+        0.0142682
+      ],
+      [
+        0.9839628,
+        0.0110657
+      ],
+      [
+        0.9909068,
+        0.0078875
+      ],
+      [
+        0.9959198,
+        0.0047327
+      ],
+      [
+        0.9989451,
+        0.0021601
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.9989334,
+        0.00259
+      ],
+      [
+        0.9958785,
+        0.0061421
+      ],
+      [
+        0.9908355,
+        0.0102964
+      ],
+      [
+        0.9838531,
+        0.0147741
+      ],
+      [
+        0.9749446,
+        0.0198057
+      ],
+      [
+        0.9641446,
+        0.0252222
+      ],
+      [
+        0.951494,
+        0.0309948
+      ],
+      [
+        0.9370538,
+        0.0370951
+      ],
+      [
+        0.9208748,
+        0.0434947
+      ],
+      [
+        0.9030275,
+        0.0501755
+      ],
+      [
+        0.883572,
+        0.0571295
+      ],
+      [
+        0.8625789,
+        0.0643387
+      ],
+      [
+        0.840148,
+        0.0718158
+      ],
+      [
+        0.8163597,
+        0.0795437
+      ],
+      [
+        0.7913039,
+        0.0875244
+      ],
+      [
+        0.7650806,
+        0.0957611
+      ],
+      [
+        0.7378002,
+        0.104237
+      ],
+      [
+        0.7095528,
+        0.1129447
+      ],
+      [
+        0.6804584,
+        0.1218978
+      ],
+      [
+        0.650637,
+        0.1310796
+      ],
+      [
+        0.6201894,
+        0.1404734
+      ],
+      [
+        0.589256,
+        0.1500728
+      ],
+      [
+        0.5579469,
+        0.1598516
+      ],
+      [
+        0.5263841,
+        0.169763
+      ],
+      [
+        0.4946885,
+        0.1797704
+      ],
+      [
+        0.4629933,
+        0.1897578
+      ],
+      [
+        0.4314359,
+        0.1994891
+      ],
+      [
+        0.4001532,
+        0.2083783
+      ],
+      [
+        0.3693302,
+        0.2138892
+      ],
+      [
+        0.3391219,
+        0.2155268
+      ],
+      [
+        0.3096004,
+        0.214563
+      ],
+      [
+        0.2808731,
+        0.2110915
+      ],
+      [
+        0.2530441,
+        0.2056456
+      ],
+      [
+        0.2262233,
+        0.1985582
+      ],
+      [
+        0.2004945,
+        0.1900625
+      ],
+      [
+        0.1759617,
+        0.1803309
+      ],
+      [
+        0.1527206,
+        0.169547
+      ],
+      [
+        0.1308565,
+        0.1578425
+      ],
+      [
+        0.1104454,
+        0.1453605
+      ],
+      [
+        0.0915824,
+        0.1322634
+      ],
+      [
+        0.0743339,
+        0.1186733
+      ],
+      [
+        0.0587555,
+        0.1047421
+      ],
+      [
+        0.0449126,
+        0.0906212
+      ],
+      [
+        0.0328509,
+        0.0764626
+      ],
+      [
+        0.0226258,
+        0.0624277
+      ],
+      [
+        0.0142729,
+        0.0486478
+      ],
+      [
+        0.0078138,
+        0.0354134
+      ],
+      [
+        0.0032703,
+        0.0226752
+      ],
+      [
+        0.0006922,
+        0.0100844
+      ]
+    ],
+    "canonical_sha256": "e36d312eefc87798cae9e0666da00e50b3e76a404621bc9672a629f96015bd05",
+    "quality": {
+      "vertex_count": 100,
+      "signed_area": 0.16761354209752502,
+      "x_span": 1.0,
+      "y_span": 0.28713299999999997,
+      "min_edge_length": 0.0024039230478532245,
+      "max_edge_length": 0.033237916813783665,
+      "branch_x_backtracking": [
+        0.0,
+        0.0
+      ],
+      "self_intersection_check": "passed_with_configured_tolerance",
+      "adjacent_overlap_check": "passed_with_configured_tolerance"
+    },
+    "aliases": [
+      "kenmar"
+    ],
+    "source_files": [
+      {
+        "relative_path": "coord_seligFmt/kenmar.dat",
+        "filename": "kenmar.dat",
+        "sha256": "3aefd87badab306a7b546f7f46d6511f555d267d2cb8fd4d088ffe1e82fbbec5",
+        "bytes": 2151,
+        "header": "KENNEDY AND MARSDEN AIRFOIL",
+        "parse_format": "selig_contour",
+        "normalization": {
+          "type": "axis_aligned_uniform_unit_chord",
+          "x_offset": 0.0,
+          "y_offset": 0.0,
+          "original_x_chord_span": 1.0,
+          "uniform_scale": 1.0,
+          "rotation_degrees": 0,
+          "exact_offsets_and_chord": {
+            "x_offset": "0",
+            "y_offset": "0",
+            "chord": "1"
+          },
+          "formula": "x'=(x-x_min)/chord; y'=(y-y_at_lexicographic_LE)/chord"
+        },
+        "quality_flags": {
+          "consecutive_exact_duplicates_removed": 0,
+          "explicit_closing_vertices_removed": 1,
+          "raw_representation": "explicitly_closed",
+          "raw_normalized_last_to_first_distance": 0.0,
+          "open_chain_has_implicit_te_segment": false,
+          "smoothing_applied": false,
+          "resampling_applied": false,
+          "missing_points_imputed": false
+        }
+      }
+    ],
+    "split": "train",
+    "group_id": "grp_534731aab494fd9c",
+    "family_keys": [
+      "name:kenmar"
+    ],
+    "source": "frozen_uiuc_v1_development",
+    "expert_demonstration": false
+  },
+  "config": {
+    "farfield": 20.0,
+    "stretch": 18.0,
+    "protected_thickness": 0.02,
+    "curve_tolerance": 0.0001,
+    "area_tolerance": 1e-08,
+    "curve_max_depth": 18,
+    "max_steps": 32,
+    "max_blocks": 32,
+    "max_vertices": 128,
+    "max_half_edges": 256,
+    "max_face_vertices": 32,
+    "max_candidates": 1024,
+    "gamma": 0.99,
+    "step_cost": 0.02,
+    "failure_reward": -5.0,
+    "success_reward": 5.0,
+    "outer_block_cost": 0.02
+  },
+  "actions": [
+    {
+      "index": 5,
+      "candidate": {
+        "kind": "insert_chord",
+        "face_id": 4,
+        "source": 8,
+        "target": 13,
+        "source_uv": [
+          0.75,
+          0.5
+        ],
+        "target_uv": [
+          0.75,
+          1.0
+        ],
+        "owners": [
+          4
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_chord",
+        "face_id": 5,
+        "source": 13,
+        "target": 5,
+        "source_uv": [
+          0.75,
+          1.0
+        ],
+        "target_uv": [
+          0.0,
+          0.5
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 13,
+        "target": 12,
+        "source_uv": [
+          0.75,
+          1.0
+        ],
+        "target_uv": [
+          0.5,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 13,
+        "target": 15,
+        "source_uv": [
+          0.75,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.7222222213774621,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 13,
+        "target": 16,
+        "source_uv": [
+          0.75,
+          1.0
+        ],
+        "target_uv": [
+          0.7222222213774621,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.7407407396555882,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_chord",
+        "face_id": 5,
+        "source": 15,
+        "target": 5,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.0,
+          0.5
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 6,
+        "source": 13,
+        "target": 5,
+        "source_uv": [
+          0.75,
+          1.0
+        ],
+        "target_uv": [
+          0.0,
+          0.5
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6647815123502965,
+          0.9431876749001977
+        ],
+        "owners": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 6,
+        "source": 13,
+        "target": 18,
+        "source_uv": [
+          0.75,
+          1.0
+        ],
+        "target_uv": [
+          0.6647815123502965,
+          0.9431876749001977
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.7300580818260476,
+          0.9867053878840317
+        ],
+        "owners": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_chord",
+        "face_id": 6,
+        "source": 7,
+        "target": 19,
+        "source_uv": [
+          0.5,
+          0.5
+        ],
+        "target_uv": [
+          0.7300580818260476,
+          0.9867053878840317
+        ],
+        "owners": [
+          6
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 12,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.5,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6111111139953873,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 20,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6111111139953873,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6481481495155522,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 21,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6481481495155522,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6604938276381639,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 22,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6604938276381639,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6646090532294099,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 23,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6646090532294099,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6659807950931586,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 24,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6659807950931586,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6664380423810747,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 25,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6664380423810747,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6665904581437135,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 26,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6665904581437135,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666412633979264,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 27,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666412633979264,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.666658198482664,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 28,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.666658198482664,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666638435109099,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 29,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666638435109099,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666657251869919,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 30,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666657251869919,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666663524123525,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 31,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666663524123525,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666665614874727,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 32,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666665614874727,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666311791795,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 33,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666311791795,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666544097484,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 34,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666544097484,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666621532714,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 35,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666621532714,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666647344457,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 36,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666647344457,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666655948371,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 37,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666655948371,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666658816343,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 38,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666658816343,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666659772333,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 39,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666659772333,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666660090997,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "candidate": {
+        "kind": "insert_edge_point",
+        "face_id": 5,
+        "source": 15,
+        "target": 40,
+        "source_uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "target_uv": [
+          0.6666666660090997,
+          1.0
+        ],
+        "fraction": 0.3333333333333333,
+        "point_uv": [
+          0.6666666660197218,
+          1.0
+        ],
+        "owners": [
+          5
+        ]
+      }
+    }
+  ],
+  "bad_edge": {
+    "slot": 20,
+    "source": 15,
+    "target": 41,
+    "face": 5,
+    "a": [
+      0.6666666660250329,
+      1.0
+    ],
+    "b": [
+      0.6666666660197218,
+      1.0
+    ],
+    "xy": [
+      -9.00000006982769,
+      17.320508035373734
+    ],
+    "uv_length": 5.311084905201824e-12,
+    "physical_curve_length": 6.674126921517025e-10,
+    "probes": [
+      {
+        "fraction": 1e-05,
+        "uv": [
+          0.6666666660250329,
+          1.0
+        ],
+        "xy": [
+          -9.00000006982769,
+          17.320508035373734
+        ],
+        "delta": [
+          0.0,
+          0.0
+        ],
+        "length": 0.0
+      },
+      {
+        "fraction": 0.0001,
+        "uv": [
+          0.6666666660250323,
+          1.0
+        ],
+        "xy": [
+          -9.000000069827752,
+          17.3205080353737
+        ],
+        "delta": [
+          -6.217248937900877e-14,
+          -3.552713678800501e-14
+        ],
+        "length": 7.160723346098895e-14
+      },
+      {
+        "fraction": 0.001,
+        "uv": [
+          0.6666666660250276,
+          1.0
+        ],
+        "xy": [
+          -9.000000069828275,
+          17.3205080353734
+        ],
+        "delta": [
+          -5.844214001626824e-13,
+          -3.339550858072471e-13
+        ],
+        "length": 6.731079945332962e-13
+      },
+      {
+        "fraction": 0.01,
+        "uv": [
+          0.6666666660249798,
+          1.0
+        ],
+        "xy": [
+          -9.000000069833474,
+          17.320508035370395
+        ],
+        "delta": [
+          -5.7838178690872155e-12,
+          -3.339550858072471e-12
+        ],
+        "length": 6.678708638384007e-12
+      },
+      {
+        "fraction": 0.1,
+        "uv": [
+          0.6666666660245018,
+          1.0
+        ],
+        "xy": [
+          -9.000000069885502,
+          17.32050803534036
+        ],
+        "delta": [
+          -5.781153333828115e-11,
+          -3.3374192298651906e-11
+        ],
+        "length": 6.675335271363221e-11
+      },
+      {
+        "fraction": 1.0,
+        "uv": [
+          0.6666666660197218,
+          1.0
+        ],
+        "xy": [
+          -9.000000070405687,
+          17.320508035040028
+        ],
+        "delta": [
+          -5.779963174745717e-10,
+          -3.3370639584973105e-10
+        ],
+        "length": 6.674126921517025e-10
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+version: 1
+geometry_config: configs/airfoil_decomposition.yaml
+formal:
+  seeds: [42, 43, 44, 45, 46]
+  train_count: 128
+  val_count: 32
+  first_steps: 4000
+  extended_steps: 8000
+  extension_compare_step: 3000
+  validation_every: 500
+  bc_updates: 1000
+  online_warmup: 128
+  critic_warmup: 128
+smoke:
+  seeds: [42]
+  train_count: 32
+  val_count: 8
+  first_steps: 40
+  extended_steps: 40
+  extension_compare_step: 20
+  validation_every: 20
+  bc_updates: 32
+  online_warmup: 32
+  critic_warmup: 8
+runtime:
+  workers: 3
+  torch_threads: 1
+  checkpoint_every: 250
+  batch_size: 32
+  replay_capacity: 2048
+  replay_max_bytes: 134217728

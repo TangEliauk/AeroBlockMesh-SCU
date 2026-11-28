@@ -1,0 +1,188 @@
+{
+  "binding": {
+    "arm": "E4",
+    "seed": 45,
+    "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402"
+  },
+  "online_steps": 4000,
+  "updates": 3873,
+  "validation": [
+    {
+      "step": 0,
+      "total": 32,
+      "successful": 0,
+      "success_rate": 0.0,
+      "initializable": 32,
+      "mesh_successful": 0,
+      "budget_mesh_successful": 0,
+      "mesh_score": null,
+      "mean_penalized_edits": 32.0,
+      "total_seconds": 1439.0323278998258,
+      "network_sha256": {
+        "actor": "ae31d05ef126da8b499be9ee599f49cddb29b4d9b1ff2206c65af00f4def460a",
+        "q1": "5f38fd0eb00186e9f6d672033ddcf59bc8e8ac0ab9144a78db65f43dbed1df00",
+        "q2": "40b011d076f55fef600b19b6f16f919ab43ed083aba539106dc38616b9a02108",
+        "target_q1": "5f38fd0eb00186e9f6d672033ddcf59bc8e8ac0ab9144a78db65f43dbed1df00",
+        "target_q2": "40b011d076f55fef600b19b6f16f919ab43ed083aba539106dc38616b9a02108"
+      }
+    },
+    {
+      "step": 500,
+      "total": 32,
+      "successful": 0,
+      "success_rate": 0.0,
+      "initializable": 32,
+      "mesh_successful": 0,
+      "budget_mesh_successful": 0,
+      "mesh_score": null,
+      "mean_penalized_edits": 32.0,
+      "total_seconds": 944.0995999999868,
+      "network_sha256": {
+        "actor": "d776db8d78d0accfc28af28157c4dcb8f05524772edad07f3bf868c8c10cf771",
+        "q1": "b4328175d41c9157072ff36fb9d7b0623608c4d531558815a5f0cfa4e11cd279",
+        "q2": "dcd48d6b3dbf920cb1d209de56d78704d63722be2a48a6a0b294fdd06ed0264a",
+        "target_q1": "140a17c6794f5df76479579b47ef8dbd3133aea1993e72e14afd01392309c4c6",
+        "target_q2": "47e67047bfe81ae7620165bf2dea3b033a0f91051295b376574cbf4bd2d67481"
+      }
+    },
+    {
+      "step": 1000,
+      "total": 32,
+      "successful": 32,
+      "success_rate": 1.0,
+      "initializable": 32,
+      "mesh_successful": 32,
+      "budget_mesh_successful": 32,
+      "mesh_score": -1.215030473990482,
+      "mean_penalized_edits": 3.0,
+      "total_seconds": 34.98277820003568,
+      "network_sha256": {
+        "actor": "f3332e6895a484798c12ec9384a7091ebb52acdef0e667ff08e9eec325810e2f",
+        "q1": "85b2d9354d766bd9fd55601a3224febe665ddc2903ea1dc250019671c6159414",
+        "q2": "48ed3b94aff03fbc30c8861c3b3ebb9c1e0e6b6b378b7938f2754af32f85ef2e",
+        "target_q1": "0bb80485bf9cfc1dcf7388b8b6ef40c0a6ea1de44ae145d4d5b220b64a51ff7b",
+        "target_q2": "0c6835e6c24169aadd3903af2de12a6845a3a31254c633365805722b82545118"
+      }
+    },
+    {
+      "step": 1500,
+      "total": 32,
+      "successful": 32,
+      "success_rate": 1.0,
+      "initializable": 32,
+      "mesh_successful": 32,
+      "budget_mesh_successful": 32,
+      "mesh_score": -1.215030473990482,
+      "mean_penalized_edits": 3.0,
+      "total_seconds": 0.1036497000604868,
+      "network_sha256": {
+        "actor": "d606875bc34c9f349d8bfa4ba54be2781503202cf3984e4fb2530b030f271b35",
+        "q1": "af07aa524f21434ba8e5fe16a9a3aa4ab804d911a80da0b9b21870c09d737cb5",
+        "q2": "0008eb0d04dbfdd93cc05cd040a832d216c5107d93a217e313298cb27c43b670",
+        "target_q1": "cd9f928dfebe1eb75ace0dc69960f0f4d07905fe919ce9526c2ed4b0b2805cb6",
+        "target_q2": "bdb18caabdfd2ac43b98142ea89e05356b586a1f72ab7fc73b8051a462fc5123"
+      }
+    },
+    {
+      "step": 2000,
+      "total": 32,
+      "successful": 32,
+      "success_rate": 1.0,
+      "initializable": 32,
+      "mesh_successful": 32,
+      "budget_mesh_successful": 32,
+      "mesh_score": -1.215030473990482,
+      "mean_penalized_edits": 3.0,
+      "total_seconds": 0.09879069990711287,
+      "network_sha256": {
+        "actor": "1bbb0b867f16c3902eb78342c95acfae2c27b70268cd71aeec0ab2ee46c55106",
+        "q1": "239d81622e6c27efb1b617a221200208d9921bdac29a1d5efe73c2ffa1858c52",
+        "q2": "f255f833f8adbd9c1efd6c8d7a701942138c7516a222b1fed5903c6a8614e8de",
+        "target_q1": "284142e7314598dba123dc7887c33c1b2e93d168d4d651b6de2d3f1cd801c1e4",
+        "target_q2": "0eaa4a18d0e3b0da41f5702bf80b5f695c76091ef024ac632da9ec4a3ff5f78a"
+      }
+    },
+    {
+      "step": 2500,
+      "total": 32,
+      "successful": 32,
+      "success_rate": 1.0,
+      "initializable": 32,
+      "mesh_successful": 32,
+      "budget_mesh_successful": 32,
+      "mesh_score": -1.215030473990482,
+      "mean_penalized_edits": 3.0,
+      "total_seconds": 0.10698749995208345,
+      "network_sha256": {
+        "actor": "7fcb503c04bbeb203e3d2aee4a93f1a4876a769e28319a286ff07bebf20b7411",
+        "q1": "439f92d5c5bd9465913d17a559cc1a584a0fc7728e025724454be2071da21f55",
+        "q2": "68db2a00165ffc87f2b020d59072a33f19d61e19230a6436d389dde85de4ebec",
+        "target_q1": "0ca8ee9e3a1e67c4fc315a16ddc51ec565275eaa796d2009ae34f2bbe57a5650",
+        "target_q2": "3a4b2997424f4d88d6fbe738f8e4efa079f2c8212024c7406f29d7de5587bc6b"
+      }
+    },
+    {
+      "step": 3000,
+      "total": 32,
+      "successful": 32,
+      "success_rate": 1.0,
+      "initializable": 32,
+      "mesh_successful": 32,
+      "budget_mesh_successful": 32,
+      "mesh_score": -1.215030473990482,
+      "mean_penalized_edits": 3.0,
+      "total_seconds": 0.10494529991410673,
+      "network_sha256": {
+        "actor": "736a04db3f9588f41943e7769557bb9bf0a1ffd63c3d2da989c48a897d31b34e",
+        "q1": "d5ee1068635e3a03ffccca70a69b6e4aca22efc7749547ed78879c025c157884",
+        "q2": "7b37c8ad86c69ba64b04b6bc704cd793efd94e77ebf3e1ddb8b29287816e886c",
+        "target_q1": "0beed7909914a203922a1b90e93ce09d302604ad1d0ae9c1087b1d83bc1aaf2f",
+        "target_q2": "7d559db3b689980d2caf75e308e1b1b453d7efc18bb556ea85a42cf1392a2210"
+      }
+    },
+    {
+      "step": 3500,
+      "total": 32,
+      "successful": 32,
+      "success_rate": 1.0,
+      "initializable": 32,
+      "mesh_successful": 32,
+      "budget_mesh_successful": 32,
+      "mesh_score": -1.215030473990482,
+      "mean_penalized_edits": 3.0,
+      "total_seconds": 0.1118184000661131,
+      "network_sha256": {
+        "actor": "2c676962f5a2974002c21700c31e64128bc4c27714ec8d97f9600251c39b529a",
+        "q1": "c764f839cdacd3a0fd513e28578711c203c29e1010471b051054745b4e8a1f4d",
+        "q2": "f53c5b65ae827160bf8ee13db9d3949de31203308013af2428c81d771161809e",
+        "target_q1": "a0853c6bf8f7c5d153bda70af180ef1d25fe311c199325b78e152e9d12f1c875",
+        "target_q2": "cd0739426349182e9b1cd2804360e4b49f7193ed04348290f3cfcba66c531c43"
+      }
+    },
+    {
+      "step": 4000,
+      "total": 32,
+      "successful": 32,
+      "success_rate": 1.0,
+      "initializable": 32,
+      "mesh_successful": 32,
+      "budget_mesh_successful": 32,
+      "mesh_score": -1.215030473990482,
+      "mean_penalized_edits": 3.0,
+      "total_seconds": 0.10779659997206181,
+      "network_sha256": {
+        "actor": "be5bc0231b9890b0927bb086796e1211c73aa62cb2fc45c32752dee5f0d13e0f",
+        "q1": "3192c7b924a2d47ede0300210c83d6472efe8fc47ca88f8d76e904be2045b612",
+        "q2": "48f5f69f95ac4d5b097eba038d7897196bd9692ed8d3692ad66a08a36e187acf",
+        "target_q1": "135759c733acbf6fe780025abd476fce7baeaf3cf91c06fe25731323b14e3876",
+        "target_q2": "09bcc8957280d9bc7834c64cb82a225851e2116e9e1ba31f134bbc7f7a8d14e3"
+      }
+    }
+  ],
+  "best_step": 1000,
+  "final_step": 4000,
+  "checkpoints": {
+    "best.pt": "c4e184a641091c4be9b9b990e26445454fa76a175b875c85911105a873e611f9",
+    "final.pt": "0cbfa522267b18f0cb9e9f3d3a0f332b2dccb16b539471ebbfe53fe2b769d0b3"
+  }
+}

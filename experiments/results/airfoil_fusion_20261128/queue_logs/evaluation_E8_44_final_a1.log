@@ -1,0 +1,14 @@
+eval E8 seed=44 final 8/90
+eval E8 seed=44 final 16/90
+eval E8 seed=44 final 24/90
+eval E8 seed=44 final 32/90
+eval E8 seed=44 final 40/90
+eval E8 seed=44 final 48/90
+eval E8 seed=44 final 56/90
+eval E8 seed=44 final 64/90
+eval E8 seed=44 final 72/90
+eval E8 seed=44 final 80/90
+eval E8 seed=44 final 88/90
+eval E8 seed=44 final 90/90
+eval E8_44_final resumed 49/90 sealed case receipts
+{"total": 90, "successful": 1, "success_rate": 0.011111111111111112, "initializable": 90, "mesh_successful": 1, "budget_mesh_successful": 1, "mesh_score": -1.2435112811207705, "mean_penalized_edits": 31.677777777777777, "total_seconds": 11003.617175199965}

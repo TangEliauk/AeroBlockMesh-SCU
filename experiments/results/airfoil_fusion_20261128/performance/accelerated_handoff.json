@@ -1,0 +1,97 @@
+{
+  "phase": "accelerated_formal_supervisor_running",
+  "requested_at_utc": "2026-11-27T10:02:06.145254+00:00",
+  "existing_session": 28958,
+  "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402",
+  "protocol_source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+  "first_steps": 4000,
+  "extension_steps": 8000,
+  "production_geometry_shards_gate_sha256": "20e3f0f451d3c72edec44fe267f9d398dec8723152318c2e8402cd84530701cd",
+  "acceleration_gates": {
+    "activation_gate": "46aa2ba769de388550a80dabfa1275443a259bc7be13a4c5d4922cda6f526e7e",
+    "compact_cache": "0ba8128c95e7a6c3513cbbe24bce90fb3eb1651b0dd709a5f7b6e1a8dd345bbf",
+    "online_memo": "50d938509c330453e66f6026fd9ee548e332f5c3de0e27363a47b0f820b6f82f",
+    "compact_parallel_gate": "490514aa1a5ad7649bf38ed435f475f6bdfbaa24d8eac014dcade2693f071ef0"
+  },
+  "launcher_files": {
+    "run_airfoil_fusion_accelerated.py": "2ca2e9dcd90ea6298fff19e2bba371c37695d77c6ce13585522d62e29857ff08",
+    "fusion_validation_cache.py": "72ddd84ca5fc0d5accb853e7fc9f48d08d79770514a9b53b6951f55fa8022228",
+    "fusion_geometry_cache.py": "110a1a907fde4938aca3c505ec9a08958d35681f91140a52d408254a94e57802"
+  },
+  "online_interactions_replayed": 24,
+  "validation_workers": 1,
+  "queue_workers": 3,
+  "test_protocol": "same frozen matrix, training gate, holdout and SU2 procedure; evaluation E8 uses geometry memo",
+  "isolated_seed44_session": 26688,
+  "isolated_seed44_checkpoint_dir": "experiments/runs/airfoil_fusion_e8_acceleration_handoff",
+  "checked_core_regression": {
+    "passed": 4,
+    "deselected": 5,
+    "suite": "tests/test_airfoil_fusion.py",
+    "coverage": [
+      "resume parity",
+      "holdout lock",
+      "paired denominator",
+      "guard oracle"
+    ]
+  },
+  "current_online_speed_evidence": "isolated E8 seed 44 resumed and subsequently logged transitions",
+  "old_e8": {
+    "step": 3117,
+    "checkpoint_sha256": "46f90a3c67a14aa7bfb334bb7ba7bb822fb66763b98c45fde4f7e8e46829d0c0",
+    "binding": {
+      "arm": "E8",
+      "seed": 44,
+      "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402",
+      "teachers_sha256": "7eedbda79027b46791a894419bf29348777416109caadacaebe0cc076cb19a22",
+      "bc_sha256": "be280f11da7c4a5ff3ed35747a01a1aae6c30b7bba543e98f504bb301a8db0d6"
+    }
+  },
+  "replayed_e8": {
+    "step": 3319,
+    "checkpoint_sha256": "4b23e99ebb42a280a992d25327eacc602d25ac924547e44261b311b68706faa1",
+    "binding": {
+      "arm": "E8",
+      "seed": 44,
+      "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402",
+      "teachers_sha256": "7eedbda79027b46791a894419bf29348777416109caadacaebe0cc076cb19a22",
+      "bc_sha256": "be280f11da7c4a5ff3ed35747a01a1aae6c30b7bba543e98f504bb301a8db0d6"
+    }
+  },
+  "other_checkpoints": {
+    "E4a_seed44": {
+      "step": 1500,
+      "checkpoint_sha256": "dceaf942fd1f3ea2d9a18286fc1b519b1eeeb457dbffe39438264b9db9328a36",
+      "binding": {
+        "arm": "E4a",
+        "seed": 44,
+        "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402"
+      }
+    },
+    "E6_seed44": {
+      "step": 1000,
+      "checkpoint_sha256": "370ede7b7eb07710d23b3bd237e4ac20120dd27a5e785483e1ccb111961b0d59",
+      "binding": {
+        "arm": "E6",
+        "seed": 44,
+        "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402"
+      }
+    }
+  },
+  "promoted_e7": {
+    "step": 0,
+    "checkpoint_sha256": "823d9d452c0b2d0fddd5fab7dd4aa83e9fc5181cf15b704af12b85f7cf7bad45",
+    "binding": {
+      "arm": "E7",
+      "seed": 44,
+      "prepared_sha256": "f1eaa61a642ba06028314af3f868c0a9c5c8c28d7e483a37232aefb27388a402",
+      "teachers_sha256": "7eedbda79027b46791a894419bf29348777416109caadacaebe0cc076cb19a22",
+      "bc_sha256": "be280f11da7c4a5ff3ed35747a01a1aae6c30b7bba543e98f504bb301a8db0d6"
+    }
+  },
+  "original_queue_sha256": "cf12295a5bf375957efc180159f1fcfa23b099e9b96706c4ccc125e048ba21af",
+  "promoted_at_utc": "2026-11-27T10:21:18.113184+00:00",
+  "replacement_session_id": 47423,
+  "isolated_e7_session": 48136,
+  "switched_at_utc": "2026-11-27T10:22:18.554511+00:00"
+}
