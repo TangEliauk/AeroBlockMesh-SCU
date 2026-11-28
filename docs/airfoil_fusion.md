@@ -13,7 +13,7 @@
 PowerShell
 
 ```powershell
-git clone --branch codex/airfoil-fusion-reproducible git@github.com:TangEliauk/AeroBlockMesh-SCU.git
+git clone --branch tgx git@github.com:TangEliauk/AeroBlockMesh-SCU.git
 Set-Location AeroBlockMesh-SCU
 py -3.11 -m venv .venv
 $fusionPython = '.\.venv\Scripts\python.exe'
@@ -26,7 +26,7 @@ $fusionPython = '.\.venv\Scripts\python.exe'
 Linux shell
 
 ```sh
-git clone --branch codex/airfoil-fusion-reproducible git@github.com:TangEliauk/AeroBlockMesh-SCU.git
+git clone --branch tgx git@github.com:TangEliauk/AeroBlockMesh-SCU.git
 cd AeroBlockMesh-SCU
 python3.11 -m venv .venv
 . .venv/bin/activate
