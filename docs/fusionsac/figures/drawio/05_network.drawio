@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="FusionSAC 离散候选网络">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1040" pageHeight="736">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="heading" value="05   FusionSAC 离散候选网络" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;text;align=left;verticalAlign=middle;fontStyle=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="20" y="8" width="1000" height="28" />
+        </mxCell>
+        <mxCell id="z0" value="" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=0;fillColor=#F7FAFC;strokeColor=#DDE5EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="54" width="996" height="312" />
+        </mxCell>
+        <mxCell id="z1" value="" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=0;fillColor=#F7FAFC;strokeColor=#DDE5EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="388" width="996" height="281" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="node" target="h">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="global" target="g">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="geometry" target="p">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="h" target="fuse">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="634" y="126.5" />
+              <mxPoint x="634" y="217.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="g" target="fuse">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="634" y="209.5" />
+              <mxPoint x="634" y="217.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="p" target="fuse">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="634" y="292.5" />
+              <mxPoint x="634" y="217.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;" parent="1" edge="1" source="c" target="fuse">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;" parent="1" edge="1" source="fuse" target="score">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="q" target="target">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;" parent="1" edge="1" source="actor" target="policy">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;" parent="1" edge="1" source="q" target="loss">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=0;" parent="1" edge="1" source="target" target="bellman">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e12" style="edgeStyle=segmentEdgeStyle;rounded=0;endArrow=block;endFill=1;strokeColor=#4F6575;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=0;" parent="1" edge="1" source="actor" target="loss">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="352" y="483" />
+              <mxPoint x="352" y="596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="node" value="半边特征 [B, 256, 32]&#10;next / previous / twin [B, 256]" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF4F8;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="94" width="240" height="65" />
+        </mxCell>
+        <mxCell id="global" value="全局特征 [B, 12]&#10;几何与拓扑状态分开编码" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF4F8;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="177" width="240" height="65" />
+        </mxCell>
+        <mxCell id="geometry" value="翼型几何 [B, 18]&#10;E5–E8 启用几何分支" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF4F8;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="260" width="240" height="65" />
+        </mxCell>
+        <mxCell id="h" value="Linear 32→64 + GELU&#10;2 × 消息层 256→64 + GELU + 残差 + LN" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF4F8;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="94" width="304" height="65" />
+        </mxCell>
+        <mxCell id="g" value="Linear 12→64 + GELU&#10;拼接半边 mean/max 池化，得到 192 维" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF4F8;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="177" width="304" height="65" />
+        </mxCell>
+        <mxCell id="p" value="Linear 18→64&#10;LayerNorm + GELU" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF4F8;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="260" width="304" height="65" />
+        </mxCell>
+        <mxCell id="c" value="逐候选特征 [B, K, 16]&#10;端点索引 [B, K, 2] · 合法掩码 [B, K]" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EDF4F8;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="656" y="94" width="341" height="65" />
+        </mxCell>
+        <mxCell id="fuse" value="合法候选拼接 401 / 337 维&#10;端点 128 + 上下文 192 + 候选 16 + STOP 1 [+ 64]" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DDECF4;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="656" y="185" width="341" height="65" />
+        </mxCell>
+        <mxCell id="score" value="Linear 401/337→64→1&#10;隐藏层 GELU · 每候选输出一个标量" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DDECF4;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="656" y="275" width="341" height="65" />
+        </mxCell>
+        <mxCell id="actor" value="Actor&#10;合法行 masked softmax → π(a|s)" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DDECF4;strokeColor=#235979;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="446" width="287" height="74" />
+        </mxCell>
+        <mxCell id="q" value="Critic Q₁、Q₂&#10;各自独立的候选评分网络" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F7F1E9;strokeColor=#A25128;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="375" y="446" width="287" height="74" />
+        </mxCell>
+        <mxCell id="target" value="目标 Critic Q̄₁、Q̄₂&#10;Critic 的指数移动平均 · τ = 0.005" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F7F1E9;strokeColor=#A25128;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="710" y="446" width="287" height="74" />
+        </mxCell>
+        <mxCell id="policy" value="离散选择&#10;训练抽样 · 评估合法 argmax" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E9F3EF;strokeColor=#227A70;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="559" width="287" height="74" />
+        </mxCell>
+        <mxCell id="loss" value="策略损失&#10;π 对 α log π − min(Q₁,Q₂) 求期望" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F7F1E9;strokeColor=#A25128;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="375" y="559" width="287" height="74" />
+        </mxCell>
+        <mxCell id="bellman" value="Soft Bellman 目标&#10;终止仅用即时奖励 · γ = 0.99" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F7F1E9;strokeColor=#A25128;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="710" y="559" width="287" height="74" />
+        </mxCell>
+        <mxCell id="l0" value="K 为批内最长候选列表（容量上界 4,481）。STOP 端点嵌入为零，LN 表示 LayerNorm。" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;text;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="42" y="641" width="750" height="20" />
+        </mxCell>
+        <mxCell id="l1" value="单个候选评分网络，每套独立参数" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;text;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="34" y="60" width="750" height="20" />
+        </mxCell>
+        <mxCell id="l2" value="独立网络实例与离散 SAC 更新" style="fontFamily=Microsoft YaHei;fontColor=#1D3245;text;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="34" y="394" width="750" height="20" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

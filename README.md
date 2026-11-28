@@ -8,6 +8,7 @@
 
 FusionSAC 用带合法动作掩码的离散 SAC 选择切割、共享边插点和 STOP，自动生成翼型分块拓扑。通过验证的终图用于生成 1,536 和 5,120 单元两档 TFI 网格。仓库内提供正式评估、封存权重和从训练到 SU2 的完整复现流程。
 
+- [FusionSAC 模型训练说明与 18 组科研插图](docs/fusionsac/README.md)
 - [从 tgx 复现训练、评估和 CFD](docs/airfoil_fusion.md)
 - [正式结果、封存权重和单例复算](experiments/results/airfoil_fusion_20261128/README.md)
 - [本地方案与 GitHub CH-SAC v2 的实现对照](docs/airfoil_fusion_audit.md)

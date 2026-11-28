@@ -1,0 +1,576 @@
+{
+  "schema": "fusionsac_public_figure_manifest_v1",
+  "dataset": "airfoil_fusion_20261128",
+  "formal_run": "airfoil_fusion_formal_v2",
+  "frozen_source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+  "training_note": {
+    "docx": {
+      "path": "FusionSAC 模型训练说明 V1.0.docx",
+      "sha256": "f6f9a7a6ba1b831b0322cb74fbc78d80f83bac8c6dcfc83d6fa36cf8b050f070"
+    },
+    "pdf": {
+      "path": "FusionSAC 模型训练说明 V1.0.pdf",
+      "sha256": "4f263bbd97e8be810677e84df20696766734a9944b5d30d7aa3c3071e83a56ee"
+    }
+  },
+  "overview": {
+    "path": "figures/科研插图总览.pdf",
+    "sha256": "533717ad3b979f3d9a4c079b6c1bd0697f8c18765a06fef4d931e0e900b68a8d",
+    "pages": 19,
+    "page_size": "A4"
+  },
+  "figures": [
+    {
+      "number": 1,
+      "title": "FusionSAC 总体研究框架",
+      "caption": "FusionSAC 对翼型坐标归一化，构建 C 型域与固定近壁保护带。策略结合 18 维几何特征与半边拓扑状态，从合法候选中选择离散动作。经核验的教师示范用于行为克隆，在线 SAC 使用经验回放和双 Critic。STOP 确认的四边化终态用于两档 TFI 网格与 SU2 验证，低分辨率 TFI 提供独立的终局质量反馈。",
+      "files": {
+        "png": {
+          "path": "figures/01_方法原理与模型架构/01_framework.png",
+          "sha256": "5408f81caabb5178c18f9336eb8e5167b7db43f1ed2db9f045bce95a77481b89"
+        },
+        "pdf": {
+          "path": "figures/01_方法原理与模型架构/01_framework.pdf",
+          "sha256": "fd9410fcf3c677e0e348b86ce77f253ae1ccc67813c37bc8038e12c0b3ff3fd4"
+        },
+        "svg": {
+          "path": "figures/01_方法原理与模型架构/01_framework.svg",
+          "sha256": "c7debfe7c7eadaa50a7d04b4be2fbfb8079db0d1f5e602109eac74d531941d99"
+        }
+      },
+      "editable_sources": [
+        {
+          "path": "figures/drawio/01_framework.drawio",
+          "sha256": "e9093253d4723a0d4a20a769bfafbac1fa647f989be6329367744ab164d0d34a"
+        }
+      ],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/rollout.py",
+        "src/smartcfd/airfoil_fusion/env.py",
+        "src/smartcfd/airfoil_fusion/learning.py",
+        "src/smartcfd/airfoil_fusion/train.py",
+        "src/smartcfd/airfoil_fusion/mesh.py",
+        "src/smartcfd/airfoil_fusion/cfd.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/config.json",
+        "experiments/results/airfoil_fusion_20261128/source.json"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "翼型预处理与初始计算域",
+      "caption": "以冻结留出翼型 n5h20 为例，将原始坐标去重并整成单位弦轮廓。C 型外域沿尾迹接缝展开成 UV 域，v=0.5 将固定的四个近壁保护块与待分解十边形隔开。A–C 对照物理和 UV 中的同名节点。",
+      "files": {
+        "png": {
+          "path": "figures/01_方法原理与模型架构/02_geometry.png",
+          "sha256": "dfa84d2c80609d7be3566a4916244be4f4c0cda522e76384e90237d7e2fee937"
+        },
+        "pdf": {
+          "path": "figures/01_方法原理与模型架构/02_geometry.pdf",
+          "sha256": "e57279458f5d508aa3d1d48c6f2fa60d9e8e8bab3f40905bb377777461d0b98f"
+        },
+        "svg": {
+          "path": "figures/01_方法原理与模型架构/02_geometry.svg",
+          "sha256": "7baa843fd92897685b7398d25f9f1db0a089e90fc9bb22c91df06778f0b6e4b6"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_decomposition/geometry.py",
+        "src/smartcfd/geometry/domain.py",
+        "src/smartcfd/partition/topology.py",
+        "configs/airfoil_decomposition.yaml"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation_cases.json",
+        "experiments/results/airfoil_fusion_20261128/config.json"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "自动分块 MDP",
+      "caption": "使用 E7 seed 42 第 0 步最佳权重在 n5h20 上的第一次决策。状态包含半边图、全局特征、翼型几何及候选特征。橙线为所选合法切割，奖励为步代价加拓扑势差。共享边插点更新相邻面，显式 STOP 需完成四边化和精查。E8 对有不可完成证明的候选施加额外筛选。",
+      "files": {
+        "png": {
+          "path": "figures/01_方法原理与模型架构/03_mdp.png",
+          "sha256": "cac33fd2ddd811dbc7450efcf47487263407a93aca2e45de45d556d2aa2e9532"
+        },
+        "pdf": {
+          "path": "figures/01_方法原理与模型架构/03_mdp.pdf",
+          "sha256": "aaee80a5695c008070c50ef4cdb67e704c40ba516982172f4c25b450d504b359"
+        },
+        "svg": {
+          "path": "figures/01_方法原理与模型架构/03_mdp.svg",
+          "sha256": "1ebefeb74810d63ca1afc0a9541fafbe8d5727d5adacedde9051bba74d4ad6db"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/env.py",
+        "src/smartcfd/airfoil_fusion/rollout.py",
+        "src/smartcfd/airfoil_decomposition/env.py",
+        "src/smartcfd/airfoil_decomposition/guard.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation/replay_witness.json",
+        "experiments/results/airfoil_fusion_20261128/config.json"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "BlockGraph 与拓扑操作",
+      "caption": "图中同时展示顶点、面环、共享接口与反向 twin。切割采用封存决策，插点来自第一次切割后实际合法候选预览，F4 和 F5 引用同一新增顶点。橙色叉号标出约束拒绝的保护界面编辑示意。终图需满足四边形、拓扑一致与物理几何约束。",
+      "files": {
+        "png": {
+          "path": "figures/01_方法原理与模型架构/04_blockgraph.png",
+          "sha256": "afce234c60449da1d6a98796b60558b229e085266ad214e21edaf0a34447a616"
+        },
+        "pdf": {
+          "path": "figures/01_方法原理与模型架构/04_blockgraph.pdf",
+          "sha256": "ddee583ffc6ac84aaec60ef59b8e6ff1f80800643b8309f8c07c20fd41708fe5"
+        },
+        "svg": {
+          "path": "figures/01_方法原理与模型架构/04_blockgraph.svg",
+          "sha256": "6160d95db4a7581cd97012982dc48ce4124224b0f38fd75d5dea620372cefb8f"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/core/types.py",
+        "src/smartcfd/partition/topology.py",
+        "src/smartcfd/partition/transition.py",
+        "src/smartcfd/partition/constraints.py",
+        "src/smartcfd/airfoil_decomposition/geometry.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation/replay_witness.json",
+        "experiments/results/airfoil_fusion_20261128/config.json"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "FusionSAC 离散候选网络",
+      "caption": "Actor 和各 Critic 各自编码输入，并为每个候选输出一个标量。两层半边消息利用 next、previous 与 twin，半边均值、最大值及全局投影构成 192 维上下文。几何分支包含厚度、弯度、位置与尾缘量。E4a 关闭几何分支，E4 采用 FIFO 候选策略。Actor 在合法候选上计算分类分布，双目标 Critic 由在线 Critic 软更新。",
+      "files": {
+        "png": {
+          "path": "figures/01_方法原理与模型架构/05_network.png",
+          "sha256": "19e1d84cecfe554c38736855dd8143bca5fff67c041cff50f000b38367ee2918"
+        },
+        "pdf": {
+          "path": "figures/01_方法原理与模型架构/05_network.pdf",
+          "sha256": "7a602a2bdefed199be3ff0fe63575f900c8de3e370d8fba6ed69b1640e9126aa"
+        },
+        "svg": {
+          "path": "figures/01_方法原理与模型架构/05_network.svg",
+          "sha256": "9a756433536b287fc7134c526a4ab5fbc135abec1eaa112bb7fa68846591ff69"
+        }
+      },
+      "editable_sources": [
+        {
+          "path": "figures/drawio/05_network.drawio",
+          "sha256": "6a164e0684076b1838db9dc63d62b2ee1a61150284fb625e655fe6bd06ce3ce3"
+        }
+      ],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/learning.py",
+        "src/smartcfd/airfoil_fusion/env.py",
+        "src/smartcfd/airfoil_decomposition/learning.py",
+        "src/smartcfd/rl/agents/policy.py",
+        "src/smartcfd/rl/agents/sac.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/source.json",
+        "experiments/results/airfoil_fusion_20261128/training_matrix.json"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "BC 预训练与离散 SAC 训练",
+      "caption": "训练集教师筛出 124 条合法示范，覆盖 496 个动作。E5 完成 1,000 次 BC 更新；E7/E8 载入同种子 E5 final Actor，并在示范回放上预热 Critic 128 次。E6 冷启动并执行合法随机预热；E8 附加保守筛选。E6–E8 合法动作数大于 1 时可更新温度。best 仅由开发集选择。",
+      "files": {
+        "png": {
+          "path": "figures/01_方法原理与模型架构/06_bc_sac.png",
+          "sha256": "536be22382a8c996ce48a20cd172b786c3fb08138277951f75223b52b1cac5cc"
+        },
+        "pdf": {
+          "path": "figures/01_方法原理与模型架构/06_bc_sac.pdf",
+          "sha256": "17a51169534d9597e6d5edf0ea45327b703e0672e93477a8ccf1082228720120"
+        },
+        "svg": {
+          "path": "figures/01_方法原理与模型架构/06_bc_sac.svg",
+          "sha256": "9b2c3206a87d49f957db90a8b7abe7002a47da7efd3927a2c3901784b782d461"
+        }
+      },
+      "editable_sources": [
+        {
+          "path": "figures/drawio/06_bc_sac.drawio",
+          "sha256": "60ad4fa179b0b39410ce5410c5bfae732e56c5c509bea6fe4ccea84a90dce75f"
+        }
+      ],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/teachers.py",
+        "src/smartcfd/airfoil_fusion/train.py",
+        "src/smartcfd/airfoil_fusion/learning.py",
+        "src/smartcfd/rl/agents/sac.py",
+        "src/smartcfd/airfoil_fusion/rollout.py",
+        "configs/airfoil_fusion.yaml"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/teachers/manifest.json",
+        "experiments/results/airfoil_fusion_20261128/config.json",
+        "experiments/results/airfoil_fusion_20261128/training_matrix.json"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "多随机种子开发验证曲线",
+      "caption": "各组使用 42–46 五个种子，每个检查点在 32 个冻结开发翼型上验证。粗线和阴影为种子均值与样本标准差，细线为单种子，短竖线标出各自 best。第 0 步保留 BC 迁移及 Critic 预热后的表现。曲线按真实检查点相连；E7/E8 的下降和恢复均可见。",
+      "files": {
+        "png": {
+          "path": "figures/02_模型训练与性能分析/07_learning_curves.png",
+          "sha256": "3310ae120c0a806a1425957d3f4e6891c3e50205534707d79c72a29f54ba7614"
+        },
+        "pdf": {
+          "path": "figures/02_模型训练与性能分析/07_learning_curves.pdf",
+          "sha256": "71496ae1fd668d0d874fc47c64751d7ae36497f3102297ea01d30d7c13436b5c"
+        },
+        "svg": {
+          "path": "figures/02_模型训练与性能分析/07_learning_curves.svg",
+          "sha256": "e717c9186d741b7f761bc6944a933b5822257d03e8b6373d030f679859cd18c6"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/train.py",
+        "src/smartcfd/airfoil_fusion/rollout.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/training_matrix.json",
+        "experiments/results/airfoil_fusion_20261128/arms/E7_seed42/completion.json",
+        "experiments/results/airfoil_fusion_20261128/report/evaluation_metrics.json"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "训练内部指标",
+      "caption": "在线指标以 200 步窗口、纯 BC 以 50 更新窗口先做种子内均值，再对有记录的种子等权汇总。E4/E4a 的 α=0.01 为固定超参数。Q(s,a) 未单独保存，(g) 展示实际记录的 Bellman 目标均值。在线失败率以窗口内完成的回合为分母，预检查排除另计。",
+      "files": {
+        "png": {
+          "path": "figures/02_模型训练与性能分析/08_training_metrics.png",
+          "sha256": "80b88bd4f2ff120b1376b2b55e902f64d741705c2cc9927d6eb05a976c0af3d6"
+        },
+        "pdf": {
+          "path": "figures/02_模型训练与性能分析/08_training_metrics.pdf",
+          "sha256": "433ae5d104a80d2e79f2435327dcd846a96db95de4395f6227c2351c5409c22a"
+        },
+        "svg": {
+          "path": "figures/02_模型训练与性能分析/08_training_metrics.svg",
+          "sha256": "275e0c09b03ad4c0fc3d6c58f868661418b54b612f5985e16ffd634378794bfb"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/train.py",
+        "src/smartcfd/airfoil_fusion/learning.py",
+        "src/smartcfd/rl/agents/sac.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/report/training_diagnostics.json",
+        "experiments/results/airfoil_fusion_20261128/report/report.md"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "独立测试算法对比",
+      "caption": "以每个种子 90 个同家族冻结留出翼型为分母。E1/E3 各一次，E2 与学习组各五种子。成功分块、终图合法与预算内有效制网分别计数。粗档与细档的预算容差均为 ±5%。规则组没有模型检查点；E5 best/final 对应同一轮纯 BC。",
+      "files": {
+        "png": {
+          "path": "figures/02_模型训练与性能分析/09_algorithm_comparison.png",
+          "sha256": "adb6d6e33f5c0637e7ad5c24cf8295d27e6d5b5e8dd194ee6ce8f59eec48f54e"
+        },
+        "pdf": {
+          "path": "figures/02_模型训练与性能分析/09_algorithm_comparison.pdf",
+          "sha256": "09db4485b1e38658286b0a59387a22ead5cbf7d170094d06b6b5b2da2edd6af2"
+        },
+        "svg": {
+          "path": "figures/02_模型训练与性能分析/09_algorithm_comparison.svg",
+          "sha256": "e00608ff9e00ad32f621764689cd5ee7b767c329ab399ee4fad01ac2d4e9887d"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/evaluate.py",
+        "src/smartcfd/airfoil_fusion/mesh.py",
+        "src/smartcfd/airfoil_fusion/report.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation/summary.json",
+        "experiments/results/airfoil_fusion_20261128/report/evaluation_metrics.json"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "消融与样本效率",
+      "caption": "积分均值为 0–4,000 步梯形积分除以步数，含第 0 步初始化。在线耗时为逐步环境交互计时之和，含筛选和奖励制网，梯度更新、验证和检查点耗时另计。六组配对的最佳权重分块成功率差均为 0 个百分点；每组粗、细档分别有 450 和 445 对匹配网格。",
+      "files": {
+        "png": {
+          "path": "figures/02_模型训练与性能分析/10_ablation_efficiency.png",
+          "sha256": "6fd6299c2a8133d6d0520fe564a608ad62fcbb604e4523a48328b217ad5b4448"
+        },
+        "pdf": {
+          "path": "figures/02_模型训练与性能分析/10_ablation_efficiency.pdf",
+          "sha256": "e81bf1d7d66ff10e5f6e3fcba6431f0fb0ab2b0dfa8e530d3798327b21934899"
+        },
+        "svg": {
+          "path": "figures/02_模型训练与性能分析/10_ablation_efficiency.svg",
+          "sha256": "0253ce8b77d54023708e30cc8b0bec023983f7306cf9c40fe2539b0491024f9d"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/evaluate.py",
+        "src/smartcfd/airfoil_fusion/train.py",
+        "src/smartcfd/airfoil_fusion/report.py",
+        "docs/airfoil_fusion_performance.md"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/report/evaluation_metrics.json",
+        "experiments/results/airfoil_fusion_20261128/report/training_diagnostics.json"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "初始化后的策略退化与恢复",
+      "caption": "E7·42、E8·43 在第 500 步由 32/32 降至 0/32，于 1,000 步恢复。E8·44 在 4,000 步降至 0/32，独立测试 final 仅 1/90；E4a·43 final 为 0/90。首候选比较使用同一翼型的完整动作描述，动作构成计入所有决策。E8·44 首候选未变，尚无证据判定退化原因。",
+      "files": {
+        "png": {
+          "path": "figures/02_模型训练与性能分析/11_policy_regression.png",
+          "sha256": "efe34889bada6fbce3458e6660e9a02904841bb9570c55517c573a9b05858026"
+        },
+        "pdf": {
+          "path": "figures/02_模型训练与性能分析/11_policy_regression.pdf",
+          "sha256": "29926c7e63d28a31ac482521af754727c154248e9451083bca12fa12c60ca711"
+        },
+        "svg": {
+          "path": "figures/02_模型训练与性能分析/11_policy_regression.svg",
+          "sha256": "10230ac4619d827b188bef44e39df117d39b195dd8d28ca4239c537b0f99e366"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/report.py",
+        "src/smartcfd/airfoil_fusion/rollout.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/report/training_diagnostics.json",
+        "experiments/results/airfoil_fusion_20261128/report/evaluation_metrics.json"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "真实策略逐步自动分块",
+      "caption": "E7 seed 42 best 在 n5h20 上依次执行三次切割及一次显式 STOP。每张 UV 图标注块数、候选行与即时奖励，前三次编辑将外域由一个十边形分为四个四边形。最后展示同一终图生成的 1,536 单元物理网格局部。",
+      "files": {
+        "png": {
+          "path": "figures/03_自动分块与网格生成/12_trajectory.png",
+          "sha256": "e40b9a6852257f6f075068e2aecc6b837a69ad0fb38129fd4bfe8204e750643d"
+        },
+        "pdf": {
+          "path": "figures/03_自动分块与网格生成/12_trajectory.pdf",
+          "sha256": "4c1a14f0384d2b8d2ef293b76cd582bcb120f7233a6c3c4a7a40390d6609b196"
+        },
+        "svg": {
+          "path": "figures/03_自动分块与网格生成/12_trajectory.svg",
+          "sha256": "c23cf50d5f494c8570a549ee96c9aedc277e02b82f9f72640cc53395b09215b6"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/rollout.py",
+        "src/smartcfd/airfoil_fusion/env.py",
+        "src/smartcfd/airfoil_fusion/mesh.py",
+        "src/smartcfd/meshing/generator.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation/replay_witness.json",
+        "experiments/results/airfoil_fusion_20261128/arms/E7_seed42/best.pt"
+      ]
+    },
+    {
+      "number": 13,
+      "title": "典型翼型与终图对比",
+      "caption": "选取 n5h20（较厚）、n0011sc（近对称）、m8（弯度较大）三条真实轮廓，展示 E1/E4/E5/E6/E7/E8 的对应终图。全域及其放大视窗分别共用坐标范围。三者同属 90 个正式测试翼型所在的一个连通家族，所示终图经规范化后与 E1 一致。形状差异用于展示家族内适应。",
+      "files": {
+        "png": {
+          "path": "figures/03_自动分块与网格生成/13_topology_comparison.png",
+          "sha256": "94216647d43265e236957e45f4a1b9fb1dd1e5e01671e0389e54401da6e8f4ed"
+        },
+        "pdf": {
+          "path": "figures/03_自动分块与网格生成/13_topology_comparison.pdf",
+          "sha256": "c4801249cfd4bfc1d2fc44127a3bb98ae1c467774d79d5a4a4ed5b2cd9f766fa"
+        },
+        "svg": {
+          "path": "figures/03_自动分块与网格生成/13_topology_comparison.svg",
+          "sha256": "102eeae40e3c7b8665d95ed300ea8c0ce907993a088aedc1156fe229bc01f9af"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/evaluate.py",
+        "src/smartcfd/airfoil_fusion/report.py",
+        "src/smartcfd/partition/topology.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation_cases.json",
+        "experiments/results/airfoil_fusion_20261128/report/topology_diversity.json"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "两档 TFI 网格与局部细节",
+      "caption": "同一封存终图按正式 1,536 与 5,120 预算生成。六对视窗依次为全域、翼型、前缘、尾缘、保护带和共享接口。两档使用一致的坐标范围和线宽。橙线在保护带面板标出保护块外缘，在接口面板标出外域块 b5 与保护块 b0 的共形边界。",
+      "files": {
+        "png": {
+          "path": "figures/03_自动分块与网格生成/14_tfi_meshes.png",
+          "sha256": "6265f9baed648ee8c23a58f0c9e80cf101b4cc527b3b5be2357cd6f29c57a068"
+        },
+        "pdf": {
+          "path": "figures/03_自动分块与网格生成/14_tfi_meshes.pdf",
+          "sha256": "604a2a1dfd964cefd1b4d85460f5178d9ec98621e08980e355d305a677203489"
+        },
+        "svg": {
+          "path": "figures/03_自动分块与网格生成/14_tfi_meshes.svg",
+          "sha256": "f9207d603bb36cd1e5ac8fe83f1f74ff7bbce58f41134a69ebe8bcc2c496c242"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/mesh.py",
+        "src/smartcfd/meshing/generator.py",
+        "src/smartcfd/meshing/tfi.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/report/figure_evidence.json",
+        "experiments/results/airfoil_fusion_20261128/evaluation/replay_witness.json"
+      ]
+    },
+    {
+      "number": 15,
+      "title": "网格质量与配对评价",
+      "caption": "E7·42 的粗细两档各有 90、89 个有效网格，展示最小和 P05 雅可比、近壁角 P10、远场长宽比、接口偏差和综合分。逐单元分布和制网投影取 n5h20；耗时每方法每档仅一个 CPU 样本。E7 与 E1 的配对要求同一翼型、同档有效且实际单元数差不超过目标 2%，跨种子重复翼型按配对记录计。",
+      "files": {
+        "png": {
+          "path": "figures/03_自动分块与网格生成/15_mesh_quality.png",
+          "sha256": "666249b4d8ffbc79cba287ecf7dcc2921214ab94092e4215bfee6e580def9d9f"
+        },
+        "pdf": {
+          "path": "figures/03_自动分块与网格生成/15_mesh_quality.pdf",
+          "sha256": "7c2b52f11527c8f1e78d51619ae599bc3e173e3ce8896b11f21765e50f118700"
+        },
+        "svg": {
+          "path": "figures/03_自动分块与网格生成/15_mesh_quality.svg",
+          "sha256": "a4ed83b26bd64c893f6fb5370ee56a8edc676483a53bf755fb96adf54ae0403b"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/mesh.py",
+        "src/smartcfd/airfoil_fusion/evaluate.py",
+        "src/smartcfd/airfoil_fusion/report.py",
+        "src/smartcfd/evaluation/jacobian.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation/summary.json",
+        "experiments/results/airfoil_fusion_20261128/report/evaluation_metrics.json"
+      ]
+    },
+    {
+      "number": 16,
+      "title": "网格质量奖励截断与饱和",
+      "caption": "30 条历史训练示范的低分辨率网格均有效，原始分为 −1.460 至 −1.326，截断后全部等于 −1。正式训练 E6/E7/E8 分别有 1,472/3,688/3,683 次终局质量反馈，全部触及 −1。在线记录只保存截断后的值，制网失败也可返回 −1。饱和限制了质量项的区分能力，其与策略退化的因果关系仍需实验检验。",
+      "files": {
+        "png": {
+          "path": "figures/04_CFD验证与局限性分析/16_reward_saturation.png",
+          "sha256": "001e953ff476749745035e09b508c55614b4ba1649412bbf1e154a65e6935c93"
+        },
+        "pdf": {
+          "path": "figures/04_CFD验证与局限性分析/16_reward_saturation.pdf",
+          "sha256": "d5ed2f4641ac4a4b17743ee0c20f8c8e095c20b3d9df572f447cd72b90659886"
+        },
+        "svg": {
+          "path": "figures/04_CFD验证与局限性分析/16_reward_saturation.svg",
+          "sha256": "19864dc5d7d3448e2cafd9c467a41d5ac2b0c526a7a465ba7ae06f798f2dd8c5"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/mesh.py",
+        "src/smartcfd/airfoil_fusion/env.py",
+        "src/smartcfd/airfoil_fusion/report.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/quality_reward_probe.json",
+        "experiments/results/airfoil_fusion_20261128/report/training_diagnostics.json"
+      ]
+    },
+    {
+      "number": 17,
+      "title": "真实失败算例与发生频率",
+      "caption": "展示在线预算耗尽、保守筛选证实不可完成、合法终图仍含非四边形及完成分块后细档制网失败。在线统计分母为实际终止的训练回合，不含预检查排除。独立评估每个种子 90 例，制网失败统计以成功分块且适用预算的记录为基础。",
+      "files": {
+        "png": {
+          "path": "figures/04_CFD验证与局限性分析/17_failures.png",
+          "sha256": "b021717de4fcb63578de50f7bd8d8a06190a8cb738847e42abf50a1b862f8537"
+        },
+        "pdf": {
+          "path": "figures/04_CFD验证与局限性分析/17_failures.pdf",
+          "sha256": "616ee6753aef48c9ca22a166691c6bb8e3430012403ef93f4f7b76a5b8efebcf"
+        },
+        "svg": {
+          "path": "figures/04_CFD验证与局限性分析/17_failures.svg",
+          "sha256": "05e3ddceaa91335a088c3a68791b2dde1b73b7cbb63425f9199724e70ec89405"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/env.py",
+        "src/smartcfd/airfoil_decomposition/guard.py",
+        "src/smartcfd/airfoil_fusion/evaluate.py",
+        "src/smartcfd/airfoil_fusion/report.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/evaluation/summary.json",
+        "experiments/results/airfoil_fusion_20261128/report/training_diagnostics.json"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "SU2 求解与联合收敛检查",
+      "caption": "解析尖尾缘 NACA0012 的六个 RANS 工况均完成 4,800 次迭代，Ma=0.15、Re=6×10⁶、攻角 10°。联合收敛要求至少 100 次迭代，最后 50 步密度残差均 ≤−9，CL 与 CD 极差分别 ≤10⁻⁵+10⁻⁴×|窗均值|。六个工况全部未达标；末步 Mach 场由真实重启守恒量重建，仅表示该次求解的末步。",
+      "files": {
+        "png": {
+          "path": "figures/04_CFD验证与局限性分析/18_su2.png",
+          "sha256": "0a222bfb75ff5db09a7dc6a972a867958f5350aa0328cc97f166510256b6a6f0"
+        },
+        "pdf": {
+          "path": "figures/04_CFD验证与局限性分析/18_su2.pdf",
+          "sha256": "41cf4cd94a514fff56e87c1d188db76e7a472b406d4cf28f8963b201452801ec"
+        },
+        "svg": {
+          "path": "figures/04_CFD验证与局限性分析/18_su2.svg",
+          "sha256": "e199516f4cfc8cbc49d1a6079a27b85640f2ea9ebd7a678096dd00fd0428fcb6"
+        }
+      },
+      "editable_sources": [],
+      "repository_sources": [
+        "src/smartcfd/airfoil_fusion/cfd.py",
+        "src/smartcfd/cfd/convergence.py"
+      ],
+      "public_evidence": [
+        "experiments/results/airfoil_fusion_20261128/cfd/summary.json",
+        "experiments/results/airfoil_fusion_20261128/supplemental_evidence.json"
+      ]
+    }
+  ]
+}

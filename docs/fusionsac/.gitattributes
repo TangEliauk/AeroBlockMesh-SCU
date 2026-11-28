@@ -1,0 +1,4 @@
+# Keep published asset hashes stable across checkouts.
+figures/** binary
+*.docx binary
+*.pdf binary
