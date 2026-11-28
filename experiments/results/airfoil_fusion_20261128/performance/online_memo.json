@@ -1,0 +1,74 @@
+{
+  "source_manifest_sha256": "7da4b4de942c5d9f454fe67a96eb3cf40c36019ed94d12d0db8292ded9323bae",
+  "online_memo": {
+    "passed": true,
+    "scope": "same logged action, state, reward, mask and guard proof",
+    "cache_sha256": "110a1a907fde4938aca3c505ec9a08958d35681f91140a52d408254a94e57802",
+    "records": [
+      {
+        "seed": 42,
+        "episode": 1,
+        "case": "uiuc_e36d312eefc87798",
+        "steps": 8,
+        "original": {
+          "wall": 45.57615639999858,
+          "cpu": 45.15625
+        },
+        "accelerated": {
+          "wall": 37.62987480001175,
+          "cpu": 37.09375
+        },
+        "hits": 652,
+        "misses": 2810
+      },
+      {
+        "seed": 42,
+        "episode": 2,
+        "case": "uiuc_887526ef7f766ec5",
+        "steps": 8,
+        "original": {
+          "wall": 51.30204009998124,
+          "cpu": 50.859375
+        },
+        "accelerated": {
+          "wall": 43.58076360000996,
+          "cpu": 43.15625
+        },
+        "hits": 701,
+        "misses": 3359
+      },
+      {
+        "seed": 43,
+        "episode": 1,
+        "case": "uiuc_13a61236139cba98",
+        "steps": 4,
+        "original": {
+          "wall": 11.119831700023497,
+          "cpu": 10.984375
+        },
+        "accelerated": {
+          "wall": 9.15472389999195,
+          "cpu": 9.09375
+        },
+        "hits": 292,
+        "misses": 1067
+      },
+      {
+        "seed": 43,
+        "episode": 2,
+        "case": "uiuc_b82e1720955295ff",
+        "steps": 4,
+        "original": {
+          "wall": 11.416231399984099,
+          "cpu": 11.34375
+        },
+        "accelerated": {
+          "wall": 9.527577000000747,
+          "cpu": 9.421875
+        },
+        "hits": 293,
+        "misses": 1067
+      }
+    ]
+  }
+}

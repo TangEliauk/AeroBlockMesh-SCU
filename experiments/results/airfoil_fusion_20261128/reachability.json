@@ -1,0 +1,1717 @@
+{
+  "passed": true,
+  "examples": [
+    {
+      "sample_id": "uiuc_c544693f3541459d",
+      "group_id": "grp_a1bee08e7f07f6db",
+      "traces": [
+        {
+          "method": "fixed",
+          "edits": 3,
+          "outer_blocks": 4,
+          "graph": {
+            "vertices": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.25,
+                0.0
+              ],
+              "2": [
+                0.5,
+                0.0
+              ],
+              "3": [
+                0.75,
+                0.0
+              ],
+              "4": [
+                1.0,
+                0.0
+              ],
+              "5": [
+                0.0,
+                0.5
+              ],
+              "6": [
+                0.25,
+                0.5
+              ],
+              "7": [
+                0.5,
+                0.5
+              ],
+              "8": [
+                0.75,
+                0.5
+              ],
+              "9": [
+                1.0,
+                0.5
+              ],
+              "10": [
+                0.0,
+                1.0
+              ],
+              "11": [
+                0.25,
+                1.0
+              ],
+              "12": [
+                0.5,
+                1.0
+              ],
+              "13": [
+                0.75,
+                1.0
+              ],
+              "14": [
+                1.0,
+                1.0
+              ]
+            },
+            "faces": [
+              {
+                "id": 0,
+                "vertices": [
+                  0,
+                  1,
+                  6,
+                  5
+                ],
+                "protected": true
+              },
+              {
+                "id": 1,
+                "vertices": [
+                  1,
+                  2,
+                  7,
+                  6
+                ],
+                "protected": true
+              },
+              {
+                "id": 2,
+                "vertices": [
+                  2,
+                  3,
+                  8,
+                  7
+                ],
+                "protected": true
+              },
+              {
+                "id": 3,
+                "vertices": [
+                  3,
+                  4,
+                  9,
+                  8
+                ],
+                "protected": true
+              },
+              {
+                "id": 4,
+                "vertices": [
+                  8,
+                  9,
+                  14,
+                  13
+                ],
+                "protected": false
+              },
+              {
+                "id": 5,
+                "vertices": [
+                  11,
+                  10,
+                  5,
+                  6
+                ],
+                "protected": false
+              },
+              {
+                "id": 6,
+                "vertices": [
+                  12,
+                  11,
+                  6,
+                  7
+                ],
+                "protected": false
+              },
+              {
+                "id": 7,
+                "vertices": [
+                  13,
+                  12,
+                  7,
+                  8
+                ],
+                "protected": false
+              }
+            ],
+            "next_vertex_id": 15,
+            "next_face_id": 8,
+            "metadata": {
+              "topology_scope": "fixed_C_parameter_domain_with_immutable_near_wall_band",
+              "protected_v": 0.5,
+              "version": "coarse_blocks_v1"
+            }
+          },
+          "actions": [
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 6,
+              "target": 11,
+              "source_uv": [
+                0.25,
+                0.5
+              ],
+              "target_uv": [
+                0.25,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 7,
+              "target": 12,
+              "source_uv": [
+                0.5,
+                0.5
+              ],
+              "target_uv": [
+                0.5,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 8,
+              "target": 13,
+              "source_uv": [
+                0.75,
+                0.5
+              ],
+              "target_uv": [
+                0.75,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            }
+          ],
+          "guard": [
+            {
+              "step": 0,
+              "selected": 5,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 1,
+              "selected": 2,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 2,
+              "selected": 0,
+              "reason": "second_layer_completed",
+              "legal_stop": false
+            },
+            {
+              "step": 3,
+              "selected": 0,
+              "reason": "root_completed",
+              "legal_stop": true
+            }
+          ]
+        },
+        {
+          "method": "refined",
+          "edits": 12,
+          "outer_blocks": 8,
+          "graph": {
+            "vertices": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.25,
+                0.0
+              ],
+              "2": [
+                0.5,
+                0.0
+              ],
+              "3": [
+                0.75,
+                0.0
+              ],
+              "4": [
+                1.0,
+                0.0
+              ],
+              "5": [
+                0.0,
+                0.5
+              ],
+              "6": [
+                0.25,
+                0.5
+              ],
+              "7": [
+                0.5,
+                0.5
+              ],
+              "8": [
+                0.75,
+                0.5
+              ],
+              "9": [
+                1.0,
+                0.5
+              ],
+              "10": [
+                0.0,
+                1.0
+              ],
+              "11": [
+                0.25,
+                1.0
+              ],
+              "12": [
+                0.5,
+                1.0
+              ],
+              "13": [
+                0.75,
+                1.0
+              ],
+              "14": [
+                1.0,
+                1.0
+              ],
+              "15": [
+                0.25,
+                0.9614985666636525
+              ],
+              "16": [
+                0.0,
+                0.9614985666636525
+              ],
+              "17": [
+                0.5,
+                0.9614985666636524
+              ],
+              "18": [
+                0.75,
+                0.9614985666636525
+              ],
+              "19": [
+                1.0,
+                0.9614985666636524
+              ]
+            },
+            "faces": [
+              {
+                "id": 0,
+                "vertices": [
+                  0,
+                  1,
+                  6,
+                  5
+                ],
+                "protected": true
+              },
+              {
+                "id": 1,
+                "vertices": [
+                  1,
+                  2,
+                  7,
+                  6
+                ],
+                "protected": true
+              },
+              {
+                "id": 2,
+                "vertices": [
+                  2,
+                  3,
+                  8,
+                  7
+                ],
+                "protected": true
+              },
+              {
+                "id": 3,
+                "vertices": [
+                  3,
+                  4,
+                  9,
+                  8
+                ],
+                "protected": true
+              },
+              {
+                "id": 4,
+                "vertices": [
+                  19,
+                  14,
+                  13,
+                  18
+                ],
+                "protected": false
+              },
+              {
+                "id": 5,
+                "vertices": [
+                  16,
+                  5,
+                  6,
+                  15
+                ],
+                "protected": false
+              },
+              {
+                "id": 6,
+                "vertices": [
+                  15,
+                  6,
+                  7,
+                  17
+                ],
+                "protected": false
+              },
+              {
+                "id": 7,
+                "vertices": [
+                  15,
+                  11,
+                  10,
+                  16
+                ],
+                "protected": false
+              },
+              {
+                "id": 8,
+                "vertices": [
+                  17,
+                  7,
+                  8,
+                  18
+                ],
+                "protected": false
+              },
+              {
+                "id": 9,
+                "vertices": [
+                  17,
+                  12,
+                  11,
+                  15
+                ],
+                "protected": false
+              },
+              {
+                "id": 10,
+                "vertices": [
+                  18,
+                  13,
+                  12,
+                  17
+                ],
+                "protected": false
+              },
+              {
+                "id": 11,
+                "vertices": [
+                  18,
+                  8,
+                  9,
+                  19
+                ],
+                "protected": false
+              }
+            ],
+            "next_vertex_id": 20,
+            "next_face_id": 12,
+            "metadata": {
+              "topology_scope": "fixed_C_parameter_domain_with_immutable_near_wall_band",
+              "protected_v": 0.5,
+              "version": "coarse_blocks_v1"
+            }
+          },
+          "actions": [
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 6,
+              "target": 11,
+              "source_uv": [
+                0.25,
+                0.5
+              ],
+              "target_uv": [
+                0.25,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 4,
+              "source": 11,
+              "target": 6,
+              "source_uv": [
+                0.25,
+                1.0
+              ],
+              "target_uv": [
+                0.25,
+                0.5
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.25,
+                0.9614985666636525
+              ],
+              "owners": [
+                4,
+                5
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 7,
+              "target": 12,
+              "source_uv": [
+                0.5,
+                0.5
+              ],
+              "target_uv": [
+                0.5,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 5,
+              "source": 10,
+              "target": 5,
+              "source_uv": [
+                0.0,
+                1.0
+              ],
+              "target_uv": [
+                0.0,
+                0.5
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.0,
+                0.9614985666636525
+              ],
+              "owners": [
+                5
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 5,
+              "source": 16,
+              "target": 15,
+              "source_uv": [
+                0.0,
+                0.9614985666636525
+              ],
+              "target_uv": [
+                0.25,
+                0.9614985666636525
+              ],
+              "owners": [
+                5
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 8,
+              "target": 13,
+              "source_uv": [
+                0.75,
+                0.5
+              ],
+              "target_uv": [
+                0.75,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 6,
+              "source": 7,
+              "target": 12,
+              "source_uv": [
+                0.5,
+                0.5
+              ],
+              "target_uv": [
+                0.5,
+                1.0
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.5,
+                0.9614985666636524
+              ],
+              "owners": [
+                6,
+                8
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 6,
+              "source": 15,
+              "target": 17,
+              "source_uv": [
+                0.25,
+                0.9614985666636525
+              ],
+              "target_uv": [
+                0.5,
+                0.9614985666636524
+              ],
+              "owners": [
+                6
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 8,
+              "source": 8,
+              "target": 13,
+              "source_uv": [
+                0.75,
+                0.5
+              ],
+              "target_uv": [
+                0.75,
+                1.0
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.75,
+                0.9614985666636524
+              ],
+              "owners": [
+                4,
+                8
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 8,
+              "source": 17,
+              "target": 18,
+              "source_uv": [
+                0.5,
+                0.9614985666636524
+              ],
+              "target_uv": [
+                0.75,
+                0.9614985666636524
+              ],
+              "owners": [
+                8
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 4,
+              "source": 9,
+              "target": 14,
+              "source_uv": [
+                1.0,
+                0.5
+              ],
+              "target_uv": [
+                1.0,
+                1.0
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                1.0,
+                0.9614985666636524
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 19,
+              "target": 18,
+              "source_uv": [
+                1.0,
+                0.9614985666636524
+              ],
+              "target_uv": [
+                0.75,
+                0.9614985666636524
+              ],
+              "owners": [
+                4
+              ]
+            }
+          ],
+          "guard": [
+            {
+              "step": 0,
+              "selected": 5,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 1,
+              "selected": 19,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 2,
+              "selected": 3,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 3,
+              "selected": 17,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 4,
+              "selected": 13,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 5,
+              "selected": 0,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 6,
+              "selected": 25,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 7,
+              "selected": 18,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 8,
+              "selected": 7,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 9,
+              "selected": 36,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 10,
+              "selected": 1,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 11,
+              "selected": 0,
+              "reason": "second_layer_completed",
+              "legal_stop": false
+            },
+            {
+              "step": 12,
+              "selected": 0,
+              "reason": "root_completed",
+              "legal_stop": true
+            }
+          ]
+        }
+      ],
+      "choice_states": [
+        {
+          "step": 2,
+          "faces": [
+            4,
+            5
+          ],
+          "unfinished_faces": [
+            4,
+            5
+          ]
+        },
+        {
+          "step": 3,
+          "faces": [
+            4,
+            5,
+            6
+          ],
+          "unfinished_faces": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "step": 4,
+          "faces": [
+            4,
+            5,
+            6
+          ],
+          "unfinished_faces": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "step": 5,
+          "faces": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "unfinished_faces": [
+            4,
+            6
+          ]
+        },
+        {
+          "step": 7,
+          "faces": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "unfinished_faces": [
+            6,
+            8
+          ]
+        },
+        {
+          "step": 9,
+          "faces": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "unfinished_faces": [
+            4,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "uiuc_bcd8e49a74fdf206",
+      "group_id": "grp_3a8d8190cb8777c7",
+      "traces": [
+        {
+          "method": "fixed",
+          "edits": 3,
+          "outer_blocks": 4,
+          "graph": {
+            "vertices": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.25,
+                0.0
+              ],
+              "2": [
+                0.5,
+                0.0
+              ],
+              "3": [
+                0.75,
+                0.0
+              ],
+              "4": [
+                1.0,
+                0.0
+              ],
+              "5": [
+                0.0,
+                0.5
+              ],
+              "6": [
+                0.25,
+                0.5
+              ],
+              "7": [
+                0.5,
+                0.5
+              ],
+              "8": [
+                0.75,
+                0.5
+              ],
+              "9": [
+                1.0,
+                0.5
+              ],
+              "10": [
+                0.0,
+                1.0
+              ],
+              "11": [
+                0.25,
+                1.0
+              ],
+              "12": [
+                0.5,
+                1.0
+              ],
+              "13": [
+                0.75,
+                1.0
+              ],
+              "14": [
+                1.0,
+                1.0
+              ]
+            },
+            "faces": [
+              {
+                "id": 0,
+                "vertices": [
+                  0,
+                  1,
+                  6,
+                  5
+                ],
+                "protected": true
+              },
+              {
+                "id": 1,
+                "vertices": [
+                  1,
+                  2,
+                  7,
+                  6
+                ],
+                "protected": true
+              },
+              {
+                "id": 2,
+                "vertices": [
+                  2,
+                  3,
+                  8,
+                  7
+                ],
+                "protected": true
+              },
+              {
+                "id": 3,
+                "vertices": [
+                  3,
+                  4,
+                  9,
+                  8
+                ],
+                "protected": true
+              },
+              {
+                "id": 4,
+                "vertices": [
+                  8,
+                  9,
+                  14,
+                  13
+                ],
+                "protected": false
+              },
+              {
+                "id": 5,
+                "vertices": [
+                  11,
+                  10,
+                  5,
+                  6
+                ],
+                "protected": false
+              },
+              {
+                "id": 6,
+                "vertices": [
+                  12,
+                  11,
+                  6,
+                  7
+                ],
+                "protected": false
+              },
+              {
+                "id": 7,
+                "vertices": [
+                  13,
+                  12,
+                  7,
+                  8
+                ],
+                "protected": false
+              }
+            ],
+            "next_vertex_id": 15,
+            "next_face_id": 8,
+            "metadata": {
+              "topology_scope": "fixed_C_parameter_domain_with_immutable_near_wall_band",
+              "protected_v": 0.5,
+              "version": "coarse_blocks_v1"
+            }
+          },
+          "actions": [
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 6,
+              "target": 11,
+              "source_uv": [
+                0.25,
+                0.5
+              ],
+              "target_uv": [
+                0.25,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 7,
+              "target": 12,
+              "source_uv": [
+                0.5,
+                0.5
+              ],
+              "target_uv": [
+                0.5,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 8,
+              "target": 13,
+              "source_uv": [
+                0.75,
+                0.5
+              ],
+              "target_uv": [
+                0.75,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            }
+          ],
+          "guard": [
+            {
+              "step": 0,
+              "selected": 5,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 1,
+              "selected": 2,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 2,
+              "selected": 0,
+              "reason": "second_layer_completed",
+              "legal_stop": false
+            },
+            {
+              "step": 3,
+              "selected": 0,
+              "reason": "root_completed",
+              "legal_stop": true
+            }
+          ]
+        },
+        {
+          "method": "refined",
+          "edits": 12,
+          "outer_blocks": 8,
+          "graph": {
+            "vertices": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.25,
+                0.0
+              ],
+              "2": [
+                0.5,
+                0.0
+              ],
+              "3": [
+                0.75,
+                0.0
+              ],
+              "4": [
+                1.0,
+                0.0
+              ],
+              "5": [
+                0.0,
+                0.5
+              ],
+              "6": [
+                0.25,
+                0.5
+              ],
+              "7": [
+                0.5,
+                0.5
+              ],
+              "8": [
+                0.75,
+                0.5
+              ],
+              "9": [
+                1.0,
+                0.5
+              ],
+              "10": [
+                0.0,
+                1.0
+              ],
+              "11": [
+                0.25,
+                1.0
+              ],
+              "12": [
+                0.5,
+                1.0
+              ],
+              "13": [
+                0.75,
+                1.0
+              ],
+              "14": [
+                1.0,
+                1.0
+              ],
+              "15": [
+                0.25,
+                0.9614985666636524
+              ],
+              "16": [
+                0.0,
+                0.9614985666636525
+              ],
+              "17": [
+                0.5,
+                0.9614985666636524
+              ],
+              "18": [
+                0.75,
+                0.9614985666636524
+              ],
+              "19": [
+                1.0,
+                0.9614985666636524
+              ]
+            },
+            "faces": [
+              {
+                "id": 0,
+                "vertices": [
+                  0,
+                  1,
+                  6,
+                  5
+                ],
+                "protected": true
+              },
+              {
+                "id": 1,
+                "vertices": [
+                  1,
+                  2,
+                  7,
+                  6
+                ],
+                "protected": true
+              },
+              {
+                "id": 2,
+                "vertices": [
+                  2,
+                  3,
+                  8,
+                  7
+                ],
+                "protected": true
+              },
+              {
+                "id": 3,
+                "vertices": [
+                  3,
+                  4,
+                  9,
+                  8
+                ],
+                "protected": true
+              },
+              {
+                "id": 4,
+                "vertices": [
+                  19,
+                  14,
+                  13,
+                  18
+                ],
+                "protected": false
+              },
+              {
+                "id": 5,
+                "vertices": [
+                  16,
+                  5,
+                  6,
+                  15
+                ],
+                "protected": false
+              },
+              {
+                "id": 6,
+                "vertices": [
+                  15,
+                  6,
+                  7,
+                  17
+                ],
+                "protected": false
+              },
+              {
+                "id": 7,
+                "vertices": [
+                  15,
+                  11,
+                  10,
+                  16
+                ],
+                "protected": false
+              },
+              {
+                "id": 8,
+                "vertices": [
+                  17,
+                  7,
+                  8,
+                  18
+                ],
+                "protected": false
+              },
+              {
+                "id": 9,
+                "vertices": [
+                  17,
+                  12,
+                  11,
+                  15
+                ],
+                "protected": false
+              },
+              {
+                "id": 10,
+                "vertices": [
+                  18,
+                  13,
+                  12,
+                  17
+                ],
+                "protected": false
+              },
+              {
+                "id": 11,
+                "vertices": [
+                  18,
+                  8,
+                  9,
+                  19
+                ],
+                "protected": false
+              }
+            ],
+            "next_vertex_id": 20,
+            "next_face_id": 12,
+            "metadata": {
+              "topology_scope": "fixed_C_parameter_domain_with_immutable_near_wall_band",
+              "protected_v": 0.5,
+              "version": "coarse_blocks_v1"
+            }
+          },
+          "actions": [
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 6,
+              "target": 11,
+              "source_uv": [
+                0.25,
+                0.5
+              ],
+              "target_uv": [
+                0.25,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 4,
+              "source": 11,
+              "target": 6,
+              "source_uv": [
+                0.25,
+                1.0
+              ],
+              "target_uv": [
+                0.25,
+                0.5
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.25,
+                0.9614985666636524
+              ],
+              "owners": [
+                4,
+                5
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 7,
+              "target": 12,
+              "source_uv": [
+                0.5,
+                0.5
+              ],
+              "target_uv": [
+                0.5,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 5,
+              "source": 10,
+              "target": 5,
+              "source_uv": [
+                0.0,
+                1.0
+              ],
+              "target_uv": [
+                0.0,
+                0.5
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.0,
+                0.9614985666636525
+              ],
+              "owners": [
+                5
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 5,
+              "source": 16,
+              "target": 15,
+              "source_uv": [
+                0.0,
+                0.9614985666636525
+              ],
+              "target_uv": [
+                0.25,
+                0.9614985666636524
+              ],
+              "owners": [
+                5
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 8,
+              "target": 13,
+              "source_uv": [
+                0.75,
+                0.5
+              ],
+              "target_uv": [
+                0.75,
+                1.0
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 6,
+              "source": 7,
+              "target": 12,
+              "source_uv": [
+                0.5,
+                0.5
+              ],
+              "target_uv": [
+                0.5,
+                1.0
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.5,
+                0.9614985666636524
+              ],
+              "owners": [
+                6,
+                8
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 6,
+              "source": 15,
+              "target": 17,
+              "source_uv": [
+                0.25,
+                0.9614985666636524
+              ],
+              "target_uv": [
+                0.5,
+                0.9614985666636524
+              ],
+              "owners": [
+                6
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 8,
+              "source": 8,
+              "target": 13,
+              "source_uv": [
+                0.75,
+                0.5
+              ],
+              "target_uv": [
+                0.75,
+                1.0
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                0.75,
+                0.9614985666636525
+              ],
+              "owners": [
+                4,
+                8
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 8,
+              "source": 17,
+              "target": 18,
+              "source_uv": [
+                0.5,
+                0.9614985666636524
+              ],
+              "target_uv": [
+                0.75,
+                0.9614985666636525
+              ],
+              "owners": [
+                8
+              ]
+            },
+            {
+              "kind": "insert_edge_point",
+              "face_id": 4,
+              "source": 9,
+              "target": 14,
+              "source_uv": [
+                1.0,
+                0.5
+              ],
+              "target_uv": [
+                1.0,
+                1.0
+              ],
+              "fraction": 0.5,
+              "point_uv": [
+                1.0,
+                0.9614985666636524
+              ],
+              "owners": [
+                4
+              ]
+            },
+            {
+              "kind": "insert_chord",
+              "face_id": 4,
+              "source": 19,
+              "target": 18,
+              "source_uv": [
+                1.0,
+                0.9614985666636524
+              ],
+              "target_uv": [
+                0.75,
+                0.9614985666636525
+              ],
+              "owners": [
+                4
+              ]
+            }
+          ],
+          "guard": [
+            {
+              "step": 0,
+              "selected": 5,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 1,
+              "selected": 19,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 2,
+              "selected": 3,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 3,
+              "selected": 17,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 4,
+              "selected": 13,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 5,
+              "selected": 0,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 6,
+              "selected": 25,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 7,
+              "selected": 18,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 8,
+              "selected": 7,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 9,
+              "selected": 36,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 10,
+              "selected": 1,
+              "reason": "depth_or_budget_limit",
+              "legal_stop": false
+            },
+            {
+              "step": 11,
+              "selected": 0,
+              "reason": "second_layer_completed",
+              "legal_stop": false
+            },
+            {
+              "step": 12,
+              "selected": 0,
+              "reason": "root_completed",
+              "legal_stop": true
+            }
+          ]
+        }
+      ],
+      "choice_states": [
+        {
+          "step": 2,
+          "faces": [
+            4,
+            5
+          ],
+          "unfinished_faces": [
+            4,
+            5
+          ]
+        },
+        {
+          "step": 3,
+          "faces": [
+            4,
+            5,
+            6
+          ],
+          "unfinished_faces": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "step": 4,
+          "faces": [
+            4,
+            5,
+            6
+          ],
+          "unfinished_faces": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "step": 5,
+          "faces": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "unfinished_faces": [
+            4,
+            6
+          ]
+        },
+        {
+          "step": 7,
+          "faces": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "unfinished_faces": [
+            6,
+            8
+          ]
+        },
+        {
+          "step": 9,
+          "faces": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "unfinished_faces": [
+            4,
+            8
+          ]
+        }
+      ]
+    }
+  ]
+}

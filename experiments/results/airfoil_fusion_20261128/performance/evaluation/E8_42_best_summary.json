@@ -1,0 +1,20 @@
+{
+  "arm": "E8",
+  "seed": 42,
+  "tag": "best",
+  "step": 0,
+  "checkpoint_sha256": "49177ec4bfb6ea343abfb7c79e48f3e96f0c5f26d03c63ea9ec72bc0d43a9a6c",
+  "lock_sha256": "31ef6c068feaeb8103574fb24ec9bb24b981f02d82294d13b5be4986d72eff8c",
+  "summary": {
+    "total": 90,
+    "successful": 90,
+    "success_rate": 1.0,
+    "initializable": 90,
+    "mesh_successful": 90,
+    "budget_mesh_successful": 90,
+    "mesh_score": -1.211605558919939,
+    "mean_penalized_edits": 3.0,
+    "total_seconds": 1096.8335165999306
+  },
+  "source_report_sha256": "d1211f6e99775cc2470815bb313149e40ba6a8ff13def1f3edd564b5d762a6a0"
+}

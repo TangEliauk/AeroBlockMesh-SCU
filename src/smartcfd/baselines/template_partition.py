@@ -1,4 +1,4 @@
-"""基于预定义拓扑模板的分块对照方法。
-
-当前仅预留模块位置，具体功能与接口尚待实现。
-"""
+"""Transparent fixed C-topology control for the constrained prototype."""
+from smartcfd.baselines.rule_partition import rule_graph
+def template_partition(domain):
+    return rule_graph(domain,variant=0)

@@ -1,0 +1,267 @@
+{
+  "arm": "E7",
+  "seed": 42,
+  "tag": "best",
+  "step": 0,
+  "lock_sha256": "31ef6c068feaeb8103574fb24ec9bb24b981f02d82294d13b5be4986d72eff8c",
+  "checkpoint_sha256": "abb9b565f60ab6c7aded3e8b7c547a30a1fa2357e0fe188bdc1971c60505e43b",
+  "source_report_sha256": "cdfc4901c31399ff16d68b55c50c584795020aefb474b7bcc6a56a9a7de782c4",
+  "case": {
+    "sample_id": "uiuc_03882526303dce6b",
+    "success": true,
+    "reason": "completed",
+    "edits": 3,
+    "decisions": 4,
+    "topology": [
+      [
+        false,
+        [
+          [
+            0.0,
+            0.5
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.25,
+            1.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      [
+        false,
+        [
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.25,
+            1.0
+          ]
+        ]
+      ],
+      [
+        false,
+        [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.75,
+            1.0
+          ],
+          [
+            0.5,
+            1.0
+          ]
+        ]
+      ],
+      [
+        false,
+        [
+          [
+            0.75,
+            0.5
+          ],
+          [
+            1.0,
+            0.5
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.75,
+            1.0
+          ]
+        ]
+      ],
+      [
+        true,
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.25,
+            0.0
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.0,
+            0.5
+          ]
+        ]
+      ],
+      [
+        true,
+        [
+          [
+            0.25,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.25,
+            0.5
+          ]
+        ]
+      ],
+      [
+        true,
+        [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.75,
+            0.0
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.5,
+            0.5
+          ]
+        ]
+      ],
+      [
+        true,
+        [
+          [
+            0.75,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.5
+          ],
+          [
+            0.75,
+            0.5
+          ]
+        ]
+      ]
+    ],
+    "actions": [
+      {
+        "kind": "insert_chord",
+        "face_id": 4,
+        "source": 6,
+        "target": 11,
+        "source_uv": [
+          0.25,
+          0.5
+        ],
+        "target_uv": [
+          0.25,
+          1.0
+        ],
+        "owners": [
+          4
+        ]
+      },
+      {
+        "kind": "insert_chord",
+        "face_id": 4,
+        "source": 7,
+        "target": 12,
+        "source_uv": [
+          0.5,
+          0.5
+        ],
+        "target_uv": [
+          0.5,
+          1.0
+        ],
+        "owners": [
+          4
+        ]
+      },
+      {
+        "kind": "insert_chord",
+        "face_id": 4,
+        "source": 8,
+        "target": 13,
+        "source_uv": [
+          0.75,
+          0.5
+        ],
+        "target_uv": [
+          0.75,
+          1.0
+        ],
+        "owners": [
+          4
+        ]
+      },
+      {
+        "kind": "stop",
+        "face_id": null
+      }
+    ],
+    "mesh": {
+      "1536": {
+        "valid": true,
+        "quads": 1536,
+        "target": 1536,
+        "budget_match": true,
+        "min_scaled_jacobian": 0.15831978490136564,
+        "q05_scaled_jacobian": 0.3948598926876712,
+        "wall_angle_q10_deg": 87.90810508599014,
+        "farfield_max_aspect_ratio": 8060958.163316972,
+        "score": -1.2096799686604771
+      },
+      "5120": {
+        "valid": true,
+        "quads": 5120,
+        "target": 5120,
+        "budget_match": true,
+        "min_scaled_jacobian": 0.18509068478617557,
+        "q05_scaled_jacobian": 0.47218528749553557,
+        "wall_angle_q10_deg": 87.71780575545054,
+        "farfield_max_aspect_ratio": 14046373.190955853,
+        "score": -1.255377961002461
+      }
+    }
+  }
+}

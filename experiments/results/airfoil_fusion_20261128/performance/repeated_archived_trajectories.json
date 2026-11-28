@@ -1,0 +1,114 @@
+{
+  "scope": "Repeated full action, reward and terminal graph sequences across archived development checkpoints",
+  "limits": "Logical opportunities only. Actual LRU eviction and changed trajectories affect realized reuse.",
+  "rows": [
+    {
+      "seed": 42,
+      "step": 0,
+      "repeated_exact_trajectories": 0,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 500,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 1000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 1500,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 2000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 2500,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 3000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 3500,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 42,
+      "step": 4000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 0,
+      "repeated_exact_trajectories": 0,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 500,
+      "repeated_exact_trajectories": 0,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 1000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 1500,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 2000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 2500,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 3000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 3500,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    },
+    {
+      "seed": 43,
+      "step": 4000,
+      "repeated_exact_trajectories": 32,
+      "cases": 32
+    }
+  ]
+}

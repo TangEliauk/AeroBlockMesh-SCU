@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "launcher_files": {
+    "run_airfoil_fusion_accelerated.py": "2ca2e9dcd90ea6298fff19e2bba371c37695d77c6ce13585522d62e29857ff08",
+    "fusion_validation_cache.py": "72ddd84ca5fc0d5accb853e7fc9f48d08d79770514a9b53b6951f55fa8022228",
+    "fusion_geometry_cache.py": "110a1a907fde4938aca3c505ec9a08958d35681f91140a52d408254a94e57802"
+  },
+  "verified": [
+    "formal frozen source",
+    "training-mode validation entry",
+    "torch RNG",
+    "action RNG",
+    "identical weights bytes",
+    "ordered stable per-case outputs",
+    "unchanged selection rule"
+  ],
+  "results": [
+    {
+      "step": 0,
+      "cases": 2,
+      "workers": 1,
+      "validation_elapsed_seconds": 23.026473700010683,
+      "reused_trajectories": 0
+    },
+    {
+      "step": 500,
+      "cases": 2,
+      "workers": 1,
+      "validation_elapsed_seconds": 0.012970799987670034,
+      "reused_trajectories": 2
+    }
+  ]
+}

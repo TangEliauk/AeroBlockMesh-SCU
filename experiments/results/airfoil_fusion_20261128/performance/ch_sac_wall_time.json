@@ -1,0 +1,49 @@
+{
+  "commit": "cbcad235a4dbb8b8d433a86b93f5daea0cda059c",
+  "source": "experiments/results/ch_sac_v2_20261125/training_summary.json",
+  "blob_sha256": "5a663f05e9d0928529b656126633cfe5bf05d2147c68fcded52a75cc9d05d44e",
+  "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "wall_sec": 1752.28,
+  "total_online_steps": 24000,
+  "warmup_transitions": 1000,
+  "seeds_run_now": [
+    {
+      "seed": 42,
+      "resumed": true,
+      "best_val_score": 0.71551,
+      "best_epoch": 60
+    },
+    {
+      "seed": 43,
+      "resumed": false,
+      "best_val_score": 0.7137886425386769,
+      "best_epoch": 58,
+      "final_val_score": 0.7125509195440497,
+      "total_sec": 441.83
+    },
+    {
+      "seed": 44,
+      "resumed": false,
+      "best_val_score": 0.7174484107911119,
+      "best_epoch": 40,
+      "final_val_score": 0.7165802390585891,
+      "total_sec": 437.6
+    },
+    {
+      "seed": 45,
+      "resumed": false,
+      "best_val_score": 0.7153426890073599,
+      "best_epoch": 50,
+      "final_val_score": 0.7140748197961155,
+      "total_sec": 435.56
+    },
+    {
+      "seed": 46,
+      "resumed": false,
+      "best_val_score": 0.7148733123975459,
+      "best_epoch": 48,
+      "final_val_score": 0.7141761015186663,
+      "total_sec": 435.55
+    }
+  ]
+}

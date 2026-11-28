@@ -1,0 +1,186 @@
+{
+  "mesh": {
+    "valid": true,
+    "quads": 1536,
+    "blocks": 8,
+    "min_scaled_jacobian": 0.16816850728984312,
+    "q05_scaled_jacobian": 0.3975466285293755,
+    "wall_angle_q10_deg": 89.38012398593305,
+    "max_aspect_ratio": 8060958.163315405,
+    "farfield_max_aspect_ratio": 8060958.163315405,
+    "farfield_q95_aspect_ratio": 421908.13141974394,
+    "interface_max_abs_difference": 0.0,
+    "first_height_min": 1.4028790384487277e-06,
+    "first_height_max": 1.4028790384642705e-06,
+    "score": -1.1928913973216075,
+    "target": 1536,
+    "budget_match": true,
+    "outer_intervals": 12,
+    "protected_intervals": [
+      [
+        -1.4028790384555819e-06,
+        0.0
+      ],
+      [
+        0.06955247926520478,
+        0.040758337668040094
+      ],
+      [
+        0.15346671382514315,
+        0.053783486483404405
+      ],
+      [
+        0.23826625953884104,
+        0.059060336314529054
+      ],
+      [
+        0.32323507713456034,
+        0.05987399157282928
+      ],
+      [
+        0.4081827635784948,
+        0.057677854750936224
+      ],
+      [
+        0.4930471477015814,
+        0.053293743167013234
+      ],
+      [
+        0.5778120024954717,
+        0.04727515479436989
+      ],
+      [
+        0.6624738339492401,
+        0.03994446244100703
+      ],
+      [
+        0.7470336632575204,
+        0.031517008216934476
+      ],
+      [
+        0.8314863857788348,
+        0.022075968194444594
+      ],
+      [
+        0.9158173410308782,
+        0.011603308749577775
+      ],
+      [
+        1.0000002017563832,
+        1.3882953426480742e-06
+      ]
+    ]
+  },
+  "phases": {
+    "warm": {
+      "config_sha256": "471428d30100eee59b216eba95642eb43770462574ed26a7688b4bcfc1554dab",
+      "exit_code": 0,
+      "seconds": 1.5857465000008233,
+      "iterations": 500,
+      "last": {
+        "Time_Iter": "0",
+        "Outer_Iter": "0",
+        "Inner_Iter": "499",
+        "rms[Rho]": "-6.655151208",
+        "rms[RhoU]": "-6.014614767",
+        "rms[RhoV]": "-7.010783564",
+        "rms[RhoE]": "-6.868134452",
+        "rms[nu]": "-11.52656011",
+        "RefForce": "0.01125",
+        "CD": "0.7686451517",
+        "CL": "1.596566029",
+        "CSF": "0",
+        "CMx": "0",
+        "CMy": "0",
+        "CMz": "0.3441181098",
+        "CFx": "0.4797269232",
+        "CFy": "1.705784433",
+        "CFz": "0",
+        "CEff": "2.077117153",
+        "Buffet": "0.0124792409"
+      },
+      "forces": {
+        "CL": 1.596566029,
+        "CD": 0.7686451517
+      },
+      "convergence": {
+        "converged": false,
+        "residual_ok": false,
+        "force_stable": false,
+        "force_window_span": {
+          "CL": 0.0011506069999998036,
+          "CD": 0.0012653752999999268
+        },
+        "window": 50,
+        "rows": 500,
+        "residual_convention": "log10; threshold must match the selected solver output and case"
+      },
+      "history_sha256": "fa03aaf29c972fad299f7df71411c2df489f3b5aec720c8f3db859075600a353",
+      "converged": false
+    },
+    "rans": {
+      "config_sha256": "95b2fc9495a686101bacfbbdc1502b42d04c6d1224ebd0155255053a87f37a21",
+      "exit_code": 0,
+      "seconds": 16.420521799998824,
+      "iterations": 4800,
+      "last": {
+        "Time_Iter": "0",
+        "Outer_Iter": "0",
+        "Inner_Iter": "4799",
+        "rms[Rho]": "-6.261007845",
+        "rms[RhoU]": "-6.090649593",
+        "rms[RhoV]": "-6.071761981",
+        "rms[RhoE]": "-5.851491364",
+        "rms[nu]": "-12.81548857",
+        "RefForce": "0.01125",
+        "CD": "0.4050018423",
+        "CL": "0.9946093526",
+        "CSF": "0",
+        "CMx": "0",
+        "CMy": "0",
+        "CMz": "0.1253180457",
+        "CFx": "0.2261368527",
+        "CFy": "1.049826834",
+        "CFz": "0",
+        "CEff": "2.455814391",
+        "Buffet": "0.0124792409"
+      },
+      "forces": {
+        "CL": 0.9946093526,
+        "CD": 0.4050018423
+      },
+      "convergence": {
+        "converged": false,
+        "residual_ok": false,
+        "force_stable": false,
+        "force_window_span": {
+          "CL": 0.0011426884999999887,
+          "CD": 0.001138067399999998
+        },
+        "window": 50,
+        "rows": 4800,
+        "residual_convention": "log10; threshold must match the selected solver output and case"
+      },
+      "history_sha256": "1bc7e47593d9151c15f3b81f3c9ca7244cf20efc3223e9635ddee00d89fa7f5f",
+      "converged": false
+    }
+  },
+  "converged": false,
+  "export": {
+    "nodes": 1604,
+    "cells": 1536,
+    "markers": {
+      "farfield": 112,
+      "wall": 24
+    },
+    "internal_edges": 3004,
+    "merge_rule": "declared interface identities only"
+  },
+  "mesh_sha256": "9bba569b0a3086a76102dc45d5769c92d60f2a5eded030e6b89ddc5d28b637f6",
+  "status": "nonconverged",
+  "directory": "cfd/analytic_E7_44_1536/attempt_001",
+  "arm": "E7",
+  "seed": 44,
+  "budget": 1536,
+  "sample_id": "analytic_naca_0012"
+}

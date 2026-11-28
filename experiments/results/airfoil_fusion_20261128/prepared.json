@@ -1,0 +1,10 @@
+{
+  "profile": "formal",
+  "files": {
+    "config.json": "fef3515462ffe97b687f6367f659c704952ff908e58c34cf306d265d80d9bcf7",
+    "source.json": "7da4b4de942c5d9f454fe67a96eb3cf40c36019ed94d12d0db8292ded9323bae",
+    "cases.json": "f50d1c85f7e6bc0d10d1565fbf7d2cdc9ce592bed61c64efb40f4a7e56e5e64d",
+    "preflight.json": "92cad28850bc117ea7195ebd39c026dcf7cb7ed872d198b6a2a1d936f726a853",
+    "reachability.json": "f47001296ca04220ce3d208c88a357f129dd8714a6536ab5493b7ecbed11ce86"
+  }
+}

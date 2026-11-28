@@ -1,0 +1,402 @@
+{
+  "source_manifest_sha256": "7da4b4de942c5d9f454fe67a96eb3cf40c36019ed94d12d0db8292ded9323bae",
+  "sac_updates": {
+    "scope": "40 CPU SAC updates on real training demonstration transitions after 4 warmups",
+    "device": "cpu",
+    "torch_version": "2.7.1+cu128",
+    "cuda_available": true,
+    "actor_parameters": 63233,
+    "batch_size": 32,
+    "median": {
+      "wall": 0.06406335000065155,
+      "cpu": 0.0625
+    }
+  },
+  "repeated_validation_case": {
+    "sample_id": "uiuc_ab4afd1cfee4fddc",
+    "checkpoint": "arms/E8_seed42/validation_000000/weights.pt",
+    "checkpoint_sha256": "49177ec4bfb6ea343abfb7c79e48f3e96f0c5f26d03c63ea9ec72bc0d43a9a6c",
+    "case_matched": true,
+    "cold": {
+      "wall": 16.64029599999776,
+      "cpu": 16.5625,
+      "work": {
+        "geometry_validation_calls": 1360,
+        "topology_validation_calls": 2126,
+        "candidate_cache_hits": 0,
+        "candidate_cache_misses": 4
+      },
+      "guard": {
+        "decisions": 4,
+        "guard_cache_hit": 0,
+        "root_previews": 113,
+        "root_preview_calls": 113,
+        "second_layer_transitions": 512,
+        "second_layer_preview_calls": 512,
+        "branch_materializations": 112,
+        "geometry_validation_calls": 1246,
+        "topology_validation_calls": 2002,
+        "candidate_cache_hits": 0,
+        "candidate_cache_misses": 0,
+        "elapsed_seconds": 15.07497739995597,
+        "removed_actions": 0,
+        "unknown_actions": 111,
+        "completion_witnesses": 2
+      }
+    },
+    "warm": {
+      "wall": 0.06407399999443442,
+      "cpu": 0.0625,
+      "work": {
+        "geometry_validation_calls": 1,
+        "topology_validation_calls": 1,
+        "candidate_cache_hits": 4,
+        "candidate_cache_misses": 0
+      },
+      "guard": {
+        "decisions": 4,
+        "guard_cache_hit": 4,
+        "root_previews": 113,
+        "root_preview_calls": 0,
+        "second_layer_transitions": 512,
+        "second_layer_preview_calls": 0,
+        "branch_materializations": 0,
+        "geometry_validation_calls": 0,
+        "topology_validation_calls": 0,
+        "candidate_cache_hits": 0,
+        "candidate_cache_misses": 0,
+        "elapsed_seconds": 0.0013965999823994935,
+        "removed_actions": 0,
+        "unknown_actions": 111,
+        "completion_witnesses": 2
+      }
+    }
+  },
+  "guarded_primitive_profile": {
+    "sample_id": "uiuc_c544693f3541459d",
+    "edits": 1,
+    "profiled_seconds": 13.094761299999995,
+    "top_cumulative": [
+      {
+        "file": "env.py",
+        "line": 115,
+        "function": "_iter_global",
+        "calls": 1145,
+        "self_seconds": 0.0032433,
+        "cumulative_seconds": 12.576682600000002
+      },
+      {
+        "file": "env.py",
+        "line": 266,
+        "function": "_iter_candidates",
+        "calls": 1145,
+        "self_seconds": 0.0166373,
+        "cumulative_seconds": 12.570483000000001
+      },
+      {
+        "file": "env.py",
+        "line": 158,
+        "function": "_validate",
+        "calls": 1085,
+        "self_seconds": 0.0088324,
+        "cumulative_seconds": 12.1257339
+      },
+      {
+        "file": "env.py",
+        "line": 279,
+        "function": "make_candidate",
+        "calls": 1084,
+        "self_seconds": 0.0036578,
+        "cumulative_seconds": 12.0719773
+      },
+      {
+        "file": "geometry.py",
+        "line": 272,
+        "function": "validate",
+        "calls": 738,
+        "self_seconds": 0.0088981,
+        "cumulative_seconds": 11.8243512
+      },
+      {
+        "file": "geometry.py",
+        "line": 192,
+        "function": "_validate",
+        "calls": 738,
+        "self_seconds": 0.0970462,
+        "cumulative_seconds": 11.815453100000001
+      },
+      {
+        "file": "guard.py",
+        "line": 238,
+        "function": "_guard_live_state",
+        "calls": 2,
+        "self_seconds": 0.0035872,
+        "cumulative_seconds": 11.6968031
+      },
+      {
+        "file": "guard.py",
+        "line": 121,
+        "function": "analyze",
+        "calls": 2,
+        "self_seconds": 0.006297700000000001,
+        "cumulative_seconds": 11.693139500000001
+      },
+      {
+        "file": "decorators.py",
+        "line": 182,
+        "function": "wrapper",
+        "calls": 9584,
+        "self_seconds": 0.0195906,
+        "cumulative_seconds": 8.793314
+      },
+      {
+        "file": "env.py",
+        "line": 126,
+        "function": "_enumerate_candidates",
+        "calls": 333,
+        "self_seconds": 0.0066081,
+        "cumulative_seconds": 7.225815300000001
+      },
+      {
+        "file": "guard.py",
+        "line": 258,
+        "function": "step",
+        "calls": 1,
+        "self_seconds": 2.47e-05,
+        "cumulative_seconds": 6.6977397000000005
+      },
+      {
+        "file": "env.py",
+        "line": 163,
+        "function": "_outcome",
+        "calls": 332,
+        "self_seconds": 0.0033344000000000004,
+        "cumulative_seconds": 6.553086700000001
+      },
+      {
+        "file": "guard.py",
+        "line": 251,
+        "function": "reset",
+        "calls": 1,
+        "self_seconds": 2.0600000000000003e-05,
+        "cumulative_seconds": 6.411396600000001
+      },
+      {
+        "file": "env.py",
+        "line": 390,
+        "function": "preview",
+        "calls": 331,
+        "self_seconds": 0.0036940000000000002,
+        "cumulative_seconds": 6.022035000000001
+      },
+      {
+        "file": "env.py",
+        "line": 226,
+        "function": "ensure",
+        "calls": 512,
+        "self_seconds": 0.0017952,
+        "cumulative_seconds": 5.3605782
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method builtins.next>",
+        "calls": 332,
+        "self_seconds": 0.00042550000000000004,
+        "cumulative_seconds": 5.3586685
+      },
+      {
+        "file": "base.py",
+        "line": 721,
+        "function": "symmetric_difference",
+        "calls": 738,
+        "self_seconds": 0.0028353000000000002,
+        "cumulative_seconds": 3.9132144
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<symmetric_difference_scalar>",
+        "calls": 738,
+        "self_seconds": 3.9102074000000004,
+        "cumulative_seconds": 3.9102074000000004
+      },
+      {
+        "file": "ops.py",
+        "line": 117,
+        "function": "unary_union",
+        "calls": 738,
+        "self_seconds": 0.0015648,
+        "cumulative_seconds": 3.1063500000000004
+      },
+      {
+        "file": "set_operations.py",
+        "line": 456,
+        "function": "union_all",
+        "calls": 738,
+        "self_seconds": 3.0967209,
+        "cumulative_seconds": 3.0988928000000002
+      },
+      {
+        "file": "base.py",
+        "line": 352,
+        "function": "hausdorff_distance",
+        "calls": 738,
+        "self_seconds": 0.0015288,
+        "cumulative_seconds": 1.3299376
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<hausdorff_distance_scalar>",
+        "calls": 738,
+        "self_seconds": 1.3282897,
+        "cumulative_seconds": 1.3282897
+      },
+      {
+        "file": "env.py",
+        "line": 235,
+        "function": "_build_candidates",
+        "calls": 2,
+        "self_seconds": 2.43e-05,
+        "cumulative_seconds": 1.3216828
+      },
+      {
+        "file": "base.py",
+        "line": 698,
+        "function": "intersection",
+        "calls": 4614,
+        "self_seconds": 0.0037579,
+        "cumulative_seconds": 1.2010990000000001
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<intersection_scalar>",
+        "calls": 4614,
+        "self_seconds": 1.1969071,
+        "cumulative_seconds": 1.1969071
+      },
+      {
+        "file": "env.py",
+        "line": 75,
+        "function": "reset",
+        "calls": 1,
+        "self_seconds": 1.04e-05,
+        "cumulative_seconds": 0.7588366000000001
+      },
+      {
+        "file": "env.py",
+        "line": 179,
+        "function": "reset",
+        "calls": 1,
+        "self_seconds": 6.31e-05,
+        "cumulative_seconds": 0.7588262
+      },
+      {
+        "file": "geometry.py",
+        "line": 50,
+        "function": "_sample",
+        "calls": 5790,
+        "self_seconds": 0.0971786,
+        "cumulative_seconds": 0.7244312
+      },
+      {
+        "file": "copy.py",
+        "line": 128,
+        "function": "deepcopy",
+        "calls": 410589,
+        "self_seconds": 0.3476151,
+        "cumulative_seconds": 0.6774523
+      },
+      {
+        "file": "geometry.py",
+        "line": 96,
+        "function": "curve",
+        "calls": 5489,
+        "self_seconds": 0.0043908,
+        "cumulative_seconds": 0.6398794
+      },
+      {
+        "file": "env.py",
+        "line": 407,
+        "function": "step",
+        "calls": 1,
+        "self_seconds": 2.7000000000000002e-05,
+        "cumulative_seconds": 0.6387012000000001
+      },
+      {
+        "file": "copy.py",
+        "line": 227,
+        "function": "_deepcopy_dict",
+        "calls": 21774,
+        "self_seconds": 0.054646200000000006,
+        "cumulative_seconds": 0.6338896
+      },
+      {
+        "file": "geometry.py",
+        "line": 110,
+        "function": "_face",
+        "calls": 4614,
+        "self_seconds": 0.030094500000000003,
+        "cumulative_seconds": 0.6302184000000001
+      },
+      {
+        "file": "domain.py",
+        "line": 133,
+        "function": "evaluate",
+        "calls": 3484,
+        "self_seconds": 0.1959827,
+        "cumulative_seconds": 0.5891901
+      },
+      {
+        "file": "geometry.py",
+        "line": 160,
+        "function": "_evaluation_polygon",
+        "calls": 5352,
+        "self_seconds": 0.014793,
+        "cumulative_seconds": 0.5777589000000001
+      },
+      {
+        "file": "base.py",
+        "line": 624,
+        "function": "simplify",
+        "calls": 562,
+        "self_seconds": 0.0010485000000000002,
+        "cumulative_seconds": 0.5101282
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<simplify_preserve_topology_scalar>",
+        "calls": 562,
+        "self_seconds": 0.5090797,
+        "cumulative_seconds": 0.5090797
+      },
+      {
+        "file": "geometry.py",
+        "line": 114,
+        "function": "<listcomp>",
+        "calls": 496,
+        "self_seconds": 0.0013034000000000001,
+        "cumulative_seconds": 0.4630939
+      },
+      {
+        "file": "constraints.py",
+        "line": 56,
+        "function": "validate_graph",
+        "calls": 1823,
+        "self_seconds": 0.0731987,
+        "cumulative_seconds": 0.451073
+      },
+      {
+        "file": "copy.py",
+        "line": 259,
+        "function": "_reconstruct",
+        "calls": 11387,
+        "self_seconds": 0.026038500000000003,
+        "cumulative_seconds": 0.3819732
+      }
+    ]
+  }
+}

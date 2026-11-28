@@ -1,0 +1,51 @@
+{
+  "activated_at_utc": "2026-11-27T15:46:48.724377+00:00",
+  "scope": "lossless process-local validation observation encoding in newly launched workers",
+  "formal_data_sealed_at_activation": true,
+  "frozen_protocol_source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+  "launcher_sha256": "e26a5af27039d0b177022cf4669516365156aa5fa7f59ee179840eda29c8e8ab",
+  "prior_cache_sha256": "72ddd84ca5fc0d5accb853e7fc9f48d08d79770514a9b53b6951f55fa8022228",
+  "deployed_cache_sha256": "abc466eb57e0b7c6f1ccf87dd64d7fb1a0ef1b4eb5e6c4aa8cdd22cb7624eff2",
+  "compression_gate_sha256": "ba859fd9a2eebb114a939c8f2fa65172ee4072d8e8962022187b709a21ec0453",
+  "resume_gate_sha256": "5e5129b20ac706a7113318169ba17f992f7469b521ed3fee2a6fde0ea4f83b02",
+  "archive_gate": {
+    "scope": "two frozen E8 seed 45 development cases regenerated through archived steps 0 and 500, then rechecked at step 1000",
+    "archive_samples": [
+      0,
+      31
+    ],
+    "observation_hashes_verified": 63,
+    "original_observation_bytes": 2857779,
+    "compressed_observation_bytes": 231001,
+    "test_cache_limit_bytes": 2097152,
+    "raw_geometry_recomputations_needed": 2,
+    "compressed_trajectory_reuses": 2,
+    "compressed_warm_seconds": 0.013963200006401166,
+    "same_outcomes_actions_budgets_and_selection": true,
+    "same_parameters_and_rng": true,
+    "reports_sha256": {
+      "0": "9a5b93b33559a4ee05c1051ff686cedb6bad56816a2c4ec25ae19c88014545c3",
+      "500": "985f37c409fd1e361303259ea07767ae8b4d98f3bd375fb2bef1a54664c307b4",
+      "1000": "e3c3a6db42ac9a5d575a182f86be2923a8de38afe52bd48f207aa040928c1ad4"
+    },
+    "previous_cache_sha256": "72ddd84ca5fc0d5accb853e7fc9f48d08d79770514a9b53b6951f55fa8022228",
+    "candidate_sha256": "abc466eb57e0b7c6f1ccf87dd64d7fb1a0ef1b4eb5e6c4aa8cdd22cb7624eff2",
+    "source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73"
+  },
+  "resume_gate": {
+    "scope": "four real SAC steps on a synthetic development fixture, with an interruption during step 2 validation",
+    "preserved_partial_case": 1,
+    "reused_cases": 1,
+    "unchanged_weights": {
+      "best.pt": "e5a50e2c19439c7aca096677c8f8e60bacfea09be893b598d9afa8a7dbc0279e",
+      "final.pt": "d1a43dea0452a7e5a47f1e1bcfce299aa6df8775735badc907ab46f022505f6d"
+    },
+    "same_interactions_except_wall_time": true,
+    "same_torch_action_python_rng": true,
+    "same_validation_selection": true,
+    "candidate_sha256": "e26a5af27039d0b177022cf4669516365156aa5fa7f59ee179840eda29c8e8ab",
+    "receipt_module_sha256": "06574b04aff62d76cb72923f8ac39123e3d9de805067df418a34dfd57174b5da",
+    "source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+    "compressed_observations_sha256": "abc466eb57e0b7c6f1ccf87dd64d7fb1a0ef1b4eb5e6c4aa8cdd22cb7624eff2"
+  }
+}

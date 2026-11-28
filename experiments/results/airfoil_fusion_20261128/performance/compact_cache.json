@@ -1,0 +1,90 @@
+{
+  "source_manifest_sha256": "7da4b4de942c5d9f454fe67a96eb3cf40c36019ed94d12d0db8292ded9323bae",
+  "compact_cache": {
+    "passed": true,
+    "scope": "distinct and repeated deterministic trajectories, including failures",
+    "cache_sha256": "72ddd84ca5fc0d5accb853e7fc9f48d08d79770514a9b53b6951f55fa8022228",
+    "records": [
+      {
+        "arm": "E8",
+        "seed": 42,
+        "step": 0,
+        "cases": 4,
+        "successes": 4,
+        "retained_observation_bytes": 661124,
+        "wall_seconds": 63.945579699997324,
+        "reused": 0
+      },
+      {
+        "arm": "E8",
+        "seed": 42,
+        "step": 500,
+        "cases": 4,
+        "successes": 4,
+        "retained_observation_bytes": 661124,
+        "wall_seconds": 0.020307500002672896,
+        "reused": 4
+      },
+      {
+        "arm": "E8",
+        "seed": 43,
+        "step": 0,
+        "cases": 1,
+        "successes": 1,
+        "retained_observation_bytes": 165281,
+        "wall_seconds": 17.276628999999957,
+        "reused": 0
+      },
+      {
+        "arm": "E8",
+        "seed": 43,
+        "step": 500,
+        "cases": 1,
+        "successes": 0,
+        "retained_observation_bytes": 1403086,
+        "wall_seconds": 181.99905010001385,
+        "reused": 0
+      },
+      {
+        "arm": "E8",
+        "seed": 43,
+        "step": 1000,
+        "cases": 1,
+        "successes": 1,
+        "retained_observation_bytes": 1403086,
+        "wall_seconds": 0.006940999999642372,
+        "reused": 1
+      },
+      {
+        "arm": "E4",
+        "seed": 42,
+        "step": 0,
+        "cases": 2,
+        "successes": 0,
+        "retained_observation_bytes": 7801856,
+        "wall_seconds": 90.28858429999673,
+        "reused": 0
+      },
+      {
+        "arm": "E4",
+        "seed": 42,
+        "step": 2000,
+        "cases": 2,
+        "successes": 2,
+        "retained_observation_bytes": 8533280,
+        "wall_seconds": 2.1223102000076324,
+        "reused": 0
+      },
+      {
+        "arm": "E4",
+        "seed": 42,
+        "step": 2500,
+        "cases": 2,
+        "successes": 2,
+        "retained_observation_bytes": 8533280,
+        "wall_seconds": 0.007073800021316856,
+        "reused": 2
+      }
+    ]
+  }
+}

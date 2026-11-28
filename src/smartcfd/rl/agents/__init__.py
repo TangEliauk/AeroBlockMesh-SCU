@@ -1,4 +1,5 @@
-"""强化学习策略与智能体实现模块。
+"""Torch-only half-edge actor and discrete SAC."""
+from .policy import NetworkConfig, PolicyNetwork
+from .sac import DiscreteSACAgent, SACConfig
 
-当前仅预留模块位置，具体功能与接口尚待实现。
-"""
+__all__ = ["NetworkConfig", "PolicyNetwork", "DiscreteSACAgent", "SACConfig"]
