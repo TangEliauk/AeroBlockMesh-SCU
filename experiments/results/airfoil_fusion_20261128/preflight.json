@@ -1,0 +1,2246 @@
+{
+  "train": [
+    {
+      "sample_id": "uiuc_c544693f3541459d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_bcd8e49a74fdf206",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 3.183231456205249e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_68f1ac3bced78a36",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_07ec31309c916b8a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.7284841053187847e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_92b1b7e867568bb9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 2.1691008755488222e-14,
+        "overlap_area": 4.547473508864641e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_1153a69fa0ec895b",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_75aaed0e94e385f3",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_fdf00dcc2299c08c",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_beb15cef65fededa",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_e36d312eefc87798",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.0463630789890885e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_0dc26d67874aafde",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 9.094947017729282e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c75a7b852a041674",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.7517213306235205e-14,
+        "overlap_area": 2.7284841053187847e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_7416fd4df3d11fc5",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.7284841053187847e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_b8c7912ac94d2e9e",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.2032263828978958e-13,
+        "overlap_area": 1.3642420526593924e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_61bb624263b18c94",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_871b409f01798a7f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.4572028926985094e-13,
+        "overlap_area": 2.2737367544323206e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f88cc74016b538a9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 9.094947017729282e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_a1a4ed17b721982b",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 5.103811664365033e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6db67251a9ed70fb",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 8.045482360019761e-14,
+        "overlap_area": 2.2737367544323206e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_2badc351ec7baf5a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6a201499c42cfae8",
+      "valid": false,
+      "reason": "invalid_physical_face",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f34e0e8fffe4a718",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_9a06449256c79170",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.8528549496623657e-13,
+        "overlap_area": 9.094947017729282e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_33bcce3e9d9bfa4b",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 7.250273705622376e-14,
+        "overlap_area": 2.9558577807620168e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_39fc6a1aa36966d5",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_88409b00a7d8f2eb",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_4f4ace0b34a4dcb7",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 2.6922685930803267e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_caecd7bb1849da90",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.871896172332117e-14,
+        "overlap_area": 2.9558577807620168e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_9269b88a707d7b93",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 6.917767787247503e-14,
+        "overlap_area": 4.547473508864641e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_4bb29a5c34544413",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c7c97d3a1f981a27",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_0d77dc1b0c096956",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_88f1b0d908806174",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 9.785625843034607e-14,
+        "overlap_area": 4.092726157978177e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f536996b7788848c",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_170c9aae149f81e0",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.8189894035458565e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_4eb9d4dc84a06afa",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6b73680bdce8c975",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_31529c37dc8d0a9f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.997302704368997e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_820813edea77a2ac",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.245602900941249e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_a710e7aac72ec37e",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 2.6253676250863946e-13,
+        "overlap_area": 3.183231456205249e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_33d86d23a918dc58",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.8654607510228195e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_582d64566ef378cb",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_13a61236139cba98",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 6.930405850093213e-14,
+        "overlap_area": 1.3642420526593924e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f4ce3ed383257c6d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_0ad71dce418ed82a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f4a346176b0fc5a1",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.0463630789890885e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_cb5576176ebb6b67",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_dcf48f77c8785083",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.202106708088491e-13,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_62c276cacc96638f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_e7db0d8219eef878",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 3.865352482534945e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6aea5214c29fabac",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 2.0901593507806962e-13,
+        "overlap_area": 6.821210263296962e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_ae924b34e0a756e9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_60c7357053cb3e50",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.527824709055467e-13,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_00577b266bc5ae1f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_b9738fe474bafef4",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_30d879d5b321aa76",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_71424c8ea14c3b5f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_24dbfa1f2c5fba7f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 3.4707226746302836e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_fddbf1d519974aac",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_90b2a73dc088aa0a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_59970ccf25e49cbd",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_fc88a548f243532b",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 8.614555418299823e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_cc5b17281bc74dfa",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 3.410605131648481e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_fff0fb563e3b7c1d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_dba9cd9bee5e09b4",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_0f8e88be146f77a1",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f660c170073db3e1",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 3.511529119050329e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_3a9183a913626624",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.154048013897005e-14,
+        "overlap_area": 6.821210263296962e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_fb2e680a696f8abe",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.2391514619323234e-13,
+        "overlap_area": 2.2737367544323206e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_a680a86c9ef05aef",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_51f52cac1936a227",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_b36be410b2151a45",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 2.0988607008986667e-13,
+        "overlap_area": 2.2737367544323206e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_9bef72123efebf1c",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_4ec6863612e86e76",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.0435123151493602e-13,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_989f3aa15b495e91",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 3.879876996958016e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_615df2223068660c",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_01e59c529b9b6598",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_71fabe993d6960f5",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.507598856863046e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_bee474063193811f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.324019494311225e-14,
+        "overlap_area": 2.7284841053187847e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f0086b27589f9888",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f5a47067c827e39f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f96715e59e68ea06",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 8.448148731588667e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_7a920c1a06a9a249",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_a25bf04d4ce491ba",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_5102ec1e584eff70",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 5.839731874577134e-14,
+        "overlap_area": 6.821210263296962e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_b008f57de55b1805",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_53f43b76360675a2",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_cb869f009fbfb0d9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_aaab03df5ab6c446",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.698566400375947e-13,
+        "overlap_area": 9.094947017729282e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_ffd7a8e35dfbd39a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f92d16e47542dd71",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 5.845530567909208e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_887526ef7f766ec5",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_794706df31b0709a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_40914898c0fd3741",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.7769222471596035e-14,
+        "overlap_area": 4.547473508864641e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_5bab47e8880a0e16",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.9558577807620168e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_228d99de7ac73ab2",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 5.863982855865612e-14,
+        "overlap_area": 2.5011104298755527e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_f4568eb27cc98dbb",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.6932046237833756e-14,
+        "overlap_area": 1.3642420526593924e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_55708b46e5c82c0d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_de226b5ca857d961",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.805982685469184e-14,
+        "overlap_area": 3.865352482534945e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_e14e4ff767aaee0b",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6e8dc06c5fd30ee7",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.369433531347999e-13,
+        "overlap_area": 4.092726157978177e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_677dd6853483196a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 6.821210263296962e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c36acf4d2b7e89b4",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.9913360923616775e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_554ec78b5297725f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.3642420526593924e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_677578b51b07ec74",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 3.997565004154134e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_97cec3e9e82f5c78",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 3.9147872767969376e-14,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_ee367cdf7cdeb42a",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c99e1ec4067c76f6",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.782368428176414e-14,
+        "overlap_area": 1.3642420526593924e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_5fd9bee4c733d79b",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6964eabe2cd1b40d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.3642420526593924e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_2fcf73dd17ae83f3",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6940a098566f84f9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_a38dd6de55c80e34",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 4.092726157978177e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_4b8eeac392413878",
+      "valid": false,
+      "reason": "invalid_physical_face",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_4af346076e86fbd9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_4335b1928db2bb65",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.8189894035458565e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_187dbb4705a1d91e",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_e1720907984495a1",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.0904159227510059e-13,
+        "overlap_area": 9.094947017729282e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_82f591f9594bf5f4",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 5.893699922534038e-14,
+        "overlap_area": 4.547473508864641e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_edf8cf56981775f9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_a2baa2ab0780c595",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.1368683772161603e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_449edc0b57317c97",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_b82e1720955295ff",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 4.2092823801839273e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_feb28e2c4475f510",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.0770834982744423e-13,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_75c100ef90e7ce3c",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_d398e68de08bcd4f",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.0579168874417361e-13,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c4a42dda9d1080e0",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_38420c941b59abb6",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    }
+  ],
+  "val": [
+    {
+      "sample_id": "uiuc_ab4afd1cfee4fddc",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 9.094947017729282e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_db4be74064ce6b92",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_05aec1804ed1c575",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_67d33c16359cad38",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 9.744367445329936e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_69293df26f72b549",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_1bd2a584f48fbf9d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c49c3bb3a2f1449d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 5.723039379199649e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_e72ca0fad3d93977",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 9.094947017729282e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_5ca4e814dedde192",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.3143975649938706e-13,
+        "overlap_area": 3.183231456205249e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_85abd68a5cada1df",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 3.183231456205249e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_92e9d07afd4141aa",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.1368683772161603e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c70eed10961754a8",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_5bf509e9a4f04c96",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_49c3908d23c3aaf9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_e724b21e8d026424",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 3.128917053844253e-14,
+        "overlap_area": 4.320099833421409e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_fc52d115cd10d660",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_0692f5f8a65afccf",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 4.547473508864641e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_6fe35c943f276ec4",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_1b8ae2afc9e595f0",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.8189894035458565e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_74e1ff72bac25e34",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_e1a8eb1b9ef86167",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_8f97265aea94dea9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 9.757454990586774e-14,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_43aa67dc73ae0c3d",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 2.2737367544323206e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_2a2020bf5680e06e",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 8.751257875239358e-14,
+        "overlap_area": 3.183231456205249e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_3113ae92ffb90b93",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.3642420526593924e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_ddf06d33fdc36c91",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.458574612164841e-13,
+        "overlap_area": 4.092726157978177e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_812b0b65dcdb3ca9",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 0.0,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_773bc05fcd7f5476",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_716c5cd9dbf1a2cc",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 4.547473508864641e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c1e509ebfca27d7b",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.8189894035458565e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_c5f055d1b1a97ddb",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 0.0,
+        "overlap_area": 1.5916157281026244e-12,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    },
+    {
+      "sample_id": "uiuc_440e7d099b09f9f1",
+      "valid": true,
+      "reason": "valid",
+      "quality": {
+        "q": 0.0,
+        "block_count": 5,
+        "outer_blocks": 1,
+        "coverage_error_area": 1.586792909683116e-13,
+        "overlap_area": 6.821210263296962e-13,
+        "angle_quality": 0.0,
+        "opposite_length_quality": 0.0
+      }
+    }
+  ]
+}

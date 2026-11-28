@@ -5,5 +5,3 @@
 /docs/public_data_v1.md -text
 /THIRD_PARTY_DATA.md -text
 /.gitattributes -text
-/experiments/results/ch_sac_v2_20261125/cfd_verification/** -text
-/experiments/results/ch_sac_v2_20261125/reference/su2_configs/*.cfg -text

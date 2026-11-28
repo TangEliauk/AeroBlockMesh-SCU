@@ -5,6 +5,9 @@ __pycache__/
 venv/
 .pytest_cache/
 .mypy_cache/
+.runtime/
+/experiments/runs/
+/data/expert/generated/
 .ruff_cache/
 .coverage
 .coverage.*
@@ -47,3 +50,4 @@ Thumbs.db
 !/experiments/logs/.gitkeep
 /experiments/results/*
 !/experiments/results/.gitkeep
+!/experiments/results/airfoil_fusion_20261128/

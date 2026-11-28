@@ -1,0 +1,27 @@
+{
+  "activated_at_utc": "2026-11-27T13:04:31.651674+00:00",
+  "scope": "only future evaluation worker entry",
+  "formal_data_sealed_at_activation": true,
+  "frozen_protocol_source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+  "previous_launcher_sha256": "2ca2e9dcd90ea6298fff19e2bba371c37695d77c6ce13585522d62e29857ff08",
+  "launcher_sha256": "d45c90f53cf2a1702ccfd85c89546e84c007c3aa6c76769462e7e1d7e436e3e4",
+  "ledger_module_sha256": "4f11a9b3e695385474ac087925c34ef3375bb4a5542e0d0f8221621fac8bd880",
+  "case_ledger_gate_sha256": "cff3e41f65e032504ee107d45ceb2b52c8c54aa31ecdc142495635f45df1dcf7",
+  "windows_cli_smoke_cases": 8,
+  "prior_supervisor_reused": true,
+  "training_launcher_ast_equal_with_evaluation_hook_removed": true,
+  "interruption_gate": {
+    "scope": "sealed smoke development set",
+    "key": "E7_42_best",
+    "prior_whole_job_reuse": 15,
+    "completed_before_interruption": 3,
+    "case_receipts_reused": 3,
+    "cases_recomputed_after_resume": 5,
+    "cases": 8,
+    "reference_sha256": "c1b41e80db56176d926f9d14463c34cd6ac41803d9d4ced32acc0ec124008ef3",
+    "early_access_rejected": true,
+    "altered_case_rejected": true,
+    "exact_result_except_runtime": true,
+    "ledger_module_sha256": "4f11a9b3e695385474ac087925c34ef3375bb4a5542e0d0f8221621fac8bd880"
+  }
+}

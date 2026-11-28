@@ -1,0 +1,230 @@
+{
+  "source": {
+    "files": {
+      "src/smartcfd/__init__.py": "95dd96eb58d8b06fb00cb10ae99072b0b88bc3c8e9f076f754c59e7c620001d5",
+      "src/smartcfd/airfoil_decomposition/__init__.py": "5ff45e32fe2132e8a801b7caf7b81e6e415ba6e94b5adecb43687ac4abfad346",
+      "src/smartcfd/airfoil_decomposition/baselines.py": "a41b25f7bd8c065dc0c1ef25454adb0739b0e43d2634ad8328c98d7fb971606a",
+      "src/smartcfd/airfoil_decomposition/config.py": "8052f6190e53bdca04e6f425b923f8ea10b8cc6dc22db19c12be0608e2eef779",
+      "src/smartcfd/airfoil_decomposition/data.py": "bda52eb487b23d941abd3972c9a0240320313cc6c6e9ece8f1ef5a156d1d1227",
+      "src/smartcfd/airfoil_decomposition/env.py": "b44bcd08da8108d4ff831f72892ef13bde75d647dc4761be89bd1781d17ba384",
+      "src/smartcfd/airfoil_decomposition/experiment.py": "86c9f6f1d870bdeaaaa7142ea5530afedc78cb36a1eecf2ff649f397469cc678",
+      "src/smartcfd/airfoil_decomposition/geometry.py": "ab155bd75f8a60901bc28debd205e62e94656e4f2223b40f2c62997a57d583cb",
+      "src/smartcfd/airfoil_decomposition/guard.py": "8b365aa34b785374b33b55208ce557a19f320bebd6041ea0a592e27ef086a8b0",
+      "src/smartcfd/airfoil_decomposition/learning.py": "1d09cbe55cfca116240ae663b4d97f6d63556888cb02a0f50f38383c25534632",
+      "src/smartcfd/airfoil_decomposition/study.py": "c597b45adeb81fe2581081b54feae3fe7705598f23b0d3c7546a2dde3a01e297",
+      "src/smartcfd/airfoil_decomposition/study_driver.py": "892dd70953af40efa6abc146ed61bdece5f82c71693e22b72d611d95aafe0710",
+      "src/smartcfd/airfoil_decomposition/study_report.py": "4550c8298d5cc4577b4a98f90eceb1ad5bd1969163b522ba39cfba08964bb01f",
+      "src/smartcfd/airfoil_decomposition/visualize.py": "149e13a864c9bce6647495d5d860d6b04af434defa82db92c49168d8f28226fa",
+      "src/smartcfd/airfoil_fusion/__init__.py": "0dc4ad19a150174f6fd8f5ed33ac6c4ae8b9fbe5c29c31da968aedc1b8954eaf",
+      "src/smartcfd/airfoil_fusion/cfd.py": "b360b1de4a942c4a149226cba292f14130f3d544f81d3ac0b9715326015ff96c",
+      "src/smartcfd/airfoil_fusion/env.py": "428a5891efc880cda45afbb30771f59d2d93684aaa42d95057c31c111fe32068",
+      "src/smartcfd/airfoil_fusion/evaluate.py": "370344d4772ad29325ea32b3b423f81684a5533657dee2a570b4b07ac5f321f6",
+      "src/smartcfd/airfoil_fusion/learning.py": "868f70139069c4e2ab91424c4f0923886fd14d4761c1356806e4c3233ff38195",
+      "src/smartcfd/airfoil_fusion/mesh.py": "cc58326740a24b7bbc068d825f8db59f0dc7e3cbbd0b826eeff644e1df5bbd80",
+      "src/smartcfd/airfoil_fusion/protocol.py": "91f0d1f43e23572a7d3d3bc1bfc2db25c23c147f03bb9826691a22f7266acfb9",
+      "src/smartcfd/airfoil_fusion/rollout.py": "685af36ac928798158cedce246f8bae1e6489caf1cf72588c54219b4bcb106b3",
+      "src/smartcfd/airfoil_fusion/runner.py": "58f47f544cc47c25bc83204aa76a0803a0ef2cd02029933844165a76d8a3465c",
+      "src/smartcfd/airfoil_fusion/teachers.py": "0b45d86244f57cd2ff4fcd33cedae5ff30f3da3c1203821523d738945bffa434",
+      "src/smartcfd/airfoil_fusion/train.py": "db274ff8ecca815f1dd598b910ed44b2230ddc11f1b8fa7d77b2f809c3f6d5ff",
+      "src/smartcfd/baselines/__init__.py": "8ffca23da44c3f0b16dd1e057dee6d768e1cdd57a4a1bdd8947ea8164443eaf6",
+      "src/smartcfd/baselines/rule_partition.py": "22b38aab5fa851ed2841ee1796369e54197d4632785dfcc6667221274f17fc38",
+      "src/smartcfd/baselines/template_partition.py": "5a129239fac3df82c6ed0aaed57d60a3edbf7f96723b93291418cf6647f27a92",
+      "src/smartcfd/baselines/traditional_meshing.py": "cc55ac53bdaf66f52a1ca83d7c48229b732fa06adc0f499f77feed84377b9525",
+      "src/smartcfd/cfd/__init__.py": "78395d68a1c0a48299714ba0530ab1766bb94ab24ce9e938b93f3da809dedd47",
+      "src/smartcfd/cfd/boundary_conditions.py": "643d0d3a23502701a47fdee30afe30f7c4f6ccd0c3c83e9ae669cb78c9e1cc20",
+      "src/smartcfd/cfd/convergence.py": "0dca37f806d1e163fcef0dd25bffac0c59507137f24ad50221d562287376007c",
+      "src/smartcfd/cfd/default_case.py": "360d4a19a6d475bf3331164911d1f8876a07836bb0d44e65f67c6b63b1478c68",
+      "src/smartcfd/cfd/solver.py": "19fda7060dd5f83bd468392a17d39988d83893eaf28b52c9f0e4f392d21e4407",
+      "src/smartcfd/cfd/validation.py": "794d60d670d5371741cf98204f55a602c445de202d002ece94d210b6cd06a71d",
+      "src/smartcfd/core/__init__.py": "384960d9b8976cbc701142e716405bec272b5661065405110b566619cb423869",
+      "src/smartcfd/core/io.py": "b4e8bc637e87fa523bb08e7b019f51c6ce932dc1007c4d36e792b15fcfc80164",
+      "src/smartcfd/core/types.py": "103bb05cf1ae2e86d920989bab0511efb855bc046c8ae5c988a41b8aa2c7031e",
+      "src/smartcfd/decomposition/__init__.py": "6d81c2cb06f5204ced681d0e8afd5187e4cc66d95875b5aa4f9ae85c4d348ec6",
+      "src/smartcfd/decomposition/cases.py": "515ed022e31a8ea809dfefc0d8212d711922f630c9c7683718d2c9b0902ebbe4",
+      "src/smartcfd/decomposition/env.py": "ac19d7617e2ac332a23d011baacc024d45a0069e734e0bbca591836f76aeb716",
+      "src/smartcfd/decomposition/experiment.py": "8226618d9eca3bc18f84e9bb27fd8dc08b1bdc0fc1be6bfd5724f0964c91a9e5",
+      "src/smartcfd/decomposition/geometry.py": "ced68fb5dd0bcf0d3446c4d215055fd0925de968066f05f46602c90dc7fb570b",
+      "src/smartcfd/decomposition/learning.py": "f8a6ad616277cbbfaba34e632ba767fa8f7b3463c2e5d47cef28e1e7f3fb3c83",
+      "src/smartcfd/decomposition/visualize.py": "587a166bf116e10204c711e2c92049b843fff138e0913bc04a03e4070c2422d8",
+      "src/smartcfd/evaluation/__init__.py": "187549ec355b99d69ba642461294964b81e5e33baad88d016e1c2aca90f38c1b",
+      "src/smartcfd/evaluation/boundary_layer.py": "a4c8d674e82e41e6fd29af7684e1746f366eb81089d5cf88161b26dd3cd62365",
+      "src/smartcfd/evaluation/jacobian.py": "a068356ef1fb787a5128528e5e356c6d3bbfcf23bee3c92af0ac82b4e8d409d4",
+      "src/smartcfd/evaluation/mesh_quality.py": "04b9b8b3faaebb12a973c0e7e02723fac27ed95c87def0ac42cc58f9070b65c9",
+      "src/smartcfd/evaluation/metrics.py": "af14913f084ab3ed0088cca4c8d21b2d4c03bb2d77d47600096031d9141df3e1",
+      "src/smartcfd/evaluation/orthogonality.py": "88664e6f61780c0d84d42a7ba1dd40ff114be1e226102b09b067b611a6b14ee2",
+      "src/smartcfd/evaluation/partition_quality.py": "c11e6449c075674391ce6af6b12364569dc19e0c124e42dc82e698c258520c72",
+      "src/smartcfd/geometry/__init__.py": "6987746d2bac60a8bff0e33d5cc9a7c29e92c97a7d157704a8c1e600a18694b8",
+      "src/smartcfd/geometry/airfoil.py": "444bb9891a2d8b5c8903d53419e5d52f1dc800da9993cdbabdb40f07134f85d0",
+      "src/smartcfd/geometry/domain.py": "464483d062b72453aabdc9d8a6d01f7fc0ac58b6767bc324fc82ab3155d04230",
+      "src/smartcfd/geometry/geometry2d.py": "16158610b999ccabbc1ffa4169e4a3ec986494585b455e5c401032c851ed2d2d",
+      "src/smartcfd/geometry/geometry3d.py": "1e704e1c8cb27ec99b8485786070e81d64b1e24e4362cef2ef68011586b46522",
+      "src/smartcfd/geometry/preprocessing.py": "c0acb45db81368c7846e356d0b986c46dc6574565d28c6e085d729568c4874b6",
+      "src/smartcfd/meshing/__init__.py": "6790548f08bbf84d8d299141bd4add2b8c2d03801c702ea951194c3b409f4906",
+      "src/smartcfd/meshing/generator.py": "794cafebeb417a7d37fa6a8b3cff42274d917f6d3dc4ad318c768418dea95a11",
+      "src/smartcfd/meshing/interfaces/__init__.py": "38221dc500096bb3aafaa8f69cee202d01f063d4227cd5a72bd1472e5aea2507",
+      "src/smartcfd/meshing/interfaces/connectivity.py": "71b231c371eb34fb07aadd1c362da98d380ae4ce96a8699ccbf25976c7727fd3",
+      "src/smartcfd/meshing/interfaces/matching.py": "b2400cf133ee29ff4aa1282921397a69a532aed1437884b7d16486bf94f8ee1c",
+      "src/smartcfd/meshing/mapping.py": "46a11d6ba3231715a9747eeafa1a10172511e8b64e7fd0e4ec3a5b9460c924be",
+      "src/smartcfd/meshing/models/__init__.py": "5df533ba92f2d9783844a9fe7fdf8f1374e66fdb12d13b0eb8ffbcf72415bdce",
+      "src/smartcfd/meshing/models/kanmeshnet.py": "eaac8fd753a2401369c65f4f12c44a329142bb3e89a490a4404a1aeab8ab5a5b",
+      "src/smartcfd/meshing/models/meshnet3d.py": "8d91ca82e6e1e034b89cca391a350a9c20f9ccafe42c89735bef1f1e1fe7b095",
+      "src/smartcfd/meshing/models/multimeshnet.py": "34856a0d5de3e49025c562f7aef9fe516926702a52c3b73f909003de9a090050",
+      "src/smartcfd/meshing/structured.py": "0a9516c6f370800442adc4f80fb1a3ffbe33e46d903f549730c1d29d9cc9142d",
+      "src/smartcfd/meshing/tfi.py": "a93aaf52ebf6200f7f0bddb28a87e1eec0793dc32a8352bd1a548585973b0161",
+      "src/smartcfd/partition/__init__.py": "defeb01e2b5f36e9c255959bea7cc076e838128cc27a22a734d7de1da97c278e",
+      "src/smartcfd/partition/actions.py": "edf143b57b5321e69a3960ab15050321896df055b56bd25f4f5d18da295b21bf",
+      "src/smartcfd/partition/blocks.py": "821bcf3179f7c6a6f00af30392125c90fc895c6c9dac96c52042652a66cd2cd4",
+      "src/smartcfd/partition/constraints.py": "2f8595f17c4d9d66fe106fa240b0a2a50f5ef5e2abd6ffa7b8708e64d13d1a5e",
+      "src/smartcfd/partition/topology.py": "3d840af3d65148879e637d7292fc52d047d508b557c4b81049f532af0edd4550",
+      "src/smartcfd/partition/transition.py": "675f405396aba632ba2217807ff99d15f32dabf67fa8a6484bf714ed7b07e263",
+      "src/smartcfd/pipeline/__init__.py": "89fa2b63d6d8a42e049eaee2d6185d1ae9ff2a0cd9b10cca3f77ec7a2ca306f4",
+      "src/smartcfd/pipeline/audit_shared.py": "9d91df5f197a73f642f1693ee05f639850a7ce768d7153f0dd5c005d42a90468",
+      "src/smartcfd/pipeline/cli.py": "d1f968c3e27a288d296c059ca6c13c760b1283ac53bbe0e49e68e458090178e1",
+      "src/smartcfd/pipeline/config.py": "68999d83521f38070c00864d36577cceabc714ba969f122f343f204a0b04c0a7",
+      "src/smartcfd/pipeline/data.py": "0938eaa02340a17c7cb1abeb8e8da0d1c296143576c0bed92319f730374551ab",
+      "src/smartcfd/pipeline/demo_audit.py": "d24758cc82253a96eb9ec86f460436524b181058fc72d6d39e7ad2f4f382310a",
+      "src/smartcfd/pipeline/demo_training.py": "20f45624ec5c1a039b50e88dfdf46a8b6803b8007b80ed809f0c21c51a08a635",
+      "src/smartcfd/pipeline/mesh_audit.py": "adc400dfe3369f553c15b244ef864f13a563e98b458b81da37893a546a8c6af2",
+      "src/smartcfd/pipeline/review.py": "21a196eef63689ace9f3fbfd3e63e1ca6afe2f9d44cb3395bedee8b58f5f8cdb",
+      "src/smartcfd/pipeline/validation.py": "959b5b6158f020a79ffacab03a41a9935df982bbef78c1cf00b4871acc584f61",
+      "src/smartcfd/pipeline/workflow.py": "5b38be597c5c1ec37ac704cc8300d2fd519861c74f31b324adb5d0e02394a118",
+      "src/smartcfd/rl/__init__.py": "ff0eaf7376219847d9589e20d848799aec9fb311e61afd7f6f7f542ee3ad3272",
+      "src/smartcfd/rl/agents/__init__.py": "4635fd5ae1ec5ebe5ceca74a93c9e15a53e868dac0100f9857422134227b25fd",
+      "src/smartcfd/rl/agents/policy.py": "a9e9604d3f5b93f0f6b8dff8073907bc1f8bbdce06721880c0d62649cc711f55",
+      "src/smartcfd/rl/agents/sac.py": "2d83c36b49f4d1ebef90a8f23f4dd742998029b15c95e3d14b4d8ad67fd2785d",
+      "src/smartcfd/rl/env.py": "b1c49e2c20ca3703a85d5d8e28d2b2880a397652107789bcaed4fa13bd0869b2",
+      "src/smartcfd/rl/imitation/__init__.py": "d0b8fa075d74cd565b5c422e2aaff205179d3564c1c9ba1a5f8a6aa75d4de280",
+      "src/smartcfd/rl/imitation/dataset.py": "9afb1809b87d4c50fd81abd665fd59ec786b9492b5701fa3da1c6a6f3c8999ee",
+      "src/smartcfd/rl/imitation/pretrain.py": "83bf32aeeb81a5b15540c1e3bb08b5f3bd39aef5fb6875a4d02197674c1e6992",
+      "src/smartcfd/rl/replay_buffer.py": "54796365b24064ed036c066d7dd37e2a524f93466ce0f56a3d9b2f3a989a341d",
+      "src/smartcfd/rl/reward.py": "21798f05d9dd77cf95da29545846d2100fbad8ca2cc197817e06d4c156cb85b2",
+      "src/smartcfd/rl/state.py": "ab8c7272e7dde121db8e259c68b1c313bc2cff7eeb77923112fa60ba3953da42",
+      "src/smartcfd/rl/trainer.py": "b0aa845a27814d65d07ec49395bf5e89cae1655718f7ca483d1acaa5960a6e84",
+      "scripts/run_airfoil_decomposition.py": "b921002f2b9f5753f1a769550ceef36f2e3248cc63368258227bb39d90a91f07",
+      "scripts/run_airfoil_fusion.py": "b37d6eccf3dcbf6cfd6dbd080ab8bc058ea24ba993137fdfd72c0e1ce18b842f"
+    },
+    "source_sha256": "5c4eea60a6bce66879443fe42a63e3d23d9de2131477c21417edfd68470d2b73",
+    "packages": {
+      "torch": "2.7.1+cu128",
+      "numpy": "2.3.1",
+      "gymnasium": "1.1.1",
+      "shapely": "2.2.0",
+      "matplotlib": "3.10.3",
+      "PyYAML": "6.0.2"
+    },
+    "scope": "All current smartcfd Python source and the independent airfoil entrypoint"
+  },
+  "references": {
+    "local": {
+      "source_sha256": "3d12b326b47a98176aee621a0d5a2a9e431a9b7cdf2ae1843b85e116c163de86",
+      "artifacts": {
+        "source.json": "4d84fd793e901d16a5d70773572f7b5e147f62e5f06182cab55e1d05e2cc88bf",
+        "frozen.json": "a94d5e1906adf9d87b4beb96fb42e89c1cc192585d5f273b31f5d6f18226c81a",
+        "audit.json": "8a5dc9f38221fbd61579fbf97b2d92861125df8099f1412bee329de50275de9d",
+        "teachers/manifest.json": "229e031c9fa1a4ec77b2996220a6bf11082510eed9c4d86207d07175a9934af3",
+        "report/summary.json": "5deea1449a75a5c27052547790e5c4c24fc3d9c71f0a24d8301d8e7eecc03fa8"
+      }
+    },
+    "github": {
+      "commit": "cbcad235a4dbb8b8d433a86b93f5daea0cda059c",
+      "artifacts": {
+        "README.md": {
+          "git": "edff72d7e95cf66fef70c88593e6371df61a10b2",
+          "sha256": "b6843e4a707a9b5f8c70cda7dddc0705ff4f4d3d1c6ebbb8451eb1db0457b7e3"
+        },
+        "ch_env.py": {
+          "git": "7f6502aa6353a7c1c2827e5d8fb2d79a7af0d51c",
+          "sha256": "0178338f711c85edccf61ac47e0b0557aee0153b973e3e1b3c492591901b5ac4"
+        },
+        "ch_sac_v2_model.py": {
+          "git": "797ce833d3895e6486be3583f388a5f3c4d77c7d",
+          "sha256": "41b10d4559da522901cf7935c66988812a91364d6077a21770bcfc785f784677"
+        },
+        "prepare_dataset.py": {
+          "git": "35a34b926a8c254b56122a67bb1b0579f366deea",
+          "sha256": "e28da5f7693f85156ea83ce89a70f7b891f3e5b994006baebc13d0739a9481c7"
+        },
+        "train_ch_sac_v2.py": {
+          "git": "43cc83db06f35a0710f15f46552f272ae268bf64",
+          "sha256": "361fe24b82873b37a1728bfa14c986d7521a83618745e95b6fdadab0e69108bb"
+        },
+        "eval_and_cfd.py": {
+          "git": "2e3ec1bdb355584a8aa543a1114b3bbd20f5abbb",
+          "sha256": "b1ed2c5ce41f8071303d678393639b2699d5db8f618f3e116236393a630b3545"
+        },
+        "cfd_support.py": {
+          "git": "492f9c2460d6df0d59eeae350c99c7a8567f81f5",
+          "sha256": "3de0d3936e1ee0438cc410973e27925f61f8fda1f09448116b7497e0d6ef6f35"
+        },
+        "dataset_manifest.json": {
+          "git": "00a8e79a83fc03ba7dcec1368b7b4d255d345dd8",
+          "sha256": "da04712971f19fce918654e37585316131c77afd927ac49d248a743a4a63fade"
+        },
+        "training_summary.json": {
+          "git": "470ef8000c191313020553c6153fc1ad7b5e048b",
+          "sha256": "5a663f05e9d0928529b656126633cfe5bf05d2147c68fcded52a75cc9d05d44e"
+        },
+        "eval_summary.json": {
+          "git": "ed90c7d699aa8a97e4626b061d34605c8b6b6131",
+          "sha256": "b022280fceb6ac5132d8a79d85f7f20fb4961556569f5512d238cb0f777601c3"
+        },
+        "baselines_summary.json": {
+          "git": "11e696b41447df1c235544cf9024fab18be095b1",
+          "sha256": "e660c30984edb8d0d8358220f71c48e79f00fc1fe0b01b79dfded88be09d0307"
+        },
+        "cfd_verification_summary.json": {
+          "git": "8fe0869cd028bd44c41f7c5d7964934a53ab5da7",
+          "sha256": "c021d28e8bbe18b0932d28008a9585c4a7f449cada38bfe44414ccf63d729cee"
+        },
+        "cfd_verification/naca0012_v2_5120/warm.cfg": {
+          "git": "d66c11f6abe8f4eeb9705bb0c1cc7d6c77a25d83",
+          "sha256": "e15a80489c1cd97107dfc46d4c3184d1b3a5a40357ce614644aaa6b7f651def1"
+        },
+        "cfd_verification/naca0012_v2_5120/rans.cfg": {
+          "git": "262fa9997737586b213c0cf0189d23051dbad3b5",
+          "sha256": "134790961181eec6364ab5c29c771114e1087938019fc6896920eb8bd955cf55"
+        },
+        "seeds/seed_42/best.pt": {
+          "git": "60441e01837e13ac81d9082e28f4ffd1a25f5c5d",
+          "sha256": "2eeeac0e02cbe45f2a920c40af3c3c55dc11ea8ee288e4ede009873462ef1012"
+        },
+        "seeds/seed_42/last.pt": {
+          "git": "60441e01837e13ac81d9082e28f4ffd1a25f5c5d",
+          "sha256": "2eeeac0e02cbe45f2a920c40af3c3c55dc11ea8ee288e4ede009873462ef1012"
+        },
+        "seeds/seed_43/best.pt": {
+          "git": "3c64e46d109ae5715823384c5d10701cd6a671d8",
+          "sha256": "3a5e2cf1df50bbf931688fcc0ade1a59b4ee228149ce5ba4cc44e59b74426384"
+        },
+        "seeds/seed_43/last.pt": {
+          "git": "bbb53812d92a6634793e3ca8d5219970db072976",
+          "sha256": "e03b699ee904e345e0a0a9b2c3883bbcc5037dd32e22ae6eeeff9e429291d2c9"
+        },
+        "seeds/seed_44/best.pt": {
+          "git": "e423ffd675e148e629d9c61ff938dd79246c3386",
+          "sha256": "d1ecd058e932e3e30e0bc592c51826829d26ece6a6ac65ef67097760df65360d"
+        },
+        "seeds/seed_44/last.pt": {
+          "git": "cc84dbca392c238e92276b1c01588ebd94fac2ca",
+          "sha256": "8cd036fc542029e1be2648fdbdde955deb9f190ed507fb141d51908539a68f4b"
+        },
+        "seeds/seed_45/best.pt": {
+          "git": "7ae4823ad85261f12a6368bb9a621349b214d64a",
+          "sha256": "9f882d39f215e4be8d036214b7743fef297ecf6088124bb6395c9aa869b1faf0"
+        },
+        "seeds/seed_45/last.pt": {
+          "git": "86fe4de3a09866c2c93709a0d5f61165daf4a7de",
+          "sha256": "a310b7e5d70135a48132d5cc8fd0ba907b98cdfe3bb2107b75c079184e4bdc7b"
+        },
+        "seeds/seed_46/best.pt": {
+          "git": "97c4d1736509fa35061990dfe2aa4236fbdba9c8",
+          "sha256": "70e6bcec99ea9db73a0d4158ef61fe51d0cc502d63f380bf649462ae473196bb"
+        },
+        "seeds/seed_46/last.pt": {
+          "git": "cb100cda85568022b7c492e8489558deebb374eb",
+          "sha256": "747d92bc83076055caa998e8ca2942243ac8f302010e1fdc1db8bead435c5360"
+        }
+      }
+    }
+  }
+}

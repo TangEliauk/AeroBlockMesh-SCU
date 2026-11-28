@@ -1,19 +1,8 @@
-"""运行 CFD 数值验证的命令行入口（待实现）。"""
-
-import argparse
-
-
-def main() -> None:
-    """展示入口参数；算法接入前明确拒绝执行。"""
-    parser = argparse.ArgumentParser(description="运行 CFD 数值验证（项目骨架，功能待实现）")
-    parser.add_argument(
-        "--config",
-        default="configs/cfd.yaml",
-        help="预留的配置文件路径（相对于仓库根目录）",
-    )
-    parser.parse_args()
-    parser.error("当前仅提供项目骨架；运行 CFD 数值验证功能尚未实现。")
-
+"""Executable local prototype entry point; see --help."""
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+from smartcfd.pipeline.cli import main
 
 if __name__ == "__main__":
-    main()
+    main('cfd')

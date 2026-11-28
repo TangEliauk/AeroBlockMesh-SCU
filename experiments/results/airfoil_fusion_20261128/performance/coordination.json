@@ -1,0 +1,1954 @@
+{
+  "goal": "完成计划",
+  "branch": "codex/airfoil-fusion",
+  "smoke": "experiments/runs/airfoil_fusion_smoke_v3",
+  "formal": "experiments/runs/airfoil_fusion_formal_v2",
+  "known_sessions": {
+    "smoke": 39184,
+    "formal_gate": 47423,
+    "formal_teacher_preparation": 69617,
+    "formal_teacher_spare_preparation": 43071,
+    "formal_plain_replay": 60691,
+    "formal_e7_seed45_spare": 36855,
+    "formal_e7_seed46_spare": 60761,
+    "formal_gate_90505": "terminal Windows sharing conflict",
+    "formal_accelerated_seed44_isolated": "exited and checkpoint promoted",
+    "formal_gate_28958": "stopped and exited for accelerated runtime",
+    "formal_accelerated_e7_seed44_isolated": "exited and checkpoint promoted"
+  },
+  "gate": "formal starts after the smoke audit passes and records actual SU2 solver history",
+  "continue": "Poll accelerated formal session 47423. Keep the 25-arm matrix, 4,000/8,000 rule, and independent test scope. Performance transition evidence is in accelerated_handoff.json.",
+  "superseded_sessions": {
+    "formal_gate_36273": "time-based wait expired; no training launched"
+  },
+  "updated_at_utc": "2026-11-27T23:56:09.559171+00:00",
+  "last_verified_smoke": {
+    "completed": [
+      "E4_42_40",
+      "E4a_42_40",
+      "E6_42_40",
+      "E7_42_40"
+    ],
+    "worker_pids": {
+      "E8_42_40": 30180
+    },
+    "pending": 0,
+    "E8_online_log_rows": 40,
+    "E8_final_validation_open": true,
+    "first_stage_completed": true,
+    "all_checkpoint_hashes_match": true,
+    "evaluation_started": true,
+    "E8_final": {
+      "step": 40,
+      "successful": 0,
+      "total": 8,
+      "first_actions": {
+        "insert_edge_point": 8
+      },
+      "actions": {
+        "insert_edge_point": 152,
+        "insert_chord": 64
+      },
+      "failure_reasons": {
+        "proven_unfinishable": 8
+      },
+      "network_sha256": {
+        "actor": "7316686fb53d3aa4111ae22a4b175219029b0f80c28c51b7c415f2c48ce9d5f3",
+        "q1": "4b692e6cb79331d4985f24251bcdb08c2abee0ede522ad8b3d37bfbef11c8d8a",
+        "q2": "543b143616a43d699af42085c11ddb8bc5c34fe84d10b5c22a0dafa422e895e6",
+        "target_q1": "eff07fc67b1056db19d2da9a6ef54e7a2000f12393125d1495018fb265876bc5",
+        "target_q2": "ba18184701eedd55822c125229e849152414ca87a7af6bb71c6a4c7380b5cb22"
+      },
+      "median_edits": 27.0
+    },
+    "evaluation_progress": {
+      "completed": 15,
+      "live_children": {}
+    }
+  },
+  "workbook_validation": {
+    "scope": "engineering fixture only, not experimental results",
+    "detail_rows": 12060,
+    "sheet_count": 5,
+    "sha256": "c9d6720c9324cdeedf90925e6a42b49281fa95e424d9a1e58aa96c50e9cb9010",
+    "checks": [
+      "cached success formula values against input rows",
+      "method, seed and checkpoint table coverage",
+      "case rows across both budgets",
+      "negative controls for wrong ratio and missing case rows"
+    ]
+  },
+  "teacher_preparation": {
+    "verified_shared_cases": 32,
+    "policy": "one additional data-preparation worker only when the live smoke queue has spare capacity; no model training or test evaluation",
+    "historical_audit_sha256": "90e4fe0a8d0cd58d1d84c840c296673ec9caa9b154247edb3adf42fd57a91335",
+    "last_verified_total": 128,
+    "last_verified_selected": 124,
+    "receipt_counts": {
+      "teacher_reuse_receipt.json": 32,
+      "teacher_preparation_progress.json": 41,
+      "teacher_preparation_spare_progress.json": 33,
+      "teacher_preparation_eval_progress.json": 22
+    },
+    "manifest_sha256": "7eedbda79027b46791a894419bf29348777416109caadacaebe0cc076cb19a22",
+    "selected_methods": {
+      "fixed": 124
+    },
+    "plain_cache_sha256": "5e6cfdc07210ecf1ffff9d656ffcba2a87aae507d99abc8a47da0b76eb3d67f7",
+    "guarded_cache_sha256": "5e6cfdc07210ecf1ffff9d656ffcba2a87aae507d99abc8a47da0b76eb3d67f7"
+  },
+  "last_verified_smoke_trace_diagnostics": {
+    "seed": 42,
+    "profile": "smoke",
+    "observations": {
+      "E6": [
+        {
+          "step": 0,
+          "successful": 0,
+          "total": 8,
+          "first_actions": {
+            "insert_edge_point": 4,
+            "insert_chord": 4
+          },
+          "actions": {
+            "insert_edge_point": 225,
+            "insert_chord": 31
+          },
+          "failure_reasons": {
+            "step_budget_exhausted": 8
+          },
+          "median_edits": 32.0,
+          "report_sha256": "83a61987ded34f99584b7ee91b1600c1a16fedfbf9f7b94d344aa5763bce0d91"
+        },
+        {
+          "step": 20,
+          "successful": 0,
+          "total": 8,
+          "first_actions": {
+            "insert_edge_point": 4,
+            "insert_chord": 4
+          },
+          "actions": {
+            "insert_edge_point": 225,
+            "insert_chord": 31
+          },
+          "failure_reasons": {
+            "step_budget_exhausted": 8
+          },
+          "median_edits": 32.0,
+          "report_sha256": "8babc1b353fe6d887cfb5bf6aaa64745dd8a5f40337ea24357f4db0761aca94a"
+        }
+      ],
+      "E7": [
+        {
+          "step": 0,
+          "successful": 8,
+          "total": 8,
+          "first_actions": {
+            "insert_chord": 8
+          },
+          "actions": {
+            "insert_chord": 24,
+            "stop": 8
+          },
+          "failure_reasons": {},
+          "median_edits": 3.0,
+          "report_sha256": "2998987ab6e1df2cd8c6da35eec3d34ce37dffac1f48c89650e0dafbc17fd7ed"
+        },
+        {
+          "step": 20,
+          "successful": 0,
+          "total": 8,
+          "first_actions": {
+            "insert_edge_point": 8
+          },
+          "actions": {
+            "insert_edge_point": 248,
+            "insert_chord": 8
+          },
+          "failure_reasons": {
+            "step_budget_exhausted": 8
+          },
+          "median_edits": 32.0,
+          "report_sha256": "f67441e740d95364e6e12c7273e1b28f31a4428091a992b6499aff9143105333"
+        }
+      ],
+      "E8": [
+        {
+          "step": 0,
+          "successful": 8,
+          "total": 8,
+          "first_actions": {
+            "insert_chord": 8
+          },
+          "actions": {
+            "insert_chord": 24,
+            "stop": 8
+          },
+          "failure_reasons": {},
+          "median_edits": 3.0,
+          "report_sha256": "d4cc990f818d53f669349fa63cd447459270b2d24ed7021d904ab29b775e0664"
+        },
+        {
+          "step": 20,
+          "successful": 0,
+          "total": 8,
+          "first_actions": {
+            "insert_edge_point": 8
+          },
+          "actions": {
+            "insert_edge_point": 152,
+            "insert_chord": 66
+          },
+          "failure_reasons": {
+            "proven_unfinishable": 8
+          },
+          "median_edits": 27.0,
+          "report_sha256": "280584e457435091a4f680ce873b0815767dc3a9efee208e3a61874fb19fa106"
+        }
+      ]
+    },
+    "E7_E8_training_match": {
+      "seed": 42,
+      "comparison_step": 20,
+      "matching_observed_online_prefix": 22,
+      "same_network": true,
+      "E7_failure": {
+        "step_budget_exhausted": 8
+      },
+      "E8_failure": {
+        "proven_unfinishable": 8
+      },
+      "observed_full_online_matching_prefix": 22,
+      "E8_online_pruned": 366
+    }
+  },
+  "sample_check_for_smoke_cfd": {
+    "sample_id": "uiuc_ab4afd1cfee4fddc",
+    "source": "development-only first validation case",
+    "E1_E5_same_graph": true,
+    "budget_1536_valid": true,
+    "actual_cells": 1536,
+    "E5_validation_report_sha256": "704dc9ce896896fea54e79a1b5dafd23afc8e0b5b1129c616a9532b4cc56f0c8"
+  },
+  "smoke_audit": {
+    "sha256": "b775e6d74a3d8b799699a515de95bbcd4b378f03f1e509dcc289eab538fe5df2",
+    "passed": true,
+    "cases_checked": 120,
+    "solver_runs": 2
+  },
+  "formal_bc_verified": {
+    "42": {
+      "receipt_sha256": "046b38034f1e618161830534eafa9088e998a13a9dbce24c3f1dcf123b79a597",
+      "successful": 32,
+      "total": 32,
+      "updates": 1000
+    },
+    "43": {
+      "receipt_sha256": "1f36960b192fac0e935271f4978fa6ac1a818fe5008066035a4d5af98d7390cd",
+      "successful": 32,
+      "total": 32,
+      "updates": 1000
+    },
+    "44": {
+      "receipt_sha256": "7bdced6e93c5440caab8dea352b00fcfe63f541b9d13c0210312d56f957f2853",
+      "successful": 32,
+      "total": 32,
+      "updates": 1000
+    },
+    "45": {
+      "receipt_sha256": "f70d4e5baca92f1acf6f6d7669047d0e40f6897cafd1568a3dfac63abdc5d246",
+      "successful": 32,
+      "total": 32,
+      "updates": 1000
+    },
+    "46": {
+      "receipt_sha256": "9db56ea3efe11b1d1932050b1d74d8ee1d2b7e6d38d3b244296b371cc1dfe318",
+      "successful": 32,
+      "total": 32,
+      "updates": 1000
+    }
+  },
+  "formal_first_queue": {
+    "status": "completed",
+    "pending": 0,
+    "live_children": {},
+    "completed": 25
+  },
+  "formal_verified_handoffs": {
+    "E7_seed45": {
+      "step": 250,
+      "sha256": "5ccbc096f16fd2dcd1728d4da39d6c183e31eae7deefb705a034e248cf78bca6"
+    },
+    "E7_seed46": {
+      "step": 250,
+      "sha256": "4e2ff3ee7424538119ac3d3773c915afd86d588e9dfa59f406327d4816b1b51a"
+    }
+  },
+  "formal_verified_initial_checkpoints": {
+    "E4": {
+      "step": 750,
+      "updates": 623,
+      "validation": [
+        [
+          0,
+          0,
+          32
+        ],
+        [
+          500,
+          0,
+          32
+        ]
+      ],
+      "terminal_reasons": {
+        "step_budget_exhausted": 23,
+        "completed": 1
+      }
+    },
+    "E4a": {
+      "step": 250,
+      "updates": 123,
+      "validation": [
+        [
+          0,
+          0,
+          32
+        ]
+      ],
+      "terminal_reasons": {
+        "step_budget_exhausted": 7
+      }
+    },
+    "E8": {
+      "step": 250,
+      "updates": 378,
+      "validation": [
+        [
+          0,
+          32,
+          32
+        ]
+      ],
+      "terminal_reasons": {
+        "proven_unfinishable": 9
+      },
+      "proofs_pruned": 4249
+    }
+  },
+  "formal_certified_sac_workers": {
+    "E4_seed42": {
+      "online_steps": 4000,
+      "best_step": 2000,
+      "validation": [
+        [
+          0,
+          0,
+          32
+        ],
+        [
+          500,
+          0,
+          32
+        ],
+        [
+          1000,
+          0,
+          32
+        ],
+        [
+          1500,
+          0,
+          32
+        ],
+        [
+          2000,
+          32,
+          32
+        ],
+        [
+          2500,
+          32,
+          32
+        ],
+        [
+          3000,
+          32,
+          32
+        ],
+        [
+          3500,
+          32,
+          32
+        ],
+        [
+          4000,
+          32,
+          32
+        ]
+      ],
+      "receipt_sha256": "dc63ef1d53758291cae2d16c347beccd237353df3f88d937539f469ffffae759"
+    },
+    "E4a_seed42": {
+      "online_steps": 4000,
+      "best_step": 2000,
+      "validation": [
+        [
+          0,
+          0,
+          32
+        ],
+        [
+          500,
+          0,
+          32
+        ],
+        [
+          1000,
+          0,
+          32
+        ],
+        [
+          1500,
+          32,
+          32
+        ],
+        [
+          2000,
+          32,
+          32
+        ],
+        [
+          2500,
+          32,
+          32
+        ],
+        [
+          3000,
+          0,
+          32
+        ],
+        [
+          3500,
+          32,
+          32
+        ],
+        [
+          4000,
+          32,
+          32
+        ]
+      ],
+      "receipt_sha256": "67607f123c4f1fa3ed4869577b3a5dd5507f7d40a93dc37d4b9935169f346ef3"
+    },
+    "E7_seed42": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "943b8758a43dc041168fedf8416e07c86d4ab790005fe529f673f25c6fb4a548"
+    },
+    "E6_seed42": {
+      "online_steps": 4000,
+      "best_step": 2500,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          0,
+          32,
+          null
+        ],
+        [
+          2000,
+          0,
+          32,
+          null
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "a72f496cd158bc4f41eb304ef2666ac190ff37af140fdb5fc5608c17328bf291"
+    },
+    "E4_seed43": {
+      "online_steps": 4000,
+      "best_step": 1500,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "2d650d86fac6ef7171efbc20d768e0652792dbc958825300ef8d33e6df3a1d1e"
+    },
+    "E8_seed42": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "742638fafdee56e4dbb5c384f26436536acd0a7f43d2d766a8e010ba94873911"
+    },
+    "E4a_seed43": {
+      "online_steps": 4000,
+      "best_step": 1500,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          2500,
+          0,
+          32,
+          null
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          0,
+          32,
+          null
+        ],
+        [
+          4000,
+          0,
+          32,
+          null
+        ]
+      ],
+      "receipt_sha256": "7c8ffec95db160843243a46fd5479789b77e450d8d2da8f1ad349d094b03b1cc"
+    },
+    "E6_seed43": {
+      "online_steps": 4000,
+      "best_step": 1000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          17,
+          32,
+          -1.2086502958587337
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "ea92ab8b79c4d4ca9d1dec2f6ab3eb2f94f2dccaa21de0ab6d601e6f65207a02"
+    },
+    "E7_seed43": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "2f1e351ccce4bd311ad8d71c1e47ba03bd055d26c4c664affcd0e9c07f061968"
+    },
+    "E8_seed43": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "e6af72631d3615ca6450ca08e1bfba075f03e3ece5e32f9bcf738b7bf4441621"
+    },
+    "E4_seed44": {
+      "online_steps": 4000,
+      "best_step": 2000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          28,
+          32,
+          -1.2143239562968648
+        ],
+        [
+          1500,
+          0,
+          32,
+          null
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          2500,
+          0,
+          32,
+          null
+        ],
+        [
+          3000,
+          0,
+          32,
+          null
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "9c4ac15260ec2a9487f64b2ec5426f62d1c52ac321ae6892744e3e25c5dc48a8"
+    },
+    "E4a_seed44": {
+      "online_steps": 4000,
+      "best_step": 2000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          0,
+          32,
+          null
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "a051be12250ec809a4a1a9db0e28ea4d7455bbfb5a235d8964e2497eb465cf7d"
+    },
+    "E7_seed44": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "1745377b95a9d62422424adcb7fbcd63c196edefef8a094076033432a97e0c62"
+    },
+    "E6_seed44": {
+      "online_steps": 4000,
+      "best_step": 3000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          0,
+          32,
+          null
+        ],
+        [
+          2000,
+          0,
+          32,
+          null
+        ],
+        [
+          2500,
+          17,
+          32,
+          -1.2086502958587335
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "2208665eaa20ec1a7a1d9823d2b4609f3199dd2771f9867661a1f158ae2542d6"
+    },
+    "E8_seed44": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          0,
+          32,
+          null
+        ]
+      ],
+      "receipt_sha256": "2c98bdb4801d0bd72d02896c5b9daa014bb87a2473df760def1f0ae3a5d989a8"
+    },
+    "E4_seed45": {
+      "online_steps": 4000,
+      "best_step": 1000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "70af67faccfa823799346724a350875c87807bb8bcc2e66b4511c6a6354ad446"
+    },
+    "E4a_seed45": {
+      "online_steps": 4000,
+      "best_step": 2000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          25,
+          32,
+          -1.2101136723536694
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          2500,
+          0,
+          32,
+          null
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "5cb4b592858d1bce2e2855913f88af862d34d8eff4ba8c802edb33d83dd3e759"
+    },
+    "E7_seed45": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "11c9db78e339737342b43ed457bd3a315513b6cb2b64b12305a8b06d8d41b952"
+    },
+    "E6_seed45": {
+      "online_steps": 4000,
+      "best_step": 4000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          5,
+          32,
+          -1.2405513310955407
+        ],
+        [
+          2000,
+          0,
+          32,
+          null
+        ],
+        [
+          2500,
+          0,
+          32,
+          null
+        ],
+        [
+          3000,
+          0,
+          32,
+          null
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "d67a1c101e844028f3e028c8710403e5a64d32de68bc51d4b04a0b69d66e8b5a"
+    },
+    "E8_seed45": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "4300b4a4346103621534333b5b92781cd160987319f2e5d19bb1bac05f02d34a"
+    },
+    "E4_seed46": {
+      "online_steps": 4000,
+      "best_step": 1000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          1500,
+          0,
+          32,
+          null
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "ae1be4ab3722a70c35d25ea7554dffd8c1d555b1618cbbc24fcc05ca8535f481"
+    },
+    "E6_seed46": {
+      "online_steps": 4000,
+      "best_step": 3000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          4,
+          32,
+          -1.2151611925089758
+        ],
+        [
+          1500,
+          29,
+          32,
+          -1.2138647213619012
+        ],
+        [
+          2000,
+          0,
+          32,
+          null
+        ],
+        [
+          2500,
+          0,
+          32,
+          null
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.2150304739904825
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "38ce4d117875a9e483d63cad64a34558fa10759991e21287e8fa7f5ac57e85dd"
+    },
+    "E4a_seed46": {
+      "online_steps": 4000,
+      "best_step": 4000,
+      "validation": [
+        [
+          0,
+          0,
+          32,
+          null
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          0,
+          32,
+          null
+        ],
+        [
+          2000,
+          0,
+          32,
+          null
+        ],
+        [
+          2500,
+          0,
+          32,
+          null
+        ],
+        [
+          3000,
+          0,
+          32,
+          null
+        ],
+        [
+          3500,
+          0,
+          32,
+          null
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.2150304739904825
+        ]
+      ],
+      "receipt_sha256": "f4791f15c1c6f4ebfcb692a2d018658b394d6376204c080c0ce9ab6bd0ec32ba"
+    },
+    "E8_seed46": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1000,
+          0,
+          32,
+          null
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "1b62c1fbe1e36d015b9fffc22e087bc75718aa27482ffd58b9c51607e3c53986"
+    },
+    "E7_seed46": {
+      "online_steps": 4000,
+      "best_step": 0,
+      "validation": [
+        [
+          0,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          500,
+          0,
+          32,
+          null
+        ],
+        [
+          1000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          1500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          2500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3000,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          3500,
+          32,
+          32,
+          -1.215030473990482
+        ],
+        [
+          4000,
+          32,
+          32,
+          -1.215030473990482
+        ]
+      ],
+      "receipt_sha256": "5e38089950d4602fc40e322b8b1b19b32328207e245b2a4d2c2c558f654528a2"
+    }
+  },
+  "formal_first_E8_validation": {
+    "step": 500,
+    "success": 32,
+    "total": 32,
+    "all_terminal_graphs_equal_to_initial": true,
+    "receipt_sha256": "a152d861de2c855009b8564c324fc5a2afa52a7ea88de1d836c67f88398163ef"
+  },
+  "formal_latest_completed_validations": {
+    "E8_seed42": {
+      "step": 1000,
+      "success": 32,
+      "total": 32,
+      "reasons": {
+        "completed": 32
+      },
+      "receipt_sha256": "9bb494e540244f962cd1f95cbe8a5588181f67e43a97728f68b1d7752f9eccaa"
+    },
+    "E4a_seed42": {
+      "step": 3000,
+      "success": 0,
+      "total": 32,
+      "reasons": {
+        "step_budget_exhausted": 32
+      },
+      "receipt_sha256": "1dd8f2a1160210f4dd1c15b98c31a8ee04bb32ff6632bab2021db9fdb849f6bc"
+    },
+    "E6_seed42": {
+      "step": 0,
+      "success": 0,
+      "total": 32,
+      "reasons": {
+        "step_budget_exhausted": 32
+      },
+      "receipt_sha256": "0364449533a8385271fcd9404408893bd48737928b17985f94a11bb160adc1fe"
+    }
+  },
+  "last_supervisor_recovery": {
+    "recovery_evidence": "supervisor_recovery_20261126T111312Z/recovery.json",
+    "former_session_id": 90505,
+    "new_session_id": 28958,
+    "receipt_sha256": "9d27bc1b0f3962d64134da29776241798afc36632f1cd2df24045684388d4844",
+    "verified_replay": {
+      "E8_seed42": {
+        "checkpoint": 2000,
+        "archived_interactions_after_checkpoint": 220,
+        "exact_replayed_interactions_verified": 220,
+        "complete": true
+      },
+      "E6_seed42": {
+        "checkpoint": 1750,
+        "archived_interactions_after_checkpoint": 241,
+        "exact_replayed_interactions_verified": 241,
+        "complete": true
+      }
+    }
+  },
+  "accelerated_handoff_sha256": "350c878d4703f8bf634af970a87d1e6a974a48fcea5ccb278daa98ab61534606",
+  "accelerated_runtime_validation": {
+    "E7_seed44": {
+      "step": 0,
+      "successful": 32,
+      "total": 32,
+      "report_sha256": "55393d8529f0f6ca0831a6d6859d638e41368702449c5304c4957f36c566503e",
+      "workers": 1,
+      "validation_elapsed_seconds": 48.793315999995684,
+      "reused_trajectories": 0
+    },
+    "E4a_seed44": {
+      "step": 2000,
+      "successful": 32,
+      "total": 32,
+      "report_sha256": "4816ea69fbc3542fe1827a557b50018fe7a00721bb23229cdaa162c669b93131",
+      "workers": 1,
+      "validation_elapsed_seconds": 48.34474150001188,
+      "reused_trajectories": 0
+    },
+    "E4a_seed44_reuse": {
+      "start_step": 2000,
+      "step": 2500,
+      "prior_wall_seconds": 48.34474150001188,
+      "different_actor": true,
+      "stable_cases_equal": true,
+      "report_sha256": "a9202c3797906a619166f6ac6a295f07e57d023a521376e78f6d85ec299769a1",
+      "workers": 1,
+      "validation_elapsed_seconds": 0.15441139999893494,
+      "reused_trajectories": 32
+    },
+    "E8_seed44": {
+      "step": 3500,
+      "successful": 32,
+      "total": 32,
+      "report_sha256": "bc08c1b6db1e833286e4300e72d418517117730524edaf376c3757e90fb1ea2d",
+      "workers": 1,
+      "validation_elapsed_seconds": 458.1743650000135,
+      "reused_trajectories": 0
+    },
+    "E8_seed45": {
+      "step": 0,
+      "total": 32,
+      "successful": 32,
+      "report_sha256": "9a5b93b33559a4ee05c1051ff686cedb6bad56816a2c4ec25ae19c88014545c3",
+      "workers": 1,
+      "validation_elapsed_seconds": 412.0059853999992,
+      "reused_trajectories": 0
+    }
+  }
+}

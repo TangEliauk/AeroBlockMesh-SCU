@@ -1,4 +1,4 @@
-"""块、块边界与多块分区的数据表示。
-
-当前仅预留模块位置，具体功能与接口尚待实现。
-"""
+"""Public coarse-block contracts."""
+from smartcfd.core.types import BlockGraph,FaceBlock
+from smartcfd.partition.topology import initial_graph
+__all__=["BlockGraph","FaceBlock","initial_graph"]

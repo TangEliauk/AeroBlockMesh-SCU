@@ -1,0 +1,6204 @@
+{
+  "topology_scope": "UV graph constraints and preservation of the initial protected faces",
+  "quality_scope": "valid meshes within 5% of each target cell count",
+  "efficiency_scope": "trapezoidal mean validation success over the online interaction budget",
+  "runs": [
+    {
+      "arm": "E1",
+      "seed": 42,
+      "tag": "rule",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E3",
+      "seed": 42,
+      "tag": "rule",
+      "cases": 90,
+      "completed": 0,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": null,
+      "completed_mean_outer_blocks": null,
+      "budgets": {
+        "1536": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        },
+        "5120": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        }
+      }
+    },
+    {
+      "arm": "E2",
+      "seed": 42,
+      "tag": "rule",
+      "cases": 90,
+      "completed": 0,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": null,
+      "completed_mean_outer_blocks": null,
+      "budgets": {
+        "1536": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        },
+        "5120": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        }
+      }
+    },
+    {
+      "arm": "E2",
+      "seed": 43,
+      "tag": "rule",
+      "cases": 90,
+      "completed": 0,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": null,
+      "completed_mean_outer_blocks": null,
+      "budgets": {
+        "1536": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        },
+        "5120": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        }
+      }
+    },
+    {
+      "arm": "E2",
+      "seed": 44,
+      "tag": "rule",
+      "cases": 90,
+      "completed": 0,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": null,
+      "completed_mean_outer_blocks": null,
+      "budgets": {
+        "1536": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        },
+        "5120": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        }
+      }
+    },
+    {
+      "arm": "E2",
+      "seed": 45,
+      "tag": "rule",
+      "cases": 90,
+      "completed": 0,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": null,
+      "completed_mean_outer_blocks": null,
+      "budgets": {
+        "1536": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        },
+        "5120": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        }
+      }
+    },
+    {
+      "arm": "E2",
+      "seed": 46,
+      "tag": "rule",
+      "cases": 90,
+      "completed": 0,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": null,
+      "completed_mean_outer_blocks": null,
+      "budgets": {
+        "1536": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        },
+        "5120": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 42,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 42,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 43,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 43,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 44,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 44,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 45,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 45,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 46,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4",
+      "seed": 46,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 42,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 42,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 43,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 43,
+      "tag": "final",
+      "cases": 90,
+      "completed": 0,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": null,
+      "completed_mean_outer_blocks": null,
+      "budgets": {
+        "1536": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        },
+        "5120": {
+          "valid": 0,
+          "matched": 0,
+          "distributions": {}
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 44,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 44,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 45,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 45,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 46,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E4a",
+      "seed": 46,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 42,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 42,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 43,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 43,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 44,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 44,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 45,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 45,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.1629959846524248,
+              "max": 0.1733448130325826
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.37272165804687357,
+              "max": 0.40329953557425213
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481474,
+              "median": 0.4713900092452383,
+              "max": 0.4789912674235798
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 46,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E6",
+      "seed": 46,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242454,
+              "max": 0.17334481303258092
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.2964548397523195,
+              "median": 0.37272165804687196,
+              "max": 0.4032995355742535
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.1907197519668347,
+              "max": 0.19989244261255001
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.3945148017481589,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 42,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 42,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 43,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 43,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 44,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 44,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 45,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 45,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 46,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E7",
+      "seed": 46,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 42,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 42,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 43,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 43,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 44,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 44,
+      "tag": "final",
+      "cases": 90,
+      "completed": 1,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 1,
+          "matched": 1,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.14167553553002032,
+              "median": 0.14167553553002032,
+              "max": 0.14167553553002032
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.35328860393212386,
+              "median": 0.35328860393212386,
+              "max": 0.35328860393212386
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.54282792464147,
+              "median": 86.54282792464147,
+              "max": 86.54282792464147
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163327479,
+              "median": 8060958.163327479,
+              "max": 8060958.163327479
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163327479,
+              "median": 8060958.163327479,
+              "max": 8060958.163327479
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 1,
+          "matched": 1,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.19911875880748814,
+              "median": 0.19911875880748814,
+              "max": 0.19911875880748814
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.4342983309590684,
+              "median": 0.4342983309590684,
+              "max": 0.4342983309590684
+            },
+            "wall_angle_q10_deg": {
+              "min": 87.8556424748278,
+              "median": 87.8556424748278,
+              "max": 87.8556424748278
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190956308,
+              "median": 14046373.190956308,
+              "max": 14046373.190956308
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190956308,
+              "median": 14046373.190956308,
+              "max": 14046373.190956308
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 45,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 45,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 46,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E8",
+      "seed": 46,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 42,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 42,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 43,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 43,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 44,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 44,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 45,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 45,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 46,
+      "tag": "best",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "arm": "E5",
+      "seed": 46,
+      "tag": "final",
+      "cases": 90,
+      "completed": 90,
+      "topology_checked": 90,
+      "topology_legal": 90,
+      "topology_issues": {},
+      "completed_without_legal_topology": 0,
+      "completed_mean_edits": 3.0,
+      "completed_mean_outer_blocks": 4.0,
+      "budgets": {
+        "1536": {
+          "valid": 90,
+          "matched": 90,
+          "distributions": {
+            "quads": {
+              "min": 1536.0,
+              "median": 1536.0,
+              "max": 1536.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.00244041413956057,
+              "median": 0.16299598465242487,
+              "max": 0.17334481303258106
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.29645483975231945,
+              "median": 0.3727216580468735,
+              "max": 0.4032995355742541
+            },
+            "wall_angle_q10_deg": {
+              "min": 58.12718555183753,
+              "median": 89.31829892984138,
+              "max": 89.72758735032473
+            },
+            "max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 8060958.163303415,
+              "median": 8060958.163326026,
+              "max": 8060958.1633382775
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        },
+        "5120": {
+          "valid": 89,
+          "matched": 89,
+          "distributions": {
+            "quads": {
+              "min": 5120.0,
+              "median": 5120.0,
+              "max": 5120.0
+            },
+            "min_scaled_jacobian": {
+              "min": 0.024839874735388418,
+              "median": 0.19071975196683624,
+              "max": 0.1998924426125414
+            },
+            "q05_scaled_jacobian": {
+              "min": 0.39451480174814746,
+              "median": 0.47139000924524277,
+              "max": 0.4789912674235797
+            },
+            "wall_angle_q10_deg": {
+              "min": 86.75618229857764,
+              "median": 89.07887390130291,
+              "max": 89.83359639062526
+            },
+            "max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "farfield_max_aspect_ratio": {
+              "min": 14046373.190955527,
+              "median": 14046373.190956267,
+              "max": 14046373.190958248
+            },
+            "interface_max_abs_difference": {
+              "min": 0.0,
+              "median": 0.0,
+              "max": 0.0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "sample_efficiency": [
+    {
+      "arm": "E4",
+      "seed": 42,
+      "first_full_validation_step": 2000,
+      "best_step": 2000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.5625
+    },
+    {
+      "arm": "E4",
+      "seed": 43,
+      "first_full_validation_step": 1500,
+      "best_step": 1500,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.6875
+    },
+    {
+      "arm": "E4",
+      "seed": 44,
+      "first_full_validation_step": 2000,
+      "best_step": 2000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.421875
+    },
+    {
+      "arm": "E4",
+      "seed": 45,
+      "first_full_validation_step": 1000,
+      "best_step": 1000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.8125
+    },
+    {
+      "arm": "E4",
+      "seed": 46,
+      "first_full_validation_step": 1000,
+      "best_step": 1000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.6875
+    },
+    {
+      "arm": "E4a",
+      "seed": 42,
+      "first_full_validation_step": 1500,
+      "best_step": 2000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.5625
+    },
+    {
+      "arm": "E4a",
+      "seed": 43,
+      "first_full_validation_step": 1000,
+      "best_step": 1500,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.5
+    },
+    {
+      "arm": "E4a",
+      "seed": 44,
+      "first_full_validation_step": 2000,
+      "best_step": 2000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.5625
+    },
+    {
+      "arm": "E4a",
+      "seed": 45,
+      "first_full_validation_step": 2000,
+      "best_step": 2000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.53515625
+    },
+    {
+      "arm": "E4a",
+      "seed": 46,
+      "first_full_validation_step": 4000,
+      "best_step": 4000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.0625
+    },
+    {
+      "arm": "E6",
+      "seed": 42,
+      "first_full_validation_step": 2500,
+      "best_step": 2500,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.4375
+    },
+    {
+      "arm": "E6",
+      "seed": 43,
+      "first_full_validation_step": 1000,
+      "best_step": 1000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.75390625
+    },
+    {
+      "arm": "E6",
+      "seed": 44,
+      "first_full_validation_step": 3000,
+      "best_step": 3000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.37890625
+    },
+    {
+      "arm": "E6",
+      "seed": 45,
+      "first_full_validation_step": 3500,
+      "best_step": 4000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.20703125
+    },
+    {
+      "arm": "E6",
+      "seed": 46,
+      "first_full_validation_step": 3000,
+      "best_step": 3000,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.44140625
+    },
+    {
+      "arm": "E7",
+      "seed": 42,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.875
+    },
+    {
+      "arm": "E7",
+      "seed": 43,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.875
+    },
+    {
+      "arm": "E7",
+      "seed": 44,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 1.0
+    },
+    {
+      "arm": "E7",
+      "seed": 45,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.875
+    },
+    {
+      "arm": "E7",
+      "seed": 46,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.875
+    },
+    {
+      "arm": "E8",
+      "seed": 42,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 1.0
+    },
+    {
+      "arm": "E8",
+      "seed": 43,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.875
+    },
+    {
+      "arm": "E8",
+      "seed": 44,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.9375
+    },
+    {
+      "arm": "E8",
+      "seed": 45,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.875
+    },
+    {
+      "arm": "E8",
+      "seed": 46,
+      "first_full_validation_step": 0,
+      "best_step": 0,
+      "online_steps": 4000,
+      "validation_mean_by_online_steps": 0.875
+    }
+  ]
+}

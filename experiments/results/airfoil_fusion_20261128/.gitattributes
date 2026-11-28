@@ -1,0 +1,2 @@
+# Preserve the original artifacts' SHA-256 values across Git checkouts.
+** -text

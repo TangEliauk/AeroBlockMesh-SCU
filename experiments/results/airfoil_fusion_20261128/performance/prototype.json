@@ -1,0 +1,60 @@
+{
+  "source_manifest_sha256": "7da4b4de942c5d9f454fe67a96eb3cf40c36019ed94d12d0db8292ded9323bae",
+  "cuda_update_comparison": {
+    "scope": "40 SAC updates on fixed batches of real training demonstration transitions after 4 warmups",
+    "device": "cuda",
+    "torch_version": "2.7.1+cu128",
+    "cuda_available": true,
+    "actor_parameters": 63233,
+    "batch_size": 32,
+    "median": {
+      "wall": 0.060162199995829724,
+      "cpu": 0.0625
+    }
+  },
+  "validation_prototype": {
+    "scope": "eight development validation cases across three archived E8 checkpoints; two ordered CPU shards",
+    "exact_equality": "success, actions, rewards, terminal graph, quality, both mesh budgets and checkpoint selection metrics",
+    "serial_cold": {
+      "wall": 352.083918600023,
+      "cpu": 349.359375
+    },
+    "serial_cached": {
+      "wall": 118.69608100000187,
+      "cpu": 117.609375
+    },
+    "parallel_cached": {
+      "wall": 62.704110499995295,
+      "parent_cpu_only": 0.0
+    },
+    "per_checkpoint": [
+      {
+        "seed": 42,
+        "checkpoint": 0,
+        "report_sha256": "8290fbfa3e8fbd01bed0974cb292fd5751271fb63b73bc93dc5c45f7d2249972",
+        "cases": 8,
+        "successful": 8,
+        "cold_cache_hits": 0,
+        "reused_cache_hits": 0
+      },
+      {
+        "seed": 42,
+        "checkpoint": 500,
+        "report_sha256": "a152d861de2c855009b8564c324fc5a2afa52a7ea88de1d836c67f88398163ef",
+        "cases": 8,
+        "successful": 8,
+        "cold_cache_hits": 0,
+        "reused_cache_hits": 32
+      },
+      {
+        "seed": 43,
+        "checkpoint": 1000,
+        "report_sha256": "f084f021681a1b81a76a5191d6bd1bdb6a2ca43a537ee30422c5e47131653af6",
+        "cases": 8,
+        "successful": 8,
+        "cold_cache_hits": 0,
+        "reused_cache_hits": 32
+      }
+    ]
+  }
+}

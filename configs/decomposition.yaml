@@ -1,0 +1,31 @@
+# Independent geometric block decomposition; no UIUC, BC, mesh generator or CFD.
+version: 1
+environment:
+  max_vertices: 128
+  max_steps: 32
+  max_blocks: 32
+  gamma: 0.99
+  step_cost: 0.05
+  block_cost: 0.05
+  terminal_bonus: 5.0
+  invalid_penalty: -5.0
+data:
+  seed: 42
+  train_count: 40
+  val_count: 12
+model:
+  hidden_dim: 64
+  layers: 2
+training:
+  seed: 42
+  steps: 2000
+  warmup_steps: 128
+  batch_size: 32
+  evaluation_interval: 500
+  replay_capacity: 2048
+  replay_max_bytes: 67108864
+  alpha: 0.01
+  gamma: 0.99
+  tau: 0.005
+  learning_rate: 0.0003
+  grad_clip: 1.0

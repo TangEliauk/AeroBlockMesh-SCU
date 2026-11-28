@@ -40,6 +40,27 @@ jobs:
         run: |
           python scripts/data/verify_2d_multiblock_data.py
           python scripts/data/clean_2d_multiblock.py --check
+
+  fusion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install system dependency for Gmsh imports
+        run: sudo apt-get update && sudo apt-get install -y libglu1-mesa
+      - name: Install fusion dependencies
+        run: |
+          python -m pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e ".[dev,data,fusion,ch-sac]" numpy==2.3.1 PyYAML==6.0.2
+          python -m pip check
+      - name: Test fusion and report generation
+        run: python -m pytest -q tests/test_airfoil_fusion.py tests/test_airfoil_study_report.py
+      - name: Verify published weights and replay a sealed case
+        run: python scripts/verify_airfoil_fusion_release.py --replay
       - name: Import all package modules
         run: |
           python - <<'PY'
@@ -53,6 +74,7 @@ jobs:
           PY
       - name: Check script help
         run: |
+          set -e
           for script in scripts/*.py; do
             python "$script" --help
           done
